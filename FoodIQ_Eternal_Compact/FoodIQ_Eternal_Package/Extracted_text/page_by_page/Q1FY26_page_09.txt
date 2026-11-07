@@ -1,0 +1,47 @@
+expansion. We expect to see about 1 percentage point margin expansion over time, as a result of this
+transition.
+
+As an outcome of this transition, we will also see shrinkage in Hyperpure’s non-restaurant business as
+most of the B2B buyers in that business were sellers on our quick commerce platform.
+
+The impact of the above transition on our financials will be as follows -
+
+   1.​ Quick commerce revenue will become very similar to NOV going forward. Hence, Quick commerce
+       revenue will increase
+   2.​ Hyperpure revenue will decrease on account of scale down of non-restaurant business
+   3.​ Net working capital (NWC) in quick commerce business will increase (as we start owning inventory)
+       and NWC in Hyperpure business will decrease
+   4.​ No change to quick commerce NOV and no change to Hyperpure’s restaurant business revenue or
+       profitability
+
+In Q1FY26, about 3% of our NOV was already on our own inventory (which was also the reason quick
+commerce Revenue grew faster than NOV at 155% YoY (40% QoQ), despite take rate remaining flattish). We
+expect this share to increase sharply in the next quarter.
+
+Q13. What kind of ROCE can we expect in the quick commerce business with
+inventory ownership?
+Akshant: If we get to 5-6% of Adjusted EBITDA margin (as a % of NOV), ROCE should be at least 40%. Let
+us explain.
+
+A typical store requires a capex of ~ INR 1 crore including the apportioned capex of the warehouse serving
+that store - we incurred ~INR 1,000 crore of capex in the last 5 quarters for setting up ~1,000 net new
+stores and ~2.5 million sqft of warehouse capacity.
+
+At current productivity levels (of INR 7 lacs of NOV per store per day), a store generates ~INR 26 crore of
+NOV annually. This implies a cumulative capex requirement of ~4% of NOV to run this business (INR 1 crore
+of capex divided by INR 26 crore of annual NOV).
+
+On the net working capital (NWC) front, as a marketplace business (where we don’t own inventory), so far it
+has been at 3-4 days of NOV (~1% of NOV) (see table below). Going forward however, assuming 100%
+inventory ownership (hypothetically), we estimate that the NWC requirement would increase to about 18
+days (or 5% of NOV).
+
+
+
+
+Hence, total investment comes out to 9% of NOV (4% of capex + 5% of NWC), and assuming an EBIT margin
+range of 4% of NOV (based on lower end of our guidance of 5-6% Adjusted EBITDA margins), would imply
+ROCE of 40% in this business.
+
+
+                                                                                                             7

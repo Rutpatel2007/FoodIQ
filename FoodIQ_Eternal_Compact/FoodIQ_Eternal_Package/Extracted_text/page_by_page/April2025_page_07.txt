@@ -1,0 +1,44 @@
+i   Food delivery business is a complex three-sided
+
+    marketplace
+
+
+    Why is food delivery complex?
+
+
+
+     1.   Perishable products – require careful handling with real-                              Customers
+
+          time execution                                                                           21 million
+
+
+
+
+     2.   Three-sided marketplace – one of the few internet
+
+          categories with a three-sided marketplace, making it
+
+          tougher to achieve marketplace balance
+
+
+
+
+     3.   Complex “technology + operations” business - algorithms
+
+          require years of training for real-time demand forecasting,
+
+          fleet optimization and order dispatch, at scale                                                                  Delivery
+                                                                        Restaurant
+
+                                                                          partners                                        partners
+
+                                                                             306k                                            480k
+
+     4.   India: a unique market - restaurant food consumption
+
+          amongst the lowest in the world with highly fragmented and
+
+          unorganized restaurant supply
+
+                                                                        Note: 1) Numbers shown above are average monthly for Q3FY25.
+                                                                                                                                       6

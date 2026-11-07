@@ -1,0 +1,6 @@
+Notes:
+1)​ On a like-for-like (“LFL”) basis, quick commerce Revenue grew 171% YoY (44% QoQ) in Q2FY26. LFL quick commerce Revenue
+    is calculated as quick commerce Revenue (-) cost of goods sold in case of own inventory sales.
+2)​ NOV per day, per store is calculated as a simple average of total NOV transacted per day divided by total number of stores
+    operational for the day, for that period.
+                                                                                                                             11

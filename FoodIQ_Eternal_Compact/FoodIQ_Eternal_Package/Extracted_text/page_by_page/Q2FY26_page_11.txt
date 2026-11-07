@@ -1,0 +1,34 @@
+If we had chosen not to report NOV, it would appear that demand has recovered meaningfully and that we
+are fairly close to our long-term guidance of 20% growth. In reality, however, customer demand only
+increased 14% YoY since the balance 4% growth (gap between GOV and NOV growth) was on account of
+increase in subsidies which the customer does not pay for (and should not be considered as “growth”).
+
+Subsidies can be of various types and sometimes restaurants choose to raise menu prices and offer
+equivalent discounts while the effective price paid by the customer remains unchanged. This scenario
+would lead to an artificial increase in GOV while NOV remains unchanged, thereby presenting an inaccurate
+picture of growth.
+
+Same is true for quick commerce. GOV growth appears meaningfully higher than NOV growth due to the
+growing discounts on MRP of goods sold especially relevant in the non-grocery categories (and largely
+funded by brands, payment partners, among others)
+
+
+
+
+This divergence is visible even in quick commerce AOV and NAOV (net AOV defined as AOV minus
+discounts; NAOV is to NOV what AOV is to GOV). If you look at the table below, AOV has increased 5% YoY
+but NAOV is lower by 1% YoY. These are two very different inferences about how the average basket size is
+growing and according to us AOV here is a misleading metric of basket size growth.
+
+
+
+
+In summary, in the current environment where the divergence across quick commerce and food delivery
+GOV and NOV are increasing, GOV is a misleading measure of growth and by reporting NOV, we want to
+present a truer picture of growth across our businesses. We urge investors to pay attention to this and not
+consider GOV as a proxy metric for growth.
+
+----
+THE END
+
+                                                                                                            9

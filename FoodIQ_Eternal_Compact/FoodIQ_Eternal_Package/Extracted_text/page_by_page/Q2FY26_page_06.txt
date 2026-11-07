@@ -1,0 +1,51 @@
+While we continue to work on inputs to the business (making restaurant food more accessible and
+affordable for customers), we are also constantly fighting multiple headwinds including soft discretionary
+consumption in general in India, the impact of quick commerce growth and increasingly volatile weather
+(extreme heat, extended rains), which continue to weigh on near term growth.
+
+Q3. What drove the ~75 basis point QoQ increase in take rate in food delivery
+(Adjusted Revenue as a % of NOV) during the quarter? And why did that not fully
+translate into contribution margin increase?
+Akshant: The take rate increased by about 75 bps whereas the increase in Contribution margin was only
+about 50 bps.
+
+The increase in take rate was driven by improvements across multiple levers including ad monetization,
+commission rates and increase in platform fee. This increase was partly offset by the decrease in delivery
+charges as we lowered the minimum order value for free delivery as part of our Gold program to INR 99
+from INR 199. This change allows us to also cater to the budget-conscious customer base for whom an
+order with AOV between INR 99 and INR 199 now becomes way more affordable.
+
+As the share of low value orders increases, the share of low profit orders also increases. This impacts the
+overall platform level profitability in % terms. However, while the impact of this change may be negative on
+% margin, it is positive on absolute profits, as the incremental low value orders are still Contribution
+positive. The other reason that impacted Contribution margin negatively in Q2FY26 was higher
+investments in activation across customer cohorts, which also partly explains the uptick in average MTCs
+to 24.1 million during the quarter.
+
+We will continue to take such tactical calls to invest in growth as we remain comfortably within our
+long-term guidance range of 5.0 to 6.0% Adjusted EBITDA margin (as a % of NOV).
+
+Q4. What is your view on Toing and Ownly - the new food delivery apps? Are you
+also planning to launch a similar new app?
+Deepinder: It appears that these apps are specifically targeting budget-conscious customers. At our end,
+we believe that the Zomato app should be able to solve for these use cases without needing a new app,
+which is why we lowered the minimum order value for free delivery from INR 199 to INR 99 for Gold
+members. ​
+​
+We believe that launching another food delivery (aggregation) app to differentiate between target
+audiences has to be a carefully thought-out decision, since it significantly increases organisational
+complexity. We will wait and watch, and are okay being the last mover if, over time, it becomes clear that
+introducing a new app is the right long-term approach for targeting budget-conscious customers.
+
+Q5. Moving to quick commerce, can you give us an update on the status of the
+transition to inventory ownership?
+Akshant: We have transitioned most of the business to own inventory model, barring a few categories
+where we don’t plan to own inventory as of now for various reasons. As a result, in Q2FY26 about 80% of the
+NOV was on our own inventory which is expected to go to a steady state number of about 90% in the next
+quarter. The transition was done smoothly without any disruption to the business. Kudos to the team for
+pulling this off in such a short order of time, during a quarter where we clocked our highest growth rate in
+the last ten quarters, and where we were struggling with incessant rains across the country for an
+extended period of time.
+
+
+                                                                                                             4

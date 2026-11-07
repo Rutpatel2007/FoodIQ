@@ -1,0 +1,1564 @@
+MISSION
+“Elevate the quality of life of urban consumers by offering unparalleled convenience”
+
+From the CEO’s desk
+
+Dear Shareholders,
+
+It is my pleasure to present to you our Q1 FY27 Shareholders’ letter.
+
+Roughly a year ago, we had committed to achieving Contribution margin break-even in Quick Commerce
+by Q1FY27. Today, I am very happy to share that we have met this milestone. In a period where quick
+commerce competition has only intensified, we prioritized improving unit economics over fleeting
+headline growth. Our efforts over the last few quarters to reset our user base, economics and experience
+have together made the business much stronger and increased the staying power. This milestone marks
+a pivotal transition, as growth increasingly serves as a driver for profitability rather than a compromise
+against it.
+
+Quick commerce hit break-even Contribution target in May '26 with an overall Contribution for the
+quarter at -0.2% of GOV, a 440 bps year-on-year improvement while Adjusted EBITDA losses narrowed
+to INR 778 Cr (sequential improvement of INR 80 Cr). Our GOV grew 39.8% YoY to INR 7,907 Cr, and
+increasing per-order monetization saw Adjusted Revenue per order (RPO) rise to INR 108 (sequential
+improvement of INR 11). We expanded our network to 1,171 darkstores across 131 cities, and plan to further
+densify this footprint.
+
+As the base expectations in quick commerce become more commoditized, we strongly believe our
+differentiated assortment strategy will be the engine for our next growth phase. In line with our strategy,
+we have partnered with 400+ brands to curate higher-quality, value-forward alternatives across core
+daily-use categories at compelling price points. We have successfully completed the first phase of this
+initiative by launching such “Switch to Better” selection across 50 key product categories which now
+contribute to more than 15% of the category sales in a very short time. ​
+
+Noice, our clean-food private brand, continues to grow very strongly with a very warm response from our
+consumers. Our objective for the coming quarters is to scale this overall differentiated proposition across
+more categories and occasions, partnering with brands that view Instamart as a premier launchpad. We
+are confident that doubling down here is the most effective path to winning consumer loyalty and driving
+faster organic growth.
+
+This quarter, our Food delivery GOV grew 17.4% YoY. Normalized for restaurant driven cancellations we
+saw due to the LPG supplies, this would have been ~18% YoY. Our user growth witnessed healthy
+momentum with MTUs growing 17.8% YoY to 19.2 Mn, while Adjusted EBITDA margins stood at 3.1% of
+GOV, reflecting a robust bottom line of INR 292 Cr as we continue to benefit from operating leverage.
+
+
+
+
+                                                                                                   Page 2 of 25
+For context, Q1 is seasonally a softer quarter given the monsoon impact and our annual salary
+increments fall in this period.
+
+Among all the levers that power food delivery: price, selection, convenience, we continue to believe
+affordability will be the biggest lever to unlock the next 100 million users, and we have been relentless in
+pursuing that goal. Toing (our standalone app for affordable meals) is now available in 50 cities and runs
+on a separate app so that we can test this affordability model. Given our restaurant/delivery infrastructure
+has already been built out here, we can run this business at a fraction of the cost (versus new insurgents)
+while retaining our right to win with budget-conscious users. The early indicators of incremental category
+growth and economies of scale for restaurants have been very positive.
+
+Our Out-of-Home Consumption segment maintained its steady profitability trajectory in Q1. The Dineout
+platform now supports 59k average monthly active restaurant partners, with GOV growing 44.8% YoY to
+INR 1,529 Cr. With Adjusted EBITDA margins expanding to 0.9%, this business remains a sustainable
+profitable pillar of our ecosystem.
+
+At the heart of our ESG agenda is the belief that growth must be inclusive. We are deepening our
+commitment to our delivery fleet through initiatives like #SwigStree, which empowers women partners
+with financial literacy and specialized gear, supporting our goal of 100,000 women partners by 2030. We
+also launched a digital mutual fund program, enabling partners to invest for their future with ease.
+Furthermore, we are collaborating with civic bodies on projects like “Varanasi ka Swaad” to support local
+culinary entrepreneurs. Through these efforts, we ensure that Swiggy’s success translates into
+meaningful, enduring opportunities for the diverse communities we serve.​
+
+
+
+Regards
+Sriharsha Majety
+Co-founder, MD & Group CEO, Swiggy Ltd​
+
+
+                                      www.swiggy.com/corporate/
+
+
+
+
+                                                                                                    Page 3 of 25
+Key metrics
+
+
+
+
+   1)​   B2C GOV defined as Consolidated Gross Order Value of completed orders for consumer facing businesses i.e. (i) Food delivery, plus (ii) Quick
+         Commerce, plus (iii) Out-of-home Consumption, excluding Platform Innovations
+   2)​   B2C Adjusted Revenue defined as Consolidated Adjusted Revenue of consumer facing businesses i.e. (i) Food delivery, plus (ii) Quick Commerce, plus
+         (iii) Out-of-home Consumption, excluding Platform Innovations
+   3)​   Adjusted EBITDA defined as Consolidated EBITDA excluding (i) other income (ii) exceptional items (iii) share in net loss of an associate (iv) share based
+         payment expense and (v) rental expenses pertaining to 'Ind AS 116 leases
+
+
+Highlights of the quarter
+   ●​ Swiggy Platform
+              ○​    Platform Average Monthly Transacting Users (MTU) grew 27.4% YoY to 27.5 Mn (+9.2% QoQ)
+              ○​    Consolidated Adjusted Revenue grew 34.0% YoY to INR 7,112 Cr (+6.7% QoQ)
+              ○​    B2C Adjusted EBITDA Margin (% of B2C GOV) improved by 223bps YoY to -2.5% (+55bps QoQ)
+              ○​    Consolidated Adjusted EBITDA improved by INR 162 Cr YoY, to a loss of INR 651 Cr
+
+   ●​ Food delivery ​
+              ○​ GOV grew 17.4% YoY to INR 9,490 Cr
+              ○​ Added 0.9 Mn Monthly Transacting Users during quarter to reach 19.2 Mn (+18% YoY)
+              ○​ Adjusted EBITDA improved by INR 100 Cr YoY to INR 292 Cr ( -INR 5 Cr QoQ), Adjusted EBITDA
+                 Margin stood at 3.1% of GOV (+70bps YoY, -22bps QoQ)
+
+   ●​ Quick commerce
+              ○​ GOV grew 39.8% YoY to INR 7,907 Cr, NOV growth was at 38.9% to INR 5,817 Cr (sequential
+                 growth at 3%)
+              ○​ Total darkstore area increased to more than 4.9 Mn sq ft (+14.6% YoY), net addition of 28
+                 darkstores to reach 1,171 stores across 131 cities
+              ○​ nAOV grew 12.1% YoY to INR 508 (from INR 453), led by sustained non-grocery selection mix
+                 and larger-basket buying behaviour across user cohorts
+              ○​ Contribution margin improved by 165bps QoQ (+440bps YoY) to -0.2%.
+              ○​ Adjusted EBITDA margin improved by 105bps QoQ to -9.8%, losses reduced by INR 80 Cr QoQ
+                 to INR 778 Cr
+
+   ●​ Out of Home Consumption​
+              ○​ GOV grew 44.8.% YoY and 22.8% QoQ to INR 1,529 Cr. Restaurant additions stood at a multi
+                 quarter high to reach 59k (+12.9% QoQ)
+              ○​ Adjusted EBITDA margin improved to 0.9% of GOV (highest ever)
+
+                                                                                                                                              Page 4 of 25
+Swiggy Platform
+
+                                                             Q1FY26 Q2FY26 Q3FY26 Q4FY26 Q1FY27
+B2C Gross Order Value (INR Cr)                               14,797   16,683   18,122   18,131   18,926
+
+
+                                            Growth - QoQ     14.8%    12.7%    8.6%     0.0%     4.4%
+                                              Growth - YoY   45.2%    47.6%    49.0%    40.7%    27.9%
+
+
+B2C Adjusted EBITDA margin (% of B2C GOV)                     -4.7%   -3.6%    -3.5%    -3.0%    -2.5%
+Consolidated Adjusted EBITDA (INR Cr)                         -813    -695     -712     -652      -651
+
+
+
+Key operating highlights
+
+                                                             Q1FY26 Q2FY26 Q3FY26 Q4FY26 Q1FY27
+B2C Total Orders (million)                                    264      282     294       301      308
+Average Monthly Transacting Users [MTU] (million)             21.6    22.9     24.3     25.2      27.5
+Average Monthly Transacting Delivery Partners ('000)          606      691      687      612      648
+Platform Frequency (#)                                        4.13     4.10    4.04     4.01      3.87
+
+
+
+
+                                                                                            Page 5 of 25
+Food delivery
+
+
+
+
+                                                         Q1FY26 Q2FY26 Q3FY26 Q4FY26 Q1FY27
+Adjusted EBITDA (INR Cr)                                  192    240     272     297         292
+Average Monthly Transacting Users [MTU] (million)         16.3   17.2     18.1   18.3        19.2
+Average Monthly Transacting Restaurant Partners ('000)   255.4   263.7   270.2   275.4      265.8
+
+
+
+
+                                                                                        Page 6 of 25
+Quick commerce
+
+
+
+
+                                                                                   Q1FY26 Q2FY26 Q3FY26 Q4FY26 Q1FY27
+Total Orders (million)                                                                92.4         100.8        106.4         112.6        114.5
+Average Order Value [AOV] (INR per order)                                              612          697          746          700           691
+Net Order Value [NOV] (% of GOV)                                                      74%          70%           69%          72%           74%
+Adjusted EBITDA (INR Cr)                                                              -896         -849         -908          -858         -778
+Average Monthly Transacting Users [MTU] (million)                                      11.1         12.0         12.8         13.3          13.5
+Active Dark Stores (Exit)                                                            1,062         1,102         1,136        1,143         1,171
+Orders/dark store/day (#)                                                             985          1,025        1,034        1,093         1,089
+Active Dark store area (Mn Sq ft)                                                     4.30         4.59          4.79         4.81         4.92
+GOV per unit area (INR per sq ft)                                                    13,163       15,287        16,571       16,391       16,056
+
+# based on active darkstore-days, as orders should be linked to only the period a darkstore has been active.
+* Discounts to MRP on non-grocery categories typically are substantially higher than grocery. As the non-grocery mix in our GOV continues to increase,
+we believe that disclosing Net Order Value (NOV = GOV less all discounts) will give a better representation of the overall consumer spending on our
+platform.
+
+
+
+
+                                                                                                                                      Page 7 of 25
+Out-of-Home Consumption
+
+
+
+
+                                            Q1FY26 Q2FY26 Q3FY26 Q4FY26 Q1FY27
+Adjusted EBITDA (INR Cr)                      5      6      8      10        14
+Average Monthly Active Restaurants ('000)     41     44     48     53        59
+
+
+
+
+                                                                        Page 8 of 25
+Supply Chain & Distribution
+
+                                                           Q1FY26 Q2FY26 Q3FY26 Q4FY26 Q1FY27
+Revenue (INR Cr)                                           2,259    2,560    2,981    3,135       3,195
+                                                  YoY %     78.1%   76.3%    76.1%    56.4%       41.4%
+Adjusted EBITDA (INR Cr)                                    -62      -46      -42      -42         -48
+              Adjusted EBITDA margin (as a % of Revenue)    -2.7%    -1.8%   -1.4%    -1.3%       -1.5%
+
+
+Platform Innovations
+
+                                                           Q1FY26 Q2FY26 Q3FY26 Q4FY26 Q1FY27
+Adjusted Revenue (INR Cr)                                    27       12       9        13         69
+                                                  YoY %     -8.1%   -69.5%   -76.6%   -70.4%     156.2%
+Adjusted EBITDA (INR Cr)                                    -52      -46      -40      -58         -131
+     Adjusted EBITDA margin (as a % of Adjusted Revenue) -192.2%    -384.7% -427.2% -462.8% -190.2%
+
+
+
+
+                                                                                             Page 9 of 25
+Management Perspectives
+
+    1.​ We saw a slight slow-down on Food delivery growth rate this quarter. What were the factors
+        influencing it? Does the 18-20% GOV growth guidance still hold in Food Delivery?
+
+       Food delivery GOV grew 17.4% YoY to INR 9,490 Cr in Q1FY27 (+5.4% QoQ). One of the factors
+       influencing the overall performance was the marked increase in restaurant driven cancellations
+       during the initial part of Q1 (LPG led disruptions) leading to higher percentage of unfulfilled
+       orders. Normalised for this, the like-to-like GOV growth would have been ~18% (net of
+       cancellations).
+​
+       The other important factor influencing the overall demand has been the continued expansion of
+       the value led offerings. We have seen good traction on the 99 Store on the Swiggy platform and
+       more recently on Toing (separate platform) which are solving for the affordability use case and
+       unlocking new category growth levers. Each of these offerings has a distinct consumer use case
+       and we will continue to experiment on both supply and demand side levers to unlock the best
+       customer experience. In the short term, there could be some inter-play of demand levers on one
+       platform vs the other which is hard to predict as we build out both the offerings. We remain
+       confident of our ability to deliver on the stated guidance of 18-20% (outside of Toing). We
+       continued to see healthy user addition (+17.8% YoY) and basket value increase (+4.8% YoY) in Q1.
+
+    2.​ Food delivery Contribution and Adjusted EBITDA margins declined. What caused the margin
+        dip? How are we tracking towards the 5% medium term Adjusted EBITDA guidance?
+
+       The sequential margin dip of 20 bps (in CM and Adjusted EBITDA) in Q1FY27 was largely
+       seasonal. For context, the like to like sequential drop in the previous year (Q1FY26) was 40 bps in
+       CM and 50 bps in Adjusted EBITDA. The primary driver of this is the higher investment in delivery
+       partner availability which normalises through the year and annual wage hike during the quarter.
+       We continued to see improved take-rates and higher operating leverage which drove 70 bps
+       improvement in Adjusted EBITDA on a YoY basis. We reiterate our steady-state guidance of 5%
+       Adjusted EBITDA on GOV over the medium term.
+
+    3.​ Recent headlines suggest potential entry of new competition in Food delivery. How resilient is
+        your competitive positioning given these developments?
+
+       We believe our competitive position in Food delivery is durable with no near term risks to the
+       underlying growth trajectory. We have been agile to evaluate possible opportunities across
+       pricing, formats and even separate apps to open up the TAM further while maintaining the
+       economics of the core platform. The depth of our restaurant partner base and our tech and
+       operational stack is fully built and scaled and we are well equipped to meet each need-state at a
+       fraction of the cost a new player would incur, while retaining our right to win with the relevant
+       cohorts.
+
+                                                                                                 Page 10 of 25
+   Any new entrant must find a value vector that established platforms do not already serve at scale.
+   Our confidence rests at the back of our “Speed, Selection and Affordability” framework and we
+   have proactively pre-empted the newer models that can be targeted across these:
+
+   a) Speed and convenience: Bolt, our faster Food delivery proposition, remains live across 700+
+   cities, complemented by the premium One BLCK for the convenience-first user.
+
+   b) Targeted selection: Eat Right, our health-focused curation (High Protein, No Added Sugar, Low
+   Cal), contributes ~15% of total food delivery volumes with higher-than-platform AOVs. Desk Eats
+   (workplace meals), Late Night Eats and Food on Train continue to open up new consumption
+   occasions.
+
+   c) Affordability: The 99-Store flat-price proposition, built for everyday affordability for value
+   seeking consumers and more recently, our separate-app offering Toing.
+
+4.​ What is the latest update on Toing and what is our strategy towards a viable economic model?
+    How should one think about the overall investment within Platform Innovations?
+
+   Toing is currently housed within Platform Innovations, which exists as a deliberate sandbox to test
+   new consumer propositions and innovation bets. Toing is a standalone app for affordable meal
+   options. We expanded it to ~50 cities during the quarter. The early adoption towards Toing has
+   been very positive and affordability remains the big draw to unlock the next 100 million users in
+   the segment for whom price remains the #1 barrier to adoption and habit formation.
+
+   The green shoots in terms of growth of new to platform users and economies of scale for
+   restaurants via Toing have been very encouraging with 2 out of 3 new users on Toing being new
+   to platform or having been dormant on the Swiggy platform (establishing a very high product
+   market fit for these set of users). On the supply side, a significant minority of restaurants on Toing
+   have already reached more than half of the volumes generated on the Swiggy platform thereby
+   unlocking significant economies of scale for them.
+
+   We will continue to exercise the same discipline that we have used in scaling other new initiatives
+   with clear demonstration of product and business market fit markers before choosing to continue
+   investing. More recently, we decided to shut down Snacc, the micro-kitchen model serving
+   functional meals due to our expectation of the low potential size of the category considering the
+   incremental complexity required to run the business.
+
+   We have been able to launch Toing without any significant incremental fixed costs (unlike new
+   competition who will have to build the entire stack ground up) by leveraging our existing tech and
+   execution capabilities. The initial investment in Toing is largely on new user acquisition which is
+   discretionary in nature and can be quickly scaled or cut-back depending on the progress. We will
+   continue to provide more details as we learn and iterate in this large opportunity.
+
+
+                                                                                                Page 11 of 25
+5.​ Dineout / Out-of-Home Consumption grew 45% YoY whilst improving profitability. How
+    meaningfully large a business can it become within the Swiggy portfolio and what can be the
+    pace of growth and margin improvement going ahead?
+
+   Out-of-Home Consumption continued its steady, profitable journey with GOV growth of 44.8%
+   YoY (22.8% QoQ, highest in the last two years) to INR 1,529 Cr across 59k active monthly
+   restaurant partners (restaurant partner additions also at a multi quarter high). Adjusted EBITDA
+   margin further improved to 0.9% of GOV. Over the last two years, the business has transformed
+   into a full stack dining platform (discovery, reservations, payments, loyalty via DineCash and
+   Scenes for event discovery and bookings) with improving profitability. The quarter saw a minor
+   dip in the Contribution margin mainly due to scale back of discretionary advertisement spending
+   by the restaurant partners in the early parts of the quarter (LPG led disruption) which has since
+   normalised.
+
+   In-restaurant dining is a distinct Food TAM and a growing share of new partners are premium
+   dining establishments which open up incremental profit pool opportunities. We have hit an
+   annualized GOV run rate of INR 6,000 Cr with 1% Adjusted EBITDA and we expect to cross
+   10,000 Cr annualized GOV run-rate over the next 2 years with an annualised Adjusted EBITDA
+   pool of ~500 Cr.
+
+6.​ Moving to quick commerce, how have you fared against the stated guidance of achieving
+    break-even CM latest by Q1FY27 (first shared 5 quarters ago) in the light of heightened levels
+    of competitive activity? How have top cities and stores performed?
+
+   Our CM losses had peaked at −5.6% of GOV in Q4FY25. Since then, we continued to make
+   steady progress on our goal of achieving break-even within Q1FY27. Through this period, we
+   chose to stay vested in our chosen strategy of incentivising growth through profitability rather
+   than seeing it as a trade-off. This meant making hard choices on monetisation, build-up of larger
+   baskets (through assortment and availability expansion), growing and maturing non-grocery mix,
+   improving advertising revenue and securing operating leverage. We improved our Contribution
+   by INR 28 per order over the last 5 quarters. Our adjusted revenue, in particular, moved from
+   INR 83 in Q4FY25 to INR 108 in Q1FY27. This helped in the sequential EBITDA loss reduction of
+   80 Cr in Q1FY27.​
+   ​
+   Talking of store level profitability, more than 45% of our store network turned Contribution margin
+   positive (vs 30% in the previous quarter). During the quarter, 25% of the network operated at
+   3-5% CM, with 5 out of the top 7 cities turning Contribution margin positive.
+   ​
+
+
+
+
+                                                                                             Page 12 of 25
+7.​ We saw a slowdown in Instamart’s growth rate this quarter? What is the growth outlook from
+    hereon?​
+    ​
+    As mentioned above, the chosen path of getting to Contribution neutrality was to make the
+    business stronger. We were able to achieve that by weaning away unprofitable users (~4M+ over
+    the last 3 quarters) and orders which were contributing negatively to the financial performance
+    while ensuring that the retained users continued to get better experience on our platform.
+
+   Having achieved the break-even Contribution target in May’26, we deliberately decided to
+   incubate certain investment levers in better customer experience (specific investments in
+   improving availability, speed and curated value propositions) from thereon which resulted in the
+   overall quarter burn coming at -0.2% CM with a slight uptick in our marketing spends below CM
+   (apart from annual wage hikes).​
+   ​
+   As a result of these deliberate choices and improvement in quality of acquired and retained user
+   cohorts, we are starting to see green shoots in our overall growth. Our 4 weeks trending NOV
+   growth rate (week ending July 26th) is at 10.0% vs 1.0% in the previous four weeks. We are
+   also seeing a marked improvement in the overall transacting user base over this period which
+   augurs well for the ensuing growth going forward. We enter Q2FY27 with our most resilient,
+   high-frequency, and highly retained transacting user base of the past year with 1M retention of
+   the transacting user base increasing to 61% (from 55% in Q1FY26).
+
+   As we calibrate the near term investment choices, we will be making certain real time decisions
+   to accelerate growth rates while remaining on the path of fiscal discipline. We expect
+   Contribution margins to be range bound in the zero to -100 bps territory for the next couple of
+   quarters while accelerating the sequential quarterly growth rates. This does not assume any
+   change in the existing competitive landscape. We recognise the need for accelerated growth to
+   achieve Adjusted EBITDA profitability in the business.
+
+8.​ What will be the key drivers for reduction in Adjusted EBITDA losses from hereon?
+
+   We expect to hit overall Adjusted EBITDA break-even at a scale of ~ INR 60,000 Cr of run rate
+   annualised NOV (25-30 Cr orders per quarter from the current rate of 11.5 Cr per quarter) with
+   5-6% Contribution margin equating to INR ~30 per order. Over the last 5 quarters, we have added
+   INR 28 per order and we need to add another INR ~30 per order to break-even at the above
+   volume run-rate. From an overall Contribution margin accretion, we are expecting the following
+   levers to help us achieve the same:
+
+       a.​ Higher revenue due to higher margin and favourable product mix: INR 10 per order
+       b.​ Ads revenue: INR 10 per order
+       c.​ Densification and warehouse/ store automation: INR 5 per order
+       d.​ Operating leverage on higher store utilisation and semi-variable costs: INR 5 per order
+
+
+
+
+                                                                                             Page 13 of 25
+   An Inventory led operating model will unlock an additional INR 4-5 per order which can
+   potentially help fast track this journey and achieve break-even at a lower scale.
+
+   We reiterate our medium-term ambition of scaling to over INR 1 lakh Cr NOV at a 4-5% Adjusted
+   EBITDA margin.
+
+9.​ When every player in the industry is going after building a wider assortment, how is your
+    strategy on assortment different from others?
+
+   The levers that built quick commerce are starting to hit diminishing returns - speed is table
+   stakes, aggressive pricing is unsustainable, and assortment is largely similar. We view assortment
+   selection as a curation game, rather than a volume game and believe the next frontier of
+   sustainable differentiation is not just offering more, but enabling consumers to buy better.​
+   ​
+   Through our ‘Switch to Better’ proposition, we are addressing unmet customer needs across core
+   daily categories via a targeted, two-pronged approach:
+
+       a.​ Proprietary Brands: Developing high-quality, curated essentials under our own portfolio,
+           anchored by the launch of Noice.​
+
+       b.​ Strategic Brand Partnerships: Collaborating with brand partners to co-create and offer
+           superior alternatives at compelling price points across key lifestyle categories—such as
+           high-protein staples in Food, branded storage and drinkware in Home, and non-toxic toys
+           in Kids.
+
+   This strategy goes beyond product expansion to actively shaping user behavior. Customers who
+   have purchased ‘Switch’ SKUs have exhibited 30% higher retention rate compared to benchmark
+   cohorts. As we roll out additional category bets in the coming quarters, this focus on value-added
+   curation will serve as a durable, margin-accretive competitive moat in an otherwise commoditized
+   market.
+
+10.​What is the outlook on store additions in the near future? ​
+    ​
+    We have built out a very strong network across the 131 cities that we are currently operating in
+    with store utilization at ~40% with significant head-room to grow of the current network. At the
+    same time, the underlying volume growth in high growth neighborhoods necessitates new store
+    opening and we expect to add ~75 stores in Q2FY27. ​
+
+11.​ How different is NOV from NRV, a term which has been recently spoken about? Why are you
+     not reporting this metric?​
+     ​
+     One of the KPIs of our business is Net Order Value (NOV) which measures the actual amount
+     consumers pay on our platform for delivered orders. It is a clean and transparent indicator of true
+     consumer demand and adoption.
+
+
+
+                                                                                               Page 14 of 25
+   In contrast, Net Realizable Value (NRV), as defined, bundles brand-funded discounts, ad revenues
+   (incl tax) and subscription fees onto base consumer spend. By conflating brand spends on the
+   platform with direct consumer transactions, in our understanding, such NRV can potentially inflate
+   reported top-line metrics by ~20%.
+
+   Furthermore, our NOV is anchored on delivered orders and not on placed orders.
+
+   While brand monetization is a key driver of profitability in the business, mixing it with actual
+   consumer spend obscures the actual underlying growth in the business. For us, delivered NOV
+   remains the truest and the most reliable measure of actual consumer behaviour on the platform.
+
+12.​Swiggy's board recently approved a proposal to cap foreign ownership at 49.5% as part of the
+    journey towards becoming an Indian Owned and Controlled Company (IOCC). What does this
+    mean for Instamart, and where are we in the process?
+
+   On July 23, 2026, our Board approved a proposal to cap Swiggy's aggregate foreign
+   shareholding at 49.5% on a fully diluted basis, along with related amendments to our Articles of
+   Association, as part of our effort to qualify as an IOCC under India's foreign exchange regulations.
+   This follows an important milestone reached earlier in the quarter - as of July 01, 2026, our
+   domestic ownership crossed 50% for the first time, paving the path towards Swiggy’s IOCC
+   journey. IOCC status will allow Instamart to directly own and sell inventory, in addition to running
+   its marketplace business. This has the potential to add ~80 bps in our Contribution margin while
+   allowing us higher flexibility and control in the day to day operations.
+
+   The proposal shall be subject to shareholder approval at our 13th AGM slated for August 18,
+   2026. We expect the transition to complete over a period of 2-4 quarters post approval. We do
+   not expect any disruption to the customer experience or to our supply relationships during this
+   period, and our teams have been preparing the operational groundwork in parallel so that we are
+   ready to move in a seamless fashion once we receive the necessary approvals.
+
+
+
+
+                                                                                              Page 15 of 25
+Adjusted Revenue, Adjusted EBITDA, and Consolidated cash balance reconciliations
+
+Adjusted Revenue
+INR Cr                                                      Q1FY26         Q2FY26          Q3FY26         Q4FY26       Q1FY27
+Revenue from operations                                       4,961          5,561           6,149          6,383       6,812
+Add: user delivery charges                                     238            220             151            146         141
+Add: Fee from user (that is not already
+                                                               109             130            132            136         159
+included in revenue from operations)
+Adjusted Revenue                                              5,308           5,911          6,431          6,665       7,112
+
+Adjusted EBITDA
+INR Cr                                                      Q1FY26         Q2FY26          Q3FY26         Q4FY26       Q1FY27
+Profit/(loss) for the period / year                           -1,197         -1,092         -1,065           -800        -791
+Add: Tax expense                                                 -              -               -                 -       -
+Add: Finance costs                                              41             48              55                56      53
+Add: Depreciation and amortisation expense                     288            304             313            312         298
+Less: Other income                                             -87             -59            -96            -266        -211
+Add: Share based payments                                      265            253             233            215         173
+Add: Exceptional items                                           0              0              10                0        0
+Add: Share in net loss of an associate                           1              1               1                 1       1
+Less: Rental expenses pertaining to ‘Ind AS
+                                                               -124           -150            -163           -170        -174
+116 leases’
+Adjusted EBITDA                                                -813           -695            -712           -652       -651
+
+Consolidated cash balance
+INR Cr                                                      Q1FY26         Q2FY26          Q3FY26         Q4FY26       Q1FY27
+Adjusted EBITDA                                                -813           -695            -712           -652       -651
+Add: Treasury income realised                                   69             77              76                79      132
+Less: Capital Expenditure incurred                             -319           -188            -216           -188        -195
+Less: Loan movement (including interest)                         -1            98             -22                -12     -102
+Add: Other items                                                 11            -32            -29                167     121
+Cash (burn) / surplus                                         -1,053          -740           -903            -606       -695
+Add: (Increase) / Decrease in working capital                  -288             -9            -121           -252         9
+Add: Net Proceeds from capital raises                            0              0            9,931               0        0
+Add: (Investments) / Divestment                                                                0            2,399         0
+Change in cash                                                -1,341          -749          8,907           1,541       -686
+Add: Opening cash balance                                     6,695          5,354           4,605          13,512     15,053
+Consolidated closing cash balance                             5,354          4,605          13,512         15,053      14,367
+Note: There could be some totalling anomalies in the numbers displayed above due to the impact of rounding off
+
+
+                                                                                                                       Page 16 of 25
+Definitions of key terms used in relation to business
+Swiggy Platform
+
+
+Term                    Description
+B2C Total Orders        Consolidated completed orders of consumer facing businesses i.e. (i) Food
+                        delivery, plus (ii) Quick Commerce, plus (iii) Out of Home Consumption,
+                        excluding Platform Innovations
+B2C Gross Order Value   Consolidated Gross Order Value of completed order for consumer facing
+(GOV)                   businesses i.e. (i) Food delivery, plus (ii) Quick Commerce, plus (iii)
+                        Out-of-home Consumption, excluding Platform Innovations
+B2C Adjusted EBITDA     Consolidated Adjusted EBITDA of (i) Food delivery, plus (ii) (Quick Commerce,
+                        plus (iii) Out-of-home Consumption, excluding Platform Innovations
+
+B2C Adjusted EBITDA     B2C Adjusted EBITDA divided by B2C GOV
+Margin (% of B2C GOV)
+B2C Adjusted Revenue    Consolidated Adjusted Revenue of consumer facing businesses i.e. (i) Food
+                        delivery, plus (ii) Quick Commerce, plus (iii) Out-of-home Consumption,
+                        excluding (v) Platform Innovations
+
+Consolidated Revenue    Consolidated Revenue from operations as per financials of all businesses i.e.
+                        (i) Food delivery, plus (ii) Quick Commerce, plus (iii) Out-of-home Consumption,
+                        plus (iv) Supply Chain and Distribution, plus (v) Platform Innovations
+
+Consolidated Adjusted   Consolidated Adjusted Revenue of all businesses i.e. (i) Food delivery, plus (ii)
+Revenue                 Quick Commerce, plus (iii) Out-of-home Consumption, plus (iv) Supply Chain
+                        and Distribution, plus (v) Platform Innovations
+
+Consolidated EBITDA     Profit/loss as per financials excluding (i) tax expense (ii) depreciation and
+                        amortization expense (iii) finance cost
+
+Consolidated Adjusted   Consolidated EBITDA excluding (i) other income (ii) exceptional items (iii) share
+EBITDA                  in net loss of an associate (iv) share based payment expense and (v) rental
+                        expenses pertaining to 'Ind AS 116 leases'
+Average Monthly         Number of unique transacting users that have completed at least one order on
+Transacting Users       the Swiggy unified-app / website in a month, averaged for the months in the
+                        period/year
+Average Monthly         Number of unique delivery partners that have delivered at least one order in a
+Transacting Delivery    month, averaged for the months in the period/year
+Partners
+Platform Frequency      Completed orders per user in a month, averaged for the months in the
+                        period/year
+
+
+
+                                                                                              Page 17 of 25
+Food Delivery
+
+
+Term                          Description
+Total Orders                  Total completed Food Delivery orders on the platform
+Gross Order Value (GOV)       Total monetary value of completed Food Delivery orders (gross of any
+                              discounts) plus (i) user delivery charges (net of any discounts, including free
+                              delivery discounts provided for Swiggy One membership program), plus (ii)
+                              packaging charges, plus (iii) fee from users. plus (iv) taxes, excluding tips.
+Average Order Value (AOV)     Food Delivery GOV divided by Food Delivery Total Orders
+Revenue                       Revenue from our Food Delivery business includes (i) pre-agreed commissions
+                              from restaurant partners; (ii) advertising revenue from restaurant partners; (iii)
+                              fees that we charge to users and delivery partners for the use of our
+                              technology platform and subscription revenue (net of discounts, credits and
+                              refunds other than free delivery); and (iv) fees for other business enablement
+                              services from restaurant partners
+Adjusted Revenue              Revenue plus (i) user delivery charges collected and passed on to delivery
+                              partners (net of any discounts, including free delivery discounts provided
+                              through Swiggy One membership program), plus (ii) fee from users collected
+                              and netted off from platform funded discounts given for corresponding orders
+Contribution Margin (as a %   Food Delivery Adjusted Revenue, less (i) delivery and other charges, less (ii)
+of GOV)                       platform funded discounts, less (iii) other variable costs, as a percentage of
+                              GOV
+Adjusted EBITDA               Food Delivery segment results as per financials less rental expenses
+                              pertaining to 'Ind AS 116 leases'.
+Average Monthly               Number of unique transacting users that have completed at least one Food
+Transacting Users             Delivery order in a month, averaged for the months in the period/year
+
+Average Monthly               Number of unique restaurant partners with at least one delivered order in a
+Transacting Restaurant        month, averaged for the months in the period/year
+Partners
+
+
+
+
+                                                                                                   Page 18 of 25
+Quick Commerce
+
+
+Term                          Description
+Total Orders                  Total completed Quick Commerce orders on the platform
+Gross Order Value (GOV)       Total monetary value of orders at maximum retail price (“MRP”) of goods sold
+                              (except for instances where MRP is not applicable such as fruits and
+                              vegetables wherein final selling price is used instead of MRP) and gross of any
+                              discounts, plus (i) user delivery charges (net of any discounts, including free
+                              delivery discounts provided for Swiggy One membership program), plus (ii)
+                              packaging charges, plus (iii) fee from users, plus (iv) taxes, excluding tips.
+
+Net Order Value (NOV)         Gross Order Value, less Discounts (whether platform or partner funded)
+Average Order Value (AOV)     Quick Commerce GOV divided by Quick Commerce Total Orders
+Revenue                       Revenue from our Quick Commerce business includes: (i) Pre-agreed
+                              commissions from merchant partners; (ii) advertising revenue from brand
+                              partners; (iii) user delivery charges collected (net of any discounts); (iv) fees
+                              that we charge to users (net of amounts passed on to merchant partners) and
+                              delivery partners for the use of our technology platform and subscription
+                              revenue (net of discounts, credits and refunds other than free delivery) (v) fees
+                              for other business enablement services from merchant partners
+Adjusted Revenue              Revenue plus (i) user delivery charges collected and netted off from platform
+                              funded discounts given for corresponding orders, plus (ii) fee from users
+                              collected and netted off from platform funded discounts given for
+                              corresponding orders
+Contribution Margin (as a %   Quick Commerce Adjusted Revenue, less (i) delivery and other charges, less
+of GOV)                       (ii) platform funded discounts, less (iii) cost of fulfilment services, less (iv) other
+                              variable costs, as a percentage of GOV
+
+Adjusted EBITDA               Quick Commerce segment results as per financials less rental expenses
+                              pertaining to 'Ind AS 116 leases'
+Average Monthly               Number of unique transacting users that have completed at least one Quick
+Transacting Users             Commerce order in a month, averaged for the months in the period/year.
+
+Active Dark Stores            Number of Dark Stores with at least one completed order on the last day of
+                              the period/year
+Active Dark Store Area        Total area of Active darkstores on the last day of the period
+
+
+
+
+                                                                                                        Page 19 of 25
+Out-of-Home Consumption
+
+
+
+Term                          Description
+Total Transactions            Total Transactions on Swiggy Dineout and Swiggy Scenes
+Gross Order Value (GOV)       Total monetary value of all transactions (gross of any discounts) on Dineout
+                              and Scenes, plus (i) fee from users, plus (ii) taxes
+Average Order Value (AOV)     Out-of-home Consumption Gross Order Value divided by Out-of-home
+                              Consumption total transactions
+Revenue                       Revenue from our Out-of-home consumption includes (i) pre-agreed
+                              commissions that we charge to our restaurant partners; (ii) advertising
+                              revenue from restaurant partners and brand partners; (iii) fees that we charge
+                              to users for the use of our technology platform and subscription revenue (net
+                              of discounts) (iv) revenue from sale of tickets, and (v) fees for other business
+                              enablement services provided to restaurant partners and brand partners.
+Adjusted Revenue              Revenue plus fee from users collected and netted off from platform funded
+                              discounts given for corresponding orders (as applicable)
+Contribution Margin (as a %   Out-of-home Consumption Adjusted Revenue, less (i) platform funded
+of GOV)                       discounts, less (ii) other variable costs, as a percentage of GOV
+
+Adjusted EBITDA               Out-of-home Consumption segment results as per financials less rental
+                              expenses pertaining to ‘Ind AS 116 leases’
+Average Monthly Active        Total number of unique Swiggy Dineout restaurants that are listed with
+Restaurants                   payment option in a month, averaged for the months in the period/year
+
+
+
+
+                                                                                                 Page 20 of 25
+Supply Chain and Distribution
+
+
+Term                            Description
+Revenue                         (i) Total monetary value of goods sold to wholesalers and retailers, plus (ii)
+                                Revenue from supply chain management and enablement services that we
+                                provide to our wholesalers and retailers
+Adjusted Revenue                Same as revenue
+Adjusted EBITDA                 Supply Chain and Distribution segment results as per financials less rental
+                                expenses pertaining to 'Ind AS 116 leases'
+
+
+
+Platform Innovations
+
+
+Term                        Description
+Revenue                     Revenue from Platform Innovations business typically includes (i) revenue
+                            from sale of food and products, (ii) fees that we charge to our users and
+                            delivery partners and subscription revenue (net of discounts, credits and
+                            refunds other than free delivery), (iii) advertising fees from restaurant
+                            partners, merchant partners and brand partners, and (iv) fees for other
+                            business enablement services from restaurant partners and merchant
+                            partners.
+Adjusted Revenue            Revenue from operations for Platform Innovations, plus (i) user delivery
+                            charges collected and passed on to delivery partners (net of any discounts,
+                            including free delivery discounts provided through Swiggy One membership
+                            program), plus (ii) fee from users collected and netted off from platform
+                            funded discounts given for corresponding orders (as applicable)
+Adjusted EBITDA             Platform Innovations Segment results as per financials less rental expenses
+                            pertaining to 'Ind AS 116 leases'
+
+
+
+
+                                                                                                   Page 21 of 25
+Annexure A - Statement of consolidated profit and loss
+                                                                                                                                                                              (₹ Crore)
+                                                                                                                                 Quarter ended                           Year ended
+Sl. No. Particulars                                                                                           Jun 30, 2026        Mar 31, 2026       Jun 30, 2025        Mar 31, 2026
+                                                                                                               Unaudited           Audited            Unaudited           Audited
+   I    Income
+          Revenue from operations                                                                                    6,812               6,383              4,961               23,053
+          Other income                                                                                                 211                 266                 87                  508
+        Total income                                                                                                 7,023               6,649              5,048               23,561
+
+  II    Expenses
+          Cost of materials consumed                                                                                   -                    11                 13                   45
+          Purchases of stock-in-trade                                                                                2,978               2,899              2,058               10,044
+          Changes in inventories of stock-in-trade                                                                       (3)                 5                 (7)                 (22)
+          Employee benefits expense                                                                                    662                 667                686                2,716
+          Finance costs                                                                                                  53                 56                 41                  200
+          Depreciation and amortisation expense                                                                        298                 312                288                1,217
+          Other expenses
+             Advertising and sales promotion                                                                         1,160               1,024              1,036                4,207
+             Delivery and related charges                                                                            1,750               1,577              1,313                5,849
+             Others                                                                                                    915                 897                816                3,445
+        Total expenses                                                                                               7,813               7,448              6,244               27,701
+
+  III   Loss before share of loss of an associate, exceptional items and tax (I-II)                                   (790)               (799)            (1,196)              (4,140)
+
+  IV    Share of loss of an associate                                                                                      (1)                 (1)                 (1)                 (4)
+
+  V     Loss before exceptional items and tax (III+IV)                                                                (791)               (800)            (1,197)              (4,144)
+
+  VI    Exceptional items                                                                                              -                   -                   -                   (10)
+
+ VII    Loss before tax (V+VI)                                                                                        (791)               (800)            (1,197)              (4,154)
+
+ VIII Tax expense
+        (i) Current tax                                                                                                -                   -                  -                    -
+        (ii) Deferred tax                                                                                              -                   -                  -                    -
+      Total tax expense (i+ii)                                                                                         -                   -                  -                    -
+
+  IX    Loss for the period/ year (VII - VIII)                                                                        (791)               (800)            (1,197)              (4,154)
+
+  X     Other comprehensive income/ (loss), net of tax
+        Items that will not be reclassified subsequently to profit or loss:
+            - Changes in fair value of equity instruments carried at fair value through other comprehensive            -                   -                   -                 1,350
+           income ('FVTOCI')
+            - Re-measurement gain/ (loss) on defined benefit plans                                                         (1)                  0                  (2)              (4)
+        Other comprehensive income/ (loss) for the period/ year                                                            (1)                  0                  (2)           1,346
+
+  XI    Total comprehensive loss for the period/ year, net of tax (IX+X)                                              (792)               (800)            (1,199)              (2,808)
+
+  XII   Loss for the period/ year attributable to:
+        Owners of the Company                                                                                         (791)               (800)             (1,197)             (4,154)
+
+ XIII Other comprehensive income/ (loss) for the period/ year attributable to:
+      Owners of the Company                                                                                                (1)                  0                  (2)           1,346
+
+ XIV Total comprehensive loss for the period/ year attributable to:
+     Owners of the Company                                                                                            (792)               (800)             (1,199)             (2,808)
+
+ XV Paid-up share capital (face value of ₹ 1 per share)                                                                262                261                 230                  261
+
+ XVI Other equity                                                                                                                                                               18,053
+
+ XVII Earnings/ (loss) per equity share (face value of ₹ 1 each) (₹)*
+      (i) Basic                                                                                                       (2.96)             (3.34)              (5.04)             (16.87)
+      (ii) Diluted                                                                                                    (2.96)             (3.34)              (5.04)             (16.87)
+
+
+* EPS is not annualised for the quarter ended June 30, 2026, March 31, 2026 and June 30,2025.
+
+
+
+
+                                                                                                                                                               Page 22 of 25
+Annexure B - Statement of consolidated balance sheet
+                                                                                                                 (₹ Crore)
+                                                                           As at           As at              As at
+Sl.No Particulars                                                      Jun 30, 2026     Mar 31, 2026      Jun 30, 2025
+                                                                        Unaudited        Audited           Unaudited
+   I    ASSETS
+          Non-current assets
+            Property, plant and equipment                                       1,339           1,304              1,185
+            Right-of-use assets                                                 2,364           2,344              1,893
+            Goodwill                                                              696             696                696
+            Other intangible assets                                               206             214                237
+            Investment in an associate                                             53              54                 57
+            Financial assets
+                 Investments                                                   2,858            2,711              1,255
+                 Other financial assets                                        2,232            1,315                681
+            Income tax assets                                                    117              161                140
+            Other assets                                                         130              111                122
+          Total non-current assets                                             9,995            8,910              6,266
+
+          Current assets
+            Inventories                                                           79               76                  66
+            Financial assets
+                  Investments                                                  4,029            3,269              1,205
+                  Trade receivables                                            4,483            4,048              2,873
+                  Cash and cash equivalents                                    1,956            2,747                894
+                  Bank balances other than cash and cash equivalents             621            1,296              1,222
+                  Other financial assets                                       3,328            4,394              1,764
+            Other assets                                                         564              497                416
+          Total current assets                                                15,060           16,327              8,440
+        Total assets                                                          25,055           25,237             14,706
+
+        EQUITY AND LIABILITIES
+  II    Equity
+             Equity share capital                                                262              261                230
+             Other equity                                                     17,434           18,053              9,057
+        Total equity                                                          17,696           18,314              9,287
+
+  III   Liabilities
+           Non-current liabilities
+             Financial liabilities
+                   Lease liabilities                                           1,954            1,941              1,547
+                   Other financial liabilities                                    26               25                  4
+             Contract liabilities                                                 12               12                 27
+             Provisions                                                           70               68                 51
+           Total non-current liabilities                                       2,062            2,046              1,629
+
+          Current liabilities
+            Financial liabilities
+                  Borrowings                                                     -                100                 28
+                  Lease liabilities                                              540              510                415
+                  Trade payables                                               2,880            2,278              1,975
+                  Other financial liabilities                                  1,449            1,538                997
+            Contract liabilities                                                   32              28                 25
+            Other liabilities                                                    277              304                251
+            Provisions                                                           119              119                 99
+          Total current liabilities                                            5,297            4,877              3,790
+        Total liabilities                                                      7,359            6,923              5,419
+        Total equity and liabilities (II+III)                                 25,055           25,237             14,706
+
+
+
+
+                                                                                                       Page 23 of 25
+Annexure C - Statement of consolidated cash flows
+                                                                                                                                                             (₹ Crore)
+                                                                                                                     Quarter ended                      Year ended
+Sl.No Particulars                                                                                   Jun 30, 2026     Mar 31, 2026     Jun 30, 2025      Mar 31, 2026
+                                                                                                     Unaudited         Audited         Unaudited         Audited
+  I    Cash flow from operating activities
+       Loss before tax                                                                                      (791)            (800)          (1,197)            (4,154)
+         Adjustments to reconcile the loss before tax to net cash flows:
+              Depreciation and amortisation expense                                                          298              312               288             1,217
+              Income on investments carried at fair value through profit or loss                             (36)             (33)                (8)             (59)
+              Interest income on security deposits carried at amortised cost                                   (4)             (5)                (4)             (17)
+              Interest expense on liabilities measured at amortised cost                                        2               1                  1                4
+              Gain on termination of leases                                                                    (1)            (38)                (1)             (43)
+              Share based payment expense                                                                    173              215               265               966
+              Profit on disposalof property, plant and equipment (net)                                           0             (4)                  0              (4)
+              Impairment allowances for doubtful debts and receivables                                       -                 25                 12               68
+              Impairment allowances for doubtful advances                                                    -                  1               -                   1
+              Interest on borrowings                                                                            2               4                  1                9
+              Interest on lease liabilities                                                                    49              51                 39              187
+              Interest income                                                                               (169)            (167)              (74)             (337)
+              Share of loss of an associate                                                                     1               1                  1                4
+              Provision/liability no longer required written back                                            -                 (5)                  0             (34)
+              Interest income on income tax refund                                                               0            (14)              -                 (14)
+         Operating loss before working capital adjustments                                                  (476)            (456)             (677)           (2,206)
+         Movements in working capital :
+              (Increase)/decrease in inventories                                                              (3)              10               (11)              (21)
+              (Increase)/ decrease in trade receivables                                                     (435)            (629)             (422)           (1,648)
+              (Increase)/ decrease in other financial assets                                                  20               14                47                22
+              (Increase)/ decrease in other assets                                                           (82)              69               (87)             (142)
+              Increase/ (decrease) in trade payables                                                         602               86               157               465
+              Increase/ (decrease) in other financial liabilities                                            (69)             195                51               604
+              Increase/ (decrease) in other liabilities                                                      (27)               3               (31)               22
+              Increase/ (decrease) in contract liabilities                                                     4               40                 2               (10)
+              Increase/ (decrease) in provisions                                                              (1)              10                 6                38
+         Cash used in operating activities                                                                  (467)            (658)             (965)           (2,876)
+              Income tax refund /(paid)(net of TDS)                                                           44               15               (15)              (22)
+       Net cash used in operating activities                                                                (423)            (643)             (980)           (2,898)
+
+  II   Cash flow from investing activities
+              Purchase of investments                                                                      (6,075)          (5,061)          (4,532)          (26,482)
+              Proceeds from sale/maturity of investments                                                    5,272            6,044            4,691            22,171
+              Proceeds from sale of investment in Rapido                                                      -              2,399              -               2,399
+              Purchase of property, plant and equipment and other intangible assets                          (196)            (195)            (319)             (919)
+              Proceeds from disposal of property, plant and equipment and other intangible assets               1                7                  0               8
+              Redemption of/ (investment in) bank deposits, net                                               795           (1,183)             872            (2,415)
+              Interest received                                                                               108               60                54              255
+       Net cash (used in) /generated from investing activities                                                (95)           2,071              766            (4,983)
+
+ III Cash flow from financing activities
+            Proceeds from fresh issue of equity shares                                                        -                -                -              10,000
+            Share issue expenses                                                                              -                -                -                 (69)
+            Proceeds from exercise of Employee Stock Option                                                     1               1                 1                 5
+            Payment of principal portion of lease liabilities                                               (123)            (115)              (84)             (415)
+            Payment of interest portion of lease liabilities                                                 (49)             (51)              (39)             (187)
+            Proceeds from current borrowings                                                                 -                227                28               490
+            Repayment of current borrowings                                                                 (100)            (235)              (28)             (418)
+            Interest paid                                                                                      (2)             (4)               (1)               (9)
+     Net cash (used in) / generated from financing activities                                               (273)            (177)             (123)            9,397
+
+ IV Net (decrease) / increase in cash and cash equivalents (I+II+III)                                       (791)            1,251             (337)            1,516
+       Cash and cash equivalents at the beginning of the period                                            2,747             1,496           1,231              1,231
+ V     Cash and cash equivalents at the end of the period                                                  1,956             2,747             894              2,747
+
+
+
+
+                                                                                                                                                Page 24 of 25
+Disclaimer
+
+This document, except for historical information, may contain certain forward-looking statements including
+those describing the Company’s strategies, strategic direction, objectives, future prospects, estimates etc.
+Forward-looking statements can be identified generally as those containing words such as ‘expects,
+anticipates, intends, will, would, undertakes, aims, estimates, contemplates, seeks to, objective, goal, projects,
+should’ and similar expressions or variations of these expressions or negatives of these terms. These
+forward-looking statements are based on certain expectations, assumptions, anticipated developments and
+are affected by factors including but not limited to, risk and uncertainties regarding any changes in the laws,
+rules and regulations relating to any aspects of the Company’s business operations, general economic, market
+and business conditions, new or changed priorities of trade, significant changes in political stability in India and
+globally, government regulations and taxation, litigation, competition among others over which the Company
+does not have any direct control. The Company cannot, therefore, guarantee that the forward-looking
+statements made herein shall be realized. The Company undertakes no obligation to publicly update or revise
+any forward-looking statements, whether as a result of new information, future events, or otherwise.
+
+
+Use of Non-GAAP Measures
+
+In addition to financial information presented in accordance with Ind AS, we believe certain Non-GAAP
+measures are useful in evaluating our operating performance. We use these Non-GAAP financial information to
+evaluate our ongoing operations and for internal planning and forecasting purposes. We believe that
+Non-GAAP financial information, when taken collectively with financial measures prepared in accordance with
+Ind AS, provides an additional tool for investors to use in assessment of our ongoing operating results and
+trends because it provides consistency and comparability with past financial performance.
+
+Non GAAP measures used by us are defined below :
+
+Adjusted Revenue = Consolidated Revenue from operations as per financials plus (i) user delivery charges
+collected and passed on to delivery partners (net of any discounts, including free delivery discounts provided
+through Swiggy One membership program), plus (ii) fee from user (that is not already included in revenue from
+operations) collected and netted off from platform funded discounts given for corresponding orders.
+
+Adjusted EBITDA = Profit/loss as per financials excluding (i) tax expense (ii) other income (iii) depreciation and
+amortization expense (iv) finance cost (v) exceptional items (vi) share in net loss of an associate (vii) share
+based payment expense and (viii) rental expenses pertaining to 'Ind AS 116 leases'
+
+These measures should be considered in addition to, not as substitutes for, or in isolation from, measures
+prepared in accordance with Ind AS.
+
+
+
+
+                                                                                                     Page 25 of 25
+                    Walker Chandiok ~Co LLP
+
+
+
+
+                                                                                                                                  Walker Chandiok & Co LLP
+                                                                                                                                  5th Floor, No.65/2, Block "A",
+                                                                                                                                  Bagmane Tridib, Bagmane
+                                                                                                                                  Tech Park, CV Raman Nagar,
+                                                                                                                                  Bengaluru 560093
+                                                                                                                                  T +91 80 4243 0700
+                                                                                                                                  F +91804126 1228
+
+
+
+     Independent Auditor's Review Report on the Consolidated Unaudited Quarterly Financial Results of the Company pursuant
+     to the Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (as amended)
+
+     To the Board of Directors of Swiggy Limited
+
+1.   We have reviewed the accompanying statement of the consolidated unaudited financial results ('the Statement') of Swiggy Limited
+     ('the Holding Company') and its subsidiaries (the Holding Company which includes the Swiggy Employee Stock Option Trust ('the
+     trust') and its subsidiaries together referred to as 'the Group') and its associate (refer Annexure 1 for the list of subsidiaries and
+     associate included in the Statement) for the quarter ended 30 June 2026, being submitted by the Holding Company pursuant to the
+     requirements of Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (as amended)
+     ('Listing Regulations').
+
+2.   This Statement, which is the responsibility of the Holding Company's management and approved by the Holding Company's Board
+     of Directors, has been prepared in accordance with the recognition and measurement principles laid down in Indian Accounting
+     Standard 34, Interim Financial Reporting ('Ind AS 34'), prescribed under Section 133 of the Companies Act, 2013 ('the Act'), and
+     other accounting principles generally accepted in India and is in compliance with the presentation and disclosure requirements of
+     Regulation 33 of the Listing Regulations. Our responsibility is to express a conclusion on the Statement based on our review.
+
+3.   We conducted our review of the Statement in accordance with the Standard on Review Engagements (SRE) 2410, Review of Interim
+     Financial Information Performed by the Independent Auditor of the Entity, issued by the Institute of Chartered Accountants of India.
+     A review of interim financial information consists of making inquiries, primarily of persons responsible for financial and accounting
+     matters, and applying analytical and other review procedures. A review is substantially less in scope than an audit conducted in
+     accordance with the Standards on Auditing specified under Section 143(10) of the Act, and consequently, does not enable us to
+     obtain assurance that we would become aware of all significant matters that might be identified in an audit. Accordingly, we do not
+     express an audit opinion.
+
+     We also performed procedures in accordance with the circular issued by the SEBI under Regulation 33 (8) of the Listing Regulations,
+     to the extent applicable.
+
+4.   Based on our review conducted and procedures performed as stated in paragraph 3 above, nothing has come to our attention that
+     causes us to believe that the accompanying Statement, prepared in accordance with the recognition and measurement principles laid
+     down in Ind AS 34, prescribed under Section 133 of the Act, and other accounting principles generally accepted in India, has not
+     disclosed the information required to be disclosed in accordance with the requirements of Regulation 33 of the Listing Regulations,
+     including the manner in which it is to be disclosed, or that it contains any material misstatement.
+
+
+
+
+                                                                                                                                 Walker Chandlok & Co LLP is registered
+                                                                                                                                 with limited liability with identification
+             Offices in Bengaluru, Chandigarh, Chennai, Gurugram, Hyderabad, Kochi, Kolkata, Mumbai, New Delhi, Noida and Pune   number AA C·2085 and its registered office
+                                                                                                                                 at L-41 Connaught Circus, New Delhi,
+                                                                                                                                 110001, India
+      Walker Chandiok &..Co LLP
+5.    The Statement includes the Group's share of net loss after tax of t 1 crore, and total comprehensive loss of t 1 crore for the quarter
+      ended on 30 June 2026 respectively, in respect of one associate, based on its interim financial information, which has not been
+      reviewed by its auditor and has been furnished to us by the Holding Company's management. Our conclusion on the Statement, in
+      so far as it relates to the amounts and disclosures included in respect of this associate is based solely on such unreviewed interim
+      financial results. According to the information and explanations given to us by the management, this interim financial information is
+      not material to the Group.
+
+      Our conclusion is not modified in respect of this matter with respect to our reliance on the financial information certified by the
+      management of the Holding Company.
+
+6.    The review of the consolidated unaudited quarterly financial results for the quarter ended 30 June 2025 included in the Statement
+      was carried out and reported by BSR & Co. LLP who had expressed unmodified conclusion vide their review report dated
+      31 July 2025, whose report has been furnished to us and which has been relied upon by us for the purpose of our review of the
+      Statement. Our conclusion is not modified in respect of this matter.
+
+
+
+
+      For Walker Chandiok & Co LLP
+      Chart e Accountants
+      Fi                  01076N/N500013
+
+
+
+
+     Bengaluru
+     30 July 2026
+
+
+
+
+     Chartered Accountants
+ Walker Chandiok &_Co LLP
+ Annexure 1 referred to in paragraph 1 of the Independent Auditor's Review Report on the Consolidated Unaudited Quarterly
+ Financial Results of the Company pursuant to the Regulation 33 of the SEBI (Listing Obligations and Disclosure
+ Requirements) Regulations, 2015 (as amended)
+
+ List of Subsidiaries and associate included in the Statement:
+
+
+   Sr. No.       Name of the Company
+                                                                               Country of Incorporation   Relationship
+       1         Swiggy Employee Stock Option Trust                                      India            Trust
+
+       2         Swiggy Networks Limited                                                India             Subsidiary
+                 (formerly known as Swiggy Networks Private Limited, Scootsy
+                 Logistics Private Limited)
+
+       3         Supr lnfotech Solutions Limited                                        India             Subsidiary
+                 (formerly known as Supr lnfotech Solutions Private Limited)
+
+       4         Lynks Logistics Limited                                                India             Subsidiary
+
+       5         Swiggy Neocap Private Limited                                          India             Subsidiary
+                 (formerly known as Swiggy Sports Private Limited)
+
+      6          Swiggy lnstamart Private Limited                                       India             Subsidiary
+
+      7          Loyal Hospitality Private Limited                                      India             Associate
+
+
+
+
+Chartered Accountants
+                                                                                                Swiggy Limited
+                                                                                         CIN: L74110KA2013PLC096530
+                                                                                                                                                                                           0 Swlggy
+                              Survey No.14, No. 158, 3rd - 6th Floor, Tower 1, Sumodhuro Capitol Towers, Pottanduru Agroharo Village, K.R.Puram Habli, Bangalore East Taluk,
+                                                                                      Bengaluru - 560066, Karnataka, India
+                                                                   Tel: 080-68422422 / Email ID: ir@swiggy.in / Web site: www.swiggy.com
+
+
+                                                               Statement of consolidated financial results for the quarter ended June 30, 2026
+                                                                                                                                                                                                      ('{Crore)
+                                                                                                                                                  Quarter ended                                  Year ended
+                                                                                                                             Jun 30, 2026          Mar 31, 2026             Jun 30, 2025         Mar 31, 2026
+  SI. No . Particulars
+                                                                                                                                                        Audited
+                                                                                                                             Unaudited                                      Unaudited              Audited
+                                                                                                                                                  (Refer note 11)
+       I         Income
+                   Revenue from operations                                                                                           6,812                    6,383                 4,961               23,053
+                   Other income                                                                                                        211                        266                     87                 508
+                Total income                                                                                                         7,023                   6,649                  5,048               23,561
+
+
+       II        Expenses
+                   Cost of materials consumed                                                                                          -                              11                  13                     45
+                   Purchases of stock-in-trade                                                                                       2,978                    2,899                 2,058               10,044
+                   Changes in inventories of stock-in-trade                                                                                 (3)                        5                   (7)               (22)
+                   Employee benefits expense                                                                                           662                        667                 686                2,716
+                   Finance costs                                                                                                           53                         56                  41                 200
+                   Depreciation and amortisation expense                                                                               298                        312                 288                1,217
+                   Other expenses
+                     Advertising and sales promotion                                                                                 1,160                    1,024                 1,036                4,207
+                     Delivery and related charges                                                                                    1,750                    1,577                 1,313                5,849
+                     Others                                                                                                            915                        897                 816                3,445
+                Total expenses                                                                                                       7,813                   7,448                  6,244               27,701
+
+
+      Iii       Loss before share of loss of an associate, exceptional items and tax (1-11)                                           (790)                    (799)               (1,196)              (4,140)
+
+
+      IV        Share of loss of an associate                                                                                              (1)                        (1)                  (1)                   (4)
+
+
+      V         Loss before exceptional items and tax (lll+IV)                                                                        (791)                    (800)               (1,197)              (4,144)
+
+
+      VI        Exceptional items (Refer note 3)                                                                                                                                                             (10)
+
+
+     VII        Loss before tax (V+VI)                                                                                                (791)                    (800)               (1,197)              (4,154)
+
+
+     Viii       Tax expense
+                  (i) Current tax                                                                                                      -
+                  (ii) Deferred tax                                                                                                                               -                   -
+                Total tax expense (i+ii)                                                                                               -                          -                                          -
+     IX         Loss for the period/ year (VII - Viii)                                                                                (791)                    (800)               (1,197)              (4,154)
+
+
+      X         Other comprehensive income/ (loss), net of tax
+                Items that will not be reclassified subsequently to profit or loss:
+                   - Changes in fair value of equity instruments carried at fair value through other comprehensive                                                                                       1,350
+                  income ('FVTOCI') (Refer note 7)
+                   - Re-measurement gain/ (loss) on defined benefit plans                                                                  (1)                         0                  (2)                    (4)
+                Other comprehensive income/ (loss) for the period/ year                                                                    (1)                         0                  (2)            1,346
+
+
+     XI         Total comprehensive loss for the period/ year, net of tax (IX+X)                                                      (792)                    (800)               (1,199)              (2,808)
+
+
+     XII        Loss for the period/ year attributable to:
+                Owners of the Company                                                                                                 (791)                    (800)               (1,197)              (4,154)
+
+
+  Xiii          Other comprehensive income/ (loss) for the period/ year attributable to:
+                Owners of the Company                                                                                                      (1)                         0                  (2)            1,346
+
+
+  XIV       Total comprehensive loss for the period/ year attributable to:
+            Owners of the Company                                                                                                     (792)                    (800)               (1,199)              (2,808)
+
+
+     xv Paid-up share capital (face value of" 1 per share)                                                                             262                        261                 230                    261
+
+
+  XVI       Other equity                                                                                                                                                                               18,053
+
+
+  XVII      Earnings/ (loss) per equity share (face value of" 1 each) (")*
+            (i) Basic                                                                                                                (2.96)                   (3.34)                (5.04)              (16.87)
+            (ii) Diluted                                                                                                             (2.96)                                         (5.04)              (16.87)
+                                                                                                                                                        ,--:;-.::(~~
+r ,..,. (\\ ,.NDio1,                                                                                                                                ,;
+                                                                                                                                                     ;,,✓ ;1      TA ~
+•. ;_:yr               ".<o'
+  , PSi          ot annual' ;}• or the quarter ended June 30, 2026, March 31, 2026 and June 30,2025.
+
+                              :-1
+                                                                                                                                                 t~
+            1
+     DE~ • :\I.U                                                                                                                                                            0
+                                                                                                                                                  ~
+9~                          .f                                                                                                                    if)
+-~              ,'\If'
+  . 0 AC ':fJ')'",-,;'
+                                                                                                                                                    *- .:.~--,:.:::.
+                                                                                  Swiggy Limited                                                                              0 Swiggy
+                                                                      Notes to the consolidated financial results
+
+
+
+1 The above consolidated results were reviewed and recommended by the Audit Committee and approved by the Board of Directors at their meeting held on July 30, 2026. The
+  Statutory Auditors have conducted a limited review of these unaudited consolidated financial results and issued an unmodified review report thereon.
+2 These consolidated financial results have been prepared in accordance with Indian Accounting Standards ('Ind AS') prescribed under Section 133 of the Companies Act, 2013, along
+  with the relevant rules issued thereunder and other accounting principles generally accepted in India and in terms of Regulation 33 of the SEBI (Listing Obligations and Disclosure
+  Requirements) Regulations, 2015, as amended ('Listing Regulations").
+3 Exceptional items includes:
+                                                                                                                                                                                      (if Crore)
+                                                                                                                                      Quarter ended                             Year ended
+                                                                                                                Jun 30, 2026           Mar 31, 2026        Jun 30, 2025         Mar 31, 2026
+     Particulars
+                                                                                                                                         Audited
+                                                                                                                    Unaudited                               Unaudited            Audited
+                                                                                                                                      (Refer note 11)
+     Statutory impact of new Labour Code 1'1                                                                                                                              -                  10
+     Total                                                                                                                      -                                                            10
+
+  (i) Pertains to the one-time impact arising from the implementation of the New Labour Codes, effective November 21, 2025. Based on actuarial valuation, the Company had
+  recognised the incremental employee benefit liability arising primarily due to the change in wage definition as an exceptional item, considering the non-recurring nature of the
+  impact.
+4 Segment information
+  Operating segments are defined as components of an enterprise for which discrete financial information is available that is evaluated regularly by the Chief Operating Decision
+  Maker ("CODM"), in deciding how to allocate resources and in assessing performance. The Group's chief operating decision maker is the Managing Director and Chief Executive
+  Officer.
+  The operating segments comprises of:
+
+  (i) Food delivery: offer on-demand food delivery services through a network of restaurant partners and delivery partners, which is available through mobile application and/ or
+  website.
+  (ii) Out-of-home consumption: offers restaurant dining solutions (that we provide through DineOut) and access to curated outdoor events through Scenes.
+  (iii) Quick commerce: offer on-demand grocery and a growing array of household items to users through lnstamart.
+  (iv) Supply chain and distribution : offer comprehensive supply chain services to wholesalers, retailers, and fast-moving consumer goods ("FMCG") brands, leveraging our
+  warehousing capabilities. We streamline the value-chain and ensure reliable, fast, and cost-effective order fulfilment for wholesalers, retailers and FMCG companies.
+  (v) Platform Innovations: consists of set of incubators for new service offerings to create more frequent and meaningful touchpoints for our users, this segment includes business
+  verticals such as Swiggy-Minis, Swiggy Sports, Snacc, Taing, Crew etc.
+
+  Summary of segment information as below:
+                                                                                                                                                                                     (if Crore)
+                                                                                                                                      Quarter ended                             Year ended
+                                                                                                               Jun 30, 2026            Mar 31, 2026        Jun 30, 2025         Mar 31, 2026
+    Particulars
+                                                                                                                                         Audited
+                                                                                                                Unaudited                                   Unaudited             Audited
+                                                                                                                                      (Refer note 11)
+     a. Revenue from operations (total segment revenue)
+             Food Delivery                                                                                                2,208                 2,075              1,800                 7,839
+             Out of home consumption                                                                                        126                    107                  77                  375
+             Quick-commerce                                                                                               1,232                 1,057                806                 3,859
+             Supply chain and distribution                                                                                3,195                 3,135              2,259               10,935
+             Platform Innovations                                                                                               51                  11                  20                   52
+                                                                                                                          6,812                 6,385              4,962               23,060
+     b. Less: revenue from operations (inter-segment)
+             Food Delivery                                                                                                                           (2)                (1)                   (7)
+                                                                                                                                .                    (2)                (1)                   (7)
+     c. Revenue from operations (a-b)
+             Food Delivery                                                                                                2,208                 2,073              1,799                 7,832
+             Out of home consumption                                                                                        126                    107                  77                  375
+             Quick-commerce                                                                                               1,232                 1,057                806                 3,859
+             Supply chain and distribution                                                                                3,195                 3,135              2,259               10,935
+             Platform Innovations                                                                                            51                     11                  20                   52
+                                                                                                                          6,812                 6,383              4,961               23,053
+     Segment results
+             Food Delivery                                                                                                  299                    306               202                 1,041
+             Out of home consumption                                                                                         14                     10                    5                  29
+             UU1t~-tllh1h1~rt~                                                                                             lb~l)                 (/.:lb)            (/~/)              (.:!,Ub.:!)
+             Supply chain and distribution                                                                                      (8)                 (4)              (47)                   (77)
+             Platform Innovations                                                                                          (131)                   (58)              (52)                (195)
+                                                                                                                           (477)                 (482)              (689)              (2,265)
+             Add: Other income                                                                                              211                    266                  87                  508
+             Less: Share based payment expense                                                                             (173)                 (215)              (265)                (966)
+             Less: Finance costs                                                                                            (53)                   (56)              (41)                (200)
+             Less: Depreciation and amortisation expense                                                                   (298)                 (312)              (288)              (1,217)
+             Less: Exceptional items                                                                                                                                 -                      (10)
+             Less: Share of loss of an associate                                                                                (1)                 (1)                 (1)                  (4)
+    I n~~ hPfnrp t~x                   ~;~:>:,,,,.                     ~                                                  (1q1)                  (Rnn)            (1, 1q7)             (A.H4)
+
+                                                                    1/~7
+                          (~
+                                 ,,;               C'o                                    tn
+                                                     .,
+                                   BE G LU                I
+                                                                                        7)
+                                                     :0
+                                                     *              ~                      0                                                               ~
+
+                           ~,-\0~ ~                'I
+                                 'Vl?f'n                                   ~~
+  5 During the quarter ended June 30, 2026, the Swiggy Employee Stock Option Trust ("Trust") has transferred 1,39,47,019 equity shares of"( 1 each pursuant to the exercise of stock
+    options by employees under various Employee Stock Option Schemes.
+  6 During the year ended March 31, 2026, the Company incorporated Swiggy lnstamart Private Limited as a wholly owned subsidiary of Swiggy Networks Limited (formerly known as
+    Swiggy Networks Private Limited and Scootsy Logistics Private Limited), a step-down subsidiary of the Company, to facilitate the transfer of the Company's lnstamart business by
+    way of a slump sale on a going-concern basis. The transfer became effective on April 1, 2026.
+ 7 During the quarter ended December 31, 2025, the Company completed the sale of its entire investment in Roppen Transportation Services Private Limited (Rapido) for a
+    consideration of"( 2,399 crore, pursuant to requisite Board and shareholder approvals. A gain of"( 1,350 crore was recognised in Other Comprehensive Income.
+ 8 During the year ended March 31, 2026, the Company allotted 26,66,66,663 equity shares of face value"( 1 each to eligible Qualified Institutional Buyers (QIB) at an issue price of"(
+    375 per equity share (including premium of"( 374 per equity share) aggregating to "( 10,000 crore pursuant to Qualified Institutions Placement (QIP) in accordance with the
+    provisions of Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations (the "SEBI ICDR Regulations").
+ 9 During the year ended March 31, 2026, the Group received"( 31 crore under its Employee Dishonesty Insurance Policy (Crime policy), against a claim of"( 33 crore, in respect of
+    an embezzlement incident reported during the financial year ended March 31, 2024. The amount received has been recognised as Other Income in the Statement of
+    Consolidated Financial Results.
+10 During the quarter ended June 30, 2026, Mr. Lakshmi Nandan Reddy Obul (DIN: 06686145), Whole-Time Director - Head of Innovation, and Mr. Roger Clark Rabalais (DIN:
+   07304038), Nominee Director, resigned with effect from April 10, 2026. Mr. Renan De Castro Alves Pinto (DIN: 03118947) was appointed as a Non-Executive, Non-Independent
+    Nominee Director with effect from April 11, 2026.
+    Further, the shareholder resolutions for alteration of the Articles of Association did not receive the requisite majority. Accordingly, the proposed appointments of Mr. Rahul
+    Bothra (DIN: 08189873) and Mr. Phani Kishan Addepalli (DIN: 10074650) as Additional Directors, proposed to be effective June 1, 2026, did not take effect.
+   Subsequent to the quarter ended June 30, 2026, Mr. Amitesh Kumar Jha resigned as the Chief Executive Officer - lnstamart and accordingly ceased to bea Senior Management
+   Personnel of the Company with effect from July 28, 2026.
+11 The figures for the quarter ended March 31, 2026, represent the difference between the audited annual consolidated financial results for the year ended March 31, 2026 and the
+   unaudited year-to-date consolidated financial results upto December 31, 2025.
+12 Amounts which are less than half a crore are appearing as "0".
+13 The consolidated financial results for the quarter ended June 30, 2026 are also being made available on the Stock Exchange websites www.bseindia.com and www.nseindia.com
+   and on the Company's website: www.swiggy.com.
+
+
+
+
+                                                                           Swiggy Limited
+
+
+
+
+                                                                           Sriharsha Majety
+Location: Bengaluru                                                        Managing Director & Group Chief Executive Officer
+Date: July 30, 2026                                                        DIN: 06680073
+                    Walker Chandiok &_Co LLP
+
+
+
+
+                                                                                                                                 Walker Chandiok & Co LLP
+                                                                                                                                 5th Floor, No.65/2, Block "A",
+                                                                                                                                 Bagmane Tridib, Bagmane
+                                                                                                                                 Tech Park, CV Raman Nagar,
+                                                                                                                                 Bengaluru 560093
+                                                                                                                                 T +91 80 4243 0700
+                                                                                                                                 F +91804126 1228
+
+
+
+     Independent Auditor's Review Report on the Standalone Unaudited Quarterly Financial Results of the Company pursuant
+     to the Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (as amended)
+
+
+     To the Board of Directors of Swiggy Limited
+
+
+1.   We have reviewed the accompanying statement of the standalone unaudited financial results ('the Statement') of Swiggy Limited
+     ('the Company') which includes the Swiggy Employee Stock Option Trust ('the Trust') for the quarter ended 30 June 2026 being
+     submitted by the Company pursuant to the requirements of Regulation 33 of the SEBI (Listing Obligations and Disclosure
+     Requirements) Regulations, 2015 (as amended) ('Listing Regulations').
+
+
+2.   The Statement, which is the responsibility of the Company's management and approved by the Company's Board of Directors,
+     has been prepared in accordance with the recognition and measurement principles laid down in Indian Accounting Standard 34,
+     Interim Financial Reporting ('Ind AS 34'), prescribed under Section 133 of the Companies Act, 2013 ('the Act'), and other
+     accounting principles generally accepted in India and is in compliance with the presentation and disclosure requirements of
+     Regulation 33 of the Listing Regulations. Our responsibility is to express a conclusion on the Statement based on our review.
+
+
+3.   We conducted our review of the Statement in accordance with the Standard on Review Engagements (SRE) 2410, Review of
+     Interim Financial Information Performed by the Independent Auditor of the Entity, issued by the Institute of Chartered Accountants
+     of India. A review of interim financial information consists of making inquiries, primarily of persons responsible for financial and
+     accounting matters, and applying analytical and other review procedures. A review is substantially less in scope than an audit
+     conducted in accordance with the Standards on Auditing specified under Section 143(10) of the Act, and consequently, does not
+     enable us to obtain assurance that we would become aware of all significant matters that might be identified in an audit.
+     Accordingly, we do not express an audit opinion.
+
+
+4.   Based on our review conducted as above, nothing has come to our attention that causes us to believe that the accompanying
+     Statement, prepared in accordance with the recognition and measurement principles laid down in Ind AS 34, prescribed under
+     Section 133 of the Act, and other accounting principles generally accepted in India, has not disclosed the information required to
+     be disclosed in accordance with the requirements of Regulation 33 of the Listing Regulations, including the manner in which it is
+     to be disclosed, or that it contains any material misstatement.
+
+
+
+
+             Chartered Accountants                                                                                               Walker Chandlok & Co LLP is registered
+                                                                                                                                 with limited liability with identification
+             Offices in Bengaluru, Chandigarh, Chennai, Gurugram, Hyderabad, Kochi, Kolkata, Mumbai, New Delhi, Noida and Pune   number AA C-2085 and its registered office
+                                                                                                                                 at L-41 Connaught Circus, New Delhi,
+                                                                                                                                 110001, India
+     Walker Chandiok &..Co LLP
+5.   The review of the standalone unaudited quarterly financial results for the quarter ended 30 June 2025 included in the Statement
+     was carried out and reported by BSR & Co. LLP who had expressed an unmodified conclusion vide their review report dated
+     31 July 2025 whose report has been furnished to us and which has been relied upon by us for the purpose of our review of the
+     Statement. Our conclusion is not modified in respect of this matter.
+
+
+
+
+     Bengaluru
+     30 July 2026
+
+
+
+
+     Chartered Accountants
+                                                                                         Swiggy Limited
+                                                                                                                                                                            0 Swlggy
+                                                                                 CIN: L74110KA2013PLC096530
+       Registered office: Survey No.14, No. 158, 3rd - 6th Floor, Tower 1, Sumodhuro Capitol Towers, Pattanduru Agroharo Village, K.R.Purom Hobli, Bangalore East Taluk, Bengaluru -
+                                                                                    560066, Karnataka, Indio
+                                                             Tel: 080-68422422 / Email ID: ir@swiggy.in / Web site: www.swiggy.com
+
+
+                                                          Statement of standalone financial results for the quarter ended June 30, 2026
+                                                                                                                                                                                        (f Crore)
+                                                                                                                                      Quarter ended                              Year ended
+                                                                                                               June 30, 2026           Mar 31, 2026         Jun 30, 2025         Mar 31, 2026
+SI.No. Particulars
+                                                                                                                                         Audited
+                                                                                                                Unaudited                                    Unaudited             Audited
+                                                                                                                                      (Refer note 13}
+          Continuing operations
+
+   I      Income
+             Revenue from operations                                                                                    2,462                   2,194               1,889                    8,258
+             Other income                                                                                                 367                     301                 121                      629
+          Total income                                                                                                  2,829                   2,495               2,010                  8,887
+
+
+  II      Expenses
+             Cost of materials consumed                                                                                                             11                   13                     45
+             Employee benefits expense                                                                                      410                    452                491                    1,882
+             Finance costs                                                                                                    5                         6                   4                   21
+             Depreciation and amortisation expense                                                                           92                      73                  24                    142
+             Other expenses
+               Advertising and sales promotion                                                                            593                     458                 412                    1,757
+                Delivery and related charges                                                                            1,146                   1,029                 876                    3,843
+               Others                                                                                                     233                     187                 185                      761
+         Total expenses                                                                                                 2,479                   2,216               2,005                 8,451
+
+
+ Ill     Profit before exceptional items and tax (1-11)                                                                     350                    279                      5                 436
+
+
+ IV      Exceptional items (Refer note 3)                                                                                                           (13)                                       (20)
+
+ V       Profit from continuing operations before tax (lll+IV)                                                              350                    266                      5                 416
+
+
+ VI      Tax expense
+            (i) Current tax
+            (ii) Deferred tax
+         Total tax expense from continuing operations (i+ii)
+
+
+ VII     Profit for the period/ year from continuing operations (V - VI)                                                    350                    266                     5                  416
+
+VIII     Loss from discontinued operations before tax (Refer note 6)                                                                               (918)             (996)                (3,835)
+
+ IX      Tax expense of discontinued operations
+
+ X       Loss for the period/ year from discontinued operations (VIII - IX)                                                                      (918)               (996)               (3,835)
+
+ XI      Profit/(loss) for the period/year (VII+ X)                                                                         350                  (652)               (991)               (3,419)
+
+XII      Other comprehensive income/ (loss), net of tax
+
+         Items that will not be reclassified subsequently to profit or loss:
+            - Changes in fair value of equity instruments carried at fair value through other                                                                                             1,350
+            comprehensive income ("FVTOCI") (Refer note 9)
+            - Re-measurement gain/(loss) on defined benefit plans                                                               (O)                  (0)                   (2)                  (4)
+
+         Other comprehensive income/(loss) for the period/ year                                                                 (O)                  (0)                   (2)            1,346
+
+XIII     Total comprehensive income/(loss) for the period/ year, net of tax (XI + XII)                                   350                     (652)               (993)               (2,073)
+
+XIV      Paid-up share capital (face value of" 1 per share)                                                                 262                    261                230                     261
+
+XV       Other equity                                                                                                                                                                    20,578
+XVI      Earnings/(loss) per equity share (face value of" 1 each)(")*
+
+         ~or continuing operations
+         (i) Basic                                                                                                       1.31                    1.00                0.02                    1.69
+         (ii) Diluted                                                                                                    1.31                    1.00                0.02                    1.68
+         For discontinued operations
+         (i) Basic                                                                                                          -                   (3.45)              (4.20)               (15.57)
+         (ii) Diluted                                                                                                                           (3.44)              (4.20)               (15.52)
+         For continuing and discontinued operations
+         (i) Basic                                                                                                       1.31                   (2.45)              (4.18)               (13.88)
+         (ii) Diluted
+                                                                                                ---                      1.31                   (2.44)              (4.18)               (13.84)
+                                                                                     Swiggy Limited
+                                                                        Notes to the standalone financial results
+                                                                                                                                                                D Swiggy
+  1 The above standalone results were reviewed and recommended by the Audit Committee and approved by the Board of Directors at their meeting held on July 30, 2026. The
+    Statutory Auditors have conducted a limited review of these unaudited standalone financial results and issued an unmodified review report thereon.
+  2 These standalone financial results have been prepared in accordance with Indian Accounting Standards ('Ind AS') prescribed under Section 133 of the Companies Act, 2013 along
+    with the relevant rules issued thereunder and other accounting principles generally accepted in India and in terms of Regulation 33 of the SEBI (Listing Obligations and Disclosure
+    Requirements) Regulations, 2015, as amended ("Listing Regulations").
+  3 Exceptional items includes:
+                                                                                                                                                                             (~ Crore)
+                                                                                                                            Quarter ended                             Year ended
+     Particulars
+                                                                                                        June 30 2026         Mar 31 2026           June 30, 2025      Mar 31 2026
+                                                                                                                                Audited
+                                                                                                         Unaudited                                  Unaudited           Audited
+                                                                                                                            (Refer note 13)
+     Impairment on investments 1'1                                                                                                            13                                    13
+     Statute im act of new Labour Codes 1"1                                                                                                                                         7
+     Total                                                                                                                                    13                                    20
+
+     (i) Pertains to impairment of investment in associate reflecting the Company's share of accumulated losses since acquisition.
+
+     (ii) Pertains to the one-time impact arising from the implementation of the New Labour Codes, effective November 21, 2025. Based on actuarial valuation, the Company had
+     recognised the incremental employee benefit liability arising primarily due to the change in wage definition as an exceptional item, considering the non-recurring nature of the
+     impact.
+
+  4 The Company publishes these financial results along with the consolidated financial results. In accordance with Ind AS 108, 'Operating Segments', the Company has disclosed the
+    segment information in the consolidated financial results.
+
+  5 During the quarter ended June 30, 2026, the Swiggy Employee Stock Option Trust ("Trust") has transferred 1,39,47,019 equity shares of~ 1 each pursuant to the exercise of stock
+    options by employees under various Employee Stock Option Schemes.
+  6 Consequent to the Board approval on September 23, 2025, and the subsequent approval by the shareholders on November 01, 2025, the Company has presented its Quick
+    Commerce business ("lnstamart") as "Discontinued Operations" for all comparative periods in its standalone financial results in accordance with Ind AS 105, following the transfer
+    of the lnstamart business, on a going-concern basis, by way of a slump sale to Swiggy lnstamart Private Limited, a wholly owned step-down subsidiary of the Company. This
+    transfer became effective on April 01, 2026.
+
+  7 During the year ended March 31, 2026, the Company has opted for the conversion of inter-corporate deposits (ICDs) aggregating to ~ 1,130 Crore given to its wholly-owned
+    subsidiary, Supr lnfotech Solutions Limited (formerly known as Supr lnfotech Solutions Private Limited) ("Supr"), into 0.001% Compulsorily Convertible Debentures (CCDs),
+    resulting in full settlement of the ICDs, with no financial impact in the Standalone Statement of Profit and Loss.
+
+ 8 During the quarter ended June 30, 2026, the Company acquired certain Property, Plant and Equipment from its wholly-owned subsidiary, "Swiggy Networks Limited" (formerly
+   known as Swiggy Networks Private Limited, Scootsy Logistics Private Limited), for~ 49 Crore (March 31, 2026: ~ 818 Crore) at book value, being fair value, to align asset ownership
+   within the Group.
+
+ 9 During the quarter ended December 31, 2025, the Company completed the sale of its entire investment in Roppen Transportation Services Private Limited (Rapido) for a
+   consideration of~ 2,399 Crore, pursuant to requisite Board and shareholder approvals. Accordingly, a gain of~ 1,350 Crore was recognised in Other Comprehensive Income.
+
+ 10 During the year ended March 31, 2026, the Company allotted 26,66,66,663 equity shares of face value~ 1 each to eligible Qualified Institutional Buyers (QIB) at an issue price of
+    ~ 375 per equity share (including premium of~ 374 per equity share) aggregating to ~ 10,000 Crore pursuant to Qualified Institutions Placement (QIP) in accordance with the
+    provisions of Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations (the "SEBI ICDR Regulations").
+
+ 11 During the quarter ended June 30, 2026, Mr. Lakshmi Nandan Reddy Obul (DIN: 06686145), Whole-Time Director - Head of Innovation, and Mr. Roger Clark Rabalais (DIN:
+    07304038), Nominee Director, resigned with effect from April 10, 2026. Mr. Renan De Castro Alves Pinto (DIN: 03118947) was appointed as a Non-Executive, Non-Independent
+    Nominee Director with effect from April 11, 2026.
+
+    Further, the shareholder resolutions for alteration of the Articles of Association did not receive the requisite majority. Accordingly, the proposed appointments of Mr. Rahul
+    Bothra (DIN: 08189873) and Mr. Phani Kishan Addepalli (DIN: 10074650) as Additional Directors, proposed to be effective June 1, 2026, did not take effect.
+
+    Subsequent to the quarter ended June 30, 2026, Mr. Amitesh Kumar Jha resigned as the Chief Executive Officer - lnstamart and accordingly ceased to be a Senior Management
+    Personnel of the Company with effect from July 28, 2026.
+
+12 Amounts which are less than half a crore are appearing as "0".
+
+13 The figures for the quarter ended March 31, 2026, represent the differences between the audited annual financial results for the year ended March 31, 2026 and the unaudited
+   year-to-date results up to December 31, 2025.
+14 The standalone financial results for the quarter ended June 30, 2026 are also being made available on the Stock Exchange websites www.bseindia.com and www.nseindia.com
+   and on the Company's website: www.swiggy.com.
+
+
+
+
+                                                                                                                        for and on behalf of the
+                                                                                                                         Swiggy Limited
+
+
+
+
+                                                                                                                         Sriharsha Majety
+Location: Bengaluru                                                                                                      Managing Director & Group Chief Executive Officer
+Date: July 30, 2026                                                                                                      DIN: 06680073
+

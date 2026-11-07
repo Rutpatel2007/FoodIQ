@@ -1,0 +1,7 @@
+Note: GOV per day, per store is calculated as a simple average of total GOV transacted per day divided by total number of stores
+operational for the day, for that period.
+
+
+
+
+                                                                                                                                   10

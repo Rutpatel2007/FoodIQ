@@ -1,0 +1,30 @@
+Deloitte
+Haskins & Sells
+
+
+         Annexure 1
+
+          S. No.   Name of the Entity                                   Relationship
+          1        Eternal Limited (Formerly Known as Zomato Limited)   Parent
+          2        Zomato Middle East FZ- LLC                           Subsidiary
+          3        TongueStun Food Network Private Limited              Subsidiary
+          4        Zomato Philippines Inc.                              Subsidiary
+          5        Zomato Enterta inment Private Limited                Subsidiary
+          6        Gastronauci SP Z.O.O.                                Subsidiary
+          7        Zomato Local Services Private Limited                Subsidiary
+          8        Zomato Inc.                                          Subsidiary
+          9        Delivery 21 Inc.                                     Subsidiary
+          10       Zomato Ireland Li m ited                             Subsidiary
+          11       Zomato Foods Private Limited                         Subsidiary
+          12       Carthero Technologies Private Limited                Subsidiary
+          13       Zomato Payment Private Limited                       Subsidiary
+          14       Eternal Technology Solutions Li mited (formerly      Subsidiary
+                   known as Zomato Financial Services Limited)
+          15       Blink Commerce Private Limited                       Subsidiary
+          16       Zomato Hyperpure Private Li mited                    Subsidiary
+          17       Orbgen Technologies Private Limited                  Subsidiary
+          18       Wasteland Entertainment Private Limited              Subsidiary
+          19       Blinkit Foods Limited                                Subsidiary
+          20       Eternal General Service Foundation                   Subsid iary (w.e.f.
+                                                                        December 18 2025)
+          21       Foodie Bay Employees ESOP Trust                      Trust

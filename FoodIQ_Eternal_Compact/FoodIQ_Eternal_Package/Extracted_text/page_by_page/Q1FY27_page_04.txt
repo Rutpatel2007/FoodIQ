@@ -1,0 +1,53 @@
+In the letter below, we address the key questions that we think investors might have.
+Please refer to Annexure A for the key financial and operating metrics data.
+
+
+
+
+Q1. How was the business performance in Q1FY27?
+Akshant: Key takeaways from Q1FY27 business performance are as follows -
+
+At a consolidated level, B2C NOV grew 54% YoY to INR 31,120 crore. ​
+
+Adjusted Revenue grew 173% YoY (17% QoQ) to INR 20,648 crore. Note: like-for-like growth was 66% YoY -
+the difference reflects the business model shift to inventory ownership in quick commerce.
+
+Consolidated Adjusted EBITDA grew 223% YoY (29% QoQ) to INR 555 crore.
+
+Food delivery (Zomato) - NOV growth reached 20%+ YoY (INR 10,769 crore), after four consecutive quarters
+of acceleration. GOV YoY growth was a few percentage points higher (sunsetting this metric disclosure
+from this quarter onwards as NOV more accurately reflects underlying performance). Adjusted EBITDA
+margin improved to 5.6% of NOV, resulting in INR 606 crore of profit (34% YoY growth).
+
+Quick commerce (Blinkit) - NOV grew 86% YoY to INR 17,132 crore with QoQ growth at 19%. 200 net new
+stores were added, taking the total count to 2,443. Adjusted EBITDA improved for the fifth consecutive
+quarter to 0.6% of NOV, resulting in INR 102 crore profit (as compared to INR 162 crore loss last year).
+
+Going-out (District) - NOV growth accelerated to 60% YoY (18% QoQ) to INR 3,218 crore. Adjusted EBITDA
+margin improved to -2.0% of NOV from -2.7% last year resulting in a loss of INR 65 crore.
+
+Hyperpure - Revenue grew 27% YoY (LFL) and 6% QoQ to INR 1,034 crore. Adjusted EBITDA margin
+improved to 0.6% from -0.8% last year, resulting in INR 6 crore profit (as compared to INR 18 crore loss last
+year).
+
+Others (Bistro, Nugget) - Adjusted Revenue grew to INR 95 crore as compared to INR 4 crore last year.
+Adjusted EBITDA losses increased from INR 45 crore to INR 94 crore, reflecting incremental investments
+as we scale both initiatives.
+
+
+
+
+Q2. Adjusted EBITDA margins in food delivery are approaching the upper end of
+your steady state guidance of 5-6% of NOV. And at the same time NOV growth
+continues to accelerate. At what point does the business start trading margin
+for growth, or does it not have to?
+Deepinder: We don't think about it as a trade-off. If we're doing our job well, growth and margins should
+compound together - because growth in this business comes from making the platform more useful to
+more people, which drives frequency, which drives density, which drives efficiency. The flywheel doesn't
+ask you to choose.
+
+If there comes a point where we have to spend margin to grow, we will - without hesitation. We have always
+prioritised long-term market expansion over short-term margin. But right now, we don’t need to make any
+trade-off. The business is growing because it's getting better, not because we're buying growth. And when
+growth comes from the product getting better, margins tend to take care of themselves.
+                                                                                                         3

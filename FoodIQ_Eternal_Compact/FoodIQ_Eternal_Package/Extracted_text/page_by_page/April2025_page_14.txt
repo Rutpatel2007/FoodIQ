@@ -1,0 +1,74 @@
+What makes quick commerce possible?
+
+
+#1 Supply chain design                                                                                              #2 End-to-end proprietary technology
+
+
+
+
+                                                                                                                          Replenishment design - Assimilate
+
+                                                                                                                          purchase patterns to optimize product
+                                                                                                                     R
+Marketplace                                                                                                               stocking quantities and replenishment
+                                                                    Warehouse
+
+                                                                                                                          cycles in stores
+                                                                    (self leased)
+
+
+                                                                           R
+                                                                                                                          Store tech - Products packed in under
+
+                                                                                                                     S    two minutes through smart pick-path
+                      2
+                         .
+                             O
+                    n         rd                                                                                          optimization in dark stores
+                     e             e
+ 1. Order             a              r
+                             re          a
+                               s           s                       4. Inventory             Sellers & Brands
+
+ placed                          t          s
+                                     d        ig
+                                       a          n
+                                         rk        e          replenishment in dark                                       Location intelligence - Optimizing store
+                                                     d                                      own the inventory 
+
+                                              s          to                                                          L
+                                                to            stores multiple times
+                                                   re                                      stored in warehouses 
+         locations for shortest delivery times
+
+                                                                         daily                and dark stores
+
+
+                                                                                                                          Assortment science - Neighbourhood
+
+                                                                                                                          level data on product searches and
+                                                                                                                     A
+                                                                                                                          purchase patterns drives relevance and
+
+                                                                                                                          localization of assortment in dark stores
+     Order
+
+
+
+
+                    3. Last mile delivery 
+
+
+                  (<3 kms distance enabling
+                                                                                                                          Ad-tech - Self-serve platform for
+Customer                                                            Dark store
+                   delivery in 10 minutes)
+                                                                                                                    Ad    brands to access demand patterns to
+                                                              (self leased + franchised)
+ A           Ad
+                                                                                                                          enable highly targeted advertising
+                                                                     R     S     L
+
+
+
+                                                                                                                                                                   13

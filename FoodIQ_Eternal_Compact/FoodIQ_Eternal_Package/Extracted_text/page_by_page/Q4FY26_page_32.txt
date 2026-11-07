@@ -1,0 +1,67 @@
+Eternal Limited (Formerly known as Zomato Limited)
+Consolidated Balance Sheet
+                                                                                                                               (INR crore)
+                                                                                                      As at                  As at
+Particulars                                                                                       March 31, 2026         March 31, 2025
+                                                                                                     Audited                Audited
+Assets
+Non-current assets
+Property, plant and equipment                                                                                  2,033                   965
+Capital work-in-progress                                                                                         136                    51
+Right-of-use assets                                                                                            4,294                 1,918
+Goodwill                                                                                                       5,737                 5,737
+Other intangible assets                                                                                          61 1                  912
+Financial assets
+  - Investments                                                                                                9,742                10,920
+  - Other financial assets                                                                                     1,606                 2,744
+Tax assets (net)                                                                                                 202                   129
+Defe1Ted tax assets (net)                                                                                         14                      -
+Other non-cu1Tent assets                                                                                         661                   546
+Total non-current assets                                                                                      25,036                23,922
+
+Current assets
+Inventories                                                                                                    2,18 1                   176
+Financial assets
+  - Investments                                                                                                5,091                  2,272
+  - Trade receivables                                                                                          1,764                  1,946
+  - Cash and cash equivalents                                                                                    996                     666
+  - Bank balances other than cash and cash equivalents                                                           527                  2,948
+  - Other financial assets                                                                                     3,537                  2,769
+Other current assets                                                                                           1,604                     924
+Total current assets                                                                                          15,700                 11 ,701
+
+Total assets                                                                                                  40,736                35,623
+
+Equity and liabilities
+
+Equity
+Equity share capital                                                                                             919                   907
+Other equity                                                                                                  30,061                29,4 10
+Equity attributable to owners of the Parent                                                                   30,980                30,317
+Non-controlling interests                                                                                         (7)                   (7)
+Total equity                                                                                                  30 973                30,3 10
+
+Liabilities
+Non-current liabilities
+Financial liabilities
+  - Lease liabilities                                                                                          3,833                  1,654
+  - Other financial liabilities                                                                                      -                       I
+Provisions                                                                                                       156                    120
+Defe1Ted tax liabilities (net)                                                                                   I02                    212
+Total non-current liabilities                                                                                  4,091                  1,987
+
+Current liabilities
+Financial liabilities
+  - Lease liabilities                                                                                              759                  39 1
+  - Trade payables
+      a. total outstanding dues of micro enterprises and small enterprises                                       232                      75
+      b. total outstanding dues of creditors other than micro enterprises and small enterprises                2,778                   1,46 1
+  - Other financial liabilities                                                                                1,105                     913
+Other current liabilities                                                                                        744                     452
+Provisions                                                                                                        39                      34
+Current tax liabilities (net)                                                                                     15                          -
+Total current liabilities                                                                                      5,672                  3,326
+
+ Total liabilities                                                                                              9 763                 5,313
+
+ Total equity and liabilities                                                                                 40,736                 35,623

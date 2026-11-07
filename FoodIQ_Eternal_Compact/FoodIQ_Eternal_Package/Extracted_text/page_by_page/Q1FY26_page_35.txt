@@ -1,0 +1,62 @@
+                                                       Eternal Limited (Formerly known as Zomato Limited)
+                                                                        CIN: L93030DL2010PLC198141
+                                         Registered office- Ground Floor, 12A, 94 Meghdoot, Nehru Place, New Delhi- 110019, Delhi, India
+                                          Telephone- 011-40592373, Email- companysecretary@etemal.com, Website- www.etemal.com
+
+                                              Statement of standalone unaudited financial results for the quarter ended June 30, 2025
+                                                                                                                                                              (INR crores)
+                                                                                                               Quarter ended                               Year ended
+                                                                                            June 30,            March 31,                June 30,          March 31,
+S.No. Particulars                                                                            2025                  2025                    2024               2025
+                                                                                           Unaudited            Unaudited               Unaudited           Audited
+                                                                                                              (Refer Note 10)
+     I     Revenue from operations                                                                   2,413                2,192                 2,048               8,617
+    II     Other income                                                                                405                  401                   279               1,260
+    Ill    Total income (l+11)                                                                       2,818                2,593                 2,327               9,877
+
+    IV     Expenses
+           Employee benefits expense                                                                   351                  340                     282              1,266
+           Finance costs                                                                                 6                    4                       4                 16
+           Depreciation and amortisation expenses                                                       42                   29                      19                 97
+           Other expenses
+               Advertisement and sales promotion                                                       423                  389                   340               1,427
+               Delivery and related charges                                                          1,042                  924                   960               3,788
+               Others                                                                                  273                  250                   249               1,082
+           Total expenses                                                                            2,137                1,936                 1,854               7,676
+
+     V     Profit before exceptional items and tax (III-IV)                                            681                  657                     473             2,201
+
+    VI     Exceptional items (refer note 3)                                                               -                   8                       3                11
+
+    VII    Profit before tax (V-VI)                                                                    681                  649                     470             2,190
+
+    VIII   Tax expense:
+           Current tax                                                                                  79                   74                       0               230
+           Deferred tax                                                                                                        -                       -                 -
+    IX     Profit for the period/ year (VII-VIII)                                                      602                  575                     470             1,960
+
+     X     Other comprehensive income/ (loss)
+           (i) Items that will not be reclassified to profit or loss
+               - Remeasurements of the defined benefit plans                                              0                  (5)                     (1)               (6)
+               - Equity instruments through other comprehensive income                                  (3)                   36                     14                 77
+               - Income tax relating to above                                                             0                 (30)                       -              (30)
+
+           (ii) Items that will be reclassified to profit or loss
+               - Exchange differences on translation of foreign operations                                0                  (0)                      0                  1
+               - Debt instruments through other comprehensive income                                    100                   58                     (1)               112
+               - Income tax relating to above                                                          (25)                 (19)                       -              (23)
+
+           Total Other comprehensive income for the period/ year                                        72                   40                      12               131
+
+    XI     Total comprehensive income for the period/ year (IX+X)                                      674                  615                     482             2,091
+
+    XII    Paid-up share capital (face value of INR 1 per share)                                       908                  907                     870               907
+
+    XIII   Other equity                                                                                                                                            33,208
+
+    XIV Earnings per equity share (INR) 1 (face value of INR l each)
+          (a) Basic                                                                                    0.66                0.63                     0.54              2.22
+          (b) Diluted                                                                                  0.64                0.61                     0.52              2.15
+
+1
+    EPS is not annualised.for the quarter ended June 30, 2025, March 31, 2025 and June 30, 2024.

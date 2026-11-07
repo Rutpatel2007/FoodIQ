@@ -1,0 +1,64 @@
+Eternal Limited (Formerly known as Zomato Limited)
+Standalone Balance Sheet
+                                                                                                                                (INR crorc)
+                                                                                                       As at                  As at
+Particulars                                                                                        March 31, 2026         March 31, 2025
+                                                                                                      Audited               Audited
+Assets
+Non-current assets
+Property, plant and equipment                                                                                     113                     86
+Capital work-in-progress                                                                                            1                      0
+Right-of-use assets                                                                                               388                    151
+Goodwill                                                                                                        1,209                  1,209
+Other intangible assets                                                                                            17                     25
+Financial assets
+  - investments                                                                                                24,653                24,431
+  - Loans                                                                                                       1,229                   880
+  - Other financial assets                                                                                      1,376                 2,636
+Tax assets (net)                                                                                                   21                    48
+Deferred tax assets (net)                                                                                          14                         -
+Other non-current assets                                                                                          158                     74
+Total non-current assets                                                                                       29,179                 29,540
+
+Current assets
+Financial assets
+  - lnvestments                                                                                                 3,335                  1,442
+  - Trade receivables                                                                                             142                    112
+  - Cash and cash equivalents                                                                                     706                    431
+  - Bank balances other than cash and cash equivalents                                                            448                  1,368
+  - Other financial assets                                                                                      5,360                  2,753
+Other current assets                                                                                              235                    205
+Total current assets                                                                                           10,226                  6,311
+
+Total assets                                                                                                   39,405                 35,851
+
+Equity and liabilities
+
+Equity
+Equity share capital                                                                                              919                    907
+Other equity                                                                                                   36,137                 33,208
+Total equity                                                                                                   37,056                 34,115
+
+Liabilities
+Non-current liabilities
+Financial liabilities
+  - Lease liabilities                                                                                               286                   95
+Provisions                                                                                                           70                   62
+Deferred tax liabilities (net)                                                                                        -                   47
+Total non-current liabilities                                                                                       356                  204
+
+Current liabilities
+Financial liabilities
+  - Lease liabilities                                                                                               128                   78
+  - Trade payables
+     a. total outstanding dues of micro entell)rises and small entell)rises                                         8                      7
+     b. total outstanding dues of creditors other than micro entell)rises and small entell)rises                  614                    522
+  - Other financial liabilities                                                                                   770                    609
+Other current liabilities                                                                                         441                    298
+Provisions                                                                                                         18                     18
+Current tax liabilities (net)                                                                                      14                      -
+Total current liabilities                                                                                       1,993                  1,532
+
+Total liabilities                                                                                               2,349                  1,736
+
+Total equity and liabilities                                                                                   39,405                 35,851

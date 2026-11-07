@@ -1,0 +1,1890 @@
+0
+1
+                                   Headline Results for Q4FY26
+                                      (Quarter ending March 31, 2026)
+
+
+
+
+* Sharp increase in YoY Adjusted Revenue growth mainly due to shift to 1P model in quick commerce from Q1FY26 onwards, where
+Revenue now also includes the full monetary value of goods sold (and not just the marketplace commission).
+** Like-for-like (“LFL”) consolidated Adjusted Revenue is calculated as consolidated Adjusted Revenue (-) Revenue from Hyperpure’s
+non-restaurant business (-) cost of goods sold in case of own inventory sales in quick commerce.
+Notes:
+1)​   NOV (B2C business) is defined as the combined net order value (NOV) of consumer facing businesses i.e. food delivery, quick
+      commerce and going-out. NOV (B2C business) excludes the NOV of Bistro business which is part of the ‘Others’ segment.
+2)​ Adjusted Revenue defined as consolidated revenue from operations as per financials (+) actual customer delivery charges
+    paid in the food delivery business (net of any discounts, including free delivery discounts on Zomato Gold program) (+)
+    platform fee and other charges paid on food delivery Orders that are not already included in revenue from operations.
+3)​ Adjusted EBITDA = EBITDA (+) share-based payment expense (-) rental paid for the period pertaining to ‘Ind AS 116 leases’.
+                                                                                                                                     2
+                                  Letter from the Founder
+In 2008, I was collecting restaurant menus on a motorbike in Delhi, scanning them, and uploading them to a
+website. I wasn't building a business. I was merely solving a problem I knew others had, in the spirit of
+service. I never intended it to become a business. Zomato, the company, was started two years later in
+2010, when I started getting advertiser interest on the website which used to get a little over 5,000 visitors
+a day. Over the years, one thing led to another.
+
+Last year (FY26), 109 million Indians completed transactions worth over $10 billion through Blinkit, District,
+and Zomato. The company I accidentally started now touches how India eats, shops, and goes out. But it
+took us 18 years to get to $10 billion (per year).
+
+How we got here matters more than the number - because it tells you where this is going.
+
+The cost of finding a large business
+
+Zomato started as a restaurant listing website. We spent nine years iterating: reviews, discovery, table
+reservations, international expansion. We didn't even start delivering food until 2017. The business that
+processes billions today didn't exist for the first nine years.
+
+Grofers started in 2014 as a delivery logistics company. It went through multiple pivots and iterations
+before becoming Blinkit in 2021, the quick commerce model that now defines a category, globally.
+
+District looks recent, but its roots go back to 2011, when we did our first ticketing for New Year's Eve
+events.
+
+The pattern is the same every time. You start with a core insight, pull ten threads around it, and if you're
+disciplined and lucky, one of them becomes a large business. The other nine aren't failures. They're the
+cost of finding the one that works.
+
+This means the financial outcomes are naturally
+backloaded. You spend years building track before
+the first train runs. Our first annual $10 billion in
+NOV took 18 years. This doubling to $20 billion
+annual NOV will take less than two years from here.
+
+Similarly, it took 16 years to reach Adjusted EBITDA
+profitability in FY24. From there, we expect to
+reach $1 billion of Adjusted EBITDA, hopefully by
+FY29. The acceleration is real because the
+foundation is already laid. The systems, the supply
+chains, the customer trust, the operational muscle.
+All of it compounds.
+
+Our moat is physical
+
+Every order on Zomato is a real-world coordination problem. A meal has to be prepared by a restaurant we
+don't control, picked up within minutes by a delivery partner navigating traffic we can't predict, and
+delivered while the food is still hot. Get any one of those wrong and the experience breaks.
+
+Blinkit takes this complexity several notches up. We run our own supply chain. 17 million square feet of
+warehousing and dark store space. Procuring, storing, and managing inventory across thousands of
+stores, then delivering in minutes. The margin for error is measured in seconds and centimetres of shelf
+space.
+
+District operates in a world where tens of thousands of people converge on a single venue for a few hours,
+and the experience depends on everything from sound engineering and crowd flow to parking, security,
+and weather.
+
+                                                                                                               3
+But here's the thing about the physical world: it doesn't always cooperate. Weather shuts down roads.
+Demand spikes without warning. Restaurants run out of ingredients mid-rush. Delivery partners get stuck.
+
+And if that complexity weren't enough, we build in India. Our systems interact with the real India - cities
+where addresses are approximate, road infrastructure is always catching up, supply chains that still run
+largely on cash and handshake relationships, a workforce that is largely informal, and a merchant
+ecosystem that is fragmented in ways that would be unrecognizable to most global tech companies. This
+isn't a complaint - it's a description of our moat. Because anyone who figures out how to build reliably in
+this environment has built something very hard to replicate.
+
+Over the last two decades, that's what we've done. We've built systems that don't just work in ideal
+conditions but hold up under real-world stress. As a result of this reliability, our platforms have become a
+part of daily life for over 100 million customers in the country. This trust extends across the ecosystem.
+Today, our platforms support livelihoods for over 1 million delivery partners, 400k+ restaurants, 100k+
+supply chain workers, and thousands of brands. As our scale grows, so does the economic value and
+impact that we create for our partners.
+
+AI is our friend, not a threat
+
+Some people wonder whether AI chat interfaces will become the new front door for commerce, shifting
+demand away from apps like ours.
+
+We've seen such a story play out before. Google spent over a decade trying to pull transactional behaviour
+into its own platform. Google Flights. Google Hotels. Google Shopping. Restaurant ordering built into
+Google Maps. They had the largest demand surface on earth, billions of searches a day, and the strongest
+distribution advantage in the history of the world. And yet Booking.com is still here. Expedia is still here.
+Amazon is still here. The vertical apps that consumers had built habits around didn't get displaced.
+
+The reason is simple. General-purpose interfaces are good for general-purpose queries. They are poor
+interfaces for complex, high-frequency, habitual transactions. Ordering food involves browsing menus,
+comparing restaurants, ratings and delivery times, substituting items and tracking orders in real time.
+
+And more fundamentally, consumer behaviour is the hardest thing in the world to change. People who
+order dinner on Zomato four times a week, or groceries on Blinkit every other day, are not going to reroute
+those habits through a chat window. The people who are excited about experimenting with ordering food
+through AI assistants are a real but early segment, and currently, nowhere close to disrupting our business.
+
+Brand associations are even harder to change than habits. When someone is hungry, they think Zomato.
+When they need groceries within minutes, they think Blinkit. When they want to go out, they think District.
+This is by design. It is why we run separate apps, and focus on creating super brands, rather than a single
+super app. Each brand owns a specific trigger in the customer's mind. That mental real estate, built over
+years of consistent delivery on a specific promise, is not something that gets dislodged easily.
+
+Also, most of our business happens in the offline realm. AI will not replace the need to move food through
+traffic. It will not stock shelves in a dark store. It will not manage crowd flow at a 50,000-person event. It
+will not build cold chain infrastructure or negotiate with suppliers in tier 2 cities. The physical world doesn't
+get disrupted by language models.
+
+Nevertheless, if something similar didn't work in the past, it doesn't mean it won't work in the future.
+Agentic commerce is similar to, and also different from, Google's attempt at owning transactions. At this
+point, we believe there is nothing to panic about. But we will keep our eyes open, without an iota of
+complacency or wishful thinking, and edit the contours of our business where needed to make it even more
+defensible in the long term.
+
+Now, what AI actually does for us.
+
+We are one of the largest deployers of AI in India. Demand prediction, route optimisation, supply-chain
+management, customer experience, fraud detection, catalogue quality, and partner support already use AI
+
+                                                                                                                4
+across our platforms. These systems are trained on billions of real interactions, where the cost of getting
+something wrong — a late delivery, a wrong order, a failed refund, an unavailable item, is immediate and
+measurable.
+
+But the more important question is not how AI helps us reduce cost. That is useful, but not enough. The
+sharper question we ask ourselves is: how does AI expand the market?
+
+In our businesses, markets expand when more people can participate — more customers, more delivery
+partners, more restaurants, more sellers, more brands, and more local businesses. AI reduces the friction
+required for each of them to participate.
+
+For customers, conversational interfaces let customers express intent in full sentences rather than
+two-word search queries, which is a far richer signal to convert against. It lowers the friction caused by
+static search and filters into intent-led discovery, especially for older users, non-native language speakers,
+first-time online buyers, and tier 2 and 3 city consumers who may struggle with app flows. Zomato’s
+Healthy Mode and Natural Language Search (NLS) are early examples of this. They could not have been
+built without AI.
+
+For delivery partners, AI will make onboarding, training, and day-to-day guidance conversational and
+personalised thereby expanding the earning opportunity to people who may otherwise struggle with app
+flows, language, documentation, or lack of confidence.
+
+For restaurant partners and sellers, AI will make high-quality business guidance available from day one —
+the kind of growth-guidance that historically our teams could provide to a limited set of partners.
+
+AI lets us serve people and businesses that were previously too hard, too small, too fragmented, or too
+operationally expensive to serve well. Operational efficiency will follow, but it is not the ambition. Our moat
+remains the physical world. AI makes that moat wider by allowing more of India to participate in it.
+
+What Eternal means
+
+It was humbling for me to name this company Eternal, because it is a name you have to earn every single
+day. Eternal is a commitment to building something that deserves to last. An institution where culture
+outlasts strategy, where systems outlast individuals, where the work of one generation creates the
+foundation for the next.
+
+Companies face multiple cycles of disruption in their lifetime. We have faced several over the last 18 years.
+But it is our ability to pivot, to disrupt ourselves, sometimes to cannibalise ourselves, with the intention to
+survive, that makes us come out at the other end as ongoing contenders.
+
+Through all such cycles, we just need to stay focused on two things: survival, and making sure the span of
+our impact increases. If we do that, we will outlast all the noise, all the incoming challenges, and come out
+as the company that focused on the real signal all along: where are our customers going.
+
+Most of our early competitors didn't make it. We stayed. Not because we were smarter, but because we
+kept going. In India, where everything takes longer than you expect, the ability to remain in the game,
+financially, emotionally, institutionally, is the single biggest competitive advantage. Resilience sounds like
+a virtue in retrospect. In the moment, it often just feels like stubbornness.
+
+In 2008, I collected menus on a motorbike because I thought it would be useful to someone. That same
+instinct still drives everything we build. The scale has changed, and what’s at stake has changed. But the
+spirit hasn't.
+
+Deepinder
+
+
+
+
+                                                                                                                 5
+In the letter below, we address the key questions that we think investors might have.
+Please refer to Annexure A for the key financial and operating metrics data.
+
+Q1. How was the business performance in Q4FY26?
+Akshant: Key takeaways from Q4FY26 business performance are as follows -
+
+Food delivery (Zomato) NOV growth at 18.8% YoY (-0.9% QoQ) continues to improve for the third quarter in a
+row, inching closer to our long-term expectation of 20%+ YoY. GOV growth was at 22.5% YoY. On the
+margin front, Adjusted EBITDA margin (as a % of NOV) improved to 5.5% this quarter with the business
+delivering an absolute Adjusted EBITDA of INR 532 crore, a YoY growth of 24%.
+
+Quick commerce (Blinkit) NOV growth remains strong at 95.4% YoY (8.2% QoQ). 216 net new stores were
+added in the quarter taking the total store count to 2,243 stores as at the end of the quarter. Adjusted
+EBITDA improved to INR 37 crore (0.3% of NOV) vis-à-vis INR 4 crore in the previous quarter.
+
+Going-out (District) NOV growth accelerated to 46.5% YoY (5.8% QoQ) while Adjusted EBITDA losses
+reduced to INR 81 crore vs INR 121 crore loss in Q3FY26. As a result, Adjusted EBITDA margin (as a % of NOV)
+improved to -3.0% from -4.7% in Q3FY26.
+
+Hyperpure’s restaurant supply Revenue growth improves to 37% YoY vs 33% in the previous quarter, with
+overall Adjusted EBITDA margin improving to 0.5% resulting in absolute Adjusted EBITDA profit of INR 5
+crore (as compared to INR 1 crore in the previous quarter).
+
+At a consolidated level, Adjusted Revenue grew 186% YoY (6% QoQ) to INR 17,680 crore, though like-for-like
+growth was 64% YoY (the difference reflects the accounting shift to inventory ownership in quick
+commerce, where revenue now includes the full value of goods sold rather than just marketplace
+commission).
+
+Consolidated Adjusted EBITDA increased 160% YoY to INR 429 crore while increasing 18% QoQ (vs INR 364
+crore in Q3FY26). B2C NOV grew 54% YoY (4% QoQ) to INR 26,880 crore.
+
+
+QUICK COMMERCE
+
+Q2. Blinkit's NOV growth, while still high, looks like it is decelerating. In your view,
+is QC TAM approaching saturation levels?
+Albinder: Between FY23 and FY26, Blinkit's NOV grew
+at 104% CAGR. Growth rates are now naturally
+moderating off a much larger base. Over the next three
+years, NOV growth CAGR should easily be north of 60%.
+That translates to the business growing to >4x its
+current scale in three years.
+
+Quick commerce today is still concentrated in the top
+15-20 cities and in a relatively narrow set of categories.
+The headroom for growth on geography, assortment,
+and frequency is substantial.
+
+Q3. What are the building blocks of 60%+ NOV CAGR from here?
+Albinder: Three things - assortment expansion, geographic coverage, and demand densification while
+improving the quality and reliability of our service. In the top eight cities, the primary growth lever is
+                                                                                                             6
+assortment (more SKUs require more stores, even in areas we already serve). In the cities beyond the top
+eight, it's all three working simultaneously - geographic rollout, assortment build-out, and the demand
+flywheel we've already seen play out in Delhi NCR.
+
+   1.​ Assortment expansion - In Delhi NCR, we now offer close to 80k SKUs, versus about 50k+ in the
+       next seven cities and 20k beyond the top eight. Even within Delhi NCR, this depth is limited to
+       select neighbourhoods. Broader selection consistently drives higher retention, wallet share, and
+       NAOV - we see this clearly in the data. The headroom to expand both breadth and depth across all
+       cities is significant. In the top eight cities specifically, we expect this to be a primary driver of store
+       additions going forward.
+
+   2.​ Geographic expansion - Our top eight cities are approaching coverage maturity, with 80-90% of pin
+       codes already serviceable. Incremental geographic growth comes from cities beyond the top eight,
+       where average pin code coverage is lower than 30%. Early experience in these markets has been
+       encouraging - store ramp-up is faster and profitability is comparable to mature markets despite
+       lower NAOVs, driven by lower real estate and operating costs.
+
+   3.​ Demand density - Delhi NCR has roughly 2x the store density of the next seven cities and 8x the
+       density beyond the next seven, on a stores-per-serviceable-pin-code basis. That density followed
+       strong customer adoption. As other cities mature along the same curve, they'll support
+       significantly more stores per neighbourhood - improving delivery speed and assortment
+       availability, which in turn drives further adoption. The flywheel is proven in Delhi NCR. Early signs in
+       our next set of cities suggest it's already beginning.
+
+The net effect across all three vectors is growth in both transacting customers and spend per customer,
+leading to growth in stores per city with the cities beyond the top eight contributing disproportionately to
+this growth.
+
+Q4. Won’t high competition negatively impact the growth assumptions going
+forward?
+Albinder: High competition can have adverse impact in certain periods of time, like the one we are going
+through now, where aggressive discounting is leading to poor-quality growth centred around select
+low-margin SKUs. But more broadly and longer term, good competition will aid our growth as well as the
+growth of the market over the next few years. That is because when multiple players simultaneously invest
+in infrastructure, acquire customers, and build awareness for the category, the overall market expands
+faster than any single player could achieve alone. We have seen this play out even over the last three years.
+
+In a mature, saturated market, competition is zero-sum. But quick commerce is a nascent category that is
+still being created, and has a long way to go before it becomes a zero sum game.
+
+Q5. On a QoQ basis, the NOV growth was just 8% in Q4FY26. Based on what you
+have said above, should we expect a bounceback in the next quarter?
+Akshant: Yes, we expect Q1FY27 to be meaningfully stronger on a QoQ basis.
+
+Q4 is seasonally the weakest quarter for quick commerce, and this year was no exception. Two structural
+factors compress QoQ growth in Q4 every year - fewer days in the quarter versus Q3, and a lower share of
+long-tail categories coming off the festive period, which pulls down NAOV. Neither reflects any change in
+underlying demand trends. The demand signals we're seeing in April indicate that the recovery this quarter
+will be strong.
+
+
+
+
+                                                                                                                7
+Q6. What does the path and timeline for your steady state Adjusted EBITDA
+margin guidance for Blinkit of 5-6% look like? How are you thinking about
+balancing growth and profitability?
+Albinder: As we noted last quarter, some of our larger,
+more mature cities - including Delhi NCR - are already
+approaching the 5-6% steady-state Adjusted EBITDA
+margin. The underlying economics are solid, and
+what's encouraging is that these markets have
+remained resilient even during elevated competition -
+throughput per store continues to improve, customer
+retention remains strong, and wallet share keeps
+expanding. These are not temporary profits. They are
+structurally sound and durable.
+
+At an aggregate level, the profitability has improved
+year-on-year consistently (see chart) and we expect that trend to continue. We are more confident of
+getting to our guidance of 5-6% margins today than ever before - the only variable is the speed at which we
+get there. The path of margin expansion may not be linear though, given the multiple moving parts, but we
+are confident we will get there soon.
+
+Akshant: Our focus is squarely on solving for durable growth. Profitability is an outcome of executing our
+growth plan well, not an independent goal that we're optimising for.
+
+                                                                                                              ​
+FOOD DELIVERY & GOING-OUT
+
+Q7. Food delivery NOV growth seems to be accelerating consistently over the last
+three quarters. Are there any structural reasons that are driving this growth?
+Deepinder: Yes, growth has been accelerating over the last three quarters after bottoming out in Q1FY26.
+And we believe the improvement is structural, driven primarily by deliberate interventions to expand the
+addressable market into more price-sensitive segments.
+
+From Q2FY26, we lowered the minimum order value for free delivery to INR 99 from INR 199 for Gold
+members, stepped up targeted activation for budget-conscious customers, and curated assortment
+specifically for this segment - meals under INR 250, for example. The results have been encouraging -
+order volume growth is being driven by MTC growth, both from new-to-platform customers and higher
+frequency among existing budget-conscious customers.
+
+A declining NAOV is a natural and intended consequence of this strategy. If we can make restaurant food
+affordable for a much larger base of Indians, the addressable market expands significantly. What matters
+is whether the economics hold as NAOV comes down - and they do. Revenue per order continues to
+improve and operating cost efficiencies have kept pace, which is why margins have remained stable even
+as the order mix has shifted towards lower-value orders. Ultimately, we are optimizing for absolute
+Adjusted EBITDA (and not %), and the current tactics are working well to drive that.
+
+Two additional tailwinds give us confidence that the improvement in growth is structural and not
+transient. App opens have been trending higher over the last few quarters, signalling improving
+demand independent of our interventions. And while quick commerce did impact food delivery
+growth when it first scaled, that effect has now plateaued - food delivery frequency has been stable
+for several quarters, suggesting the two categories have largely settled into distinct use cases.
+
+
+                                                                                                             8
+We expect growth to continue trending toward our long-term expectation of 20%+ YoY NOV growth, with
+margins remaining in the 5-6% range.
+
+Q8. Do you expect the recent LPG shortage in India to impact the growth/
+profitability outcomes in the current quarter (Q1FY27)?
+Deepinder: No meaningful impact yet. When localised supply disruptions happen - whether from LPG
+shortages, weather, or anything else - we typically see demand redistribute across the platform rather than
+it going away. The breadth of restaurant selection across cuisines, price points, and geographies means
+customers have alternatives within the app. Some restaurants in affected pockets did see temporary
+disruption, but platform-level throughput wasn’t impacted.
+
+Q9. NOV growth in District rebounded strongly to 47% YoY as compared to 20%
+YoY in the previous quarter. What drove this acceleration?
+Akshant: Going-out NOV grew 42% YoY for the full year FY26, and we'd encourage looking at the annual
+number rather than individual quarters. This is an inherently lumpy business - Q3 is events-heavy, Q1 is
+IPL-heavy, and the movies NOV depends entirely on the release calendar. Quarter-to-quarter swings will be
+large and are not indicative of underlying momentum. The annual growth rate is a more robust signal.
+
+FY26 is also a meaningful baseline year for us. This is the first full year with the District app in its current
+form - a unified going-out platform where today a customer can book a restaurant, buy movie tickets, buy
+concert tickets, find and reserve a playing arena, or discover local retail stores. No other platform in India
+brings together this breadth of going-out use cases in a single app - and the more use cases we add, the
+higher the engagement frequency and the stronger the retention. Each category reinforces the others.
+
+We have previously guided toward $3 billion in NOV and $150 million in Adjusted EBITDA by FY30, implying
+
+                   🙂
+approximately 30%+ YoY NOV growth from here. Despite significant INR depreciation (since the time we
+gave the guidance ), we remain confident in that trajectory.
+
+                                                                                                                   ​
+EVERYTHING ELSE
+
+Q10. Can you share an update on the cash balance as at the end of Q4FY26?
+Akshant: Cash balance increased to INR 17,972 crore (vs INR 17,820 crore in Q3FY26). Two things to note –
+
+1) NWC decreased QoQ mainly driven by settlements with sellers subsequent to transition to the 1P model
+in our quick commerce business.
+
+2) The negative cash movement in ‘Other items’ was largely on account of the marked-to-market (MTM)
+movements in the value of debt securities held by us, where the uncertain macro environment led to lower
+bond prices. To be clear, these are not realized losses but are adjustments made to cash balance to reflect
+the lower current market value of the securities held. Since we are going to hold these bonds to maturity,
+this does not impact our treasury returns now or in the future.
+
+
+
+
+                                                                                                                   9
+Q11. Any ESG updates?
+Deepinder: Yes, we have been making progress on multiple fronts.
+
+Greening India - our agroforestry initiative, is now live across six states with over 3,000 farmer partners.
+Since launch, we have distributed approximately 1 million saplings, of which 600,000+ have already been
+planted across roughly 5,000 acres - at no cost to farmers. These plantations have the potential to
+sequester ~600,000 tonnes of CO₂ from the atmosphere over the next 30 years. We are scaling rapidly and
+are targeting distribution of 2.5 million additional saplings to be planted across 10,000 acres of land in
+FY27.
+
+EVs & Plastic waste - EV adoption among our delivery partners has crossed a meaningful threshold. Active
+EV-based delivery partners doubled from 52,000 in March 2025 to over 100,000 in March 2026. In a city like
+Delhi NCR, close to 25% of our monthly active delivery partners now make deliveries on electric vehicles.
+Alongside this, we continued to focus on our 100% plastic neutral deliveries initiative, voluntarily recycling
+15,000 MT of plastic waste in FY26 and crossing a cumulative total of 60,000+ MT recycled since the
+programme's inception.
+
+Delivery partner welfare - one of our key initiatives this year has been to help delivery partners unlock
+government entitlements they are legally eligible for but often unable to access without support. Through
+offline enrolment camps, partners are screened across central and state government schemes and
+enrolled based on eligibility. To date, this has unlocked approximately INR 200 crore in benefits for our
+partners. We are now extending this programme to warehouse workers, with a target of covering 1 lakh gig
+and contract workers in FY27.
+
+Feeding India - we continue to build on the work we are doing to reduce the burden of malnutrition in India.
+Through Feeding India, 1.4 lakh+ children now receive nourishing meals daily across 2,300+ centres in 150+
+cities. In FY26, we deepened this work by revamping approximately 400 Anganwadis across Varanasi,
+Nandurbar, and Gurugram into dedicated meal centres, and by deploying facial recognition technology
+across a significant part of our centre network to track meal distribution digitally - ensuring both
+accountability and scale without adding administrative burden.
+
+----
+THE END
+
+
+
+
+                                                                                                            10
+Annexure A - Quarterly disclosures
+
+
+
+
+Notes:
+1)​ NOV (B2C business) excludes the NOV of Bistro business which is part of the ‘Others’ segment.
+2)​ On a like-for-like (“LFL”) basis, quick commerce Revenue grew 171% YoY (44% QoQ), 153% YoY (13% QoQ) and 126% YoY (9% QoQ)
+    in Q2FY26, Q3FY26 and Q4FY26 respectively. LFL quick commerce Revenue is calculated as quick commerce Revenue (-) cost
+    of goods sold in case of own inventory sales.
+3)​ On a like-for-like (“LFL”) basis, consolidated Adjusted Revenue grew 65% YoY (22% QoQ), 64% YoY (11% QoQ) and 64% YoY (5%
+    QoQ) in Q2FY26, Q3FY26 and Q4FY26 respectively. LFL consolidated Adjusted Revenue is calculated as consolidated Adjusted
+    Revenue (-) Revenue from Hyperpure’s non-restaurant business (-) cost of goods sold in case of own inventory sales in quick
+    commerce.
+4)​ Adjusted Revenue shown above does not include inter-segment revenue.
+5)​ There could be some totalling anomalies in the numbers displayed above due to the impact of rounding off.
+6)​ Others segment includes all other non-material businesses and any new initiatives that we may launch from time to time.
+                                                                                                                            11
+12
+Notes:
+1)​ On a like-for-like (“LFL”) basis, quick commerce Revenue grew 171% YoY (44% QoQ), 153% YoY (13% QoQ) and 126% YoY (9% QoQ)
+    in Q2FY26, Q3FY26 and Q4FY26 respectively. LFL quick commerce Revenue is calculated as quick commerce Revenue (-) cost
+    of goods sold in case of own inventory sales.
+2)​ NOV per day, per store is calculated as a simple average of total NOV transacted per day divided by total number of stores
+    operational for the day, for that period.
+
+
+
+
+Note: Treasury income is as per actual cash received (and not on accrual basis). Hence, there will be quarterly variation in the
+quantum.
+
+
+
+
+                                                                                                                                   13
+Annexure B - Adjusted Revenue and Adjusted EBITDA reconciliation
+The following table reconciles revenue from operations and stated loss for the period (as per Ind AS) with
+Adjusted Revenue and Adjusted EBITDA, respectively.
+
+
+
+
+Notes:
+1)​ Provision for income tax has been created on other income (primarily being treasury income) post adjustment of unabsorbed
+    depreciation permitted under the Income Tax Act. No provision is created on business income since that is being set off
+    against the carried forward losses from the past years.
+2)​ There could be some totalling anomalies in the numbers displayed above due to the impact of rounding off.
+
+
+
+
+                                                                                                                           14
+Annexure C - Glossary for terms used in reference to the business
+
+
+
+
+                                                                    15
+16
+17
+18
+Annexure D - Statement of consolidated profit and loss account
+
+
+
+
+                                                                 19
+Annexure E - Statement of consolidated balance sheet
+
+
+
+
+                                                       20
+Annexure F - Statement of consolidated cash flows
+
+
+
+
+                                                    21
+Use of non-GAAP ﬁnancial measures
+To supplement our ﬁnancial information presented in accordance with IND AS, we consider certain
+ﬁnancial measures that are not prepared in accordance with IND AS, including Adjusted Revenue and
+Adjusted EBITDA. We use these ﬁnancial measures in conjunction with IND AS measures as part of our
+overall assessment of our performance to evaluate the effectiveness of our business strategies and to
+communicate with our board of directors concerning our business and ﬁnancial performance. We believe
+these non-GAAP ﬁnancial measures provide useful information to investors about our business and
+ﬁnancial performance, enhance their overall understanding of our past performance and future prospects,
+and allow for greater transparency with respect to metrics used by our management in their ﬁnancial and
+operational decision making. We are presenting these non-GAAP ﬁnancial measures to assist our investors
+and because we believe that these non-GAAP ﬁnancial measures provide an additional tool for investors to
+use in comparing results of operations of our business over multiple periods. Information given also
+includes information related to material subsidiaries.
+
+Non-GAAP measures used by us are defined below:
+
+   ●​ Adjusted Revenue = Consolidated revenue from operations as per ﬁnancials (+) actual customer
+      delivery charges in the food delivery business (net of any discounts, including free delivery
+      discounts on account of Zomato Gold program) (+) platform fee and other charges paid on food
+      delivery Orders that are not already included in reported revenue from operations
+   ●​ Adjusted EBITDA = Consolidated EBITDA (+) share-based payment expense (-) rental paid for the
+      period pertaining to ‘Ind AS 116 leases’
+   ●​ EBITDA = Profit/loss as per financials excluding (i) tax expense (ii) other income (iii) depreciation
+      and amortization expense (iv) ﬁnance cost and (v) exceptional items
+
+These metrics have certain limitations and hence should be considered in addition to, not as substitutes
+for, or in isolation from, measures prepared in accordance with IND AS.
+
+Forward looking statements
+
+This document contains certain statements that are or may be forward-looking statements. These
+statements include descriptions regarding the intent, belief or current expectations of the senior
+management of Eternal Limited (formerly known as Zomato Limited) (“Company”) subject to board
+approval, wherever applicable with respect to the results of operations and ﬁnancial condition of the
+Company. These statements can be recognised by the use of words such as “expects,” “plans,” “will,”
+“estimates,” “projects,” “marks,” “believe” or other words of similar meaning. Forward-looking statements
+generally are not statements of historical fact, including, without limitation statements made about our
+strategy, estimates of revenue growth, future EBITDA and future ﬁnancial or operating performance. Such
+forward-looking statements are not guarantees of future performance and involve risks and uncertainties
+which are diﬃcult to predict and are outside of the control of the Company, and actual results may differ
+from those in such forward-looking statements as a result of various factors and assumptions which the
+Company believes to be reasonable in light of its operating experience in recent years. The risks and
+uncertainties relating to these statements include, but not limited to, risks and uncertainties, regarding
+ﬂuctuations in earnings, our ability to manage growth and competition, among others. The Company does
+not undertake any obligation to revise or update any forward-looking statement that may be made from
+time to time by or on behalf of the Company.
+
+Any investment in securities issued by the Company will also involve certain risks. There may be additional
+material risks that are currently not considered to be material or of which the Company, its directors, any
+placement agent, their respective advisers or representatives are unaware. Against the background of
+these risks, uncertainties and other factors, viewers of this document are cautioned not to place undue
+reliance on these forward-looking statements. The Company, its directors, any placement agent, their
+respective advisers or representatives assume no responsibility to update forward-looking statements or
+
+                                                                                                        22
+to adapt them to future events or developments. Accordingly, any reliance you place on such
+forward-looking statements will be at your sole risk.
+
+The information contained in this document has not been independently veriﬁed. The information in this
+document is in summary form and does not purport to be complete. No representation, warranty,
+guarantee or undertaking, express or implied, is or will be made as to, and no reliance should be placed on
+the accuracy, completeness, correctness or fairness of the information, estimates, projections and
+opinions contained in this document. Potential investors must make their own assessment of the
+relevance, accuracy and adequacy of the information contained in this document and must make such
+independent investigations as they may consider necessary or appropriate for such purposes. Such
+information and opinions are in all events not current after the date of this document.
+
+Further, past performance of the Company is not necessarily indicative of its future results. Any opinions
+expressed in this document or the contents of this document are subject to change without notice. This
+document should not be construed as legal, tax, investment or other advice. Neither the Company or its
+directors, nor any placement agent or their respective advisers or representatives shall have any
+responsibility or liability whatsoever (for negligence or otherwise) for any loss howsoever arising from this
+document or its contents or otherwise arising in connection therewith. The information set out herein may
+be subject to updating, completion, revision, veriﬁcation and amendment and such information may
+change materially. Neither the Company, its directors, any placement agent, nor any of their respective
+advisers or representatives is under any obligation to update or keep current the information contained
+herein. This document does not constitute or form part of and should not be construed as, directly or
+indirectly, any advertisement, oﬀer or invitation or inducement to sell or issue, or any solicitation of any
+oﬀer to purchase or subscribe for, any securities of the Company by any person whether by way of private
+placement or to the public, in any jurisdiction, nor shall it or any part of it or the fact of its distribution form
+the basis of, or be relied on in connection with, any investment decision or any contract or commitment
+therefor. Investing in securities involves certain risks and potential investors should note that the value of
+the securities may go down or up. Accordingly, potential investors should obtain and must conduct their
+own investigation and analysis of the relevant information carefully before investing.
+
+
+
+
+                                                                                                                 23
+                                                                                              Chartered Accountants
+Deloitte                                                                                      7th Floor Building 10
+                                                                                              Tower B
+
+Haskins & Sells                                                                               DLF Cyber City Complex
+                                                                                              DLF City Phase II
+                                                                                              Gurugram-122 002
+                                                                                              Haryana, India
+
+                                                                                              Tel: +91 124 679 2000
+                                                                                              Fax: +91 124 679 2012
+     INDEPENDENT AUDITOR'S REPORT ON AUDIT OF ANNUAL CONSOLIDATED FINANCIAL
+     RESULTS AND REVIEW OF QUARTERLY FINANCIAL RESULTS
+
+     TO THE BOARD OF DIRECTORS OF
+     ETERNAL LIMITED (FORMALLY KNOWN AS ZOMATO LIMITED)
+
+     Opinion and Conclusion
+
+     We have (a) audited the Consolidated Financial Results for the year ended March 31, 2026 and (b)
+     reviewed the Consolidated Financial Results for the quarter ended March 31, 2026 (refer 'Other
+     Matters' section below), which were subject to limited review by us, both included in the
+     accompanying "Statement of Consolidated Financial Results for the Quarter and Year Ended March
+     31, 2026 of Eternal Limited (the "Parent", its subsidiaries and its trust (the Parent, its subsidiaries
+     and its trust together referred to as the "Group"), (the "Statement"), being submitted by the Parent
+     pursuant to the requirements of (Regulation 33) of the SEBI (Listing Obligations and Disclosure
+     Requirements) Regulations, 2015, as amended (the " LODR Regulations").
+
+     (a) Opinion on Annual Consolidated Financial Results
+
+         In our opinion and to the best of our information and according to the explanations given to us,
+         and based on the consideration of the audit reports of the other auditors on separate financial
+         statements of subsidiaries and trust referred to in Other Matters section below, the Consolidated
+         Financial Results for the year ended March 31, 2026:
+
+          (i)     includes the financial results of the entities as mentioned in Annexure 1
+
+         (ii)     are presented in accordance with the requirements of (Regulation 33) of the SEBI (Listing
+                  Obligations and Disclosure Requirements) Regulations, 2015, as amended; and
+
+          (iii)   gives a true and fair view in conformity with the recognition and measurement principles
+                  laid down in the Indian Accounting Standards and other accounting principles generally
+                  accepted in India of the consolidated net profit and consolidated other comprehensive
+                  loss and other financial information of the Group for the year ended March 31, 2026.
+
+     (b) Conclusion on Unaudited Consolidated Financial Results for the quarter ended March
+          31, 2026
+
+         With respect to the Consolidated Financial Results for the quarter ended March 31, 2026, based
+         on our review conducted and procedures performed as stated in paragraph (b) of Auditor's
+         Responsibilities section below and based on the consideration of the review reports of the other
+         auditors referred to in Other Matters section below, nothing has come to our attention that
+         causes us to believe that the Consolidated Financial Results for the quarter ended March 31,
+         2026, prepared in accordance with the recognition and measurement principles laid down in the
+         Indian Accounting Standards and other accounting principles generally accepted in India, has
+         not disclosed the information required to be disclosed in terms of Regulation 33 of the SEBI
+         (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended, including
+         the manner in wh ich it is to be disclosed, or that it contains any material misstatement.
+
+     Basis for Opinion on the Audited Consolidated Financial Results for the year ended March
+     31, 2026
+
+     We conducted our audit in accordance with the Standards on Auditing ("SA"s) specified under Section
+     143(10) of the Companies Act, 2013 (the "Act"). Our responsibilities under those Standards are
+     further described in paragraph (a) of Auditor's Responsibilities section below. We are independent
+     of the Group in accordance with the Code of Ethics issued by the Institute of Chartered Accountants
+     of India (the "!CAI") together with the ethical requirements that are relevant to our audit of the
+     Consolidated Financial Results for the year ended March 31, 2026 under the provisions of the Act
+     and the Rules thereunder, and we have fulfilled our other ethical responsibilities in accordance with
+Deloitte
+Haskins & Sells
+
+      these requirements and the ICAI's Code of Ethics. We believe that the audit evidence obtained by
+      us and the audit evidence obtained by the other auditors in terms of their reports referred to in
+      Other Matters section below, is sufficient and appropriate to provide a basis for our audit opinion.
+
+      Emphasis of Matter
+
+      We draw attention to Note 6 to the consolidated financial results relating to the show cause notices
+      (SCNs) and orders received by the Company from GST authorities in respect of GST on delivery
+      charges. The Company, supported by the external expert's advice, is of the view that, it has a strong
+      case on merits. Given the uncertainty involved, the ultimate outcome will be ascertained on the
+      disposal of the above matter.
+
+      Our opinion and conclusion is not modified in respect of this matter.
+
+      Management's and Board of Directors' Responsibilities for the Statement
+
+      This Statement, which includes the Consolidated Financial Results is the responsibility of the Parent
+      Board of Directors and has been approved by them for the issuance. The Consolidated Financial
+      Results for the year ended March 31, 2026, has been compiled from the related audited consolidated
+      financial statements. This responsibility includes the preparation and presentation of the
+      Consolidated Financial Results for the quarter and year ended March 31, 2026 that give a true and
+      fair view of the conso lidated net profit and consolidated other comprehensive loss and other financial
+      information of the Group in accordance with the recognition and measurement principles laid down
+      in the Indian Accounting Standards, prescribed under Section 133 of the Act, read with relevant
+      rules issued thereunder and other accounting principles generally accepted in India and in
+      compliance with (Regulation 33) of the LODR Regulations.
+
+      The respective Board of Directors of the companies included in the Group are responsible for
+      maintenance of adequate accounting records in accordance with the provisions of the Act for
+      safeguarding the assets of the Group and for preventing and detecting frauds and other
+      irregularities; selection and application of appropriate accounting policies; making judgments and
+      estimates that are reasonable and prudent; and the design, implementation and maintenance of
+      adequate internal financial controls, that were operating effectively for ensuring the accuracy and
+      completeness of the accounting records, relevant to the preparation and presentation of the
+      respective financial results that give a true and fair view and are free from material misstatement,
+      whether due to fraud or error, which have been used for the purpose of preparation of this
+      Consolidated Financial Results by the Directors of the Parent, as aforesaid.
+
+      In preparing the Consolidated Finan cia l Results, the respective Board of Directors of the companies
+      included in the Group are responsible for assessing the ability of the respective entities to continue
+      as a going concern, disclosing, as applicable, matters related to going concern and using the going
+      concern basis of accounting unless the respective Board of Directors either intends to liquidate their
+      res pective entities or to cease operations, or has no realistic alternative but to do so.
+
+      The respective Board of Directors of the companies included in the Group are responsible for
+      overseeing the financial reporting process of the Group.
+
+      Auditor's Responsibilities
+
+      (a)   Audit of the Consolidated Financial Results for the year ended March 31, 2026
+
+            Our objectives are to obtain reasonable assurance about whether the Consolidated Financial
+            Results for the year ended March 31, 2026 as a whole are free from material misstatement,
+            whether due to fraud or error, and to issue an auditor's report that includes our opinion.
+            Reasonable assurance is a high level of assurance, but is not a guarantee that an audit
+            conducted in accordance with SAs will always detect a material misstatement when it exists.
+            Misstatements can arise from fraud or error and are considered materia l if, individually or in
+            the aggregate, they could reasonably be expected to influence the economic decisions of users
+            taken on the basis of this Consolidated Financial Results.
+Deloitte
+Haskins & Sells
+
+          As part of an audit in accordance with SAs, we exercise professional judgment and maintain
+          professional skepticism throughout the audit. We also:
+
+          •   Identify and assess the risks of material misstatement of the Annual Consolidated
+              Financial Results, whether due to fraud or error, design and . perform audit procedures
+              responsive to those risks, and obtain audit evidence that is sufficient and appropriate to
+              provide a basis for our opinion. The risk of not detecting a material misstatement resulting
+              from fraud is higher than for one resulting from error, as fraud may involve collusion,
+              forgery, intentional omissions, misrepresentations, or the override of internal control.
+          •   Obtain an understanding of internal control relevant to the audit in order to design audit
+              procedures that are appropriate in the circumstances, but not for the purpose of
+              expressing an opinion on the effectiveness of such controls.
+          •   Evaluate the appropriateness of accounting policies used and the reasonableness of
+              accounting estimates made by the Board of Directors.
+          •   Evaluate the appropriateness and reasonableness of disclosures made by the Board of
+              Directors in terms of the requirements specified under (Regulation 33) of the LODR
+              Regulations.
+          •   Conclude on the appropriateness of the Board of Directors' use of the going concern basis
+              of accounting and, based on the audit evidence obtained, whether a material uncertainty
+              exists related to events or conditions that may cast significant doubt on the ability of the
+              Group to continue as a going concern. If we conclude that a material uncertainty exists,
+              we are required to draw attention in our auditor's report to the related disclosures in the
+              Consolidated Financial Results or, if such disclosures are inadequate, to modify our
+              opinion. Our conclusions are based on the audit evidence obtained up to the date of our
+              auditor's report. However, future events or conditions may cause the Group to cease to
+              continue as a going concern.
+          •   Evaluate the overall presentation, structure and content of the Annual Consolidated
+              Financial Results, including the disclosures, and whether the Annual Consolidated
+              Financial Results represent the underlying transactions and events in a manner that
+              achieves fair presentation.
+          •   Perform procedures in accordance with the circular issued by the SEBI under Regulation
+              33(8) of the LODR Regulations to the extent applicable.
+          •   Obtain sufficient appropriate audit evidence regarding the Annual Standalone Financial
+              Results of the entities within the Group to express an opinion on the Annual Consolidated
+              Financial Results. We are responsible for the direction, supervision and performance of
+              the audit of financial information of such entities included in the Annual Consolidated
+              Financial Results of which we are the independent auditors. For the other entities included
+              in the Annual Consolidated Financial Results, which have been audited by the other
+              auditors, such other auditors remain responsible for the direction, supervision and
+              performance of the audits carried out by them. We remain solely responsible for our audit
+              opinion.
+
+          Materiality is the magnitude of misstatements in the Annual Consolidated Financial Results
+          that, individually or in aggregate, makes it probable that the economic decisions of a
+          reasonably knowledgeable user of the Annual Consolidated Financial Results may be
+          influenced. We consider quantitative materiality and qualitative factors in (i) planning the
+          scope of our audit work and in evaluating the results of our work; and (ii) to evaluate the
+          effect of any identified misstatements in the Annual Consolidated Financial Results.
+
+          We communicate with those charged with governance of the Parent and such other entities
+          included in the Consolidated Financial Results of which we are the independent auditors
+          regarding, among other matters, the planned scope and timing of the audit and significant
+          audit findings including any significant deficiencies in internal control that we identify during
+          our audit.
+
+          We also provide those charged with governance wit h a statement that we have complied with
+          relevant ethical requirements regarding independence, and to communicate with them all
+          relationships and other matters that may reasonably be thought to bea r on our independence,
+          and where appli cable, related safeguards.
+Deloitte
+Haskins & Sells
+
+       (b)     Review of the Consolidated Financial Results for the quarter ended March 31, 2026
+
+               We conducted our review of the Consolidated Financial Results for the quarter ended March
+               31, 2026 in accordance with the Standard on Review Engagements (SRE) 2410 'Review of
+               Interim Financial Information Performed by the Independent Auditor of the Entity', issued by
+               the ICAI. A review of interim financial information consists of making inquiries, primarily of
+               the Company's personnel responsible for financial and accounting matters, and applying
+               analytical and other review procedures. A review is substantially less in scope than an audit
+               conducted in accordance with SAs specified under section 143(10) of the Act and consequently
+               does not enable us to obtain assurance that we would become aware of all significant matters
+               that might be identified in an audit. Accordingly, we do not express an audit opinion.
+
+               The Statement includes the results of the entities as listed under paragraph (a)( i) of Opinion
+               and Conclusion section above.
+
+               We also performed procedures in accordance with the circular issued by the SEBI under
+               Regulation 33(8) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations,
+               2015, as amended, to the extent applicable.
+
+      Other Matters
+
+      •      The Statement includes the results for the quarter ended March 31, 2026 being the balancing
+             figure between audited figures in respect of the full financial year and the published year to date
+             figures up to the third quarter of the current financial year which were subject to limited review
+             by us. Our report is not modified in respect of this matter.
+
+      •      We did not audit the financial statements / financial information of 11 subsidiaries and 1 trust
+             included in the consolidated financial results, whose financial statements / financial information
+             reflect total assets of Rs. 2,384 crores as at March 31, 2026 and total revenues of Rs. 157 crores
+             and Rs. 408 crores for the quarter and year ended March 31, 2026 respectively, total net loss
+             after tax of Rs. 93 crores and Rs. 318 crores for the quarter and year ended March 31, 2026
+             respectively and other comprehensive loss of Rs. 93 crores and Rs. 317 crores for the quarter and
+             year ended March 31, 2026 respectively and net cash flows of Rs. 11 crores for the year ended
+             March 31, 2026, as considered in the Statement. These annual financial statements / financial
+             information have been audited by other auditors whose reports have been furnished to us by the
+             Management and quarterly results are not reviewed , our opinion on the Statement, in so far as it
+             relates to the amounts and disclosures included in respect of these subsidiaries and trust, is based
+             solely on the reports of the other auditors and the procedures performed by us as stated under
+             Auditor's Responsibilities section above and our conclusion on the Statement, in so far as it relates
+             to the amounts and disclosures included in respect of these subsidiaries and trust, is based solely
+             on such unaudited financial information. In our opinion and according to the information and
+             explanations given to us by the Board of Directors, these quarterly financial information are not
+             material to the Group.
+
+             Our report on the Statement is not modified in respect of the above matters with respect to our
+             reliance on the work done and the reports of the other auditors and the financial information
+             certified by the management
+
+       •     The consolidated financial results includes the unaudited financial information of 11 subsidiaries,
+             whose financial information reflect total assets of Rs. 154 crores as at March 31, 2026 and total
+             revenues of Rs . 3 crores and Rs. 13 crores for th e quarter and year ended March 31, 2026
+             respectively, total net loss after tax of Rs. 5 crores and Rs. 6 crores for the quarter and yea r
+             ended March 31 , 2026 respectively and other compreh ensive income of Rs Nil and Rs. 11 cro res
+             for the quarter and year ended March 31 , 2026 respectively and net cash flows of Rs. 11 crores
+             for the year ended March 31, 2026, as considered in the Statement. These financial information
+             are unaudited and have been furnished to us by the Management and our opinion and conclu sion
+             on the Statement, in so far as it relates to the amounts and disclosures included in respect of
+             these subsidiaries is based solely on such unaudited financial information. In our opinion and
+             according to th e information and explanati ons given to us by t he Board of Directors, these financial
+             information are not material to the Group.
+Deloitte
+Haskins & Sells
+
+           Our report on the Statement is not modified in respect of the above matter with respect to ou r
+           rel iance on the financial statements/ financial information certified by the Board of the Directors.
+
+
+
+
+                                                                                   For Deloitte Haskins & Sells
+                                                                                        Chartered Accountants
+
+
+
+                                                                             (F;~ ;o; J
+
+
+
+
+                                                                                              Vikas Khu r ana
+                                                                                                   (Partner)
+                                                                                     (Membership No.503760)
+
+       Place: Gurugram
+                                                                             UDIN:.:?650Z'.f&D7>1<RTI2 gg l-Jj
+       Date: April 28, 2026
+Deloitte
+Haskins & Sells
+
+       Annexure 1
+
+       S. No.   Name of the Entity                                    Relationship
+       1        Eternal Limited (Formerly Known as Zomato Limited)    Parent
+       2        Zomato Middle East FZ-LLC                             Subsidiary
+       3        Tonguestun Food Networks Private Limited              Subsidiary
+       4        Zomato Philippines Inc.                               Subsidiary
+       5        Zomato Netherlands B.V.                               Subsidiary
+                                                                      (ti II January   27,
+                                                                      2026)
+       6        Zomato Entertainment Private Limited                  Subsidiary
+       7        Gastronauci SP Z .O.O.                                Subsidiary
+       8        Zomato Local Services Private Limited                 Subsidiary
+       9        Zomato Inc.                                           Subsidiary
+       10       Delivery 21 Inc.                                      Subsidiary
+       11       Zomato Ireland Limited                                Subsidiary
+       12       Zomato Foods Private Limited                          Subsidiary
+       13       Carther o Technologies Private Limited                Subsidiary
+       14       Zomato Payment Private Limited                        Subsidiary
+       15       Etern al Technology Solutions Limited (formerly       Subsidiary
+                kno wn as Zomato Financial Services Limited)
+        16      Bli nk Com merce Private Limited                      Subsidiary
+        17      Zomato Hyperpure Private Limited                      Subsidiary
+        18      Orbgen Technologies Private Limited                   Subsidiary
+        19      Wasteland Entertainment Private Limited               Subsidiary
+        20      Blinkit Foods Limited                                 Subsidiary
+        21      Zomato Media (Private) Limited                        Subsidiary
+                                                                      (t ill November 21 ,
+                                                                      2025)
+        22      Zomato Malaysia SDN BHD                               Subsidiary
+        23      Foodie Bay Employees ESOP Trust                       Trust
+        24      Zomato Internet Hizmetleri Ticaret Anon im Sirket i   Subsidiary
+                                                                       (till December 9 ,
+                                                                      2025)
+       25       Eternal General Serv ice Foundation                   Subsidiary
+                                                                      ( w.e.f.  December
+                                                                      18, 2025)
+                                                                          Eternal Limited (Formerly known as Zomato Limited)
+                                                                                            C IN: L93030DL20JOPLCl9814I
+                                                             Registered office- Ground Floor. 12A. 94 Meghdoot, Nehru Place. New Delhi- 110019, Delhi, India
+                                                              Telephone- 011-40592373, Email- companysccrctary(Sctcmal.com, Website- www.ctcmal.com
+
+                                                     Statement of consolidalcd financial rcsull s for the quarter (unaudited) and year (audited) ended March 31, 2026
+                                                                                                                                                                                                            llNR crore)
+                                                                                                                               Quar ter ended                                               Year ended
+                                                                                                        March 31,              December 31,               l\brch 31,            March 31,                March 31,
+S.No,                                               Particulars                                            2026                    2025                      2025                 2026                     2025
+                                                                                                         Unaudilcd               Unaudited                Unaudited             A udited                 Audited
+                                                                                                      ( Refer note 11)                                  (Refer note 11)
+   I      Revenue from operations                                                                                 I 7,292                 16,315                       5,833               54,364                  20,243
+  II      Other income                                                                                                342                    348                         368                1.396                   1,077
+  Ill     Total incomc (1+11)                                                                                     17.634                  16 663                       6 201               55 760                  21.320
+
+  IV      Expenses
+          Cost of materials consumed                                                                                  39                      15                                               54                        -
+          Purchases of stock-in-trade                                                                             10,687                  10,076                       1,658              32, 115                    5,653
+          Changes in in ventories of finished goods, stock-in-trade and work-in-progress                           (386)                   (290)                        (26)             (2.002)                      (88)
+          Employee benefi1s expense                                                                                  927                     914                         750               3,536                     2,558
+          Finance COSIS                                                                                              132                     107                          56                  392                     154
+          Depreciation and amonisation expenses                                                                      468                     439                         287               1,597                      863
+          Other expenses
+                Advcniscmcnt and sales promotion                                                                      936                      937                       634                3,350                    1,972
+                Delivery and related charges                                                                        2,607                    2,376                     1,552                9,065                    5,728
+                Others                                                                                              1,996                    1.919                     1,193                7,038                   3,783
+          Total expenses                                                                                          17,406                  16.493                       6.104               55, 145                 20.623
+
+
+  V       Profit before exce1u ional items and tax (Ill-I V)                                                         228                        170                       97                  615                     697
+
+  VI      Exceptional ilems
+
+ VII      Profil before tax (V-VI)                                                                                   228                        170                       97                  615                     697
+
+ \ 'Ill   Tax expense:
+          Current lax                                                                                                  76                        84                       74                 319                      23 1
+          Deferred rnx                                                                                               (22)                     (16)                      (16)                 (70)                     (61)
+
+  IX      Profit for the period / yea r (VI I-VI II)                                                                     174                    102                       39                  366                     527
+
+
+   X      Other comprchcnsh·e income / (loss)
+          (i) l1ems that will not be reclassified to profil or loss
+              - Remeasurements of the defined benetit plans                                                           (0)                      (4)                       (5)                  (3)                     (10)
+              - Equity instmments 1hrough other comprehensive income                                                (240)                    (242)                        36                {515)                       77
+              - Income tax relating to above items                                                                      4                       25                      (30)                   34                     (30)
+
+          (ii) Items that will be reclassified to profit or loss
+             - Exchange differences on trnnslation of foreign operations                                                6                        8                        (I)                   19                       2
+             - Debt instruments through other comprehensive income                                                  (132)                     (25)                        58                  (90)                     112
+             - Income tax relating to above items                                                                      34                        6                      (19)                    23                    (23)
+
+          Total other comprchcnsiYe income / ( loss) for the period / ye.ar                                         1328                     1232                         39                (5321                      128
+
+
+  XI      Total comprehensive income/ (loss) for l he period / year ( IX+X)                                         1154)                    ll30>                        78                 fl66)                     655
+
+  XII     Profit for the period / year attributable to:
+          Owners of the parent                                                                                           174                    102                       39                  366                      527
+          Non-con trolling in1eres1
+
+ XIII     Other comprehensive income/ {loss) for the period / year attribulable to:
+          Owners of the parent                                                                                      (328)                    (232)                        39                (532 )                     128
+          Non-controlling interest                                                                                    (0)                      (0)                         0                  (0)                        0
+
+ XIV      Total comprehens h·e income / (loss) for the period / year attributable to:
+          Owners of the parent                                                                                      (154)                    (130)                         78                ( 166)                    655
+          Non-controlling int~re!,,I                                                                                     (0)                   (0)                          0                   (0)                      0
+
+  xv      Paid-up s hare capit:1I (face value of INR 1 per share)                                                        919                    91 1                      907                 919                      907
+
+ XVI      Other e<1uity                                                                                                                                                                    30,061                  29,410
+
+ XVII                                           1
+          Earnings per equity share (INR) (face value of INR I each)
+           (a) Basic                                                                                                 0.19                       0.11                    0.04                  0.40                    0.60
+            (h) Diluted                                                                                              0.19                       0. 11                   0.04                  0 .39                   0.58
+
+1 £PS is 1101 a1111ualised.for rhe quarter,•nded Marci, 31. 2026, December 3/, 10]5 a11d March 31. 1025.
+Eternal Limited (Formerly known as Zomato Limited)
+Consolidated Balance Sheet
+                                                                                                                               (INR crore)
+                                                                                                      As at                  As at
+Particulars                                                                                       March 31, 2026         March 31, 2025
+                                                                                                     Audited                Audited
+Assets
+Non-current assets
+Property, plant and equipment                                                                                  2,033                   965
+Capital work-in-progress                                                                                         136                    51
+Right-of-use assets                                                                                            4,294                 1,918
+Goodwill                                                                                                       5,737                 5,737
+Other intangible assets                                                                                          61 1                  912
+Financial assets
+  - Investments                                                                                                9,742                10,920
+  - Other financial assets                                                                                     1,606                 2,744
+Tax assets (net)                                                                                                 202                   129
+Defe1Ted tax assets (net)                                                                                         14                      -
+Other non-cu1Tent assets                                                                                         661                   546
+Total non-current assets                                                                                      25,036                23,922
+
+Current assets
+Inventories                                                                                                    2,18 1                   176
+Financial assets
+  - Investments                                                                                                5,091                  2,272
+  - Trade receivables                                                                                          1,764                  1,946
+  - Cash and cash equivalents                                                                                    996                     666
+  - Bank balances other than cash and cash equivalents                                                           527                  2,948
+  - Other financial assets                                                                                     3,537                  2,769
+Other current assets                                                                                           1,604                     924
+Total current assets                                                                                          15,700                 11 ,701
+
+Total assets                                                                                                  40,736                35,623
+
+Equity and liabilities
+
+Equity
+Equity share capital                                                                                             919                   907
+Other equity                                                                                                  30,061                29,4 10
+Equity attributable to owners of the Parent                                                                   30,980                30,317
+Non-controlling interests                                                                                         (7)                   (7)
+Total equity                                                                                                  30 973                30,3 10
+
+Liabilities
+Non-current liabilities
+Financial liabilities
+  - Lease liabilities                                                                                          3,833                  1,654
+  - Other financial liabilities                                                                                      -                       I
+Provisions                                                                                                       156                    120
+Defe1Ted tax liabilities (net)                                                                                   I02                    212
+Total non-current liabilities                                                                                  4,091                  1,987
+
+Current liabilities
+Financial liabilities
+  - Lease liabilities                                                                                              759                  39 1
+  - Trade payables
+      a. total outstanding dues of micro enterprises and small enterprises                                       232                      75
+      b. total outstanding dues of creditors other than micro enterprises and small enterprises                2,778                   1,46 1
+  - Other financial liabilities                                                                                1,105                     913
+Other current liabilities                                                                                        744                     452
+Provisions                                                                                                        39                      34
+Current tax liabilities (net)                                                                                     15                          -
+Total current liabilities                                                                                      5,672                  3,326
+
+ Total liabilities                                                                                              9 763                 5,313
+
+ Total equity and liabilities                                                                                 40,736                 35,623
+Eternal Limited (Formerly known as Zomato Limited)
+Consolidated Statement of Cash Flows
+                                                                                                                                                                 (INR crore)
+                                                                                                                                                  Year ended
+Particulars                                                                                                                          March 31, 2026        March 31, 2025
+                                                                                                                                       Audited                Audited
+A) Cash flow s from operating activ ities
+   Profit before tax                                                                                                                                615                   697
+   Adjustments to reconcile profit before tax to net cash flows:
+    - Interest income on bank deposits and others                                                                                                 (473)                 (262)
+    - interest income on government securities                                                                                                    (120)                 (100)
+    -Amortisation of premium / (discount) on government securities                                                                                (102)                  (89)
+    - lntcrcst income on debentures or bonds                                                                                                      (484)                 (436)
+    -Amortisation o f premium / (discount) on debentures or bonds                                                                                       0                 (4)
+    - Interest income on income tax refund                                                                                                            (9)                (17)
+    - Net gain on mutual fund units                                                                                                               ( 155)                (151)
+    - Net gain on sale of government securities                                                                                                       (7)
+    - Liabili ties written back                                                                                                                     ( 18)                (10)
+    - (Profit) / loss on sale of property, plant and equipment (net) / asset written off                                                              (3)                  II
+    - Gain on tcm1ination oflcasc contrncts                                                                                                         (13)                  (3)
+    - Inventories write-down (net)                                                                                                                     37                     -
+    - Share-based payment expense                                                                                                                    8 19                 798
+    - Interest expense on lease liabilities                                                                                                          367                  147
+    - Interest expense others                                                                                                                          16                   4
+    - Depreciation on property. plant and equipment and depreciation on right-of-use assets                                                       1,291                   576
+    - Amortisation on intangible assets                                                                                                              306                  287
+    - lmpairmcnt of financial and non financial assets (net)                                                                                         148                   71
+    - Financial and non financial assets written off                                                                                                    7                     -
+    - (Gain) / loss on disposal of foreign operations                                                                                                   7                  (0)
+    - Other non-cash items                                                                                                                            (3)                    0
+    Operating profit before working capita l changes                                                                                              2,226                 1,5 19
+    Movements in working capital :
+    - Trade receivables                                                                                                                             117               ( I, 11 7)
+    - Other financial assets                                                                                                                      (552)                  (226)
+    - Other assets                                                                                                                                (807)                  (586)
+    - Inventories                                                                                                                               (2,042)                   (88)
+    - Other financial liabilities and other liabilities                                                                                             540                   274
+    - Provisions                                                                                                                                     38                    21
+    - Trade payables                                                                                                                              1,478                   629
+     Cash generated from / (used in) operations                                                                                                     998                   426
+     Income taxes (paid) / refund (net)                                                                                                           (366)                 (I 18)
+     Net cash generated from / (used in) operating activities (A)                                                                                   632                    308
+
+
+B) Cash flows from investing activities
+   Purchase of property, plant and equipment and other intangible assets (including capital work-in-progress, capital advances and                                      (936)
+                                                                                                                                                 (1,75 1)
+     capital creditors)
+     Proceeds from sale of property, plant and equipment                                                                                               5                     5
+     Investment in bank and other depos its (having original maturity of more than 3 months)                                                     (2,321)              (7,697)
+     Proceeds from redemption / maturity of bank and other deposits (having original maturity of more than 3 months)                               5,668                2,942
+     Investment in mutual fund units                                                                                                            (45,895)             (47,326)
+     Proceeds from redemption of mutual fund units                                                                                                44,981               46,738
+     Acquisition of businesses, net of cash acquired (refer note 7)*                                                                                      -           (2,005)
+     Purchase of other non<urrcnt investments                                                                                                             -                (0)
+     Investment in government securities                                                                                                           (151)                (648)
+     Proceeds from sale / maturity of government securities                                                                                          520                   65
+     Investment in debentures or bonds                                                                                                           (1,839)                         -
+     Proceeds from redemption of debentures or bonds                                                                                                 366                    50
+     Interest received                                                                                                                               953                   819
+     Net cash generated from / (used in) investing activities (BJ                                                                                    536               (7 993)
+
+
+ C) Cash flows from financing activities
+     Proceeds from issue of equity shares                                                                                                                 -              8,501
+     Transaction cost paid on issue of equity shares                                                                                                      -               (54)
+     Share based payment on cash settlement of option (fractional shares)                                                                                 -                 (0)
+     Amount collected by ESOP trust on exercise of employee stock options                                                                             12                      4
+     Payment of principal portion of lease liabilities                                                                                             (47 1)                (258)
+     Payment of interest portion of lease liabilities                                                                                              (367)                 (147)
+     Other interest paid                                                                                                                            (16)                    (4)
+     Net cash generated fro m / (used in) financing activities (C)                                                                                 (842'                 8.042
+
+
+     Net increase / (decrease) in cash and cash equivalents (A+B+C)                                                                                  326                    357
+     Net foreign exchange difference                                                                                                                   4                     (0)
+     Cash and cash equivalents as at the beginning of the year                                                                                       666                    309
+     Cash and cash equivalents as at the end of the year                                                                                             996                    666
+
+ * the cash and cash equivalents acquired in the business combination amounts to INR 9 crore.
+                                                                                                              Eternal Umitcd (Formtrly known as 7.,omllllo Llmittd)
+                                                                                                                    Note!> tu lh<• conwlid11tt'd nmutch1l result$
+
+I The- s1a1cmcnt of consolidated linancial results of Etcmal Limiled (Formerly known as Zomato Limited) ('"lhc Company"/''thc Parcnt"J and it~ subs1di:iries (together referred to a.s 'lhc Group") fOI'" lhl' quartl-r (un:iud11ed) and year (audi11..-d) c-ndcd March 31.
+  2026 C-Financial Rcsuhs"J ha,'C b,,x.,-n redcw\.-d by the Audi1 Committlx- and appro,·cJ by the Board of Dir<X-'1ors at their rcsp<.'<--tivc mt'<--tings held on April 28. 2026
+
+   The Finandal Rt)-Uhs havt hem pr('pared m tl('Cordanc.t- with the recognition :md me.uurtment r,-mciplc~ laid down III the Indian Accounting. Standard 34 " Interim Financial R('J)Oftinf' ("Ind AS 34"). prt"Scrihcd under Section 133 of the Comp.an1,es Act,
+   2013 read wi1l1 relevant rnlo. iu;ucd thereunder and other accountin g prmc1plcs generally accl.1'1Cd m lnd1:1 and 1n compliance with Rcgulaoon 33 of the Scruritic.~ and Exchimi(' Boord of India (Listing Obligation~ and Disclosure Rc-qmrctlK'nh) Regulations.
+   2015, as amended ("LODR Rq:ulaliOn$~).
+
+3 Consolidaird ue.ment infurnuuiun
+  Opera ling ~gmcnts are defined ai;: component~ ofan c111crprii;c for which discrctc financial mform.1tion i~ available !hat is evaluMcd regularly by the ch1cfopcrating dec1S1on makcr (RCODMM), in dl-ciJing how to alloc.11c resources and assessing performance
+  Em.-ctin~ February 1. 2026, 1he Grwp's CODM is the Chief Exccuti\"c Officer of the Comr:my (earlier Managing Dircc1or and Chief E:u-cutiw Ofticcr) (refer note 10). TI1c change in CODM <lid not n.-~uh in iti.llY change in the idcntifie.11ion of operating
+  st.-pncnts or the measurement of i;cgmcnt infonmuion.
+   The $Cgmcn1, for the Group arc as follows:
+    I. India lood ocdcnng and dclin-ry
+   :?. llyp(.'l'J)Ure supplies (13211 business)
+   3. Quick commerce
+   4. Going om
+   5. All 01hcr ~grncnts (Residual)
+
+   India food ordtTing and <ldiwry \.-Umpris,:s of onhne m::irkl.1placc platform through \\hich thc Group facilit.ucs listing and on line ordcnng of food 1lems and tklu'Cr)' of these food ilcm~ by conm.'"Cting end user:.. rcst.turant partnL,n, and m<lepi..-ndem dcli\'CI)
+   panners.
+
+   IIY1X:rpurc l>Upp1ics (0213 business) is our farm-lo-fork supplies offcrin~ for rc-staura111s in India and ;Gile of items to businC$5Cl<- fOC" onward sales.
+
+   Quick commerce comprises of on line platform named Blinkil ("Platform") that enables listing and sale of ilems diroclly by the Group or by thlrd-p;u-ty sellers. End users arc able to place ordi..-rs ofth\."'Se lis1cd item~ ori the l'la1form which arc ddi,·tTcd to 1hc1r
+   doors1crs ',\ithin minut{"S. Quick commcrc(' also inc\udN. provision ofadvcrtiscmc-ru. warchousin.g and ancill:iry sc.-..,iccs.
+
+   Going-out is a combination or our dining-oul and cntr..-n11inml.11.I tickc1ing business. Cuslomcr.i. ' l.11.d us..-rs use our dinin.-OUt offoring to search and disccwcr n:staurants. rl.-serve tabks. a\·ail offers and make payments while dining-out at r~-s1auran1s. In our
+   enl\.-rt:1inment 1ickcting business. we offl.-r ticketing scrvic~ to cus1omcrs for mo,·1c,, sporb. and C\'Cnb (1ncludm£ our own c,·ents) and offer -.crviccs like cvcn1 production. management etc. to other event panncrs/ p:inicipant!i..
+
+   The CTroup has combined i.nd di;.closcd balancing number in ~All othn- ~cgmmtsR which arc not reportable.
+
+   Revenue 3nd expenses d1rcctly attributable 10 sc,gmcnts arc reported undcr c-ach reportable segmc·nt. Expenses which arc not dirccll) :attributable 10 :any rcporlmJ:; segmCt\t have bcca alloc<llcd to rcsp::-ctivc segments ba$cd on the- number of orders. rc,·enuc,
+   numlx.T ofemploytts or gro~~nCI ord1..,- value as revic..•wcd by CODM.
+
+   Summarise<! segment infonnation is as follows:
+                                                                                                                                                           ' INK crore
+                                                                                            Ouarll'r ended                                    \'ear \'lldtd
+                                                                       March JI.            Decl'"mber 31,      March 31,              March 31.         March JI,
+                            Particular$                                  1026                     2025             2025                 2026                 1025
+                                                                       Unaudited             Un1udi1ed          Unaudlled
+                                                                                                                                        Audited            Audited
+                                                                    ( Ref,r Rote II)                          (Kefrr noh• Ill
+   RrH~nue from optrallons (extrrn al <'ustomen)
+      India food ocdcring and delivery                                           .'.!.737            :!,676                 2,054              10.159              8.080
+      llypcrpure supplies (828 husin('sS)                                            978              1,070                 l ,S40              5,36t:,            6. 196
+      Qukk commerct                                                             13.232              11.256                  1,709              37,779              5,206
+      Going Out                                                                      277                JOO                    229                m                  737
+      All other sc •mcnts (Residual )                                                68                  13                      I                 87                  24
+   Total                                                                        17.292              16.315                  ~.833              54.364             Z0.?43
+   Rc,·l'"nur from opt'rations (inlC'r-M'lmt'nl)
+       lndi:i food ordering and dcll11cry                                            14                  12                      7                  46                17
+       Hyperpure !>'llpplics (828 husin('ss)                                         51                  II                      I                  78                 2
+      Quick oommcrcc                                                                  2                   I                      5                  13                JO
+      Going O ut                                                                                                                                                       0
+       All other SCPffiCfll! (RL'Si<lual)                                            II                  15                    14                   49                59
+   Total                                                                             78                  39                    27                                     98
+   Sr2n1l'" nf re~ull~                                                                                                                            "'
+       India food ordering and delivery                                             549                 547                   439               1,079              1,541
+       Hypcrpure 1>t1pp!ic~ (828 business]                                           13                   7                    (8)                 16               (43)
+       Quick Cl)l"llffi(."fCC                                                       265                 202                  (82)                 430               (ll)
+       Going Oul                                                                   (73)               (114)                  (44)               (292)               (30)
+       All other w~mcnts (Residua Ii                                               (60)                (41)                  {161               (206)                (12:)
+   Sc-cment r t'sull'li                                                             694                 S9S                   289               2.027              1.435
+       Add: other income                                                            342                 348                   368               1.396              1,077
+       ~~: :Ji:ire ha:.cd pa)1ncnt exJX11.St                                        208                 227                   217                 819                798
+       Less: finance costs                                                          132                 101                    56                 392                154
+       Lc.s: dcprl.'-;ation and amortisalion cxpt.-nsc                              468                 439                   287               1.597                863
+       Add: exceptional items
+   Profil befort> lax                                                               228                 170                    97                 61S                697
+
+
+4 During the pre\ ious year ended March 31. 2025, 1he Company had alloned 33.64.73.755 Equity Sh::irc-s of fact: value lt,.'R I each to eligible Qualified lnstitution11I 8U)U"S (QIU) 111 an issue price or INR 252.62 per Equity Share (including~ premium of INR
+  251.61 per Equit} Share) aggre~111ing 10 lNR 8,500 croi·e. pursuant to Qualified lnstit\lfional Placement tQIPJ in accordance with the prmision~ ofSl.'Curi1ics and Exchange Boord of l11dia (Issue ofCapiral and Dis.closure Raquircmt11.ts) Regulations (lhc ··sEBI
+  ICDR Reg_ula1ions"}.
+
+ 5 During the 1>revious )'!"ar ended March 31. 2025. lhc Company a llotted 47.75.H.845 C<!Uity shares h11,ing a face value Qf!NR It- ca('h lo ·foo1fa· Bay Emplo)'l-'CS ESOI' rrusf("tSOP Trust"). for furth\.-r issu3nec undl.-r various Employ,;.-c Stock Ophon Plam.
+
+
+ 6 The Company is in rcc-eipt ofthe following Show Cause Nodces ("SCNs~) and l>cmand Onk-rs (..Ordcrs") from u.rious GST aulhoritics:
+    a. Ordcrs for Oc1obcr 2019 10 March 2022 for all 1he Stat\'S for INR 420 crore
+    b. Order for April 2022 to f•,farch 2023 for Andhra Pr:idt:Sh for INR 8 crorc
+    c. SCN for April 20:?:? to March 2023 for Gujarat for INR 13 crore
+    d. SCN for April 202310 March 20:?4 for Andhra Pradesh for fNR 6 ('tore.
+   There arc no SCNs or Ordcn or1 thi~ maner- other th:m thO<SC mc:mioned here.The SCNs and Ordcrs require the Cnmpany to p:1y GST on 1hc delivery charges collected by the Company from the ctid users on ~halrof1he deliver) partnc-rs. :along with :iddition:al
+   intcrcsl and pen:ahies as per GST provisions. The Comp:any is contcsling the Orders-' SCN~ at applicable forum.<.. The Company. ~-uppOrll.-d by the external in<l\-ptndent cxpcn's ad\"icc. is of the VI~• 1ha1 it has a strong case on ml.Tits. W.e.f. Scp1cmbcr 22.
+   2025. the government has indudcd local ddfrc-ry .scrviC\.'S provided through Ekctronic Commcrc;: Operators ("ECOs") by unrcgislcr<.-d "krvice provi<l<.-rs u1s 9(51 ofCGST ;\~·t. 201 i. Pursuant to change in la'A, the Cumpany IS pa)ing GST on Jcliwry charges
+   collected frotn the custom('rs on behalfof unregistered dcl1\'CfY partners.
+7 On Au~us1 ::!7, 2024, Eternal Limited (Formerly knm,11 a~ Zomato Limited) compklcd the aequisiMn ofOrbgcn TC(:hnologics Priw.1c Limited f'OTPL..). 3nd Wucel:md Entertainment Priv31c Limi1cd ("WEPL'"), holding the 'Mo\.1es Tid:mng· busincs,qnd
+  ·E,ents· busine§S re;.,.--pccli\d), from One 97 Communka1iom Limited ("'OCL"r·sclh-r'"). Th~ acquisitions were executed through a combination of secondary share purchases from OCL amounting 10 rNR 758 crorc (for both the enllti~) and primary infusion
+  imo the OTPL and WEPL ai110tmt111g to lNR 1.260 crorc. This amount wa..'i subjcc1 IO adjustments as .iiret."t.l in dcfinill\'C apccmcnK P°"I adJustment, 1hc total purcha'-t' consider.mon amounts to INR 2,014 crore. The cn1ity wi~c hrc:ik up ofthc i..amc is as
+  fol!O"-S:
+
+   AJ Tht· total considi.Tation for I~ . of paid-up cqu11y s}i:m.- capital ofOTPL amounts 10 INR 1.236 tTorc.
+
+   The purchase price a\lOC'at,on ( ?PA) and fdir ,-a\ues are as folki\\'ll:
+
+
+   P11rllculan                                                               INR crore
+   Purcha$C Consideration                                                         1.236
+   Addl{Lcs..~); Fair Value of A~ts and Liab1li11cs ac-quin.'<I
+               Merchant Rclalionships                                             (168)
+               Technology                                                          (48)
+               Aclivcustri.                                                        (39)
+               Non-compete                                                         (28)
+               Brand                                                                (I I
+               OthlT ldcn1ificd assets (ncl of liabihtk-s.l                       (443)
+   Add: Deferred T;u Liahilil) on intangihlc ihSCIS
+   recognised in con~lidated financial <;.tatcmcnts
+   Coodv.·ill                                                                      514
+
+   B) The 101:11consideration for 100~-_ ofpa1d-up equitysh:ire capital of WE PL amounts to INR 778 crorc.
+
+   The purch~lit.l prioo alloc:.tion (Pl'A) and f.lir ,-alucs an,: as follow-s;
+
+    Parlkulan:                                                               INRuore
+    Purchase Com,idcutio11                                                       778
+    Addl~Ll-Ss): fllir Value of ASSl-"1S and Liab11itks i Cquir1,."(l
+                 Technology                                                        (59)
+                  Merchant Relationships                                           (51)
+                  Brand                                                            (10)
+                  Non-compete                                                       (91
+                  Active user~                                                      (5)
+                  Othcr Identified asscb (net of liabihtk-i.J                     {171)
+    Add: Otferr«I Tax Liahiht) OIi intangible a!>Scts
+                                                                                     33
+    rCCQgnis1.,-d in con~hdatcJ financial statcm(.."!l\S
+    Coodv.·ill                                                                      506
+
+    Tht" cxcc:.s of lite purchai.c price o,·er lhe fair value of the acquired net as!icts was recorded as goodwill. Tlic useful hvcs of thC" acquired intangible a~~ets were assii;:ncd as follow:.: mcrch,1n1 relationships (10 years), acuve users (I year). hrand () years),
+    tcchnolog}'t5 ye:1rsJ, and nou<ompc1c t6 yi.-ars).
+
+    Out· lo ibis acqui~i1ion, the rt!>ults for the year ended March 31. 2026 and ye-Jr ended March 31. 2025 :ue no, comparable 10 tha1 cx1cm
+
+ 8 During the quarter ended June 30. 2025. 1hc Group s1ancd uansitioning from its marketplace model to a combination ofmarkl1plaC\" and im-entory-lcd model in i1s quick commerce ~cgmcnt. Owing 10 this change. 1he rcYcnu.._. und(..'t quick commtTcc scsmcnl
+   nov,· includes amoun1 oo account of J iri."l:1 sales to customers on the 81inki1 platform and not ju)t !he marketplace commi:i.i,on Oil such S;JICS and a rcdue1ion in saks ufllyperpurc ~upplics ( 82B busm1,.-SS).
+
+ 9 The Government of India, v.ith effect from Nm·cmbcr 21. 2025. 1101Hicd the Code on Social Se·cUnt}. 2020; the Occup:nion3.I Saf..,1y. Health and Working Conditions Code, 2020; lhc lndu~lrlal Relation~ Code, 2020; :ind the Code Oil Wage$, 2019 (col]e(..1iwly,
+   tile "l.aOOm Cod~··1, which replace c..xis1ing central ki.bour k gislations. Drat\ n1lcs under 1hc Labour Codi:5 were released by the Mmistry of l..abour and Emplo)m\:nl on December 30, 2025 and arc ycl to be notified. Variou$ State Govcrnmcnl1- ha\"c also
+   tlOlified statc•Sp!.'1:ific legislations. Ba.,;;cd on tht• Group"s asS<.-ssm~·nl. the prO\i sions currcnlly in force do not have a ma1crial impact on the financial results of the Group. The financial impact. if :my. of the remaining pro,1sions \\ill be ali-SCS~-d upon
+   nolification of the final rulcs 1111d their elTet:li\'(' d;1tCS.
+
+JO On January 21. 2026. Mr. Deep1nder Goyal tendered his rcsignatioo as Director, Managing D1rc-c1or and Ch1efExecuti\·c Ofliccr of the Company effective dose of husim::i.s hour~ on Febrnary I, 2026. Mr. Albinder Singh Dbindsa has bet-n appointed as the
+   Ch1cf Exccull\'C Ofticcr of the Comp.1ny with effect from Fcbrnary 1. 2026. Effo(..1ivc t,,·larch 13. 2026. Mr. Occpindcr Goyal has ticcn apJ)(lintcd :L'i Vice Chairman and Nori-Exccu1ivc Director of the Company upon sharcholdlTS' approval.
+
+11 The figures of1hc fo11nh quarter arc the balancing figures bctwcen audited figures in res.pect of the full financial yc.:1.r and published year to dale figures upto thc third quaner ofthc rclc\~,1111 linancial )'Clr. Also, the figures uplo 1he end ofthird quancr were
+   only tC\iC\'."cd and not subjected to a11dit.
+
+
+
+
+     Dall': April 28. 2026
+
+     ...,,, t',--\ ~ 1.-'.)           !) e 1~ 1'
+                                                                                              Chartered Accountants
+Deloitte                                                                                      7th Floor Building 10
+                                                                                              Tower B
+
+Haskins & Sells                                                                               DLF Cyber City Complex
+                                                                                              DLF City Phase II
+                                                                                              Gurugram-122 002
+                                                                                              Haryana, India
+
+                                                                                              Tel: +91 124 679 2000
+                                                                                              Fax: +91 124 679 2012
+
+     INDEPENDENT AUDITOR'S REPORT ON AUDIT OF ANNUAL STANDALONE FINANCIAL
+     RESULTS AND REVIEW OF QUARTERLY FINANCIAL RESULTS
+
+     TO THE BOARD OF DIRECTORS OF
+     ETERNAL LIMITED (FORMALLY KNOWN AS ZOMATO LIMITED)
+
+     Opinion and Conclusion
+
+     We have (a) aud ited the Standalone Financial Results for the year ended March 31, 2026 and (b)
+     reviewed the Standalone Financial Results for the quarter ended March 31, 2026 (refer 'Other
+     Matters' section below), which were subject to limited review by us, both included in the
+     accompanying "Statement of Standalone Financial Results for the Quarter and Year Ended March 31,
+     2026" of Eternal Limited (the "Company"), wh ich includes Foodie Bay Employee Trust ("trust")
+     (the "Statement"), being submitted by the Company pursuant to the requirements of (Regu lation
+     33 of the SEBI (Listing Obl igations and Disclosure Requirements) Regulations, 2015, as amended
+     (the "LODR Regulations") .
+
+     (a) Opinion on Annual Standalone Financial Results
+
+         In our opinion and to the best of our information and according to the explanations given to us,
+         and based on the consideration of the audit report of the other auditor as referred to in Other
+         Matters section below the Standalone Financial Results for t he yea r ended March 31, 2026:
+
+         i.   are presented in accordan ce with the require ments of (Regulation 33) of the SEBI ( Listing
+              Obligations and Disclosure Requirements) Regulations, 20 15, as amended; and
+
+         ii. gives a true and fair view in conformity with the recogn it ion and measurement principles laid
+             down in the Indian Accounting Standard s and other accounting principles generally accepted
+             in India of the net profit and other com prehensive loss and other financial information of the
+             Company for the year then ended.
+
+     (b) Conclusion on Unaudited Standalone Financial Results for the quarter ended March
+         31, 2026
+
+        With respect to the Standalone Financia l Results for the quarter ended March 31, 2026 based on
+        our review conducted as stated in paragraph ( b) of Auditor's Responsibiliti es section below,
+        nothing has come to our attention that causes us to believe that the Standalone Financial Results
+        for the quarter ended March 31, 2026 prepared in accordance with the recognition and
+        measurement principles laid down in the Indian Accounting Standards and oth er accounting
+        princip les generally accepted in India , has not disclosed the in form ation required to be d isclosed
+        in terms of (Regulation 33) of the SEBI (Listing Obligations and Disclosure Requirements)
+        Regulation s, 2015, as amended, including the manner in which it is to be disclosed, or that it
+        contains any material misstatement.
+
+     Basis for Opinion on the Audited Standalone Financial Results for the year ended March
+     31,2026
+
+     We conducted our audit in accordance with the Standards on Auditing ("SA"s) specified under Section
+     143( 10) of the Companies Act, 2013 (the "Act"). Our responsibil ities under those Standards are
+     further described in paragraph (a) of Auditor's Responsibilities section below. We are independent
+     of the Company in accordance with the Code of Ethics issued by the Institute of Chartered
+     Accountants of India (the "ICAI") together with the ethical requirements that are relevant to our
+     aud it of the Standalone Financial Results for the year ended March 31, 2026 under the provisions of
+     the Act and the Rules thereunder, and we have fulfilled our other ethical responsibilities in
+     accordance with t hese requirements and the ICAI's Code of Ethics. We believe that the audit
+     evidence obtained by us and the audit evidence obtained by the other auditor in terms of their
+     reports referred to in Other Matters section below, is sufficient and appropriate to provide a basis
+     for our audit opinion.
+Deloitte
+Haskins & Sells
+
+      Emphasis of Matter
+
+      We draw attention to Note 9 to the Standalone financial results relating to the show cause notices
+      (SCNs) and orders received by the Company from GST authorities in respect of GST on delivery
+      charges. The Company, supported by the external expert's advice, is of the view that, it has a strong
+      case on merits. Given the uncertainty involved, the ultimate outcome will be ascertained on the
+      disposal of the above matter.
+
+      Our opinion and conclusion is not modified in respect of this matter.
+
+      Management's and Board of Directors' Responsibilities for the Statement
+
+      This Statement which includes the Standalone Financial Results is the responsibility of the Company's
+      Board of Directors and has been approved by them for the issuance. The Standalone Financial Results
+      for the year ended March 31, 2026 has been compiled from the related audited standalone financial
+      statements. This responsibility includes the preparation and presentation of the Standalone Financial
+      Results for the quarter and year ended March 31, 2026 that give a true and fair view of the net profit
+      and other comprehensive loss and other financial information in accordance with the recognition and
+      measurement principles laid down in the Indian Accounting Standards prescribed under Section 133
+      of the Act read with relevant rules issued thereunder and other accounting principles generally
+      accepted in India and in compliance with (Regulation 33) of the LODR Regulations. This responsibility
+      also includes maintenance of adequate accounting records in accordance with the provisions of the
+      Act for safeguarding th e assets of the Company and for preventing and detecting frauds and other
+      irregularities; selection and application of appropriate accounting policies; making judgments and
+      estimates that are reasonable and prudent; and the design, implementation and maintenance of
+      adequate internal financial controls that were operating effectively for ensuring the accuracy and
+      completeness of the accounting records, relevant to the preparation and presentation of the
+      Standalone Financial Results that give a true and fair view and is free from material misstatement,
+      whether due to fraud or error.
+
+      In preparing the Standalone Financial Results, the Board of Directors is responsible for assessing the
+      Company's ability, to continue as a going concern, disclosing, as applicable, matters related to going
+      concern and using the going co ncern basis of accounting unless the Board of Directors either intends
+      to liquidate the Company or to cease operations, or has no realistic alternative but to do so.
+
+      The Board of Directors is also responsible for overseeing the financial reporting process of the
+      Company.
+
+      Auditor's Responsibilities
+
+      (a)   Audit of the Standalone Financial Results for the year ended March 31, 2026
+
+            Our objectives are to obtain reasonable assurance about whether the Standalone Financial
+            Results for the year ended March 31, 2026 as a who le are free from material misstatement,
+            whether due to fraud or error, and to issue an auditor's report that includes our opinion.
+            Reasonable assurance is a high level of assurance, but is not a guarantee that an audit
+            conducted in accordance with SAs will always detect a material misstatement when it exists.
+            Misstatements can arise from fraud or error and are considered material if, individually or in
+            the aggregate, they cou ld reasonably be expected to influence the economic decisions of users
+            taken on the basis of this Standalone Financial Results.
+
+            As part of an audit in accordance with SAs, we exercise professional judgment and maintain
+            professional skepticism throughout the audit. We also:
+
+            •   Identify and assess the risks of material misstatement of the Annual Standalone Financial
+                Results, whether due to fraud or error, design and perform audit procedures responsive to
+                those ris ks, and obtain audit evidence that is sufficient and appropriate to provide a basis
+                for our opinion. The risk of not detecting a material misstatement resulting from fraud is
+                higher than for one resulting from error, as fraud may invol ve collusion, forgery, intentional
+                omissions, misrepresentations, or the override of internal control.
+Deloitte
+Haskins & Sells
+            •   Obtain an understanding of internal control relevant to the audit in order to design audit
+                procedures that are appropriate in the circumstances, but not for the purpose of expressing
+                an opinion on the effectiveness of the Company's internal control.
+            •   Evaluate the appropriateness of accounting policies used and the reasonableness of
+                accounting estimates made by the Board of Directors.
+            •   Evaluate the appropriateness and reasonableness of disclosures made by the Board of
+                Directors in terms of the requirements specified under (Regulation 33) of the LODR
+                Regulations.
+            •   Conclude on the appropriateness of the Board of Directors' use of the going concern basis
+                of accounting and, based on the audit evidence obtained, whether a material uncertainty
+                exists related to events or conditions that may cast significant doubt on the ability of the
+                Company to continue as a going concern. If we conclude that a material uncertainty exists,
+                we are required to draw attention in our auditor's report to the related disclosures in the
+                Statement or, if such disclosures are inadequate, to modify our opinion. Our conclusions
+                are based on the audit evidence obtained up to the date of our auditor's report. However,
+                future events or conditions may cause the Company to cease to continue as a going
+                concern.
+            •   Evaluate the overall presentation, structure and content of the Annual Standalone Financial
+                Results, including the disclosures, and whether the Annual Standalone Financial Results
+                represent the underlying transactions and events in a manner that achieves fair
+                presentation.
+            •   Perform procedures in accordance with the circular issued by the SEBI under Regulation
+                33(8) of the LODR Regulations to the extent applicable.
+            •   Obtain sufficient appropriate audit evidence regarding the Annual Standalone Financial
+                Results of the Company to express an opinion on the Annual Standalone Financial Results.
+                We are responsible for the direction, supervision and performance of the audit of financial
+                information of such entities or business activities included in the Annual Standalone
+                Financial Results of which we are the independent auditors. For the trust included in the
+                Annual Standalone Financial Results, which have been audited by the other auditor, such
+                other auditor remain responsible for the direction, supervision and performance of the
+                audits carried out by them. We remain solely responsible for our audit opinion.
+
+            Materiality is the magnitude of misstatements in the Annual Standalone Financial Results that,
+            individually or in aggregate, makes it probable that the economic decisions of a reasonably
+            knowledgeable user of the Annual Standalone Financial Results may be influenced. We
+            consider quantitative materiality and qualitative factors in (i) planning the scope of our audit
+            work and in evaluating the results of our work; and (ii) to evaluate the effect of any identified
+            misstatements in the Annual Standalone Financial Results.
+
+            We communicate with those charged with governance regarding, among other matters, the
+            planned scope and timing of the audit and significant audit findings including any significant
+            deficiencies in internal control that we identify during our audit.
+
+            We also provide those charged with governance with a statement that we have complied with
+            relevant ethical requirements regarding independence, and to communicate with them all
+            relationships and other matters that may reasonably be thought to bear on our independence,
+            and where applicable, related safeguards.
+
+      (b)   Review of the Standalone Financial Results for the quarter ended March 31, 2026
+
+            We conducted our review of the Standalone Financial Results for the quarter ended March 31,
+            2026 in accordance with the Standard on Review Engagements ("SRE") 2410 'Review of
+            Interim Financial Information Performed by the Independent Auditor of the Entity', issued by
+            the !CAI. A review of interim financial information consists of making inquiries, primarily of
+            the Company's personnel responsible for financial and accounting matters, and applying
+            analytical and other review procedures. A review is substantially less in scope than an audit
+            conducted in accordance with SAs specified under section 143(10) of the Act and consequently
+            does not enable us to obtain assurance that we would become aware of all significant matters
+            that might be identified in an audit. Accordingly, we do not express an audit opinion.
+Deloitte
+Haskins & Sells
+            We also performed procedures in accordance with the circular issued by the SEBI under
+            Regulation 33(8) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations,
+            2015, as amended, to the extent applicable.
+
+      Other Matters
+
+       •   The Statement includes the results for the Quarter ended March 31, 2026 being the balancing
+           figure between audited figures in respect of the full financial year and the published year to
+           date figures up to the third quarter of the current financial year which were subject to limited
+           review by us. Our report on the Statement is not modified in respect of this matter.
+
+       •   We did not audit the financial statements of one trust included in the Statement, whose financial
+           statements reflect total assets of Rs. 34 crores as at March 31, 2026 and total revenues of Rs.
+           Nil and Rs . Nil for the quarter and year ended March 31, 2026 respectively, total net profit after
+           tax of Rs. Nil and Rs. 3 crores for the quarter and year ended March 31, 2026 respectively and
+           other comprehensive income of Rs. Nil and Rs. 3 crore for the quarter and year ended March 31,
+           2026 respectively, and net cash flows of Rs. Nil for the year ended March 31 , 2026 as considered
+           in the Statement. The annual financial statements of one trust have been audited by the other
+           auditor whose reports have been furnished to us by the management and quarterly results not
+           reviewed, our opinion on the Statement, in so far as it relates to the amounts and disclosures
+           included in respect of trust, is based solely on the reports of such other auditor and the procedures
+           performed by us as stated under Auditor's Responsibilities section above and our conclusion on
+           the Statement, in so far as it relates to the amounts and disclosures included in respect trust, is
+           based solely on such unaudited financial information.
+
+           In our opinion and according to the information and explanations given to us by the Board of
+           Directors, these quarterly financial information are not material to the Group.
+
+           Our report on the Statement is not modified in respect of above matter with respect to our
+           reliance on the work done and the reports of the other auditors and the financial information
+           certified by the management.
+
+
+                                                                                   For Deloitte Haskins & Sells
+                                                                                       Chartered Accountants
+                                                                           ( Firm's Registration No. 015125N)
+
+
+
+
+                                                                       JyK~                   Vikas Khurana
+                                                                                                   (Partn er)
+                                                                                    ( Membership No.503760)
+                                                                           UDIN:   2 C §o 3 rCoWVCA:J .D J£° <j 7
+       Place: Gurugram
+       Date: April 28, 2026
+                                                                  Eternal Limited (Formerly known as Zomato L imited)
+                                                                                   CIN: L93030DL201 0PLC l 98141
+                                                     Registered office- Ground Floor. 12A. 94 Meghdoot, Nehru Place, New Delhi- 11 0019, Delhi, lndia
+                                                      Telephone- 01 l-40592373, Email- companysecreta.ry@etemal.com, \Vebsite- www.elemal.com
+
+                                             Statement of standa lone financial results for the quarter (un audited) and yea r (audited) ended Ma r ch 3 1, 2026
+                                                                                                                                                                                              (IN R crore)
+                                                                                                                  Qua rter ended                                              Year ended
+                                                                                             March 31,            Occcm bcr 31,            March 3 1,              ~hrch 3 1,              March 3 1,
+                                            Particulars                                         2026                  2025                   2025                    2026                    2025
+S. No.
+                                                                                             Unaudited             Unaudited               Unaudited                Audited                 Audited
+                                                                                          (Refer note 12)                                (Refer note 12)
+   I     Revenue from operations                                                                       2,953                  2,883                  2, 192                   10,899                    8,617
+  II     Other income                                                                                    537                    425                    401                     1,803                    1.260
+  Ill    Total inco me (l+I()                                                                          3,490                  3,308                     2,593                 12 702                  9,877
+
+
+  IV     Expenses
+         Employee benefits expense                                                                        412                     351                    340                    1,466                   1,266
+         Finanee costs                                                                                     13                       9                      4                       34                      16
+         Depreciation and amortisation expenses                                                            56                      55                     29                      202                      97
+         Other expenses
+              Advertisement and sales promotion                                                            610                   567                      389                   2,064                   1,427
+              Delivery and related charges                                                               1,268                 1,220                      n4                    4,658                   3.788
+              Others                                                                                       357                   366                      250                   1,312                   1.082
+         Total expenses                                                                                 2 7 16                2,568                     I 936                   9,736                   7,676
+
+
+  V      Profit before exceptional items and tax (Ill-IV)                                                 774                     740                    657                    2,966                   2 201
+
+
+  VI     Exceptional items (refer note 3)                                                                                                                   8                                              II
+
+ VII     P rofit before tax (V-VO                                                                         774                     740                    649                    2,966                   2,190
+
+
+ YUi     Tax exp ense:
+         Current tax                                                                                        76                     83                      74                    3 18                    230
+         Deferred tax                                                                                       (7)                                                                   (7)
+
+  IX     Profit ror the period/ year (V II-VIIJ)                                                          705                     657                    575                    2 655                   I 960
+
+   X     Other comprchcnsh•e income / (loss)
+         (i) Items thal will not be reclassified to profit or loss
+             - Remeasuremcnls of the defined benefit plans                                                 (I)                      0                      (5)                      0                     (6)
+             - Equity instruments through other comprehensive income                                     (240)                 (242)                        36                  (515)                      77
+             - Income tax relating to above items                                                            4                     25                    (JO)                      34                    (30)
+
+         (ii) Items that will be reclassilicd to profit or loss
+             - Exchange differences on Lranslation of foreign operations                                     3                       0                     (0)                      5                       I
+             - Debt instruments through other comprehensive income                                       (132)                    (25)                      58                   (90)                     112
+             - Income tax relating to above items                                                           34                       6                   ( 19)                     23                    (23)
+
+         Total other comprehensive income / (loss) for the 11eriod / yea r                               (332                  (236                        40                   (543                      131
+
+  XI     Total comprehensive income fo r the period / yea r (IX+X)                                        373                     421                      615                  2, 112                  2,091
+
+
+  XII    Paid-up share capita l (face value of [NR I per share)                                            919                    911                      907                    91 9                    907
+
+ Xlll    Other equity                                                                                                                                                         36,137                  33,208
+
+                                             1
+ XIV     Earnings per equity share (INR) (face value of INR 1 each)
+           (a) Basic                                                                                      0.77                    0.72                   0.63                    2.91                    2.22
+           (b) Diluted                                                                                    0.76                    0.70                   0.61                    2.86                    2.15
+
+1 EPS is nor a111111aliscdfor the quarter ended March 31. 2026, December 31, 2025 and March 31, 2025
+Eternal Limited (Formerly known as Zomato Limited)
+Standalone Balance Sheet
+                                                                                                                                (INR crorc)
+                                                                                                       As at                  As at
+Particulars                                                                                        March 31, 2026         March 31, 2025
+                                                                                                      Audited               Audited
+Assets
+Non-current assets
+Property, plant and equipment                                                                                     113                     86
+Capital work-in-progress                                                                                            1                      0
+Right-of-use assets                                                                                               388                    151
+Goodwill                                                                                                        1,209                  1,209
+Other intangible assets                                                                                            17                     25
+Financial assets
+  - investments                                                                                                24,653                24,431
+  - Loans                                                                                                       1,229                   880
+  - Other financial assets                                                                                      1,376                 2,636
+Tax assets (net)                                                                                                   21                    48
+Deferred tax assets (net)                                                                                          14                         -
+Other non-current assets                                                                                          158                     74
+Total non-current assets                                                                                       29,179                 29,540
+
+Current assets
+Financial assets
+  - lnvestments                                                                                                 3,335                  1,442
+  - Trade receivables                                                                                             142                    112
+  - Cash and cash equivalents                                                                                     706                    431
+  - Bank balances other than cash and cash equivalents                                                            448                  1,368
+  - Other financial assets                                                                                      5,360                  2,753
+Other current assets                                                                                              235                    205
+Total current assets                                                                                           10,226                  6,311
+
+Total assets                                                                                                   39,405                 35,851
+
+Equity and liabilities
+
+Equity
+Equity share capital                                                                                              919                    907
+Other equity                                                                                                   36,137                 33,208
+Total equity                                                                                                   37,056                 34,115
+
+Liabilities
+Non-current liabilities
+Financial liabilities
+  - Lease liabilities                                                                                               286                   95
+Provisions                                                                                                           70                   62
+Deferred tax liabilities (net)                                                                                        -                   47
+Total non-current liabilities                                                                                       356                  204
+
+Current liabilities
+Financial liabilities
+  - Lease liabilities                                                                                               128                   78
+  - Trade payables
+     a. total outstanding dues of micro entell)rises and small entell)rises                                         8                      7
+     b. total outstanding dues of creditors other than micro entell)rises and small entell)rises                  614                    522
+  - Other financial liabilities                                                                                   770                    609
+Other current liabilities                                                                                         441                    298
+Provisions                                                                                                         18                     18
+Current tax liabilities (net)                                                                                      14                      -
+Total current liabilities                                                                                       1,993                  1,532
+
+Total liabilities                                                                                               2,349                  1,736
+
+Total equity and liabilities                                                                                   39,405                 35,851
+Eternal Limited (Formerly known as Zomato Limited)
+Standalone Stateme nt of Cash Flows
+                                                                                                                                                                 ClNR crore)
+                                                                                                                                               Year ended
+Particulars                                                                                                                         March 31, 2026          March 3 1, 2025
+                                                                                                                                      A udited                Audited
+A)    Cash flows from operating activities
+      Profit before tax                                                                                                                         2,966                   2,190
+      A djustment to reconcile profit before tax to net cash flows:
+      - Interest income on bank deposits and others                                                                                             (456)                   (243)
+      - Interest income on government securities                                                                                                (120)                   ( 100)
+      - Amortisation of premium / (discount) on government securities                                                                           ( 102)                    (89)
+      - Interest income on debentures or bonds                                                                                                  (484)                   (436)
+      - Amonisation of premium / (discount) on debentures or bonds                                                                                    0                    (4)
+      - Interest income on income tax refund                                                                                                        (7)                   (14)
+      - Net gain on mutual fund units                                                                                                             (75)                  (117)
+      - Net gain on sale of govemmelll securities                                                                                                   (7)
+      - Liabilities written back                                                                                                                  ( 13)                    (5)
+      - Profit on sale of property, plant and equipment (net)                                                                                       (4)                    ( I)
+      - Gain on tennination of lease contracts                                                                                                      (2)                    ( I)
+      - Share-based payment expense                                                                                                                275                    380
+      - Interest expense on lease liabilities                                                                                                        29                     14
+      - Interest expense others                                                                                                                       I                       0
+      - Depreciation on property, plant and equipment and depreciation on right-of-use assets                                                      191                      92
+      - Amortisation on intangible assets                                                                                                            II                       5
+      - lmpainnent of financial and non financial assets (net)                                                                                       61                     39
+      - Financial and non financial assets written off                                                                                                0                        -
+      - Provision/(rcvcrsal) for impainncnt in value of investment in subsidiaries                                                                    -                     II
+      - Other non-cash items                                                                                                                       (4)                       0
+      Operating profit before working capital changes                                                                                           2,260                    1,721
+      Movements in working capital:
+      - Trade receivables                                                                                                                         (53)                     (49)
+      - Other financial assets                                                                                                                 (1,901)                       83
+      - Other assets                                                                                                                             (117)                   ( 159)
+      - Other financial liabilities and other liabilities                                                                                          316                       59
+      - Provisions                                                                                                                                   8                        5
+      - Trade payables                                                                                                                              95                       48
+      Cash generated from I (used in) operations                                                                                                   608                   1,708
+      Income taxes (paid) I refund (net)                                                                                                         (268)                     (94)
+      Net cash generated from I (used in) operating activities (A)                                                                                 340                   I 6 14
+
+8)    Cash flows from investing activities
+      Purchase of property, plant and equipment and other intangible assets (including capital work-in-progress, capital advances
+                                                                                                                                                 (102)                    (93)
+      and capital creditors)
+      Proceeds from sale of property, plant and equipment                                                                                             4                      I
+      Investment in bank and other deposits (having original maturity of more than 3 months)                                                   ( 1,399)                (5,924)
+      Proceeds from redemption / maturity of bank and other deposits (having ori&-inal maturity of more than 3 months)                            3,530                  2,466
+      Investment in mutual fund units                                                                                                         (23,995)                (35,280)
+      Proceeds from redemption of mutual fund units                                                                                             23.927                  35,13 1
+      Purchase of other non-current investments                                                                                                         -                     (0)
+      Investment in government securities                                                                                                         (151)                  (648)
+      Proceeds from sale / maturity of government securities                                                                                         520                    65
+      Investment in debentures or bonds                                                                                                        (1 ,839)                         -
+      Proceeds from redemption of debentures or bonds                                                                                                366                    50
+      Loan given to subsidiaries                                                                                                               ( I, 125)               (1,280)
+      Loan repaid by subsidiaries                                                                                                                    780                   400
+      Investment in subsidiaries                                                                                                               (1,400)                 (5,442)
+      Interest received                                                                                                                              931                   802
+      Net cash generated from / (used in) investing activities (8)                                                                                    47               (9 752)
+
+ C)    Cash nows from financing activities
+       Proceeds from issue of equity shares                                                                                                             -                8,50 1
+       Transaction cost paid on issue of equity shares                                                                                                                    (54)
+       Share based payment on cash settlement of option (fractional shares)                                                                                                 (0)
+       Amount co11ected by ESOP trust on exercise of employee stock options                                                                          12                       4
+       Payment of principal portion of lease liabilities                                                                                          (95)                    (49)
+       Payment of interest ponion of lease liabilities                                                                                            (29)                    ( 14)
+       Other interest paid                                                                                                                          (I )                    (0)
+       Net cash generated from I (used in) financing activities (C)                                                                              () 13                   8,388
+
+       Net increase / (decrease) in cash and cash equivalents (A+ 8 +C)                                                                              274                      250
+       Net foreign exchange difference                                                                                                                 I                        0
+       Cash and cash equivalents as at the beginning of the year                                                                                     431                      18 1
+       Cash and cash equivalents as at the end of the _year                                                                                          706                      431
+...
+                                                                                  Eternal Limited (For merly known as Zo mato Limited)
+                                                                                         Notes to the stand:d onc financial results
+
+I The statement of standalone financial results of Eternal Limited (Formerly known as Zomato Limited) ('"the Company'") for the quarter (unaudi1ed) and year (audited) ended March 31. 2026 (..Financial Resu\1s··) have
+  been reviewed by the Audit Conm1i11cc and approved by the Board of Directors at their respective tncclings held on April 28. 2026.
+
+      The Financial Results have been prepared ln accordance wilh lhe recognition and measurement principles laid down in the Indian Account ing Standard 3➔ ..Interim Financial Reporting·· ("Ind AS 34"), prescribed \mder
+      Section 133 of the Companies Act. 2013 read with relevant rules issued thereunder and other accounting principles generally acccp1cd in India and in compliance with Rcgulai ion 33 of the Securities and Exchange
+      Board oflndia (Lis1ing Obligations and Disclosure Requirements) Rcgula1ions, 2015, as amended ("LODR Regulations").
+
+      Exceplional i1cm includes:
+                                                                                                                                                        l lNR crorc\
+                                                                                                 O uartcr ended                                 Year ended
+      P~rticulars                                                               March 3 11        Decem ber 3 1,      ~hr ch 3 1,       March 31,         !\larch 31,
+                                                                                 2026                 2025              2025              2026               2025
+      Provision for imoairmcnl in value of inves1ment in subsidiary                                                                 8                               II
+      Total                                                                                                                         8                                II
+
+      - During the 4uancr and year ended March 3 I, 2025, the Company had recognised an 1mpainocnt loss oflNR 8 crorc on ils investment in Zomalo Local Services Private Limited (ZLSPL), (a wholly owned subsidiary
+      of the Company). The impairmcnl \\JS recorded following 1he closure of ZLSPL's hyperlocal delivery service operations.
+
+      - During lhe year ended March 31. 2025, in addition 10 above, the Company had recognised an impainnent loss of INR 3 erore on it s investmen1 in E1emal Technology Solutions Limi1ed (ETSL) (formerly known as
+      Zom.'l.lo Financial Services Limited (ZFSL)). (a wholly owned subsidiary of the Company) as it had voluntarily wilhdrawn its application for a NonwBanking Financial Company (Type II NBFCND) registration, which
+      was accepted by the RBI.
+
+4 The Company publishes these financial results along with the consolidated financial results. In accordance with Ind AS 108, 'Operaling Segments·. the Company has disclosed the segrrrenl information in the
+  consolidated financial results.
+
+
+      During the previous year ended March 31, 2025. the Company had allotted 33.64. 73,755 Equity Shares of face value INR I each to eligible Qualified Institutional Buyers (QJB) at an issue price of INR 252.62 per
+      Equity Share (including a premium of INR 251.62 per Equity Share) aggregating to INR 8,500 crore. pursuanl 10 Qualified Ins1i1u1ional Placement {QIP) in accordance wilh !he provisions of Securi1ies :md Exchange
+      Board of India (Issue ofCapilal and Disclosure Rcquiremcms) Regulations (the ''SEBI ICDR Regulations").
+
+
+      During the previous year ended March 3 1. 2025. lhe Company had alloned 47.75.34.845 equity shares having a face value of INR JI- each l0 ·Foodie Bay Employees ESOP Tmsq'·ESOP Trust''). for funher issuance
+      under various Employee Stock Option Plans.
+
+      On August 27, 2024, Etcmal Limited (Fonncrly kno\Vn as Zoma10 Limited) completed 1hc acquisition ofOrbgcn Technologies Privale Limi1cd (°'OTPL''). and Wasteland Entcrtainmcnl Private Limited (..WEPL'').
+      holding the ·Movies Tteke1ing· business and ·Evcn1s· business respectively, from One 97 Communications Limited ("OCL''/'°Seller..). These acquisitions were executed through a combination of secondary share
+      purchase from OCL amounting 10 l"NR 758 crorc (for both the entities) and primary infusion imo OTPL and WEPL amounting to INR 1.260 crorc.
+
+      The Company has made long 1erm strategic investmen1s in Zomato Hyperpure Private Limited ("ZHPL "), Zomato Entertainment Priva1e Limited ("ZEPL"), Blink Conunerce Private Limited ("BCPL"), Orbgen
+      Technologies Private Limited (''OTPL..) and Wasteland Entenalnmcnt Priv:ue Limited ("WEPL.. ) ("subsidiary companies"), which arc in their initiaVdevcloping slage of operation and would gencra1e growth and
+      returns over a period of time. These subsidiary companies have incurred significant expenses for building the hr.ind. market share and operations which have added to the losses of lhcsc cnti1ics. The parent has
+      commiued to provide suppon to each orits subsidiaries in the event they are unable to mee1 their indi, idual liabilities.
+
+
+       The Company is in receipt of the following Show Cause Notices (..SCNs'') and Demand Orders (''Orders'') from various GST aulhorilies:
+        a. Orders for October 2019 to March 2022 for all 1hc States for INR 420 crore
+        b. Order for April 2022 to March 2023 for Andhra Pradesh for INR 8 crore
+        c. SCN for April 2022 to March 2023 for Gujara1 for INR 13 crorc
+        d. SCN for April 2023 lo March 2024 for Anr.lhra Pradesh for INR 6 crorc,
+       There are no SCNs or Orders on this mall er ot her 1han those mentioned here. The SCNs and Orders require 1he Co1npany 10 pay GST on the delivery charges collected by the Company from the end users on behalf of
+       the delivery partners. along with additional interest and penalties as per GST provisions. The Company is contesting the Orders/ SCNs at applicable forums. The Company, supported by the cxtemal independent
+       expert's advice, is of 1he ,~ew that ii has a strong case on merits. \V.e.f. September 22, 2025, the go,•ernment has included local delivery services provided lhrough Electronic Commerce Opera1ors ("ECOs..) by
+       unregistered service providers uls 9(5) of CGST Ac-t, 2017. Pursuan110 change in law. the Company is paying GST on delivery charges collected from the customers on behalf of unregistered delivery panncrs.
+
+
+ 10 The Govemmenl of India, wi1h effect from November 21. 2025. nolified the Code on Social Security. 2020; the Occupalional Safety. Health and Working Conditions Code, 2020: the Industrial Relations Code. 2020;
+    and the Code on Wages, 2019 (collect ively. the "Labour Codes''). which replace cxisllng central labour legislations. Draft rules under lhe Labour Codes were released by the Ministry of Labour and Employment on
+    December 30, 2025 and arc yel to be nolified. Various State Governments have alst1 notified stale-specific legislations. Based on the Company's assessment. the provisions currently in force do not have a material
+    impac1 on the financial results of the Company. The financial impact. if any, of the remaining provisions will be assessed upon notification of the final rules and their effective da1es.
+
+
+ 11 On January 21. 2026, Mr. Dcepindcr Goyal tendered his resignation as Director, Managing Director and ChicfExcculivc Officer of1hc Company effective close ofhusiness hours on February 1, 2026. Mr. Albindcr
+    Singh Dhindsa has been appoin1ed as 1he Chief Execu1ive Officer of lhe Company with effect from February 1, 2026. EITective March 13, 2026. Mr. Deepinder Goyal has been appointed as Vice Chaimmn and Non-
+    Executive Dircc1or of the Company upon shareholders' approval
+ 12 The figures oflhc founh quarter arc the balancing figures between audited figures in respect of the full financial year and published year to date figures upto the lhird quaner of the relevant financial year. Also, the
+    figures upto the end ufthird quarter were only reviewed and not subjected to audit
+
+                                                                                                                                                              nd on behalf of the Boar d of Director,: of
+                                                                                                                                                              •I
+
+
+
+
+        Date: April 28, 2026
+        Place:      N e._l,0 j) ~, ~ \
+                                                                                     eternal.com
+eternal                                                                         info@eternal.com
+
+
+
+
+ Department of Corporate Services,                 Listing Department,
+ SSE Limited                                       National Stock Exchange of India Limited
+ Phiroze Jeejeebhoy Towers, Dalal Street,          C-1, G-Slock, Sandra- Kurla Complex
+ Mumbai - 400 001                                  Sandra ( E), Mumbai - 400 051
+
+
+                           Scrip Code: 543320, Scrip Symbol: ETERNAL
+                                        ISIN: INE758T01015
+
+Sub.: Declaration pursuant to Regulation 33 of SEBI (Listing Obligation and Disclosure
+Requirements) Regulations. 2015 ("Listing Regulations")
+
+Dear Sir/ Ma'am,
+
+Pursuant to Regulation 33 of Listing Regulations read with circulars issued by SESI, we, Albinder
+Singh Dhinsa, Chief Executive Officer and Akshant Goyal, Chief Financial Officer of the Company
+hereby declare that M/s. Deloitte Haskins & Sells, Chartered Accountants, statutory aud itors of the
+Company have issued the audit report with unmodified opinion on the financial results of the
+Company (standalone and consolidated) for the financial year ended March 31, 2026.
+
+For Eternal Limited
+(Formerly known as Zomato Limited)
+             r
+
+
+ Albind~           hi~sa                          Akshant Goyal
+ Chief Executive Officer                          Chief Financial Officer
+ Date: April 28, 2026                             Date: April 28, 2026
+
+
+
+
+ ETERNAL LIMITED (Formerly known as Zomato Limited)
+ Registered Address: Ground Floor 12A, 94 Meghdoot, Nehru Place, New Delhi -110019, India
+ CIN: L93030DL2010PLC198141, Telephone Number: 011 - 40592373
+

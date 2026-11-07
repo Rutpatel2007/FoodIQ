@@ -1,0 +1,53 @@
+Q6. What does the path and timeline for your steady state Adjusted EBITDA
+margin guidance for Blinkit of 5-6% look like? How are you thinking about
+balancing growth and profitability?
+Albinder: As we noted last quarter, some of our larger,
+more mature cities - including Delhi NCR - are already
+approaching the 5-6% steady-state Adjusted EBITDA
+margin. The underlying economics are solid, and
+what's encouraging is that these markets have
+remained resilient even during elevated competition -
+throughput per store continues to improve, customer
+retention remains strong, and wallet share keeps
+expanding. These are not temporary profits. They are
+structurally sound and durable.
+
+At an aggregate level, the profitability has improved
+year-on-year consistently (see chart) and we expect that trend to continue. We are more confident of
+getting to our guidance of 5-6% margins today than ever before - the only variable is the speed at which we
+get there. The path of margin expansion may not be linear though, given the multiple moving parts, but we
+are confident we will get there soon.
+
+Akshant: Our focus is squarely on solving for durable growth. Profitability is an outcome of executing our
+growth plan well, not an independent goal that we're optimising for.
+
+                                                                                                              ​
+FOOD DELIVERY & GOING-OUT
+
+Q7. Food delivery NOV growth seems to be accelerating consistently over the last
+three quarters. Are there any structural reasons that are driving this growth?
+Deepinder: Yes, growth has been accelerating over the last three quarters after bottoming out in Q1FY26.
+And we believe the improvement is structural, driven primarily by deliberate interventions to expand the
+addressable market into more price-sensitive segments.
+
+From Q2FY26, we lowered the minimum order value for free delivery to INR 99 from INR 199 for Gold
+members, stepped up targeted activation for budget-conscious customers, and curated assortment
+specifically for this segment - meals under INR 250, for example. The results have been encouraging -
+order volume growth is being driven by MTC growth, both from new-to-platform customers and higher
+frequency among existing budget-conscious customers.
+
+A declining NAOV is a natural and intended consequence of this strategy. If we can make restaurant food
+affordable for a much larger base of Indians, the addressable market expands significantly. What matters
+is whether the economics hold as NAOV comes down - and they do. Revenue per order continues to
+improve and operating cost efficiencies have kept pace, which is why margins have remained stable even
+as the order mix has shifted towards lower-value orders. Ultimately, we are optimizing for absolute
+Adjusted EBITDA (and not %), and the current tactics are working well to drive that.
+
+Two additional tailwinds give us confidence that the improvement in growth is structural and not
+transient. App opens have been trending higher over the last few quarters, signalling improving
+demand independent of our interventions. And while quick commerce did impact food delivery
+growth when it first scaled, that effect has now plateaued - food delivery frequency has been stable
+for several quarters, suggesting the two categories have largely settled into distinct use cases.
+
+
+                                                                                                             8

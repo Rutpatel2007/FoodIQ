@@ -1,0 +1,76 @@
+Eternal Limited (Formerly known as Zomato Limited)
+Consolidated Statement of Cash Flows
+                                                                                                                                                              (INR crores)
+                                                                                                                                             Half-vear ended
+Particulars                                                                                                                      Sentember 30, 2025    Sentember 30, 2024
+                                                                                                                                     Unaudited             Unaudited
+A) Cash flows from operating activities
+   Profit before tax                                                                                                                             m                    476
+   Adjustments to reconcile profit before tax to net cash flows:
+   - Liabilities written back                                                                                                                     (4)                  (2)
+   - Depreciation on property, plant and equipment and right-of-use assets                                                                       528                  207
+   - Amortisation on intangible assets                                                                                                           162                  122
+   - Provision for doubtful debts and advances                                                                                                     73                   JI
+   - Bad debts written-off                                                                                                                          7                    -
+   - Inventories write-down (net)                                                                                                                  18                    -
+                                                                                                                                                                       (I)
+   - Gain on termination oflease contracts                                                                                                        (6)
+   - Share-based payment expense                                                                                                                 384                  364
+   -(Profit)/ loss on sale of property. plant and equipment {net)/ asset written off                                                              (I)                    I
+   - Net gain on mutual fund units                                                                                                              (75)                  (64)
+   - Net gain on sale of government securities                                                                                                    (2)                    -
+                                                                                                                                                                      (46)
+   - Interest income on government securities                                                                                                   (65)
+   - Interest income on debentures or bonds                                                                                                    (227)                 (219)
+   - Interest income on bank deposits and others                                                                                               (270)                  (75)
+   - Amortisation of premium/ (discount) on government securities                                                                               (48)                  (43)
+   -Amortisation of premium/ (discount) on debentures or bonds                                                                                    (OJ                  (I)
+   - Interest expense                                                                                                                               4                    -
+   - Interest on lease liabilities                                                                                                               147                    54
+   - Interest income on income tax refund                                                                                                         (0)                  (4)
+   Operating profit/ (loss) before working ca11ital changes                                                                                      842                  800
+   Movements in working capital :
+   - Trade receivables                                                                                                                            438                (534)
+   - Other financial assets                                                                                                                      (35)                 (25)
+   - Other assets                                                                                                                               (396)                (153)
+   - Inventory                                                                                                                                (1,344)                 (52)
+   - Other financial liabilities and other liabilities                                                                                             93                  210
+   - Provisions                                                                                                                                    22                    9
+   - Trade payables                                                                                                                               629                  222
+   Cash generated from/ (used in) operations                                                                                                      249                  477
+    Income taxes refund/ (paid) (net)                                                                                                          {211)                  (56)
+    Net cash generated from/ (used in) operating activities (A)                                                                                  38                   421
+
+B) Cash flows from investing activities
+   Purchase of property. plant and equipment and other intangible assets (including capital work-in-progress, capital advances
+                                                                                                                                               (788)                 (361)
+   and capital creditors)
+   Proceeds from sale of property, plant and equipment                                                                                              1                    3
+   Investment in bank and other deposits (having original maturity of more than 3 months)                                                       (953)                (434)
+   Proceeds from maturity of bank and other deposits (having original maturity of more than 3 months)                                           2,830                1,951
+   Proceeds from redemption of mutual fund units                                                                                               20,697               17,006
+   Investment in mutual fund units                                                                                                           (21,265)             (16,907)
+   Acquisition ofbusinesses, net of cash acquired (refer note 7)*                                                                                    -             (2,005)
+   Investment in government securities                                                                                                          (151)                    -
+   Proceeds from sale/ maturity of government securities                                                                                          155                   60
+   Investment in debentures or bonds                                                                                                          (1,048)                    -
+   Proceeds from redemption of debentures or bonds                                                                                                I 85                   -
+   Interest received                                                                                                                              406                  482
+   Net cash generated from/ (used in) investing activities (B)                                                                                     69                (205)
+
+CJ Cash flows from financing activities
+     Proceeds from issue of equity shares                                                                                                            -                    0
+     Transaction costs paid on issue of shares                                                                                                       -                  (0)
+     Share based payment on cash settlement of option (fractional shares)                                                                            -                  (0)
+     Amount collected by ESOP trust on exercise of employee stock options (net of tax)                                                              2                     3
+     Payment of principal portion of lease liabilities                                                                                          (195)                  (99)
+     Payment of interest portion of lease liabilities                                                                                           (147)                  (54)
+     Interest paid                                                                                                                                (4)                        -
+     Net cash generated from/ (used in) financing activities (C)                                                                                (344                 (150)
+
+     Net increase/ (decrease) in cash and cash equivalents (A+B+C)                                                                              (237)                   66
+     Net foreign exchange difference                                                                                                                2                   (0)
+     Cash and cash equivalents as at the beginning of the period                                                                                  666                  309
+     Cash and cash equivalents as at the end of the neriod                                                                                        431                  375
+
+ * the cash and cash equivalents acquired in the business combination amounts to INR 9 crores,

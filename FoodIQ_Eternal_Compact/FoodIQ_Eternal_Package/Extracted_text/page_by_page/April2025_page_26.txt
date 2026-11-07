@@ -1,0 +1,24 @@
+Adjusted Revenue nd Adjusted EBITDA e n                                 a                                                                                    r       co             cilia io        t n
+INR crore, unless otherwise mentioned                                                                                                                            FY23            FY24           9MFY25
+Adjusted Revenue
+Revenue from operations                                                                                                                                         7,079            12,114          14,410
+Add: Actual customer delivery charges paid in the food delivery business                                                                                        1,614            1,348            755
+Add: Platform fee paid in the food delivery business (that is not already included in revenue)                                                                    -                83             228
+Adjusted Revenue                                                                                                                                                8,693           13,545           15,393
+Adjusted EBITDA
+Adjusted EBITDA                                                                                                                                                  -783             372              914
+Add: Other income                                                                                                                                                682              847              709
+Add: Rental paid pertaining to ‘Ind AS 116 leases’                                                                                                                78              185              232
+Less: Depreciation & amortization expense                                                                                                                        437              526              576
+Less: Finance cost                                                                                                                                                49               72               98
+Less: ESOP expense                                                                                                                                               506              515              581
+Less: Exceptional items                                                                                                                                            0               0                0
+Less: Tax expense                                                                                                                                                -44              -60              112
+Profit ss t e e d
+         / (lo     ) for   h    p   rio                                                                                                                          -91 7            351              488
+Note: 1) Up until Q1FY23, Adjusted EBITDA did not include the rental expenses on certain leases that are required to be capitalised as per Indian Accounting Standard 116 (Ind AS 116). From Q2FY23 onwards, we
+
+have included the actual rent paid for the period under such leases in the Adjusted EBITDA computation to reflect our cash profit / loss more appropriately. 2) From Q2FY25 onwards, provision for income tax has
+
+been created on other income (primarily being treasury income) post adjustment of unabsorbed depreciation permitted under the Income Tax Act. No provision has been created on business income since that           25
+is being set off against the carried forward losses from past years.

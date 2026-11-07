@@ -1,0 +1,1245 @@
+Department of Corporate Services,                   Listing Department,
+BSE Limited                                         National Stock Exchange of India Limited
+Phiroze Jeejeebhoy Towers, Dalal Street,            C-1, G-Block, Bandra - Kurla Complex
+Mumbai- 400 001                                     Bandra (E), Mumbai - 400 051
+
+
+                               Scrip Code: 543320, Scrip Symbol: ETERNAL
+                                            ISIN: INE758T01015
+
+Sub.: Shareholders’ letter dated January 21, 2026
+
+Dear Sir/ Ma’am,
+
+Pursuant to Regulations 30 of the Securities and Exchange Board of India (Listing Obligations
+and Disclosure Requirements) Regulations, 2015, please find enclosed Shareholders’ Letter
+dated January 21, 2026.
+
+The above information will also be hosted on the website of the Company i.e. www.eternal.com
+
+
+For Eternal Limited
+(Formerly known as Zomato Limited)
+ SANDHY Digitally  signed by
+          SANDHYA SETHIA
+
+ A SETHIA Date: 2026.01.21
+          15:47:01 +05'30'
+
+
+Sandhya Sethia
+Company Secretary & Compliance Officer
+Place: New Delhi
+Date: January 21, 2026
+Encl.: As above
+
+
+
+
+ETERNAL LIMITED (Formerly known as Zomato Limited)
+Registered Address: Ground Floor 12A, 94 Meghdoot, Nehru Place, New Delhi - 110019, India
+CIN: L93030DL2010PLC198141, Telephone Number: 011 - 40592373
+0
+1
+                                   Headline Results for Q3FY26
+                           (Quarter ending December 31, 2025)
+
+
+
+
+Notes:
+*Sharp increase in YoY consolidated Adjusted Revenue growth mainly on account of shift to inventory ownership in quick commerce
+from Q1FY26 onwards, where Revenue now also includes the full monetary value of goods sold as per Ind AS (and not just the
+marketplace commission).
+** Like-for-like (“LFL”) consolidated Adjusted Revenue is calculated as consolidated Adjusted Revenue (-) Revenue from Hyperpure’s
+non-restaurant business (-) cost of goods sold in case of own inventory sales in quick commerce.
+
+
+1)​   NOV (B2C business) is defined as the combined net order value (NOV) of consumer facing businesses i.e. food delivery, quick
+      commerce and going-out.
+2)​ Adjusted Revenue defined as consolidated revenue from operations as per financials (+) actual customer delivery charges
+    paid in the food delivery business (net of any discounts, including free delivery discounts on Zomato Gold program) (+)
+    platform fee and other charges paid on food delivery Orders that are not already included in reported revenue from
+    operations.
+3)​ Adjusted EBITDA defined as consolidated EBITDA (+) share-based payment expense (-) rental paid for the period pertaining to
+    ‘Ind AS 116 leases’.
+
+
+                                                                                                                                     2
+In the letter below, we address the key questions that we think investors might have.
+Please refer to Annexure A for the key financial and operating metrics data.
+
+Q1. How was the overall business performance in Q3FY26?
+Deepinder: Key takeaways from Q3FY26 business performance are as follows:
+
+Food delivery NOV growth recovery continues with NOV in Q3FY26 growing 16.6% YoY (4.5% QoQ),
+improving meaningfully from 13.8% YoY NOV growth in the previous quarter. This was the second
+consecutive quarter of NOV growth acceleration following the bottom of 13.1% NOV growth in Q1FY26. The
+GOV growth was 21.3% YoY (5.2% QoQ).
+
+On the margin front, Adjusted EBITDA margin (as a % of NOV) reached an all-time high of 5.4% and the
+business delivered an absolute Adjusted EBITDA of INR 531 crore for the quarter, a YoY growth of 26% and a
+QoQ growth of 6% (vs INR 503 crore in Q2FY26).
+
+Quick commerce NOV growth remains robust at 121% YoY (14% QoQ) despite GST changes and seasonality.
+Like-for-like NOV growth at 130%+ YoY. 211 net new stores were added in the quarter taking the total store
+count to 2,027 stores as at the end of the quarter (about 70 stores short of our guidance of 2,100 stores).
+
+Adjusted EBITDA margin (as a % of NOV) turned positive for the first time on a quarterly basis with INR 4
+crore Adjusted EBITDA profit, improving significantly from a loss of INR 156 crore in the previous quarter.
+
+Going-out NOV grew 20% YoY whereas Adjusted EBITDA margin (as a % of NOV) declined to -4.7% resulting
+in an Adjusted EBITDA loss of INR 121 crore in the quarter (vs INR 63 crore in Q2FY26) driven by continued
+investments in category creation.
+
+As for Hyperpure, the restaurant supply business continued to grow steadily at 33% YoY (7% QoQ) with total
+Adjusted EBITDA margin turning positive for the first time resulting in an Adjusted EBITDA profit of INR 1
+crore (as compared to loss of INR 5 crore in the previous quarter).
+
+At a consolidated level, Adjusted Revenue grew 190% YoY (19% QoQ) to INR 16,692 crore, though
+like-for-like growth was 64% YoY (the difference reflects the accounting shift to inventory ownership in
+quick commerce, where revenue now includes the full value of goods sold rather than just marketplace
+commission). Consolidated Adjusted EBITDA increased 28% YoY to INR 364 crore while increasing 63%
+QoQ (as compared to INR 224 crore in Q2FY26). B2C NOV grew 55% YoY (11% QoQ) to INR 25,732 crore -
+crossing INR 1 lakh crore annualized.
+
+
+QUICK COMMERCE
+
+Q2. What were the key drivers of the meaningful margin improvement leading to
+Adjusted EBITDA breakeven?
+Albinder: Margin improvement came from several factors: supply chain cost efficiencies, a favorable shift
+towards long tail categories and operating leverage. This is the natural progression of a strong and
+maturing quick commerce business. What may be surprising is that we achieved it despite elevated
+competitive intensity over the past few months.
+
+Akshant: The shift to own inventory also continues to be margin accretive including in the previous
+quarter. So far, we have banked more than half of the 1% point margin accretion that we expect as a result
+of this change. In Q3FY26, about 90% of our NOV was on our own inventory, and as mentioned in our last
+letter, we don’t expect this number to increase meaningfully from here.
+
+                                                                                                              3
+Deepinder: The fact that we landed on the positive side was not the result of a last-minute push or a
+cost-cutting exercise. We were focused on serving customers better, building supply chain depth and
+being disciplined about which type of orders we wanted to win. Breakeven happened as a consequence of
+those choices - not as a goal. That gives me confidence in our business model.
+
+Q3. What explains the relatively lower QoQ NOV growth of 14% in Q3FY26?
+Albinder: 14% QoQ growth in NOV implies 121% YoY growth which is solid (and not low). Of course, it is lower
+than the 137% YoY growth we saw in Q2FY26 but it is not fully comparable on account of the following
+factors:
+
+1. GST impact: As mentioned last quarter, the GST applicable on Blinkit’s average basket decreased by ~3
+percentage points towards the end of Q2FY26 on account of rationalization by the government. Since NOV
+includes GST, this reduced our reported NOV by approximately 3 percentage points.
+
+2. Pull-forward of festive demand to Q2FY26 from Q3FY26
+
+Adjusted for the above factors, YoY NOV growth would have been similar (130%+) to last quarter. Similarly
+last quarter would have been a little lower if we didn’t have some festive demand in Q2.
+
+Q4. What led to the ~70 store shortfall against your guidance of 2,100 stores?
+Albinder:Two factors:
+
+1. GRAP regulations in Delhi NCR: Extended pollution-related restrictions slowed construction and store
+fit-outs in our largest city for several weeks (these restrictions still continue as on date).
+
+2. Festive period operational constraints: During Diwali and surrounding weeks, we had to refocus our
+operations teams bandwidth on managing record order volumes rather than opening new stores.
+
+This is a timing issue. The stores we didn't open in Q3 will open in Q4. We remain on track for 3,000 stores
+by March 2027.
+
+Q5. What is your latest assessment of competitive intensity? Some players have
+lowered MOVs, offering free deliveries and everyday low prices, etc. How are you
+responding to these tactics?
+Albinder: We will continue being watchful of competition, but largely focus on our own work as long as the
+competitive tactics don’t impact our business meaningfully. So far, there hasn’t been any noticeable
+impact of the recent increase in competitive intensity on our business quality, customers and our NOV
+market share.
+
+We don't believe you can build a strong quick commerce business on the back of heavy discounting. The
+tougher answers to growth are the only ones that last.
+
+That said, if these tactics start impacting our business, we would need to respond and that might impact
+our margins.
+
+Akshant: Quarterly profitability therefore, is not guaranteed. However, we know with confidence that:
+
+   ●​   The underlying unit economics of our business are strong and improving
+   ●​   Our mature cities prove that the Blinkit model works at scale
+   ●​   Our supply chain advantages are compounding over time
+   ●​   Long term system building and disciplined execution determines long-term winners
+
+                                                                                                               4
+We will continue making sound long-term decisions and let margins land where they do. That’s what got us
+here so far.
+
+Q6. How should we think about the margin trajectory more longer term?
+Albinder:The confidence on margins expanding to 5-6% of NOV remains high. Our relatively more mature
+cities are already operating close to our steady state guidance of 5-6%.
+
+    ●​ Delhi NCR as a whole: about 3.5% Adjusted EBITDA margin
+    ●​ Gurgaon + Noida (most mature regions of Delhi NCR): about 5% Adjusted EBITDA margin
+
+These cities aren't special. They're just more evolved, not just in age, but in terms of infrastructure and
+capabilities that we have built. They show us what the trajectory can be. The rest of Delhi NCR, and by
+extension, the rest of India is following the same path, just nascent in the journey.
+
+It is very likely that we will see further margin expansion from here even in Gurgaon and Noida as
+competition and cost of expansion ease over a period of time (and operating leverage also continues to
+kick-in given the reasonably high 50%+ YoY NOV growth even today).
+
+Q7. And how about the NOV growth trajectory going forward?
+Albinder: Overall, we think the business is growing at a robust pace, and the ceiling of the quick commerce
+market in India is not visible to us yet:
+
+    ●​ Our relatively mature cities like Delhi NCR are still growing at ~55% YoY
+    ●​ The next seven metros are growing at 100%+ YoY; and all of them combined, are only 1.5x of Delhi
+       NCR in terms of NOV today, implying significant room for growth
+    ●​ Newer cities are growing even faster off smaller bases
+
+In the near term, however, NOV growth can be influenced by competitive intensity, which introduces some
+volatility. While aggressive pricing actions can stimulate demand, that demand is often less durable,
+leading to moderation in subsequent growth.
+
+In periods of irrational competitive intensity, customer acquisition remains anchored in a narrower set of
+discounted, lower-margin categories, which slows the natural expansion of the basket. In such a scenario,
+accelerating store count or assortment is counter-productive, as the underlying demand profile pushes
+out the path to profitability of these new stores.
+
+Conversely, in a more rational competitive environment, the customer behaviour transitions more quickly
+toward broader, higher-value baskets. That shift makes demand both more predictable and economically
+attractive, allowing us to scale stores and assortment more aggressively.
+
+Our current guidance of 3,000 stores by March 2027 assumes continued irrational competitive intensity.
+However, if the competition moderates in the near term, we would want to aim for 3,500-4,000 stores by
+March 2027, which would keep the pace of NOV growth north of 100% YoY.
+
+Q8. Is net working capital and capex trending in line with expectations?
+Akshant: Yes, they are. The main framework to evaluate capex and NWC investments is a robust ROCE. We
+remain confident that our investments in capex and NWC will yield 40%+ ROCE over time.
+
+NWC increase this quarter was in line with the growth in the business and also with further transition of the
+business to its own inventory - 90% now vs 80% in Q2FY26. Capex per store is expected to continue
+increasing but we expect that to also result in higher productivity per store.
+
+                                                                                                              5
+                                                                                                                ​
+FOOD DELIVERY
+
+Q9. Moving on to food delivery, what drove the uptick in NOV growth to 16.6% YoY
+(up from 13.8% YoY in Q2FY26)?
+Deepinder: The higher growth was mainly driven by the following:
+
+   1.​ A modest improvement in the demand environment, especially during the second half of the
+       quarter which led to higher app opens and consequently higher-than-expected order volumes.
+   2.​ Full quarter impact of reduction in minimum order value (to INR 99 from INR 199) for free delivery on
+       Gold orders, which led to higher ordering frequency from the more budget-conscious customers.
+   3.​ Continuing investments in customer activation across cohorts, which was also reflected in the 21%
+       YoY growth in average MTC during the quarter.
+
+Akshant: Also, to be clear, and at the cost of sounding repetitive, the 16.6% YoY NOV growth this quarter
+translates to 21.3% YoY GOV growth, re-affirming our point that GOV ends up presenting an inflated picture
+of growth while NOV is a truer measure of actual customer demand (net of subsidies).
+
+Q10. What are the potential demand tailwinds for food delivery in the next 12
+months? Can we expect further acceleration in YoY growth from hereon?
+Deepinder: We're not expecting sudden acceleration - there's no specific tailwind out there that would
+drive windfall growth. That said, we do expect YoY growth to inch up gradually towards 20% over time. That
+will come from two things: modest market share gains, and the compounding effect of persistent focus on
+affordability and selection. Nothing dramatic - just consistent execution adding up.
+
+                                                                                                                ​
+EVERYTHING ELSE
+
+Q11. What could be the impact and mitigating factors from the implementation of
+the social security code, across both your food delivery and quick commerce
+businesses? Does this have an impact on your earlier margin guidance?
+Akshant: Firstly, we commend the Government of India’s initiative towards creating a unified,
+platform-agnostic and nationwide framework for social security access to gig workers. At our end, the
+wellbeing of gig workers has always been a key priority, and we have proactively put in place welfare
+programs for our delivery partners such as offering free of cost insurance (medical, accident, loss of pay,
+maternity cover), amongst multiple other benefits. For context, Zomato and Blinkit spent over INR 100
+crore on insurance coverage alone for our delivery partners in 2025.
+
+With the government now mandating all digital platforms to contribute towards such benefits, we see this
+benefitting the broader gig worker community and encouraging a larger proportion of India’s workforce to
+participate in the gig economy. At the same time, this will also improve the ease of doing business for
+platforms like ours.
+
+The exact operational and financial details of the social security code will become clear only once the rules
+are notified, and only post that we will be able to share more details about how it impacts our business and
+margins. Most likely, the business should be able to absorb most of this impact and hence we don’t expect
+any change in our long term margin guidance in any business.
+
+We also continue to monitor the details of other aspects of the labour code (gratuity, leave encashment,
+others) and do not expect any material impact on our P&L on account of these.
+
+                                                                                                              6
+Q12. While Hyperpure has turned Adjusted EBITDA positive now, it remains a
+small business in the overall Eternal context. How should one think about its
+relevance in Eternal?
+Akshant: Yes, it is a smaller business, but still meaningful in size. In three years, this business could be $1
+billion in topline with 4-5% Adjusted EBITDA margin translating into $50 million (or INR 450 crore) of
+annual Adjusted EBITDA profit.
+
+More importantly, more than the size of the opportunity, it fulfills a core capability for each of our B2C
+businesses. Let me explain.
+
+Food delivery and Going-out (dining): For restaurants, Hyperpure takes a lot of the daily stress out of
+sourcing and inventory. Instead of juggling multiple suppliers or worrying about quality inconsistencies,
+chefs and operators know they’re getting fresh, reliable ingredients every single time. That means they
+don’t need massive storage or a large procurement team to manage the backend. With fewer moving parts
+and more confidence in supply, restaurants can run leaner, smoother operations and focus more on
+delivering a great experience to their customers. It also removes a key constraint to creation and scale-up
+of more restaurant brands and outlets, which also positively impacts our food delivery and going-out
+businesses. Over time, this kind of reliability builds absolute trust, which then extends to our relationship
+with these restaurants in both these businesses.
+
+Quick commerce: The warehousing and sourcing muscle at Hyperpure significantly helps our quick
+commerce business. For example - for Blinkit, Hyperpure acts as a strategic sourcing engine for fresh
+products. Through continuous technology innovation and backward integration, it enables a flexible supply
+chain driving structurally better gross margins (better sourcing margins + lower wastage) while ensuring
+consistent availability and quality of fresh produce.
+
+Bistro: In addition to the above, Hyperpure also supports faster menu innovation and significantly reduces
+go-to-market timelines for new product launches, enabling quicker experimentation, standardisation, and
+faster rollouts.
+
+There is no other business in India with this kind of infrastructure and capabilities at national scale, and
+hence Hyperpure serves as a strategic moat, quietly enabling sustained growth and endurance of all our
+B2C businesses.
+
+Q13. What explains the increase in Adjusted EBITDA losses in Going-out given you
+mentioned last time that the losses will remain rangebound?
+Akshant: The two primary drivers for higher than expected burn were a) our investments in new live IPs in
+our live events business and b) the upfront investment in District Pass, both of which were over and above
+our ongoing investments in customer acquisition and engagement on District.
+
+District Pass is a membership program offering customers attractive benefits across movies and
+dining-out on the District app. This pass is our first step towards building a long-term loyalty program
+which will serve as a common thread across the multiple going-out use-cases on District and eventually
+drive higher retention and incremental demand across each of our use cases. We are already seeing strong
+early impact, including healthy growth in our movies ticketing business and increased multi-category
+engagement on the platform. Consequently, Dec 2025 marked our highest-ever NOV month for the movies
+ticketing business.
+
+We expect losses to reduce from here sequentially towards breakeven in the next 4-6 quarters. As
+mentioned earlier, we think District can become a $3 billion NOV business with 5% Adjusted EBITDA
+margin by FY30.
+
+                                                                                                                  7
+Q14. What is leading to the (almost consistent) ~INR 50 crore quarterly loss in the
+‘Others’ segment?
+Akshant: The quarterly losses in the Others segment are largely on account of investments in our quick
+food delivery service Bistro, where kitchen infrastructure is managed by us. We now have about 45
+kitchens operational mainly in two cities (Delhi NCR, Bangalore). We are seeing early signs of
+product-market-fit, reflected in healthy throughput per outlet and early signs of a possible path to
+profitability.
+
+Q15. Can you share an update on the cash balance as at the end of Q3FY26?
+Akshant: Cash balance decreased to INR 17,820 crore (vs INR 18,314 crore in Q2FY26) largely due to the
+expected investments in capex and NWC in our quick commerce business, as mentioned in Q8 above.
+
+
+
+
+----
+THE END
+
+
+
+
+                                                                                                         8
+Annexure A - Quarterly disclosures
+
+
+
+
+Notes:
+1)​   On a like-for-like (“LFL”) basis, quick commerce Revenue grew 171% YoY (44% QoQ) and 153% YoY (13% QoQ) in Q2FY26 and
+      Q3FY26 respectively. LFL quick commerce Revenue is calculated as quick commerce Revenue (-) cost of goods sold in case of
+      own inventory sales.
+2)​   On a like-for-like (“LFL”) basis, consolidated Adjusted Revenue grew 65% YoY (22% QoQ) and 64% YoY (11% QoQ) in Q2FY26 and
+      Q3FY26 respectively. LFL consolidated Adjusted Revenue is calculated as consolidated Adjusted Revenue (-) Revenue from
+      Hyperpure’s non-restaurant business (-) cost of goods sold in case of own inventory sales in quick commerce.
+3)​   Adjusted Revenue shown above does not include inter-segment revenue.
+4)​   There could be some totalling anomalies in the numbers displayed above due to the impact of rounding off.
+5)​   Others segment includes all other non-material businesses and any new initiatives that we may launch from time to time.
+
+
+
+                                                                                                                              9
+10
+Notes:
+1)​ On a like-for-like (“LFL”) basis, quick commerce Revenue grew 171% YoY (44% QoQ) and 153% YoY (13% QoQ) in Q2FY26 and
+    Q3FY26 respectively. LFL quick commerce Revenue is calculated as quick commerce Revenue (-) cost of goods sold in case of
+    own inventory sales.
+2)​ NOV per day, per store is calculated as a simple average of total NOV transacted per day divided by total number of stores
+    operational for the day, for that period.
+
+
+
+
+Note: Treasury income is as per actual cash received (and not on accrual basis). Hence, there will be quarterly variation in the
+quantum.
+
+
+
+
+                                                                                                                                   11
+Annexure B - Adjusted Revenue and Adjusted EBITDA reconciliation
+The following table reconciles revenue from operations and stated loss for the period (as per Ind AS) with
+Adjusted Revenue and Adjusted EBITDA, respectively.
+
+
+
+
+Notes:
+1)​ Provision for income tax has been created on other income (primarily being treasury income) post adjustment of unabsorbed
+    depreciation permitted under the Income Tax Act. No provision is created on business income since that is being set off
+    against the carried forward losses from the past years.
+2)​ There could be some totalling anomalies in the numbers displayed above due to the impact of rounding off.
+
+
+
+
+                                                                                                                           12
+Annexure C - Glossary for terms used in reference to the business
+
+
+
+
+                                                                    13
+14
+15
+16
+Annexure D - Statement of consolidated profit and loss account
+
+
+
+
+                                                                 17
+Annexure E - Statement of consolidated balance sheet
+
+
+
+
+                                                       18
+Annexure F - Statement of consolidated cash flows
+
+
+
+
+                                                    19
+Use of non-GAAP ﬁnancial measures
+To supplement our ﬁnancial information presented in accordance with IND AS, we consider certain
+ﬁnancial measures that are not prepared in accordance with IND AS, including Adjusted Revenue and
+Adjusted EBITDA. We use these ﬁnancial measures in conjunction with IND AS measures as part of our
+overall assessment of our performance to evaluate the effectiveness of our business strategies and to
+communicate with our board of directors concerning our business and ﬁnancial performance. We believe
+these non-GAAP ﬁnancial measures provide useful information to investors about our business and
+ﬁnancial performance, enhance their overall understanding of our past performance and future prospects,
+and allow for greater transparency with respect to metrics used by our management in their ﬁnancial and
+operational decision making. We are presenting these non-GAAP ﬁnancial measures to assist our investors
+and because we believe that these non-GAAP ﬁnancial measures provide an additional tool for investors to
+use in comparing results of operations of our business over multiple periods. Information given also
+includes information related to material subsidiaries.
+
+Non-GAAP measures used by us are defined below:
+
+   ●​ Adjusted Revenue = Consolidated revenue from operations as per ﬁnancials (+) actual customer
+      delivery charges in the food delivery business (net of any discounts, including free delivery
+      discounts on account of Zomato Gold program) (+) platform fee and other charges paid on food
+      delivery Orders that are not already included in reported revenue from operations
+   ●​ Adjusted EBITDA = Consolidated EBITDA (+) share-based payment expense (-) rental paid for the
+      period pertaining to ‘Ind AS 116 leases’
+   ●​ EBITDA = Profit/loss as per financials excluding (i) tax expense (ii) other income (iii) depreciation
+      and amortization expense (iv) ﬁnance cost and (v) exceptional items
+
+These metrics have certain limitations and hence should be considered in addition to, not as substitutes
+for, or in isolation from, measures prepared in accordance with IND AS.
+
+Forward looking statements
+
+This document contains certain statements that are or may be forward-looking statements. These
+statements include descriptions regarding the intent, belief or current expectations of the senior
+management of Eternal Limited (formerly known as Zomato Limited) (“Company”) subject to board
+approval, wherever applicable with respect to the results of operations and ﬁnancial condition of the
+Company. These statements can be recognised by the use of words such as “expects,” “plans,” “will,”
+“estimates,” “projects,” “marks,” “believe” or other words of similar meaning. Forward-looking statements
+generally are not statements of historical fact, including, without limitation statements made about our
+strategy, estimates of revenue growth, future EBITDA and future ﬁnancial or operating performance. Such
+forward-looking statements are not guarantees of future performance and involve risks and uncertainties
+which are diﬃcult to predict and are outside of the control of the Company, and actual results may differ
+from those in such forward-looking statements as a result of various factors and assumptions which the
+Company believes to be reasonable in light of its operating experience in recent years. The risks and
+uncertainties relating to these statements include, but not limited to, risks and uncertainties, regarding
+ﬂuctuations in earnings, our ability to manage growth and competition, among others. The Company does
+not undertake any obligation to revise or update any forward-looking statement that may be made from
+time to time by or on behalf of the Company.
+
+Any investment in securities issued by the Company will also involve certain risks. There may be additional
+material risks that are currently not considered to be material or of which the Company, its directors, any
+placement agent, their respective advisers or representatives are unaware. Against the background of
+these risks, uncertainties and other factors, viewers of this document are cautioned not to place undue
+reliance on these forward-looking statements. The Company, its directors, any placement agent, their
+respective advisers or representatives assume no responsibility to update forward-looking statements or
+
+                                                                                                        20
+to adapt them to future events or developments. Accordingly, any reliance you place on such
+forward-looking statements will be at your sole risk.
+
+The information contained in this document has not been independently veriﬁed. The information in this
+document is in summary form and does not purport to be complete. No representation, warranty,
+guarantee or undertaking, express or implied, is or will be made as to, and no reliance should be placed on
+the accuracy, completeness, correctness or fairness of the information, estimates, projections and
+opinions contained in this document. Potential investors must make their own assessment of the
+relevance, accuracy and adequacy of the information contained in this document and must make such
+independent investigations as they may consider necessary or appropriate for such purposes. Such
+information and opinions are in all events not current after the date of this document.
+
+Further, past performance of the Company is not necessarily indicative of its future results. Any opinions
+expressed in this document or the contents of this document are subject to change without notice. This
+document should not be construed as legal, tax, investment or other advice. Neither the Company or its
+directors, nor any placement agent or their respective advisers or representatives shall have any
+responsibility or liability whatsoever (for negligence or otherwise) for any loss howsoever arising from this
+document or its contents or otherwise arising in connection therewith. The information set out herein may
+be subject to updating, completion, revision, veriﬁcation and amendment and such information may
+change materially. Neither the Company, its directors, any placement agent, nor any of their respective
+advisers or representatives is under any obligation to update or keep current the information contained
+herein. This document does not constitute or form part of and should not be construed as, directly or
+indirectly, any advertisement, oﬀer or invitation or inducement to sell or issue, or any solicitation of any
+oﬀer to purchase or subscribe for, any securities of the Company by any person whether by way of private
+placement or to the public, in any jurisdiction, nor shall it or any part of it or the fact of its distribution form
+the basis of, or be relied on in connection with, any investment decision or any contract or commitment
+therefor. Investing in securities involves certain risks and potential investors should note that the value of
+the securities may go down or up. Accordingly, potential investors should obtain and must conduct their
+own investigation and analysis of the relevant information carefully before investing.
+
+
+
+
+                                                                                                                 21
+Deloitte                                                                       Chartered Accountants
+                                                                               7th Floor Building 10
+                                                                               Tower B
+Haskins & Sells                                                                DLF Cyber City Complex
+                                                                               DLF City Phase II
+                                                                               Gurugram-122 002
+                                                                               Haryana, India
+
+                                                                               Tel: +91 124 679 2000
+                                                                               Fax:+911246792012
+
+
+
+      INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM
+      CONSOLIDATED FINANCIAL RESULTS
+
+      TO THE BOARD OF DIRECTORS OF
+      ETERNAL LIMITED (FORMERLY KNOWN AS ZOMATO LIMITED)
+
+      1. We have reviewed the accompanying Statement of Consolidated Unaudited
+         Financial Results of ETERNAL LIMITED (FORMERLY KNOWN AS ZOMATO
+         LIMITED) ("the Parent") and its subsidiaries (the Parent and its subsidiaries
+         together referred to as "the Group") which includes Foodie Bay Employees ESOP
+         Trust ("trust") for the quarter and nine months ended December 31, 2025 ("the
+         Statement") being submitted by the Parent pursuant to the requirement of
+         Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements)
+         Regulations, 2015, as amended ("the Listing Regulations").
+
+      2. This Statement, which is the responsibility of the Parent's Management and
+         approved by the Parent's Board of Directors, has been prepared in accordance
+         with the recognition and measurement principles laid down in the Indian
+         Accounting Standard 34 "Interim Financial Reporting" ("Ind AS 34"), prescribed
+         under Section 133 of the Companies Act, 2013 read with relevant rules issued
+         thereunder and other accounting principles generally accepted in India and in
+         compliance with Regulation 33 of the Listing Regulations. Our responsibility is
+         to express a conclusion on the Statement based on our review.
+
+      3. We conducted our review of the Statement in accordance with the Standard on
+         Review Engagements (SRE) 2410 "Review of Interim Financial Information
+         Performed by the Independent Auditor of the Entity", issued by the Institute of
+         Chartered Accountants of India (!CAI). A review of interim financial information
+         consists of making inquiries, primarily of Parent's personnel responsible for
+         financial and accounting matters, and applying analytical and other review
+         procedures. A review is substantially less in scope than an audit conducted in
+         accordance with Standards on Auditing specified under Section 143(10) of the
+         Companies Act, 2013 and consequently does not enable us to obtain assurance
+         that we would become aware of all significant matters that might be identified
+         in an audit. Accordingly, we do not express an audit opinion.
+
+         We also performed procedures in accordance with the circular issued by the
+         SEBI under Regulation 33(8) of the SEBI (Listing Obligations and Disclosure
+         Requirements) Regulations, 2015, as amended, to the extent applicable.
+
+      4. The Statement includes the results of the following entities as mentioned in
+         Annexure 1.
+
+      5. Based on our review conducted and procedures performed as stated in
+         paragraph 3 above, nothing has come to our attention that causes us to believe
+         that the accompanying Statement, prepared in accordance with the recognition
+         and measurement principles laid down in the aforesaid Indian Accounting
+         Standard and other accounting principles generally accepted in India, has not
+         disclosed the information required to be disclosed in terms of Regulation 33 of
+         the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015,
+Deloitte
+Haskins & Sells
+
+            as amended, including the manner in which it is to be disclosed, or that it
+            contains any material misstatement.
+
+         6. We draw attention to Note 6 to the consolidated unaudited financial results
+            relating to the orders received by the Company from GST authorities in respect
+            of GST on delivery charges. The Company, supported by the external expert's
+            advice, is of the view that, it has a strong case on merits. Given the uncertainty
+            involved, the ultimate outcome will be ascertained on the disposal of the above
+            matter.
+
+            Our conclusion is not modified in respect of this matter.
+
+         7. The consolidated unaudited financial results includes the interim financial
+            information of 20 subsidiaries and 1 trust which have not been reviewed by
+            their auditors, whose financial results reflect total revenue of Rs. 136 crores
+            and Rs. 261 crores for the quarter and nine months ended December 31, 2025
+            respectively, total loss after tax of Rs 120 crores and Rs. 226 crores for the
+            quarter and nine months ended December 31 ,2025 respectively and total
+            comprehensive loss of Rs 112 crores and Rs. 214 crores for the quarter and
+            nine months ended December 31, 2025 respectively, as considered in the
+            Statement. These interim financial information are unaudited and have been
+            furnished to us by the Management and our conclusion on the interim
+            consolidated financial results in so far as it relates to the amounts and
+            disclosures included in respect of these subsidiaries and trust, is based solely
+            on such unaudited interim financial information . According to the information
+            and explanations given to us by the Management, these interim financial
+            information are not material to the Group.
+
+            Our Conclusion on the Statement is not modified in respect of our reliance on
+            the interim financial information certified by the Management.
+
+
+
+
+                                                              For Deloitte Haskins & Sells
+                                                                     Chartered Accountants
+                                                          (Firm's Registration No. 015125N)
+
+
+
+                                                              ~),~~               Vikas Khurana
+                                                                                         Partner
+                                                                   (Membership No. 503760)
+                                                          (UDIN: 'l-6 5o3 "1-6 0 l3 HJ"?q Y 3(33)
+
+
+         Place: Gurugram
+         Date: January 21, 2026
+Deloitte
+Haskins & Sells
+
+                                          Annexure 1
+
+          S. No.   Name of the Entity                                   Relationship
+          1        Eternal Limited (Formerly Known as Zomato Limited)   Parent
+          2        Zomato Middle East FZ-LLC                            Subsidiary
+          3        Tonguestun Food Networks Private Limited             Subsidiary
+          4        Zomato Philippines Inc.                              Subsidiary
+          5        Zomato Netherlands B.V.                              Subsidiary
+          6        Zomato Entertainment Private Limited                 Subsidiary
+          7        Gastronauci SP Z.0.0.                                Subsidiary
+          8        Zomato Local Services Private Limited                Subsidiary
+          9        Zomato Inc.                                          Subsidiary
+          10       Delivery 21 Inc.                                     Subsidiary
+          11       Zomato Ireland Limited                               Subsidiary
+          12       Zomato Foods Private Limited                         Subsidiary
+          13       Carthero Technologies Private Limited                Subsidiary
+          14       Zomato Payment Private Limited                       Subsidiary
+          15       Eternal Technology Solutions Limited (formerly       Subsidiary
+                   known as Zomato Financial Services Limited)
+          16       Blink Commerce Private Limited                       Subsidiary
+          17       Zomato Hyperpure Private Limited                     Subsidiary
+          18       Orbgen Technologies Private Limited                  Subsidiary
+          19       Wasteland Entertainment Private Limited              Subsidiary
+          20       Blinkit Foods Limited                                Subsidiary
+          21       Zomato Media (Private) Limited                       Subsidiary
+          22       Zomato Malaysia SDN BHD                              Subsidiary
+          23       Foodie Bay Employees ESOP Trust                      Trust
+          24       Zomato Internet Hizmetleri Ticaret Anonim Sirketi    Subsidiary   (till
+                                                                        December       9,
+                                                                        2025)
+                                                                                  Eternal Limited (Formerly known as Zomato Limited)
+                                                                                                     CIN: L930JODL2010PLCl9814l
+                                                                      Registered office- Ground Floor, 12A. 94 Mcghdoot, Nehru Place. Ne" Delhi- 110019, Ddh,. India
+                                                                       Telephone- Ol l-40592373. Email- comp:mysccretai:,·Ectcmnl com, Website• nww.ctcmal.com
+
+                                                              Statcmcnl of consolidated unaudited financial results for the quarter and nine monlhs ended December Ji, 2025
+                                                                                                                                                                                                                       (INR crores)
+                                                                                                                         Quar1ercnded                                         Nine months ended                     Year ended
+                                                                                                   December 31,          September 30,          December JI,           December 31,           DcccmberJl,           March 31,
+S.No.                                          l'articulars                                           2025                   2025                  2024                   202S                   2024                 202S
+                                                                                                     Unaudited             Unaudited             Unaudited              Unnuditcd              Unaudited             Audited
+
+
+     I     Revenue from opcrnuons                                                                             16,315                13.590                   5,405              37,072                 14,4!0                  20,243
+    II     Otlicrmcomc                                                                                           34'                   352                     252               1.054                    709                   l.077
+    Ill    Total income (1+11)                                                                                16,663                ll,942                   S,6S7              38,126                 1S 119                  21.320
+
+    IV     Expenses
+           Cost ofnmtcrials consumed                                                                               15                                                                15
+           Pur,:hascs of stock-in-trade                                                                        I0.076                 8.795                  l.5!0              21,428                     3,995                5,653
+           Ch:ingcs in invcntoncs offimshcd goods. stock-in-tmdc :md work-in-progress                           (290)               (1,053)                    (10)             {1,616)                     (62)                  (88)
+           Employee benefits expense                                                                                                                                                                       1,80&                2.558
+           Fm:incecosts
+                                                                                                                  914
+
+                                                                                                                  '"'                    ""86                  689
+                                                                                                                                                                43
+                                                                                                                                                                                  2,609
+                                                                                                                                                                                    260                       9R                  154
+           Dcpn:crntion :ind amortisatton expenses                                                                439                    376                   247                1.129                     516                   "63
+           Other expenses
+                  Advertisement and ,;ales promotion                                                             937                   806                     521               2,414                  1,338                   1,972
+                  Dclil'cry :ind related ch:irges                                                              2,376                 2,213                   1,450               6,458                  ~.176                   5,728
+                  Others                                                                                       1.919                 1.725                   l.083               5.042                  2.590                   3,783
+           Total expenses                                                                                     16,493                13 813                   5,S33              37 739                 14.S19                  20623
+
+     V     Profit before exceptional iCems and ta:< (Ill-JV)                                                      170                    129                   124                    387                   600                   697
+
+    VI     Exceptional items
+
+    VII    Profit before lax {V-VI)                                                                               170                    129                   124                    387                   600                   691
+
+    VIII   Tueipense:
+           Current lax
+           Deferred tax
+                                                                                                                   "4
+                                                                                                                  (16)
+                                                                                                                                          80
+                                                                                                                                       ()6)                     "'
+                                                                                                                                                               {16)
+                                                                                                                                                                                      243
+                                                                                                                                                                                      (48)
+                                                                                                                                                                                                             157
+                                                                                                                                                                                                            (45)
+                                                                                                                                                                                                                                 231
+                                                                                                                                                                                                                                 (61)
+
+     IX    Profit for the period/ year (VII-VIII)                                                                 !02                     65                    59                    192                   488                   527
+
+     X     Ocher comprehensive income/ (loss)
+           (i) Items that will not be reclassified to profit or loss
+               - Remcasurements of the defined benefit pl:ins                                                      (4)                                          (4)                    (3)                   (5)                 (JO)
+               - Equity instruments through othcrcomprehcns1ve income
+               - Income tax rela1ing to abo,·e
+                                                                                                                 (242)                 (30) '                     0                 (275)                    41                    11
+                                                                                                                                                                                                                                 (30)
+                                                                                                                   25                     5                                            30
+
+           (ii) hems that will be n.:classificd to profit or loss
+               - Exch:mgc differences on translation of foreign operations                                                                                                                                                          2
+               • Debt instruments through 01hcrcomprchens1vc mcomc
+                                                                                                                     8
+                                                                                                                  (25)
+                                                                                                                                          4
+                                                                                                                                       (33)
+                                                                                                                                                                  2
+                                                                                                                                                               (14)
+                                                                                                                                                                                       13
+                                                                                                                                                                                       42                    54'                  112
+               - Income ta-.: rel:uing to nbovc                                                                                                                                                              (4)                 (23)
+                                                                                                                    6
+                                                                                                                                            "                   (4)                   (l 1)
+
+           Total other comprehensive income/ (lou) for the period/ year                                          232                     45                     20                  204                       89                  128
+
+     XI    Total comprehensive income/ (loss) for the period/ year (IX+X)                                        1130                     20                    39                     12                   577                   655
+
+    XII    Profit for lbe period/ }'ear attributable to:
+           D\\ncrs of the parent                                                                                  102                     ,,s                   59                    !92                    m                    527
+           Non-controlling intewst
+
+    XIII   Other comprehensive income/ (loss) for the period I year attributable to:
+                                                                                                                 (232)                 (45)                    (20)                                                               128
+           01'ncrs ofthe parent                                                                                                                                                     (204)
+                                                                                                                                                                                                              "'0
+           Non-controlling interest
+                                                                                                                   '"'                    '"'
+                                                                                                                                                                  0
+                                                                                                                                                                                       '"                                            "
+    XIV    Total comprehensive income/ (loss) for the period/ year attributable to:
+           Dwners of the parent                                                                                  (130)                    20                     39                   (12)                   511                  655
+                                                                                                                                                                                                                                    0
+           Non-controlling interest                                                                                (0)
+                                                                                                                                          '"'                     "                    '"'                     "
+    xv     Paid-up share capital (face value or INR l per share)                                                                                                                                                                  907
+                                                                                                                  911
+                                                                                                                                         ""                    906                    911                    906
+
+    XVI    Other equity                                                                                                                                                                                                        29,4 IO
+
+    XVII   Earnings per equity share (INR) 1 (face value or INR I each)
+             (n) Bas,c                                                                                            0 II                 0 07                    0.()7                  0 21                  "56                   0.60
+             (b) Diluted                                                                                          o II                 0.07                    006                    0.20                  0 54                  0.58
+
+1
+    EPS 1s not ammaliscdfor the quarterond mne momhs ended December 31. 2025. qa,onerended Scpl<•mber 30. 2()25 ond quoner ond mne mmul,s ended December 31. 2024
+                                                                                                              Elornal Llmltod (F<1rmuly knmrn •• Zomatn Limited)
+                                                                                                               No,to, to, the oo,n,olida1od unaudited fiu•noial re.nit,
+
+1 The ,talcmt:Ilt ofc,msol,datc...! unauduc..J fin,nc,ol rcsul1,; or Etc-mal Luru1cd {fom,c-rl; knm<n as l..omam Lmu!cJ) ("'the Cornp:u~·-t"ll,c Pare,~-) and u, ,ubsHlmncs (togc1hcr rcfcm...J to a., ·1hc Group-) fnrthc quonc-r ,.,J 1111,.,mnmhs c-ndcJ D=mbcT l!. 2025
+  (""Fl1s11>dal Rcsitl!.';"") 11.l,c been revio\\cd b} 11,c Audit CommiUec :mdappro,·cd b) 11,c Bo.nd ofDm:<:!or.; al their respcc1i\C meetings held onJatru:i~ 21. 2026
+
+
+
+   TI"' Fmanc,al Results have b,,cn l'fC'PJfc'<i m accnrJancc "llh the recogmhon and measurement pnnc1pk> laid down ,n the lnd,an Accounllng Standard )4 ··]nlcrim fmanooal Rcportilljf (""Ind AS 3~~). prcscnbc..J under Sc,;\1on 133 or the Comparuc-s Act, 2013
+   read \'1\h relevant rules ,s,;ued 1hc-rcundcr and othcT accountm~ rnnc1plcs fCIICTllll) ac<C1'icJ m !nd,a and m cnmphancc wuh R<!fUIO!mn n of the Sc,:un11c-,; and E~chanfC lloard llflnd,a (L1>11ng Ohhgatwns and Dasclnsurc Rcquncmc,1\s) Rcgulotmns. 20!5. as
+   amcndcJ ('LODR Regula110ns")
+
+'.l Con,olidulcd •cimcnt inform•tiun
+    Orcralmf ,q:mcnl, ate define..! as rotnponcn1s of an Clltc-rptise for \\h,eh d1.scr"1c financial mfonnanon 1s ova1lable th,I ,s c,·aluatc..J rt:gulad; by 11," cl1t<!fo1,,:rn\!ng dcs:is,nn makc-r ("CODM"). m dcs:1dmg ho\\ to allocal<! re;ourc..,_,, and "'"-"''"f performance
+    11,c Gtoup·s CODM is lhe Managing Director and ClticfE.~ccu1i,·c Officer of the Co~ny
+
+   TI,e se!'lllc"l1ts f<>rthc Group arc as follm,·s
+   I lndi; food ordrnng and dclm.'I}·
+   2 !l)"J>"rpure S\lppltes {828 bu.,mcs.s)
+   '.l Quiel commc-rcc
+   4 Gumgou\
+   j All o\hc-r SC!'lllOll(S (rc.s,dual)
+
+
+   Ind'" food ordenng and dehwry comprises of onlmc rnarl.elpface platform thn,uph \lh,ch the Gmup fac,htatcs hstmg and onhne ordc-rmg of food items and dch,·c-r;· of lhc,;c fon<l olc-ms hJ conncs:11ng end users. restaurant par!Jlcrs and ,ndc"fl<'ndenl dclm:ry
+   p,rtncT
+
+   Hnx-rpurc,upphcs (828 bu.smcss) ,sour fam1•tc,.fnrl,. supplies oITmng forro1auran(s m Ind'" and sale uf1(cm.s tu bu.,mc,cses fur on\lard sales
+
+   Qu,ck commerce comprises of onlmc platform namc'18lmk1( (~Platfonn~) that c,1abk_; hsang and sale of !lent< dorc-ctl; by !he Group or by 1h,rd•part; sclkrs En<l u,crs ore ahlc lo place mders of these hs1c'<I item., rm the l'latfortn \\h1ch arc <lch\"ercJ to the,r
+   d"'1rs\C'PS t\1\hm mmutc-; Qu,ck comn\l.,= also 1ncluJc-s pto\"lS1onofadwruse1nc,1t, \larehousmg anJ anc1\lar)' semcc-;
+
+   Gomg•out ,s a combma\llln or <lilt d,mn~-uul an<l c-nlcrt01nmc.,u Hckeung busmess Customers I c'!\J users use our dmtng.(lU\ offo:nn~ lo scan::h and drnco,·er n,stourants. rcsc•rw tables. a,·a,l uITc-rs and ma~c pa;mcnl.S wh,le dmrng.(lUI OI restaurnnls Jn m,r
+   enlcr1ammonl hcketmg bu.s,nc,;_s. we oITcT t,ckc\mg SCl'\'lCc"S to cu.,lomc-rs for mo\"IC"S. ,-pons and evc-nts (mdudmf our O\lTI c'\"c"l1\s) and offc-r ,c-r,·,ccs l,lc c"\'Cnt produc1ton. managcmenl e\c 10 uther C'\'C"l1l parlllcrs/ part,c1panls
+
+
+   The Gn,uphas et1mb1nc..J and d1selosc..J halancmg numhc"f m All othcT SC)!ITIC!lts "h,ch an, no( rcrortabk
+
+   Re,·cnue and "'I""'""' dm.s:t!;- atlribu(able (o 5C)!ITICnts arc n'PortcJ under each rcl"'rlahk scg,ncnt E~pc-n,cs "h,d, are not ducc1I; aunhutablc 10 an; n:portmg sq:mc,1t ha\'e lx.-.:n all<><:atc..J to ,c.spcs:Ul·e se!'lllonls based on lhc numhc-r of urd=. rcn,1uc. nun1ber
+   of employ,.,,, or l""-'-Slnet ordcrralue as re>1cn-.:d by CODM
+
+   Summansed 5Cl,!!11C"l11 mformat,on ,s as follo\\S
+                                                                                                                                                                            (!NR eron:s
+                                                                                          Quarter ended                                  Nine month, ended                \'nrended
+                                                                    December JI,          Se pl ember 30,     December Ji,          D,cembor JI,   December 31,            March JI.
+                               P11rtkul11r,
+                                                                       2(12..~                  202S             WU                     2«2S            2024                  202.5
+                                                                     Unnditod               Unaudited          Unaudited             Unaudl1c<l      Unaudited              Audited
+    Rc.-cnue from operation• (uternal cu,lomer,)
+       lnd,a food onknng and dehve,y                                           2,676                2.485                2,072              7.422             6.026               8,080
+       H;·pc-rpuresupphes (828 busmcss)                                        1.(170               ].OD                 I.foil             4,388             4-156               6,19(,
+       Qrnckcommc-rcc                                                         12.25(,               9,891                1,399             24.547             3.497               5.206
+                                                                                                                                                                 sos                m
+       GomgOut
+       All other sc •mems (Residua!)
+                                                                                 :100
+                                                                                                      '"                   259
+                                                                                                                                              '"                  n
+    Total                                                                          "
+                                                                              16.31.5              13S9U '                     '
+                                                                                                                         .5.4!1.5              "
+                                                                                                                                           37072              UWI                     "
+                                                                                                                                                                                 20.243
+    R..-enue from opcraHon, (ln1or-,c~mcnt)
+       lndJa food onlcnng and dchc~'                                                                                           ,,              32                 10
+       ll)"l'Cfl'l"C s'1pphcs (ll28 hu.,mcss)                                      ""                  ""                      0                                                      "
+       Qu1c~ commerce
+                                                                                     '                  '                     '
+                                                                                                                                               "
+                                                                                                                                               "
+                                                                                                                                                                   ;'                 '"'
+                                                                                                                             ,;"                                   "                  ;,"
+       GnmgOul
+       All other "'-'•meni, (Rc-s1dua1)                                                                                                                           ,;
+                                                                                                                                                                                      ,.
+    Total
+    Se~ment ru111t,                                                               "
+                                                                                   "                   "
+                                                                                                       "                     "                '"""                "
+        lnd,a food onlmng and dcll\·c-r;                                                              ;,.                  432              1.5:W              !.102               l.541
+                                                                                  "'                                                            ;
+                                                                                                        ;'
+        Hypc-rpun: supphcs(828 husmcss)
+        Qmckoommc-rce                                                              '
+                                                                                  202                                        "'
+                                                                                                                           ()0)               ,o;
+                                                                                                                                                                 (Hl                (4'.l}
+                                                                                                                                                                                    (21)
+        Gom£0ut                                                                 (ll4J                 (57)                 (]5)             {219)                 "                 ('.lO)
+        All other sc~ments (Residual)                                            <471                 (54)
+                                                                                                                               '
+                                                                                                                                            (1461                 "'                (12)
+    Se~mcnt ro,uli.                                                               .59.5               m                                     J..J3J             1,146               1,.13.5
+        Add· other mcome                                                          HS                  :152                  "'
+                                                                                                                            252             1.054
+                                                                                                                                              (,!1
+                                                                                                                                                                 709
+                                                                                                                                                                 58!
+                                                                                                                                                                                   1,077
+                                                                                                                                                                                     m
+        Les.<' share based paymen\ ""I''-""·'"                                    227
+                                                                                                       '"''                 217
+        Les.s !inane,; cosis
+        Lc-,;s dcpo.s:ial1on and ommt,sa\,un c~pmsc                               '"'
+                                                                                  439                 376                    "
+                                                                                                                            247
+                                                                                                                                               260
+                                                                                                                                             1.129
+                                                                                                                                                                  "'
+                                                                                                                                                                 576
+                                                                                                                                                                                     154
+                                                                                                                                                                                     s,;;
+        Add e~Cc'tl\,onal ilc-m.s
+                                                                                                                                                                 601)
+    Prom h•fore tn                                                                17!1
+                                                                                                       "'                   "'                '"'                                    '"
+4 During the ptc"\'lOUS year c-ndc..J Mon:h 31. 2025, ti"' Comp,n; h:,d allottc..J 33.64.73,755 Equ1!) Share-,; or foe-.: \"Oluc lNR l each to ehg,hlc QuahfieJ lnsmuuonal Bu)·ers (QIB) 01 on 1.ssuc pr1ct: of INR 252 62 per Equil) Shore (mcludmg o prcm,un1 of !NR
+  251 61 pc-r Equil) Share) oggrcgotmg lo JNR S.500 er ores. pursu,m taQuahfic'<I ln,111uuunal l'laccmen\ (QIP) m accordance with the pronsoons of&-cunues and Exehange Board of!nd,a (ls.sue or Capital and Disdusure Requuemonls) Regulation., (the "SEBI
+  !CPR Regulations")
+
+    Ouriug th: prc'1oUS ye:,rcndcd Marth '.l 1. 202S. the Comp.1ny allotted 4i.75.H.84S cqttil) sh.lres J,;,,•ing a facc,·atuc of!NR II-each 10 "Foo,hc Bay Employees ESOPTrusl"cTrust""J. for rurtl,cr issuance under ,·anou., Emplo;c.: Stoel:. Opt,on Pl"""
+
+
+
+ 6 The Comp,n; 1s m receipt of a Sho\\ Cau.">C Nolie,, (""SCN") and ])eman<l Onlers ("Orders") from \'aroou; GST otllhormcs rcqumng the Compan) (o po; GST on lhc dchn-r;- ch>rfCS collcs:tcl hy the Company from the end u.sc-r,, nn !,,:half of the dchery
+   ponnc-r,, The Orders are for Octolx.T 2019 to Mareh 2022 for all the States amounting to INR 420 crorc, and for Apnl 2022 10 Morch 2(123 for Am!luo l'rade,h amount,ng 10 INR 8 crorcs and the SCN 1s for Apnl 2022 tu March 2023 forGnJaf:lt amoun(mg to
+   lNR !3 crores. wnh apphcable mlc-rc,I andpcnalt,cs The ComponJ ,scontc,1,ng the Or<lcrs/SCN a\ appheablc forums TI,c Compan)·. S\lpporlc'<I h; !hcc,tcmal 1n<lcpcndc,1t cxpcn•s ad\'1cc, 1sof\he '""' that II has a s1rong case <m mc-nts TI1e-rc are no SCNs or
+   Onlers on this ma!ler for pennds other lhan those mc'!\(1oncJ here
+7 0a A~ 27. 2024, EIMII.I Lunitcd (form,rlJ.• I.no,,.,,"" Zomato Llmilod) «IJltlktcd Lhc- acquWtlo,, of Orbgon Tc:hnologlcs Prn'atc Llmiu:d lOTI'L•). and Waw:!and Emna!nm:nt Prl><alC Limi!cd tWE!'L-). h:)lding Ibo ·M,,.,it< Tk:koti"I!' bminBSS ond
+
+
+   .....
+  ·1::.-cu· bu:iiu:u ~'Cly, frclm Qn:, 97 COlll1lllll!c:UI United cOCL"rSclkrJ. Thos<: atJIUlsitions were encutcd lhrough a COfllbin=do<1 o f ~ <1un, pe,th:tw f,.,moa. aroou,,tlna IO TNR 7511 cro,u cror boll, Lhc- tntlli .. )and primo,y h.rl!UOU
+  im> 111c Oll'l- M:I WEPI. wnouNi":!l 10 INR l,26ll cf<lres. This a..,UIII. wll$ llllb}cCI 10 acljus~ :is ogrffi! in dcllnilh'c ogrccmoin Post nd,lmtmonl. 11,c 101.0l ~ coadcJmaon amount< 10 JNR. l.014 crorcs, The Clllil)· wi.c brtak up of th,..,,,. Jo os
+
+
+    Al The IOlal ccml&,rnllonfor IOO¾cfpald•up oqWly sh:m: capital orcrTP!.. nmoun1S to INR l.ll6 crora.
+
+   Th= i,mtlwc jll'kcallocalion (PPA) alXI fa!n·af11e.rn1rn.1 fallows:
+
+                                                                        llmcron:s
+    Purchase Considention                                                      1.236
+    Addl(las): Fair Va.lllC of k$Ql$ ;ml LiobWli::o acquired
+              Mcrclianl.Rclo.ticnshipo
+
+
+              -·-
+              ·-
+              Ta:lnll"i,I·
+
+
+
+               '""'
+               °""''   "'""'1n .......... u ... "'"'"'bUl<la)
+   Add:Dd'cm:dTuLi:ibili1,yonint:1n;iblo~
+                                                                               '""
+                                                                                (U)
+                                                                                (39)
+
+                                                                                ""
+                                                                                 '"
+                                                                               (HJ)
+
+
+
+   ..,...,
+   ~ inconsdid:ucdnmrdol $la'-"""°
+                                                                                ...
+   D) 1bc IOUllcon<i<kr.l!.ioo for 100% ofpoi<klp"'luil)' 111:a"' capil:ll of WEPI.. :unonr115 10 INR 7'/8 CRll?S.
+
+   Thc ~lase price alloc;ltkm (l'PA) and fair ralucs arc asfollows:
+
+   Panlculan
+   l'urclwc Ccmider:ation
+   Add/(1,cu): Fair Vahle of A!<clS and Liabllitia ac<1uired
+                                                                                (.19)
+              """'""
+               Merdl>lll Rolationslllps                                         (51)
+
+                                                                                 ,,,,.,
+              -·
+                                                                                (10)
+               '""'
+               A((n,c~
+                Olhcr ldonllfl<'d amlS (,.,t cftlabilitlci)                    (171)
+   Add Dd'cmd Tax Liability on inr.angiblc as~
+   roa,i,;r,iscd in<>)tl!Qrl<la!Cd r.n>ncial statem:!'IIS
+                                                                                  "
+   ···"""
+   T u = cr1h: pun;U ~ O\'Cr 100 falnaloe ofth: acquln:d 1>;1 ~ wu reecmled ll goc,d\11!1. Th: usclul Jn.,.1 cflhc acquired ir4:llljl:ibk as<et< """' auign:d .. follows: merchanl rolationsh!p< (IO )"l:a!SJ, oe11\,: us,rs (I year~ brand {l i-caa<SJ,
+   !llmlllllogy (5 ycars), 1!i:I I V ) n ~ (6 )"cais).
+
+   Due: to !his ~~Ian. Lhc- rerull$ fw!he line Jll(ll!lb:s cti!cd ~n«r 31. 2025 are till coo,pamhle wilh oOICI" ,;om:sp;rding period PftSClllo:I.
+
+   Outing Lh: quorterc,d,;d J,.:,,;, Jo, 201', 1h: Gf0111' 5laI1cd u:u:,,itlonlng liolll Iii imlkdplaa: model 10 m«ilmlmtion ofn:Mktplacc an:! fo..""'°ll~led Jmdol in it< quid< ,;ommc,ce iCgID!nl. °"ing 10 this clnne:, lb: m-c,mc under qukk co:nm::ia;, scgm,:11100\\
+   1ncludos •"""""- o n ~ er diroet Ali:. lo cuslomm on tho Blinkil pl.,U"onr,a,d r>Jtjmt o., nmketplacc conrnli<Sionon s111:hsa!i:.. 'Thi1 olso =ub !n w:luclioD lnsai.. cfHyp:rpurc u1ppHc:s tBW bllii~) 10 tho JCllcrs o,, Uw: Blir.l<il platfonn.
+
+
+9 Tte ~ or India, \\ilh eITect flcm NO\i:nber 21. 2025, i:iolifled th: Co.:lc en Social Seeuri1y. 2020; lb: Occupatioml Safc1y. l!eallh arr! Working Corditions Code. 2020; th: lndu,mial IWations Codo, 2020; am !he Code en Wages, 2019 (colleah'Cly.
+  Lhc- "Labour CodcsJ, ulich r,,plaa: cx..tlt,g c:nual labom kgi,,lation:,. Oran rule• U1Klcr thc L;,boor Co&. were rclcasro b) 1hc M!ni>IQ o(" labour and ~m:nt on D=ni>or JO, iol, and an, yCI 10 be RO!llltd, Various Slale Oovcmm:1'111 lrwe also
+  lllllfied Sla1Up:cif'ic l<;gUl1ti0111. Bru¢:I on th: Group'& =m:nL lb:: provisions aimnt!y in fon:c do not hwe a lllllerial i,q,aa on th: litwria! ro<ulls of the Group. Th: financial i ~ . ihll)', of the remalnutg prm,ls!ons will be as=scd llpOflnolif1COllon
+  oflbe li~I tllk1 in.:! tlxirdfcah-c d:itcs.
+
+10 Sub5cqucnl 10 1h: n:ponl"I!! d.11,:,, oo Sanu:uy ll. 2026, Mr Occpllld<:r Goyal 11.1$ ll;fldercd his rcslgJ<lll::m as Oirccor. Mall:lg!ng Dl=torand Cblcf E!l:tculh'C Olfla:roru., c::mrp,11)' em,:th'< elos,: cfbusi...u on Fcbl'\W}' 1. 2026. Mr. Albuvlcr Singh Dhindoa
+   h:u bttn appollted zs 1hc Chief E.'<CCIAI\,: oma:, ortl., Compall)' "ilh clftct from Fcbn:ny I. 2026. Furth:r. 1h: Boord crm,cctm (-Boann rceommct>:bl th: ,:,ppojr(me!II or Mr. Dccplodcr Go)<al II lb: Diroe1or and Via: a..;,,,..11 o!'ll,e no.rd crrecli,..,
+   opon,lio,cboJda,· •l'?"";t\
+
+
+
+
+                                                                                                                                                                                                       For .,.,i on bthalfoflhe Bo1rd or Dircc:1or1 or r.temal u,.,11,:d
+
+
+
+
+   Dah0:Ja1111U')"21,l026
+   Plal'.t":Nl:n"Ddhl
+                                                                                                                                                                                                                   ~-
+                                                                                                                                                                                                      "'~"""'-·"'•":t
+                                                                                                                                                                                                       Dttp!nder Goyal
+                                                                                                                                                                                                       M1Blldn~ Dlrcdorand ChlcfEltWth·c Oft"..xr
+                                                                                                                                                                                                       (DIN-!11613583)
+Deloitte                                                                         Chartered Accountants
+                                                                                 7th Floor Building 10
+                                                                                 Tower B
+Haskins & Sells                                                                  DLF Cyber City Complex
+                                                                                 DLF City Phase ti
+                                                                                 Gurugram-122 002
+                                                                                 Haryana, India
+
+                                                                                 Tel: +91 124 679 2000
+                                                                                 Fax: +91 124 679 2012
+
+      INDEPENDENT AUDITOR'S REVIEW REPORT ON REVIEW OF INTERIM
+      STANDALONE FINANCIAL RESULTS
+
+      TO THE BOARD OF DIRECTORS OF
+      ETERNAL LIMITED (FORMERLY KNOWN AS ZOMATO LIMITED)
+
+      1. We have reviewed the accompanying Statement of Standalone Unaudited Financial
+         Results of ETERNAL LIMITED (FORMERLY KNOWN AS ZOMATO LIMITED) ("the
+         Company"), which includes Foodie Bay Employees ESOP Trust ("trust") for the
+         quarter and nine months ended December 31, 2025 ("the Statement"), being
+         submitted by the Company pursuant to the requirement of Regulation 33 of the SEBI
+         (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended
+         (''the Listing Regulations").
+
+      2. This Statement, which is the responsibility of the Company's Management and
+         approved by the Company's Board of Directors, has been prepared in accordance
+         with the recognition and measurement principles laid down in the Indian Accounting
+         Standard 34 "Interim Financial Reporting" (''Ind AS 34"), prescribed under Section
+         133 of the Companies Act, 2013 read with relevant rules issued thereunder and other
+         accounting principles generally accepted in India and in compliance with Regulation
+         33 of the Listing Regulations. Our responsibility is to express a conclusion on the
+         Statement based on our review.
+
+      3. We conducted our review of the Statement in accordance with the Standard on
+         Review Engagements (SRE) 2410 'Review of Interim Financial Information Performed
+         by the Independent Auditor of the Entity', issued by the Institute of Chartered
+         Accountants of India (!CAI). A review of interim financial information consists of
+         making inquiries, primarily of the Company's personnel responsible for financial and
+         accounting matters, and applying analytical and other review procedures. A review
+         is substantially less in scope than an audit conducted in accordance with Standards
+         on Auditing specified under section 143(10) of the Companies Act, 2013 and
+         consequently does not enable us to obtain assurance that we would become aware
+         of all significant matters that might be identified in an audit. Accordingly, we do not
+         express an audit opinion.
+
+      4. Based on our review conducted as stated in paragraph 3 above, nothing has come
+         to our attention that causes us to believe that the accompanying Statement,
+         prepared in accordance with the recognition and measurement principles laid down
+         in the aforesaid Indian Accounting Standard and other accounting principles
+         generally accepted in India, has not disclosed the information required to be
+         disclosed in terms of Regulation 33 of the SEBI (Listing Obligations and Disclosure
+         Requirements) Regulations, 2015, as amended, including the manner in which it is
+         to be disclosed, or that it contains any material misstatement.
+
+      5. We draw attention to Note 9 to the Standalone unaudited financial results relating to
+         the orders received by the Company from GST authorities in respect of GST on
+         delivery charges. The Company, supported by the external expert's advice, is of the
+         view that, it has a strong case on merits. Given the uncertainty involved, the ultimate
+         outcome will be ascertained on the disposal of the above matter.
+
+         Our conclusion is not modified in respect of this matter.
+Deloitte
+Haskins & Sells
+
+         6. We did not review the interim financial information of 1 trust included in the
+            Statement whose interim financial information reflects total revenue of Rs. Nil and
+            Rs. Nil for the quarter and nine months ended December 31,2025 respectively, total
+            net profit after tax of Rs. 2 crores and Rs. 3 crores for the quarter and nine months
+            ended December 31, 2025 and total comprehensive income of Rs. 2 crores and Rs.
+            3 crores for the quarter and nine months ended December 31, 2025, respectively,
+            as considered in this Statement. The interim financial information of the trust is
+            unaudited and have been furnished to us by the Management and our conclusion on
+            the interim standalone financial results in so far as it relates to the amounts included
+            in respect of the trust is based solely on such unaudited interim financial information.
+            According to the information and explanations given to us by the Management, these
+            interim financial information are not material to the Company.
+
+            Our conclusion on the Statement is not modified in respect of our reliance on the
+            financial information certified by the Management.
+
+
+
+
+                                                                     For Deloitte Haskins & Sells
+                                                                            Chartered Accountants
+
+                                                                (F✓;:ra~125N)
+
+                                                                 I
+                                                                                Vikas Khurana
+                                                                                         (Partner)
+                                                                       (Membership No. 503760)
+                                                                (UDIN: U5o3 7(0f::t-&l<f:.H':l-4-+z)
+
+
+         Place: Gurugram
+         Date: January 21, 2026
+                                                                           Eternal Limited (Formerly known as Zomato Limited)
+                                                                                              CIN: L93030DL2010PLC198141
+                                                               Registered office- Ground Floor, 12A, 94 Meghdoot, Nehru Place, New Delhi- 110019, Delln, lndm
+                                                                Telephone- OJ 1,40592373, Email- companysecrc1aiy@etema! com, Websile• www eternal com
+
+                                                        Stalemenl of standalone unaudited financial resul1s for the quarler and nine months ended Dctember 31, 2025
+                                                                                                                                                                                                              {INR croresl
+                                                                                                               Quarter ended                                          Nine months ended                     Year ended
+                                                                                         Detember31,           September 30,          December 31,           December 31,             December 31,          March 31,
+S.No.                                     Particulars                                        2025                  2025                  2024                   2025                     2024                 202S
+                                                                                          Unaudited              Unaudited              Unandiled              Unaudited               Unaudited             Audited
+
+
+   I    Revenue from operations                                                                      2,883                  2,650                   2,226                  7,946                   6,425               8,617
+  II    Other income                                                                                   425                    436                     311                  1,266                     859               1,260
+ Ill    Total income{l+H)                                                                            3,308                  3,086                   2,537                  9,212                   7,284               9,877
+
+ IV     Expenses
+        Employee benefits expense                                                                      351                    352                    333                   !,054                     926               l,266
+        Finance costs                                                                                    9                      6                      4                     21                       12                  16
+        Depreciation and amort1sat1on expenses                                                          55                     49                     27                    146                       68                  97
+        Other expenses
+              Advertisement and sales promotion                                                         567                    464                    355                  1,454                   1,038               1,427
+              Delivery and related charges                                                            1,220                  1,128                    941                  3,390                   2,864               3,788
+              Others                                                                                    366                    316                    303                    955                     832               1,082
+        Total expenses                                                                                2.568                  2,315                  1,963                  7,020                   5,740               7,676
+
+  V     Profit before cxeeplioual items and ta:,: (III-IV)                                             740                    771                    574                   2,192                   1,544               2,201
+
+ VI     Exceptional nems (refer note 3)                                                                                                                                                                3                  II
+
+ VII    Profit before tax (\'-VI)                                                                      740                    771                    574                   2,192                   1,541               2,190
+
+ VIII   Ta:,: expense:
+        Current tax                                                                                      83                    80                      80                   242                      156                 230
+        Deferred tax
+
+ IX     Profit for the period/ )'ear (VU-VIII)                                                         657                    691                    494                   1,950                   1.385                1,960
+
+  X     Ocher comprehensive income/ (loss)
+        (i) Items that will not be reclassified to prnfit or loss
+            - Rcmeasurements of the defioed benefit plans                                                 0                      I                    (2)                         I                   (I)                 (6)
+            • Equity instruments through other comprehensive income                                   (242)                   (30)                      0                  (275)                      41                   77
+            • Income tax relating to above                                                               25                      s                                            30                                         (30)
+
+        (ii) Items that \\111 be rcc!ass1fied to profit or loss
+            - Exchange differences on tr:.mslahon of foreign opcratmns                                    0                      2                      I                      2                        I                    I
+            - Debt mstruments through other eomprehens1ve mcomc                                        (25)                   {33)                   (\4)                     42                      54                  112
+            - Income tax relating to above                                                                6                      8                     (4)                  (II)                      (4)                (23)
+
+        Total other comprehensive income/ (Ion) for the period/ year                                  (236                    147                    119                   1211                       91                 131
+
+  XI    Total eomprehensh·e income for the period /year (IX+X)                                          421                    644                    475                  1.739                   1,476                2,091
+
+ XII    Paid-up share capilal (face value of INR 1 per share)                                           911                    9!0                    906                    911                     906                 907
+
+ XIII   O1her equity                                                                                                                                                                                                   33,208
+
+ XIV Earnings per equity share (INR) 1 (face value of INR 1 each)
+       {a) Basic                                                                                       072                    076                    056                    2 14                     158                 2.22
+       (b) Diluted                                                                                     070                    074                    0 54                   2 08                     153                 2 15
+
+1 EPS is 1101 anmmlisedfor 1he quarrenmd mil/! 11um1h ..- ended December 3/, 2025, quarteremfed S..p1emb~r 30, 2025 mu/ quaner and tJil!<' mo111h.1· e1Jded December 3/, 202.J.
+                                                                                 £tcmal Uml!ed (Fa,.,...,rly kn•wn ,.,Zomalo UHUt,,d)
+                                                                                   Notes 10 the standalone 11na11diled financi1l resnlts
+
+I The statement of standal()IH) unaudited financial results ofEtemal Limited {Fo=rly known as Zomato Limited) rthe Coffl)mly") for the quarter arul nine months ended Deambcr 31, 2025 ("Financial Results") have been
+  miewed by the Audit CommiU~ and approved by the Board ofDirutors ut their resirn;tive meetings held on 1Muary 21. 2026.
+
+2 The F111aocial Results have been prepared ill accordance with the reeognition l!l'ld measuremi:nt principles laid down in the Jrn!ian Accounting StMIW"d 34 "Interim Fl!lllllcial Rel)orting" pnd AS 34~). prescribed under
+  SeQKln 133 of the Companies Act, 2013 ~ v.ith rell!Wllt rules issued tlwreundcr l!l'ld other aa:owning principles generally accepted in India and in compliMce with Regulation 33 of the Se(Urities and Exchange Board of
+  India (Listing Obligations and Disclosure Requirements) R;sula!ions, 201 S, as amended ("LODR Regulations")
+
+   Exceptional item includes·
+                                                                                                                                                                        flNRcrores
+                                                                                              uunrterended                               Nine mmthumJed               Year ended
+   Partk111ar$                                                               DecemberJI,       Septm1berJO,       DttemberJl,      December JI,     December 31,       March JI,
+                                                                                                                     2024             2025             2024
+   Pn:1-mion fu, i=IU=t ir, ""1u~ orin....,.1mcnt in:,ub..idi•~                  "''                '"''                                                                  "''
+                                                                                                                                                                 '3              "
+   Tola!
+                                                                                                                                                                                 "
+   - During the nine manths ended December 31. 2024, tlle Company had recognised an i,q,airment loss of!NR 3 emus on its; in,'$1meru in EtomnlTeclmology Solutions Limitod (ETSL) (fonncrly knoM! u Zomato
+   Fmancial Sctvicei: Limited (ZFSL)), (a wholly owned :rul>sidisry of the Company) as it had volun1arily v.ithdraMI itt app!icauon fflr a No,..Banking Finuncial Company (Type JI NBFC-ND) n:gistraticm, which WBS accepted
+   by11ieRBt
+
+   - oumg tne year eru:!o:d March 31, 2112,. in aaa1uon 10 me at,ow,, Ille company !WI recognl$Cd an 1mpamnem loss of JNll l! crores on its mvestimnt 1n Zomato Local Se<VKes Pnvate Limited ("7.1.SPL"), (~ "'™llly owned
+   subsidiaJY oflhe Company). The impairment WBS recorded fo!lowitig tlu, closUI\I ofZLSPL's hyperloa.l deliveiy service operations.
+
+   The Company publishes these financial results along with the consolidated unaudited lioancial results. In accordsncc with Ind AS HIS, 'Operating Segments', the Company has disclosed the ~gment infi:mnation in the
+   consolidated 11naudiled fmancial results.
+
+
+   During the previous year ended Mffl'h 31, 2025, the Company had allolled 33,64,73,755 Equiiy Shares offac:e value lNR I each to eligible Qualified lns1itutional Buyers (Q!B) at M isrue price ofJNR 252.62 per Equity
+   Share (including a premium oflNR 2$1.62 per Equity Slw:e) eggregalillg to JNR 3,500 crores, pumuint to Qualified Institutional P!acemi:111 (Q!P) in Keotdance with the provisions of Securities and fa:cbange Board of
+   lndia(lssueofCnpil.31 and Disclosure Rcqu\rernents) Regulations (theMSEBI ICDR Regulations.. )
+
+   During the previQus ~ ended March 3!, :2025, the Comp:;,ny had alloned 47,75,34.845 equity :;hares having a race value oflNR 1/- e.<iclt to 'Foodi11 Bay Employees ESDP Trust'("Trust"), for fi.mheT issuance ll!ldi:T
+   varioUi Employee: Stoek Option Pl:ins.
+
+7 On August 27. 2024. Eternal Limited (Formerly lmoM! IIS Zonuto Limited} completed 1hc acq11isition ofOrl,gcn Technologies Priva!c Limited{"OTPL"). and WostelandEntmainmenl Private Limited (~WEPl"), holdmg
+  the 'Movies Tickoiing' business and 'Ew.its' business rcsp«livcly. from One 97 Comm1111ica1io,is Limit<:<! (''OCL"rScllcr"). These aequisi1lons w,:re executed throui:h a coml,;n,,tion of:,cconda,y ,J,.,m, purch&.-.e lh,m
+  OCL nmowiling !o INR 75g CTOTCS (for bo!h the entities) and primary infuMn into OTPL and WEPL amlllllling to INR l,260CTOres
+
+!I Tm, Company has made long !enn •lra.tcgi<: invcstmcots in Zoma.to Hyperpure Priv:atc Limited ("ZHPL"}, Zomato EnteMalnm¢111 Pri"31e Limited ("ZEl'L"), Dlink Commmc Priw.te Limited ("BCPL"), Orbg,:n
+    Technologies Private limited roTrLl M<I Wll.'ltdand Enteriainment Priw.10 Limited ('WEPL1 f'subsidiaiy co~"}. \\'hich are in their mitial/dcvcloping stagt, of operation and oould generate growth and returns
+    ow a period ofhme. These subsidilll)' .ompunies have ineurred signif>eant expenses for building !he brand, market sh!U"e and operations which have added to the losses of these enllties. The parenl has commilled to
+    provide support 10 each of its subsidiaries inthce.'Clll they o.r<, unable 10 meet their individual liabilities.
+
+    The Company is in receipt ofa Show Cause NotK:e (''SCN") and Demand Orders ("Orders') from vario\15 GST authorities requiring the Company to pay OST on the dcliveiy charges col!«1ed by 1he Co1111MY from the
+    end users on behalf of the dellveiy pann,m;, The Orders: are for October 2019 to March 2022 for al! the Slates amounting to INR 420 c:0rts and for April 2022 to M&rch 2023 for Andhra Pradesh an'll)Ullling to lNR 8
+    crores and 1he SCN is for April 2022 to March 2023 for Gujilflll amounting to INR 13 crorcs, with applicable interest and penalties. The Company is a>nl~ng 1hc Orders' SCN It applicable forums. The Company,
+    supponed by the external independent expert's advice. i~ of the view thll it has a $Uong case on merits;. iberc are no SCNi; or Orders: on 1his maner for periods other than tho~ mentioned here
+
+
+10 The Gomnment of India, with effect from November 2!, 2025, notified the Code on Social Security, 2020; !he Ornipa1ional Safety, llealth end WorldnJ;l Conditions Code, 2020; the lndw;tri:,.J Relations Code, 2020; and
+   1he Code on Wages, 2019 (coUcciivdy, 1hc ~l.ebour Codes"), which replace existing central lal,ourlegisla!icn,s. Draft rules undoTthe l.ebour Codes wete rolea,;cd by the Ministry ofUlbouT and Ell1Jloymenl on DeccmbeT
+   30, 2025 i!l1d are yet to be noti6ed Various State Gowmments have also no1i6ed state-specific legishtii;ins. Based on the Company's assessment, the provisions currendy in force do not have a maierial ilf4)1Ct on the
+   finMeial results or the Company The faw,cia! impact, if ""Y, of the remaining pmvi.ioM v.-ill hc &....:ssed upon notiliClltion of the linAI rulc.<1 and thciT cfl"cclwc datc.<1
+
+ I J Sulmq~nt to the reponing date, on January 21, 2026, Mr. Deepinder Goyal has 1endC1"ed h.. resignation as Director, Managing DirectoT and Chief Executiw Officer of the Compt,,l'/ effective close of business on
+     Februa:y \, 2026. Mr. Albinder Singh Dhindsa has been appointed ll!l the Chief Executive Officer of the Company with eff~ fi'om Februaiy I, 2026. Further. the Board of Directors: {"Board') recommended the
+     appoin1menl of Mr. DeepinderGoyal as !he Dirtttorand Vic.! Chnirman o£1he Boardeffeciive upon $hareholde1s' approval
+
+
+
+                                                                                                                                                     For and 611 Mhlforthe Bonni of Din,dors of£temal Umlled
+                                                                                                                                                     (Formerly known as Zomato Limited)
+
+
+
+
+                                                                                                                                                                  'w~~
+                                                                                                                                                     lkepinder Goynl
+                                                                                                                                                     l\la.iutJliillj! Di.l'ftlorand Chld£xecullve OITTN!r
+     Dole: Jonua,y 11, 202&
+     Pbce: New Delhi                                                                                                                                 (DIN-026135&3)
+

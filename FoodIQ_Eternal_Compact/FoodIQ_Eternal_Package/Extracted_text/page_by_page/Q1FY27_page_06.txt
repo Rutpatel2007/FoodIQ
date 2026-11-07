@@ -1,0 +1,51 @@
+About a year ago, in our Q1FY26 letter, we shared our ROCE framework as we moved to the inventory model.
+Having completed a full year as a 1P business, we now have real operating data to refine those
+assumptions. Following is what we believe to be steady state assumptions, at this point -
+
+    ●​ Capex per store (including warehousing): INR 2.5 crore (vs 1 crore earlier), reflecting larger store
+       sizes, assortment expansion, and technology investments in warehousing
+    ●​ Net working capital: 12 days of NOV, or 3.3% (vs 18 days / 5% earlier)
+    ●​ NOV per day, per store: INR 11 lakh (vs INR 7 lakh earlier), driven by larger store sizes and more
+       efficient warehousing
+    ●​ EBIT margin: 4% of NOV (same as earlier); driven by 6% Adjusted EBITDA margin (higher end of our
+       earlier guidance of 5-6%)
+
+The math: INR 2.5 crore capex against INR 40 crore annual NOV per store (= INR 11 lakh * 365) implies 6.3%
+of NOV in capex. Add 3.3% for net working capital, and total capital employed is 9.6% of NOV. At 4% EBIT
+margin, that implies pre-tax ROCE of 41.7% (= 4/9.6).
+
+These numbers will evolve as the business evolves.
+
+Q6. It’s been a year since the transition to the 1P model. What has been your
+experience with inventory losses (which are generally a big concern in 1P
+businesses)?
+Akshant: Inventory losses for us are about 1.8% of NOV right now, which include losses on account of
+expiry, shrinkage, damage, loss in transit or pilferage. A large part of these losses are driven by perishable
+products (including fruits and vegetables) which is an important and large category for us in the quick
+commerce business.
+
+We believe this is a great start and we will continue to optimize them with better replenishment planning
+and supply chain efficiencies.
+
+The inventory losses are part of COGS (cost of goods sold) and hence the reported Gross Profit is net of
+inventory losses.
+
+Q7. Any impact of the fuel and raw material price inflation on the business? Any
+supply side challenges from brands that can impact growth in the near term?
+Albinder: No, we are not seeing any visible impact as of now. Input costs across select raw materials are
+beginning to witness some inflationary pressure but that has not impacted production volumes or supply
+from brands so far.
+
+Q8. Any change in how you are responding to competitive tactics?
+Albinder: No - competitive intensity remains high but has become more predictable. Our focus on
+long-term growth vectors remains unique in the market - we're the only player simultaneously investing in
+assortment depth, geographic expansion, and supply chain infrastructure while competitors generally
+remain focused primarily on pricing. Pricing-led growth requires sustained cash burn, and leads QC
+companies into a systemic trap they can’t easily walk out of - that is visible in multiple QC players struggling
+to balance both growth and profitability. This is different from traditional e-commerce, where discounting
+can be weaned off gradually, without hurting the business (much).
+
+Infrastructure-led growth, on the other hand, builds operating leverage - each new store, each new
+category, each new city adds capacity that serves more customers at lower marginal cost. That's why we
+can grow rapidly and improve profitability at the same time.
+                                                                                                                 5

@@ -1,0 +1,46 @@
+entertainment and can potentially turn out to be an attractive market for us. The trust we’ve built with
+customers and restaurants in the UAE through dining-out gives us a head-start and improves our odds of
+success there.
+
+As mentioned earlier, we will continue to invest in category building here and expect quarterly losses to
+remain rangebound around current levels.
+
+Q12. How does the recent change in GST tax rates impact Eternal’s businesses?
+Akshant: The GST rate cuts have brought down the average GST on Blinkit’s typical basket by ~3
+percentage points which should drive more demand. We certainly expect a positive rub-off on demand due
+to this from Q3FY26 onwards (given the changes came into effect only towards the end of Q2FY26). As far
+as Q2FY26 is concerned, we saw a negative impact on both growth and margins as customers went into
+wait and watch mode delaying their purchases across categories including the ones where no GST rate
+changes were announced.
+
+The other impact was related to GST on the delivery charge that we collect from customers in the food
+delivery business. 18% GST is now applicable on the delivery charge paid by customers on food delivery
+orders. This impacts about 25% of our orders where delivery is not free (just to clarify, platform fee is
+already subject to 18% GST and does not get impacted by this change). This has had a slight negative
+impact on the growth of the business as we have passed on this tax burden to customers.
+
+There was no impact on delivery charge paid by customers on Blinkit - it already includes 18% GST given
+the model of engagement with delivery partners there is different as compared to food delivery and
+nothing changes on that front for us.
+
+Q13. From this quarter onwards you have completely moved to NOV as your core
+growth metric. Why not report GOV also?
+Akshant: Just to recap, NOV = GOV less discounts.
+
+Over the past few quarters, there has been an increasing divergence between GOV and NOV in both our
+food delivery and quick commerce businesses (see below) -
+
+
+
+
+GOV was meant to be a close proxy of “what customers pay”, however, with restaurants funding more
+discounts in food delivery and the share of non-grocery items going up in quick commerce, GOV ends up
+presenting an inflated picture of growth, no longer fulfilling the true intent of the metric.
+
+For instance, in our food delivery business, YoY GOV and NOV growth were both 21% last year (Q2FY25),
+whereas in Q2FY26, GOV and NOV growth diverged to 18% and 14% respectively (see below) -
+
+
+
+
+                                                                                                            8

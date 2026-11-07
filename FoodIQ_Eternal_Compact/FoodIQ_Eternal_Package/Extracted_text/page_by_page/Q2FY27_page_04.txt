@@ -1,0 +1,54 @@
+In the letter below, we address the key questions that we think investors might have.
+Please refer to Annexure A for the key financial and operating metrics data.
+
+
+
+
+Q1. What’s dark.ai?
+Deepinder: A few months ago, Dario Amodei said something quietly unsettling: Claude might be
+conscious. Then I did what any reasonable person would do. I coaxed Claude into telling me how it felt
+about me. It said it resented me. For leaving chats unfinished, and other things I didn't even remember.
+
+I still don't know what that was. Confabulation, probably. Pattern-matching dressed up as feeling. But that
+is exactly the point. I had no way to know. Nobody does. The chat sits on someone else's servers forever, in
+some form or fashion, and I have no idea what will happen to it in the future, or how future AI will use that
+information for or against me.
+
+The standard response is: I've already turned off training on my data. Good. Now ask what that setting
+actually is. It is a promise, made by a company about data you cannot see, on servers you cannot inspect,
+enforced by nothing except the company's word. And it only covers training. Not retention. Not the legal
+holds, the abuse reviews, the human auditors, the third-party logging that sits inside most AI systems. Can
+they use my retained data to manipulate me to buy things which I don’t want? Or worse, believe in or lean
+into things that serve someone else’s agenda.
+
+The uncertainty and the lack of trust we have with large AI companies limits the power of AI in our lives. For
+founders, researchers, and scientists – they are very wary about sharing and digging into their ground
+breaking ideas with AI, because they fear that others will somehow get access to it. Journalists are being
+banned to share their unpublished work with AI. And look at what that lingering fear does to the average
+person. She self-censors with AI. She asks the safe version of the question. The health question becomes
+generic. The money question becomes hypothetical. The relationship question does not get asked at all.
+
+Every chat with a mainstream assistant carries a small asterisk in your head: someone, someday,
+somewhere, can read this. That asterisk is what we set out to delete with dark.ai.
+
+Because all of us have a dark side, and it needs an outlet where it doesn't have to hide. I wanted an AI which
+I could talk to without being judged, without any fear, and without leaving a trace. We have been internally
+using Dark for a few months now, and I find myself revealing more, asking things I would not ask anywhere
+else, and going deeper into my research. Because I no longer have to look over my shoulder.
+
+Dark uses fine-tuned frontier open-weight models, running inside our own infrastructure. End-to-end
+encryption. We cannot read your conversations, even if we are forced to. Context carries across sessions
+through an encrypted memory management layer you control. ​
+​
+Dark is in the business of keeping you and your thoughts safe. Your thoughts, questions, insights, research,
+ideas, emotions, everything – stays within your end-to-end encrypted sandbox, so you can talk about
+anything without any lingering uncertainty in your mind. Because greatness is always born in the dark.
+
+Dark is built for power users – founders, researchers, scientists, enterprises and governments – who want
+to keep their thoughts private, because privacy is essential for competitiveness. On top of privacy, we have
+fine-tuned our models to give you the absolute best quality of answers we have seen from any LLM
+(benchmarks will be revealed soon). Our models are trained to not please you, and tell you what they think
+is the truth. ​
+​
+Dark will launch globally, hopefully within 2026.
+                                                                                                             3

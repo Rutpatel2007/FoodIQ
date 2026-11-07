@@ -1,0 +1,86 @@
+                                                                                   Eternal Limited (Formerly known as Zomato Limited)
+                                                                                    Notes to the consolidated unaudited financial results
+
+  The statement of consolidated unaudited financial results of Eternal Limited (Fo1merly known as Zomato Limited) ("the Company"/"thc Parent") and its subsidiaries (together refen-ed to as "lhe Group") for the quarter
+  ended June 30. 2025 ("Financial Results") have been reviewed by the Audit Committee and approved by the Board of Directors at their respective meetings held on July 21, 2025.
+
+
+  The Financial Results have been prepared in accordance with the recognition and measurement principles laid down in the Indian Accounting Standard 34 "Interim Financial Reporting" ("Ind AS 34"), prescribed under
+  Section 133 of the Companies Act, 2013 read with relevant rules issued thereunder and other accounting principles generally accepted in India and in compliance with Regulation 33 of the Securities and Exchange Board
+  oflndia (Listing Obligations and Disclosure Requirements) Regulations. 2015. as amended ("LODR Regulations").
+
+  Consolidated sel(ment information
+  Operating segments are defined as components of an enterprise for which discrete financial info1mation is available that is evaluated regularly by the chief operating decision maker ("CODM"), in deciding how to allocate
+  resources and assessing performance. The Group's CODM is the Managing Director and Chief Executive Officer of the Company.
+
+  The segments for the Group arc as follows:
+  I. India food ordering and delivery
+  2. Hyperpure supplies (B2B business)
+  3. Quick commerce
+  4. Going out
+  5. All other segments (residual)
+
+  India food ordering and delivery comprises of online marketplace platfonn through which the Group facilitates listing and online ordering of food items and delivery of these food items by connecting end users.
+  restaurant partners and independent delivery partner.
+
+  Hyperpure supplies (B2B business) is our farm-to-fork supplies offering for restaurants in India and sale of items to businesses for onward sales.
+
+  Quick commerce comprises of online platfonn named Blinkit CPlatfo1m") that enables listing and sale of items directly by the Group or by third-party sellers. End users are able to place orders of these listed items on the
+  Platform which are delivered to their doorsteps within minutes. Quick commerce also includes provision of advertisement, warehousing and ancillary services.
+
+  Going-out is a combination of our dining-out and entertainment ticketing business. Customers/ end users use our dining-out offering to search and discover restaurants. reserve tables, avail offers and make payments
+  while dining-out at restaurants. In our entertainment ticketing business, we offer ticketing services to customers for movies, sp011s and events (including our own events) and offer services like event production,
+  management etc. lo other event pa1iners/ participants.
+
+  The Group has combined and disclosed balancing number in all other segments which are not reportable.
+
+   Revenue and expenses directly attributable to segments are reported under each rep011able segment. Expenses which are not directly attributable to any reporting segment have been allocated to respective segments
+   based on the number of orders. revenue. number of employees or gross market value as reviewed by CODM.
+
+  Summarised segment info1mation is as follows:
+                                                                                                                          IINR crores\
+                                                                                   Quarter ended                         Year ended
+                                                                  June 30,           March 31,           June 30,        March 31,
+                         Particulars                                2025               2025                2024             2025
+                                                                 Unaudited           Unaudited          Unaudited         Audited
+                                                                                   (Refer Note 9)
+   Revenue from operations (external customers)
+     India food ordering and delivery                                    2,261               2,054             1,942             8,080
+     Hyperpure supplies (B2B business)                                   2,295               1,840             1,212             6,196
+     Quick commerce                                                      2,400               1,709               942             5,206
+     Going Out                                                             207                 229                95               737
+     All other segments (Residual)                                           4                      I             15                24
+   Total                                                                 7,167               5,833             4 206            20,243
+   Revenue from operations (inter-segment)
+      India food ordering and delivery                                        9                  7                   7               27
+     Hyperpure supplies (B2B business)                                        7                     I                                 2
+     Quick commerce                                                           9                  5                   I               10
+      Going Out                                                                                                                       0
+     All other segments (Residual)                                           13                 14                  15               59
+   Total                                                                     38                 27                  23               98
+   Segment results
+      India food ordering and delivery                                     465                 439               321              1,541
+      Hyperpure supplies (B2B business)                                      (5)                (8)             (14)               (43)
+      Quick commerce                                                       (42)               (82)                43               (21)
+      Going Out                                                            (48)               (44)                11               (30)
+     All other segments (Residual)                                         (45)               (16)                 1               (12)
+   Segment results                                                          325                289               362              1,435
+      Add: other income                                                     354               368                236              1,077
+      Less: share based payment expense                                     210                217               185                798
+      Less: finance costs                                                     67                 56               25                154
+      Less: depreciation and amo1iisation expense                           314                287               149                863
+      Add: exceptional items
+   Profit before tax                                                         88                 97               239                697
+
+
+4 During the previous year ended March 31, 2025, the Company had allotted 33,64,73,755 Equity Shares of face value INRI each to eligible Qualified Institutional Buyers (QIB) at an issue price of!NR 252.62 per
+  Equity Share (including a premium of!NR 251.62 per Equity Sh<)re) aggregating to INR 8,500 crores, pursuant to Qualified Institutional Placement (QIP) in accordance with the provisions of Securities and Exchange
+  Board oflndia (Issue of Capital and Disclosure Requirements) Regulations (the '·SEBI ICDR Regulations").
+
+   During the previous year ended March 31, 2025, the Company allotted 47,75,34,845 equity shares having a face value ofINR 1/- each to 'Foodie Bay Employees ESOP Trust'("Trusf'), for further issuance under
+   various Employee Stock Option Plans.
+
+6 The Company is in receipt of Show Cause Notices ('"SCNs") and Demand Orders ("Orders") from various GST authorities requiring the Company to pay GST on the delivery charges collected by the Company from the
+  end user on behalf of the delivery partners. The Orders are for October 2019 to March 2022 for all the States amounting to INR 420 crores and the SCNs are for April 2022 to March 2023 for the States of Andhra
+  Pradesh and Gujarat amounting to INR 21 crores, with applicable interest and penalties. The Company has filed appeals against the Orders and is in the process of contesting the SCNs at applicable forums. The
+  Company, supported by the external independent expert's advice, is of the view that it has a strong case on merits. There are no SCNs or Orders for period other than those mentioned here.
