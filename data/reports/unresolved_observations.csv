@@ -1,0 +1,3 @@
+observation_id,company_id,metric_id,quarter,raw_source_value,verified_value,validation_status,analyst_notes
+OBS-ETERNAL-Q2FY25-ETERNAL_FOOD-food_nov-v1,ETERNAL,eternal_food_nov,Q2FY25,g281,8281.0000,RESTATED,Raw OCR 'g281' (parsed as 281.0) corrected to 8281.0 using subsequent comparative table in Q2FY27/Q1FY27.
+OBS-ETERNAL-Q2FY25-ETERNAL_GOING_OUT-going_out_nov-v1,ETERNAL,eternal_going_out_nov,Q2FY25,4582258888,1562.0000,RESTATED,Raw OCR '4582258888' (parsed as 4582258888.0) corrected to 1562.0 using subsequent comparative table in Q2FY27/Q1FY27.

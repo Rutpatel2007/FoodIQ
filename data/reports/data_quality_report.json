@@ -1,0 +1,200 @@
+[
+  {
+    "flag_id": "DQ-001",
+    "observation_id": "",
+    "issue_code": "coverage",
+    "severity": "CRITICAL",
+    "issue_description": "The uploaded batch contains six Swiggy quarterly letters only; no Eternal shareholder letters are present.",
+    "audit_trail": "Impact: FoodIQ cannot yet compute Eternal-versus-Swiggy competitive gaps, cross-company leading indicators or peer-relative conclusions. | Required Action: Keep company=Eternal absent/null; build schema to support it but never generate proxy values. Upload matched Eternal letters for same quarters.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-002",
+    "observation_id": "",
+    "issue_code": "platform_mtu",
+    "severity": "HIGH",
+    "issue_description": "Q1FY27 Platform MTU differs: Q1FY27 letter page 5 reports 27.5m, while Q2FY27 historical chart page 5 displays 26.2m.",
+    "audit_trail": "Impact: Changes growth calculations / historical trend. No explanatory restatement note identified on the KPI page. | Required Action: Store separate document-specific observations; flag possible restatement or error; chart latest-reported series with conflict annotation and maintain as-published series.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-003",
+    "observation_id": "",
+    "issue_code": "platform_frequency",
+    "severity": "MEDIUM",
+    "issue_description": "Historical platform frequency differs across letters: Q1FY26 4.18 in Q1FY26 letter vs 4.13 in Q1FY27 historical chart; Q1FY27 3.87 in Q1FY27 letter vs 3.92 in Q2FY27 historical chart.",
+    "audit_trail": "Impact: Historical trend / cohort comparisons change. | Required Action: Preserve each published observation with report date; do not silently overwrite.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-004",
+    "observation_id": "",
+    "issue_code": "food_nov",
+    "severity": "CRITICAL",
+    "issue_description": "Swiggy management explicitly says Food Delivery NOV is not published because discounts are not structurally comparable; use Food GOV.",
+    "audit_trail": "Impact: The project specification originally proposed NOV normalisation for Food. A Food NOV field would be unsupported. | Required Action: Make GOV the core Food comparison metric; keep NOV blank. Capture statement and page.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-005",
+    "observation_id": "",
+    "issue_code": "ooh_nov",
+    "severity": "HIGH",
+    "issue_description": "Swiggy management also states it does not publish Out-of-Home NOV for similar structural comparability reasons.",
+    "audit_trail": "Impact: Cannot make OOH NOV-based analysis from this source pack. | Required Action: Use OOH GOV; do not infer NOV.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-006",
+    "observation_id": "",
+    "issue_code": "consolidated_scope",
+    "severity": "HIGH",
+    "issue_description": "The user seed-data uses segment=Consolidated and GOV values that are B2C GOV, while adjusted revenue/EBITDA are consolidated metrics.",
+    "audit_trail": "Impact: Different scopes are mixed within one row; misleading ratios can result. | Required Action: Separate B2C GOV, B2C adjusted revenue, consolidated adjusted revenue, consolidated adjusted EBITDA and Platform Innovations.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-007",
+    "observation_id": "",
+    "issue_code": "margin_basis",
+    "severity": "HIGH",
+    "issue_description": "Margin denominators differ by segment: Food/QuickCommerce/OOH contribution and adjusted EBITDA margins are generally as % GOV; Supply Chain EBITDA margin is % revenue; Platform Innovations margin is % adjusted revenue; Platform B2C margin is % B2C GOV.",
+    "audit_trail": "Impact: Invalid peer or segment comparisons if margins are treated as one common ratio. | Required Action: Store denominator in each metric observation and metric definition; never compare without matched basis.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-008",
+    "observation_id": "",
+    "issue_code": "quickcommerce_nov",
+    "severity": "HIGH",
+    "issue_description": "Seed absolute QuickCommerce NOV series appears partly inferred from NOV/GOV ratios and partly explicitly reported. Q1FY27 and Q2FY27 source ratios are rounded to whole percentages while absolute values do not equal exact multiplication.",
+    "audit_trail": "Impact: A derived approximation can be mistaken for a company-reported absolute metric. | Required Action: Keep seed values in a separate user-submitted series, add source_status, and confirm each quarter from text or table before promotion to reported status.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-009",
+    "observation_id": "",
+    "issue_code": "nAOV",
+    "severity": "HIGH",
+    "issue_description": "Q2FY27 source discusses nAOV \u20b9506 while KPI chart reports AOV \u20b9708; Q1FY27 source discusses nAOV \u20b9508 while chart AOV is \u20b9691. No complete definition of nAOV was located in glossary.",
+    "audit_trail": "Impact: Substituting nAOV for AOV would create a false trend / mismatch with orders and GOV. | Required Action: Retain separate metrics aov_inr and naov_inr; capture exact definition if found; do not substitute.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-010",
+    "observation_id": "",
+    "issue_code": "qcomm_breakeven",
+    "severity": "HIGH",
+    "issue_description": "QComm monthly contribution break-even was achieved in May 2026, but Q1FY27 quarterly average was -0.2% and Q2FY27 quarterly average was -1.0%.",
+    "audit_trail": "Impact: A simple \u201cbreak-even achieved\u201d label would misrepresent the run-rate and reinvestment dynamics. | Required Action: Store milestone date/value, quarterly averages and subsequent margin investment explanation separately.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-011",
+    "observation_id": "",
+    "issue_code": "lynks_divestment",
+    "severity": "HIGH",
+    "issue_description": "Lynks stake sale disclosed in Q2FY27; Lynks segment results cease being included from Q3FY27 and management expects ~\u20b920cr segment EBITDA benefit.",
+    "audit_trail": "Impact: Supply Chain / Distribution segment trend has structural discontinuity. | Required Action: Add corporate-action structural-break event; normalise historical comparison or disclose perimeter difference.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-012",
+    "observation_id": "",
+    "issue_code": "take_rate",
+    "severity": "HIGH",
+    "issue_description": "The spec assumes take_rate_pct = adjusted revenue / NOV. Source management take-rate references (Food 25.8% / 26.1%, QuickComm 14.8%) do not have a complete consistent formula established in the supplied definitions.",
+    "audit_trail": "Impact: Derived take rates could be wrong or not comparable. | Required Action: Use source-reported take-rate series only where explicit; do not calculate from guessed numerator/denominator. Add definition and source reference.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-013",
+    "observation_id": "",
+    "issue_code": "margin_bridge",
+    "severity": "HIGH",
+    "issue_description": "The original spec proposes a contribution margin bridge using delta take-rate + volume leverage + residual cost. This does not mathematically reconcile without component-level disclosed revenue/cost amounts and correct denominators.",
+    "audit_trail": "Impact: Could create pseudo-precision / double-counting. | Required Action: Build a monetary CM = CM% \u00d7 GOV series; produce attribution only where actual driver components reconcile to the total change. Treat management bps bridge separately as management attribution.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-014",
+    "observation_id": "",
+    "issue_code": "causal_language",
+    "severity": "HIGH",
+    "issue_description": "AOV lead correlation with ~8\u201310 quarterly observations cannot establish causal prediction.",
+    "audit_trail": "Impact: Interview claim may overstate statistical evidence. | Required Action: Call it exploratory lead/lag association; compare lag 0/1/2, level and first-difference series, confidence interval, p value, sample size and common-trend caveats.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-015",
+    "observation_id": "",
+    "issue_code": "guidance_classification",
+    "severity": "HIGH",
+    "issue_description": "The user seed labels certain guidance as met/missed based on one observation and treats ongoing medium-term goals alike.",
+    "audit_trail": "Impact: Management scorecard may falsely label long-term ambitions as missed. | Required Action: Classify each item as formal annual guidance, near-term guidance, scale threshold, medium-term ambition, long-term aspiration, or qualitative strategy. Use pending / achieved milestone / in-range / approximately met with evidence.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-016",
+    "observation_id": "",
+    "issue_code": "Qcomm_orders",
+    "severity": "MEDIUM",
+    "issue_description": "Quarterly orders per store/day are based on active darkstore-days; store count at quarter-end is not the same denominator.",
+    "audit_trail": "Impact: Recalculated productivity from total orders / closing store count will be inaccurate. | Required Action: Use published orders/store/day directly or reconstruct from active store-days if available; document denominator.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-017",
+    "observation_id": "",
+    "issue_code": "quarter_comparability",
+    "severity": "MEDIUM",
+    "issue_description": "Q1 food metrics are seasonally affected by monsoon, delivery partner availability, reverse migration and salary cycle; Q2/Q3 have festive season effects.",
+    "audit_trail": "Impact: Simple QoQ movement may be seasonal rather than structural. | Required Action: Prefer YoY comparisons and seasonal annotations; where enough data exists, include seasonal controls.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-018",
+    "observation_id": "",
+    "issue_code": "reported_vs_derived",
+    "severity": "MEDIUM",
+    "issue_description": "Several metrics like GOV/sqft, estimated order productivity and annualised run-rate are not equivalent to audited revenue or profitability.",
+    "audit_trail": "Impact: Mixing operational ratios with reported financial statements reduces credibility. | Required Action: Tag every value as reported / derived / management estimate / user-provided / model assumption.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-019",
+    "observation_id": "",
+    "issue_code": "latest_q2_values",
+    "severity": "MEDIUM",
+    "issue_description": "Seed data currently ends at Q1FY27, while Q2FY27 letter is uploaded and includes an additional quarter.",
+    "audit_trail": "Impact: Dataset is stale relative to supplied source pack. | Required Action: Add Q2FY27 rows from Q2FY27 KPI charts and use source-specific page references.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-020",
+    "observation_id": "",
+    "issue_code": "financial_cash",
+    "severity": "MEDIUM",
+    "issue_description": "Company page-16 cash reconciliation balance is not necessarily identical to statutory \u201ccash and cash equivalents\u201d balance-sheet line.",
+    "audit_trail": "Impact: Potential inconsistent liquidity comparisons. | Required Action: Preserve line-item label and source context; never merge the two cash concepts.",
+    "is_resolved": false
+  },
+  {
+    "flag_id": "DQ-ETERNAL-OCR-Q2FY25-food_nov",
+    "observation_id": "OBS-ETERNAL-Q2FY25-ETERNAL_FOOD-food_nov-v1",
+    "issue_code": "OCR_CORRECTED_VIA_COMPARATIVE",
+    "severity": "HIGH",
+    "issue_description": "Raw OCR 'g281' corrected to 8281.0",
+    "audit_trail": "Raw OCR 'g281' (parsed as 281.0) corrected to 8281.0 using subsequent comparative table in Q2FY27/Q1FY27.",
+    "is_resolved": true
+  },
+  {
+    "flag_id": "DQ-ETERNAL-OCR-Q2FY25-going_out_nov",
+    "observation_id": "OBS-ETERNAL-Q2FY25-ETERNAL_GOING_OUT-going_out_nov-v1",
+    "issue_code": "OCR_CORRECTED_VIA_COMPARATIVE",
+    "severity": "HIGH",
+    "issue_description": "Raw OCR '4582258888' corrected to 1562.0",
+    "audit_trail": "Raw OCR '4582258888' (parsed as 4582258888.0) corrected to 1562.0 using subsequent comparative table in Q2FY27/Q1FY27.",
+    "is_resolved": true
+  }
+]

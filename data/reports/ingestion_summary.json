@@ -1,0 +1,41 @@
+{
+  "run_id": "RUN-20261107163133-70bd51",
+  "completed_at": "2026-11-07T16:31:38.281181",
+  "status": "COMPLETED",
+  "counts": {
+    "companies": 2,
+    "source_documents": 14,
+    "source_pages": 509,
+    "business_segments": 14,
+    "metric_definitions": 85,
+    "metric_observations": 570,
+    "swiggy_observations": 400,
+    "eternal_observations": 170,
+    "data_quality_flags": 22,
+    "source_conflicts": 9,
+    "comparability_rules": 6,
+    "corporate_events": 4
+  },
+  "swiggy_pipeline_stats": {
+    "documents": 0,
+    "pages": 0,
+    "segments": 0,
+    "metric_definitions": 0,
+    "observations": 0,
+    "guidance": 0,
+    "commentary": 0,
+    "initiatives": 0,
+    "flags": 0,
+    "conflicts": 0
+  },
+  "eternal_pipeline_stats": {
+    "documents": 0,
+    "pages": 0,
+    "segments": 0,
+    "metric_definitions": 0,
+    "observations": 0,
+    "ocr_corrections": 0,
+    "flags": 0,
+    "events": 0
+  }
+}
