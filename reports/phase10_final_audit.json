@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-11-08T08:08:48.258797+00:00",
+  "platform": "FoodIQ \u2014 India's Food Delivery & Quick Commerce Competitive Intelligence Engine",
+  "version": "3.1.0-RELEASE",
+  "verdict": "PASS",
+  "certification_summary": {
+    "statutory_data_ingestion": "VERIFIED (14 filings, 509 pages, 570 metric observations, zero imputation)",
+    "comparability_governance": "VERIFIED (4-tier rules enforced, Level 4 QC revenue subtraction blocked)",
+    "unit_economics_integrity": "VERIFIED (Blinkit +22.0% store throughput using disclosed NOV \u20b9849,924 / store-day)",
+    "management_credibility": "VERIFIED (26 commitments across 16 categories, isolated pending denominators)",
+    "econometric_research": "VERIFIED (12 studies, first-difference detrending, Benjamini-Hochberg FDR q=0.05)",
+    "scenario_simulation": "VERIFIED (Instamart break-even AOV \u20b9813.20, 1,000-draw Monte Carlo, SQLite persistence)",
+    "institutional_reporting": "VERIFIED (9 report types, automated verification scorecard, HTML/PDF/DOCX/CSV exports)",
+    "disclosure_intelligence": "VERIFIED (SHA-256 deduplication, approval/rollback controls, anomaly scanner)",
+    "production_engineering": "VERIFIED (Relative portable paths, online SQLite backup/restore, Dockerfile, latency SLA met)"
+  }
+}

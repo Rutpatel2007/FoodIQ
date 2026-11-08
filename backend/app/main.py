@@ -21,7 +21,9 @@ from backend.app.api.v1 import (
     competitive,
     credibility,
     quantitative,
-    scenarios
+    scenarios,
+    reports,
+    disclosures
 )
 
 app = FastAPI(
@@ -56,6 +58,8 @@ app.include_router(competitive.router, prefix=settings.API_V1_PREFIX, tags=["Com
 app.include_router(credibility.router, prefix=settings.API_V1_PREFIX, tags=["Management Credibility & Narrative Verification"])
 app.include_router(quantitative.router, prefix=settings.API_V1_PREFIX, tags=["Quantitative Research & Statistical Analysis"])
 app.include_router(scenarios.router, prefix=settings.API_V1_PREFIX, tags=["Scenario Lab & Simulation"])
+app.include_router(reports.router, prefix=settings.API_V1_PREFIX, tags=["Institutional Research Report Generation"])
+app.include_router(disclosures.router, prefix=settings.API_V1_PREFIX, tags=["Corporate Disclosure Intelligence & Research Monitoring"])
 
 # Mount static frontend files if frontend directory exists
 frontend_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "frontend"))

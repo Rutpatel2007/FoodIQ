@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-11-08T07:44:49.982600+00:00",
+  "phase": "PHASE_7_REPORTING_ENGINE",
+  "total_tests": 7,
+  "passed": 7,
+  "failed": 0,
+  "duration_seconds": 9.9983,
+  "exit_code": 0,
+  "verdict": "PASS",
+  "tests": [
+    {
+      "nodeid": "backend/tests/test_phase7_reporting_engine.py::test_supported_report_types",
+      "name": "test_supported_report_types",
+      "outcome": "passed",
+      "duration": 0.0001
+    },
+    {
+      "nodeid": "backend/tests/test_phase7_reporting_engine.py::test_generate_comprehensive_report",
+      "name": "test_generate_comprehensive_report",
+      "outcome": "passed",
+      "duration": 1.2056
+    },
+    {
+      "nodeid": "backend/tests/test_phase7_reporting_engine.py::test_company_and_segment_report_generation",
+      "name": "test_company_and_segment_report_generation",
+      "outcome": "passed",
+      "duration": 3.0164
+    },
+    {
+      "nodeid": "backend/tests/test_phase7_reporting_engine.py::test_citation_verification_engine",
+      "name": "test_citation_verification_engine",
+      "outcome": "passed",
+      "duration": 0.0036
+    },
+    {
+      "nodeid": "backend/tests/test_phase7_reporting_engine.py::test_report_verification_scorecard",
+      "name": "test_report_verification_scorecard",
+      "outcome": "passed",
+      "duration": 1.4382
+    },
+    {
+      "nodeid": "backend/tests/test_phase7_reporting_engine.py::test_report_exports",
+      "name": "test_report_exports",
+      "outcome": "passed",
+      "duration": 2.0512
+    },
+    {
+      "nodeid": "backend/tests/test_phase7_reporting_engine.py::test_api_report_endpoints",
+      "name": "test_api_report_endpoints",
+      "outcome": "passed",
+      "duration": 1.4432
+    }
+  ]
+}

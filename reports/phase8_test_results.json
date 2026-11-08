@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-11-08T07:48:10.413641+00:00",
+  "phase": "PHASE_8_DISCLOSURE_INTELLIGENCE",
+  "total_tests": 6,
+  "passed": 6,
+  "failed": 0,
+  "duration_seconds": 1.7057,
+  "exit_code": 0,
+  "verdict": "PASS",
+  "tests": [
+    {
+      "nodeid": "backend/tests/test_phase8_disclosure_intelligence.py::test_monitoring_overview",
+      "name": "test_monitoring_overview",
+      "outcome": "passed",
+      "duration": 0.0149
+    },
+    {
+      "nodeid": "backend/tests/test_phase8_disclosure_intelligence.py::test_register_and_deduplicate_disclosure",
+      "name": "test_register_and_deduplicate_disclosure",
+      "outcome": "passed",
+      "duration": 0.0113
+    },
+    {
+      "nodeid": "backend/tests/test_phase8_disclosure_intelligence.py::test_approval_and_rollback_controls",
+      "name": "test_approval_and_rollback_controls",
+      "outcome": "passed",
+      "duration": 0.0188
+    },
+    {
+      "nodeid": "backend/tests/test_phase8_disclosure_intelligence.py::test_data_anomalies_scanner",
+      "name": "test_data_anomalies_scanner",
+      "outcome": "passed",
+      "duration": 0.0123
+    },
+    {
+      "nodeid": "backend/tests/test_phase8_disclosure_intelligence.py::test_research_impact_analysis",
+      "name": "test_research_impact_analysis",
+      "outcome": "passed",
+      "duration": 0.0001
+    },
+    {
+      "nodeid": "backend/tests/test_phase8_disclosure_intelligence.py::test_api_disclosure_endpoints",
+      "name": "test_api_disclosure_endpoints",
+      "outcome": "passed",
+      "duration": 0.1421
+    }
+  ]
+}

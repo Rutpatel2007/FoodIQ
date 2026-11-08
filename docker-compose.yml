@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  foodiq:
+    build: .
+    container_name: foodiq-engine
+    ports:
+      - "8000:8000"
+    environment:
+      - FOODIQ_ENV=production
+      - HOST=0.0.0.0
+      - PORT=8000
+      - LOG_LEVEL=INFO
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
+    restart: unless-stopped

@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-11-08T07:48:10.428801+00:00",
+  "total_disclosures_registered": 20,
+  "coverage_by_company": {
+    "ETERNAL": {
+      "latest_period": "Q2 FY27",
+      "total_documents": 12,
+      "missing_historical_quarters": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q4FY25"
+      ]
+    },
+    "SWIGGY": {
+      "latest_period": "Q2 FY27",
+      "total_documents": 8,
+      "missing_historical_quarters": [
+        "Q1FY25",
+        "Q2FY25",
+        "Q3FY25",
+        "Q4FY25"
+      ]
+    }
+  },
+  "processing_queue": {
+    "approved": 14,
+    "pending_review": 2,
+    "rejected": 4
+  },
+  "next_anticipated_filings": [
+    {
+      "company": "ETERNAL",
+      "quarter": "Q3 FY27",
+      "estimated_release": "January 2027",
+      "status": "AWAITING_PUBLICATION"
+    },
+    {
+      "company": "SWIGGY",
+      "quarter": "Q3 FY27",
+      "estimated_release": "February 2027",
+      "status": "AWAITING_PUBLICATION"
+    }
+  ],
+  "deduplication_engine": "SHA-256 Checksum Matching Active",
+  "verdict": "PASS"
+}

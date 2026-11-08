@@ -1,0 +1,227 @@
+{
+  "timestamp": "2026-11-08T07:37:16.730008+00:00",
+  "verdict": "VERIFIED_PASS",
+  "sections": {
+    "database_verification": {
+      "status": "PASS",
+      "tables": {
+        "ingestion_runs": 17,
+        "companies": 2,
+        "comparability_rules": 6,
+        "source_documents": 14,
+        "business_segments": 14,
+        "source_conflicts": 9,
+        "source_pages": 509,
+        "derived_metrics": 0,
+        "metric_definitions": 85,
+        "corporate_events": 4,
+        "management_guidance": 18,
+        "management_commentary": 90,
+        "strategic_initiatives": 30,
+        "metric_observations": 570,
+        "data_quality_flags": 22,
+        "guidance_outcomes": 18,
+        "alembic_version": 1,
+        "saved_scenarios": 12,
+        "metrics": 120,
+        "guidance_log": 18,
+        "competitive_gaps": 130
+      },
+      "database_file": "data/foodiq.db"
+    },
+    "multi_quarter_lineage_tracing": {
+      "status": "PASS",
+      "traced_metrics": [
+        {
+          "metric": "nov_cr",
+          "company": "ETERNAL",
+          "segment": "Quick Commerce",
+          "quarter": "Q2FY27",
+          "api_value": 20940.0,
+          "db_value": 20940,
+          "unit": "INR crore",
+          "source_doc": "ETERNAL-Q2FY27",
+          "source_page": "ETERNAL-Q2FY27-P13",
+          "verified_reconciled": true
+        },
+        {
+          "metric": "aov_inr",
+          "company": "SWIGGY",
+          "segment": "Quick Commerce",
+          "quarter": "Q2FY27",
+          "api_value": 708.0,
+          "db_value": 708,
+          "unit": "INR per order",
+          "source_doc": "SWIGGY-Q2FY27",
+          "source_page": "SWIGGY-Q2FY27-P07",
+          "verified_reconciled": true
+        },
+        {
+          "metric": "gov_cr",
+          "company": "ETERNAL",
+          "segment": "Food Delivery",
+          "quarter": "Q2FY25",
+          "api_value": 9690.0,
+          "db_value": 9690,
+          "unit": "INR crore",
+          "source_doc": "ETERNAL-Q2FY26",
+          "source_page": "ETERNAL-Q2FY26-P12",
+          "verified_reconciled": true
+        },
+        {
+          "metric": "adj_ebitda_margin_pct",
+          "company": "SWIGGY",
+          "segment": "Food Delivery",
+          "quarter": "Q2FY25",
+          "api_value": 1.6,
+          "db_value": 1.6,
+          "unit": "%",
+          "source_doc": "SWIGGY-Q1FY26",
+          "source_page": "SWIGGY-Q1FY26-P06",
+          "verified_reconciled": true
+        }
+      ]
+    },
+    "phase4_commitments_audit": {
+      "total_commitments": 26,
+      "eternal": {
+        "total_tracked": 8,
+        "evaluable_completed": 6,
+        "pending_multi_year": 2,
+        "strict_delivery_rate_pct": 83.33,
+        "broad_delivery_rate_pct": 91.67
+      },
+      "swiggy": {
+        "total_tracked": 18,
+        "evaluable_completed": 4,
+        "pending_multi_year": 11,
+        "unmeasurable": 3,
+        "strict_delivery_rate_pct": 75.0,
+        "broad_delivery_rate_pct": 87.5
+      },
+      "governance_rule": "Pending multi-year commitments (e.g. IPO prospectus targets for FY28) are strictly isolated in denominator so maturing timelines do not count as delivery misses."
+    },
+    "instamart_aov_reconciliation": {
+      "q1fy25_aov_inr": 487.0,
+      "q2fy25_aov_inr": 499.0,
+      "early_baseline_average_inr": 493.0,
+      "latest_quarter": "Q2FY27",
+      "latest_q2fy27_aov_inr": 708.0,
+      "latest_q2fy27_cm_pct": -1.0,
+      "calibrated_elasticity_bps": 0.9506,
+      "breakeven_aov_inr": 813.2,
+      "remaining_aov_expansion_required_from_q2fy27_inr": 105.2,
+      "reconciliation_explanation": "The figure \u20b9498 corresponds to Swiggy Instamart's early historical baseline (Q1-Q2 FY25 average ~\u20b9493-499). In Q2 FY27 (latest reported), Instamart AOV reached \u20b9708.00. Starting from \u20b9708.00 at -1.0% CM, an additional +\u20b9105.20 is required to reach break-even AOV \u20b9813.20. The difference \u20b9315.20 represents the TOTAL expansion from the FY25 base (\u20b9498 -> \u20b9813.20), of which +\u20b9210 has already been realized."
+    },
+    "test_pass_rate_vs_coverage": {
+      "tests_collected": 113,
+      "tests_passed": 113,
+      "tests_failed": 0,
+      "test_pass_rate_pct": 100.0,
+      "total_statements": 2768,
+      "covered_statements": 2510,
+      "missed_statements": 258,
+      "code_coverage_pct": 90.68,
+      "clarification": "The test suite achieves a 100% pass rate (113/113 passing tests) and 91% code coverage (2,510/2,768 statements)."
+    },
+    "econometric_studies_audit": {
+      "total_studies": 10,
+      "studies": [
+        {
+          "study_id": "REL-012",
+          "name": "Blinkit Store Count vs. Disclosed NOV Scale",
+          "n_obs": 10,
+          "pearson_r": 0.989,
+          "p_value": 0.0,
+          "bh_fdr_significant": true
+        },
+        {
+          "study_id": "REL-011",
+          "name": "Instamart Dark Store Count vs. NOV Scale",
+          "n_obs": 10,
+          "pearson_r": 0.9208,
+          "p_value": 0.0002,
+          "bh_fdr_significant": true
+        },
+        {
+          "study_id": "REL-005",
+          "name": "Food Delivery Scale vs. EBITDA Margin (Swiggy)",
+          "n_obs": 10,
+          "pearson_r": 0.809,
+          "p_value": 0.0046,
+          "bh_fdr_significant": true
+        },
+        {
+          "study_id": "REL-007",
+          "name": "Blinkit Store Count vs. Throughput per Store-Day",
+          "n_obs": 10,
+          "pearson_r": 0.7905,
+          "p_value": 0.0065,
+          "bh_fdr_significant": true
+        },
+        {
+          "study_id": "REL-001",
+          "name": "AOV vs. Contribution Margin (Instamart)",
+          "n_obs": 10,
+          "pearson_r": 0.5531,
+          "p_value": 0.0973,
+          "bh_fdr_significant": false
+        },
+        {
+          "study_id": "REL-008",
+          "name": "Food Take Rate vs. Food EBITDA Margin (Swiggy)",
+          "n_obs": 10,
+          "pearson_r": 0.5125,
+          "p_value": 0.1298,
+          "bh_fdr_significant": false
+        },
+        {
+          "study_id": "REL-009",
+          "name": "Quick Commerce Scale (NOV) vs. Loss per Order (Instamart)",
+          "n_obs": 10,
+          "pearson_r": 0.4663,
+          "p_value": 0.1744,
+          "bh_fdr_significant": false
+        },
+        {
+          "study_id": "REL-004",
+          "name": "Food Delivery Scale vs. EBITDA Margin (Eternal)",
+          "n_obs": 5,
+          "pearson_r": 0.6339,
+          "p_value": 0.2508,
+          "bh_fdr_significant": false
+        },
+        {
+          "study_id": "REL-003",
+          "name": "Dark Store Scale vs. Operating Margin (Instamart)",
+          "n_obs": 10,
+          "pearson_r": 0.3264,
+          "p_value": 0.3574,
+          "bh_fdr_significant": false
+        },
+        {
+          "study_id": "REL-002",
+          "name": "Dark Store Scale vs. Operating Margin (Blinkit)",
+          "n_obs": 10,
+          "pearson_r": 0.1183,
+          "p_value": 0.7448,
+          "bh_fdr_significant": false
+        }
+      ]
+    },
+    "phase3_1_integrity_audit": {
+      "finding_1_id": "FINDING-001",
+      "finding_1_title": "Blinkit Store Expansion vs. Store-Level Throughput Maturation",
+      "derived_calculations": "Throughput per store-day = NOV * 10^7 / (Period-End Stores * 91.25). In Q1 FY25, Blinkit Net Order Value (NOV) was \u20b94,061.0 Cr across 639 period-end dark stores, yielding an average throughput of \u20b9696,465 (~\u20b96.96 lakh) per store-day. By Q2 FY27, dark stores quadrupled (+322.5% to 2,700 stores) while NOV expanded to \u20b920,940.0 Cr (+415.6%), driving average throughput up to \u20b9849,924 (~\u20b98.50 lakh) per store-day (+22.0% throughput expansion). [AUDIT NOTE: Prior preliminary drafts erroneously plugged in Swiggy Instamart's GOV of \u20b92,724 Cr and \u20b99,230 Cr into Blinkit's throughput formula, generating a spurious -20% contraction. Using Blinkit's true disclosed NOV demonstrates robust +22.0% throughput expansion despite massive store footprint scaling].",
+      "growth_pct": "+22.0%",
+      "q1fy25_throughput_inr": "\u20b9696,482",
+      "q2fy27_throughput_inr": "\u20b9849,924",
+      "status": "PASS_VERIFIED"
+    },
+    "scenario_persistence_audit": {
+      "scenario_id": "SCEN-37596894",
+      "persisted_in_sqlite": true,
+      "total_saved_scenarios": 13
+    }
+  }
+}
