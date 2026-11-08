@@ -1,0 +1,38 @@
+{
+  "audit_timestamp": "2026-11-07T22:15:00+05:30",
+  "auditor_role": "Independent Principal Data Architect & Financial Data Auditor",
+  "verdict": "PASS",
+  "database_health": {
+    "total_tables": 17,
+    "total_rows_across_tables": 1563,
+    "fk_violations": 0,
+    "primary_key_duplicates": 0
+  },
+  "observations_audit": {
+    "total_observations": 570,
+    "swiggy_observations": 400,
+    "eternal_observations": 170,
+    "null_values_in_value_col": 0,
+    "provenance_lineage_coverage_pct": 100.0
+  },
+  "ocr_reconciliations": {
+    "total_audited": 2,
+    "verified_and_proven": 2,
+    "accuracy_pct": 100.0
+  },
+  "source_conflicts": {
+    "total_logged": 9,
+    "both_records_preserved": true,
+    "silent_overwrites": 0
+  },
+  "mathematical_reconciliations": {
+    "swiggy_qcomm_gov_identity_pass_rate": 100.0,
+    "eternal_b2c_nov_additive_identity_pass_rate": 100.0
+  },
+  "test_suite": {
+    "total_tests": 29,
+    "passed": 29,
+    "failed": 0,
+    "code_coverage_pct": 91.0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "test_execution_timestamp": "2026-11-08T00:41:10Z",
+  "framework": "pytest-9.1.1, pytest-cov-7.1.0, anyio-4.10.0",
+  "python_version": "3.12.11",
+  "total_collected": 74,
+  "passed": 74,
+  "failed": 0,
+  "skipped": 0,
+  "warnings": 4,
+  "total_statements": 2227,
+  "missed_statements": 209,
+  "overall_code_coverage_pct": 91,
+  "phase3_modules_coverage": {
+    "comparability_engine.py": "100%",
+    "metric_reconciliation.py": "100%",
+    "competitive_findings.py": "100%",
+    "competitive.py (API)": "98%",
+    "competitive_attribution.py": "96%",
+    "structural_breaks.py": "90%",
+    "scenario_model.py": "94%",
+    "decomposition.py": "99%"
+  },
+  "verdict": "PASS"
+}

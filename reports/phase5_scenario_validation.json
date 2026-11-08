@@ -1,0 +1,723 @@
+{
+  "report_type": "SCENARIO_SIMULATION_AND_SENSITIVITY_VALIDATION",
+  "timestamp": "2026-11-08T12:40:00Z",
+  "simulation_models": [
+    {
+      "status": "SUCCESS",
+      "simulation_id": "SIM-89B6E8FF",
+      "company": "Swiggy",
+      "segment": "QuickCommerce",
+      "scenario_type": "BASE",
+      "baseline_quarter": "Q2FY27",
+      "forecast_horizon_quarters": 4,
+      "parameter_classification": "EMPIRICAL_ESTIMATE_OLS",
+      "calibrated_elasticity_bps": 0.9506,
+      "assumptions_applied": {
+        "nov_growth_rate_pct": 25.0,
+        "aov_change_inr": 20.0,
+        "net_store_additions_per_quarter": 60,
+        "delivery_cost_change_inr": -1.0,
+        "cm_improvement_bps": 30.0
+      },
+      "baseline_metrics": {
+        "gov_cr": 9230.0,
+        "nov_cr": 6594.0,
+        "orders_mn": 130.3,
+        "aov_inr": 708.0,
+        "contribution_margin_pct": -1.0,
+        "adj_ebitda_margin_pct": -9.7,
+        "dark_stores": 1240
+      },
+      "projections": [
+        {
+          "forecast_period": "T+1Q",
+          "projected_nov_cr": 7006.12,
+          "projected_aov_inr": 713.0,
+          "projected_stores": 1300,
+          "projected_cm_pct": -0.95,
+          "projected_orders_mn": 98.26,
+          "projected_throughput_store_day_inr": 590610.75,
+          "projected_cm_profit_cr": -66.56
+        },
+        {
+          "forecast_period": "T+2Q",
+          "projected_nov_cr": 7444.0,
+          "projected_aov_inr": 718.0,
+          "projected_stores": 1360,
+          "projected_cm_pct": -0.9,
+          "projected_orders_mn": 103.68,
+          "projected_throughput_store_day_inr": 599838.84,
+          "projected_cm_profit_cr": -67.0
+        },
+        {
+          "forecast_period": "T+3Q",
+          "projected_nov_cr": 7909.25,
+          "projected_aov_inr": 723.0,
+          "projected_stores": 1420,
+          "projected_cm_pct": -0.86,
+          "projected_orders_mn": 109.39,
+          "projected_throughput_store_day_inr": 610399.38,
+          "projected_cm_profit_cr": -68.02
+        },
+        {
+          "forecast_period": "T+4Q",
+          "projected_nov_cr": 8403.58,
+          "projected_aov_inr": 728.0,
+          "projected_stores": 1480,
+          "projected_cm_pct": -0.81,
+          "projected_orders_mn": 115.43,
+          "projected_throughput_store_day_inr": 622256.94,
+          "projected_cm_profit_cr": -68.07
+        }
+      ],
+      "methodology_disclosure": "Parameters classified under EMPIRICAL_ESTIMATE_OLS. Quick commerce empirical elasticity is never mixed with Food Delivery assumptions. Projections represent conditional financial simulations, not predictive forecasts."
+    },
+    {
+      "status": "SUCCESS",
+      "simulation_id": "SIM-890F4A0D",
+      "company": "Swiggy",
+      "segment": "QuickCommerce",
+      "scenario_type": "BULL",
+      "baseline_quarter": "Q2FY27",
+      "forecast_horizon_quarters": 4,
+      "parameter_classification": "EMPIRICAL_ESTIMATE_OLS",
+      "calibrated_elasticity_bps": 0.9506,
+      "assumptions_applied": {
+        "nov_growth_rate_pct": 35.0,
+        "aov_change_inr": 50.0,
+        "net_store_additions_per_quarter": 80,
+        "delivery_cost_change_inr": -2.5,
+        "cm_improvement_bps": 80.0
+      },
+      "baseline_metrics": {
+        "gov_cr": 9230.0,
+        "nov_cr": 6594.0,
+        "orders_mn": 130.3,
+        "aov_inr": 708.0,
+        "contribution_margin_pct": -1.0,
+        "adj_ebitda_margin_pct": -9.7,
+        "dark_stores": 1240
+      },
+      "projections": [
+        {
+          "forecast_period": "T+1Q",
+          "projected_nov_cr": 7170.97,
+          "projected_aov_inr": 720.5,
+          "projected_stores": 1320,
+          "projected_cm_pct": -0.88,
+          "projected_orders_mn": 99.53,
+          "projected_throughput_store_day_inr": 595348.28,
+          "projected_cm_profit_cr": -63.1
+        },
+        {
+          "forecast_period": "T+2Q",
+          "projected_nov_cr": 7798.43,
+          "projected_aov_inr": 733.0,
+          "projected_stores": 1400,
+          "projected_cm_pct": -0.76,
+          "projected_orders_mn": 106.39,
+          "projected_throughput_store_day_inr": 610444.62,
+          "projected_cm_profit_cr": -59.27
+        },
+        {
+          "forecast_period": "T+3Q",
+          "projected_nov_cr": 8480.79,
+          "projected_aov_inr": 745.5,
+          "projected_stores": 1480,
+          "projected_cm_pct": -0.64,
+          "projected_orders_mn": 113.76,
+          "projected_throughput_store_day_inr": 627974.08,
+          "projected_cm_profit_cr": -54.28
+        },
+        {
+          "forecast_period": "T+4Q",
+          "projected_nov_cr": 9222.86,
+          "projected_aov_inr": 758.0,
+          "projected_stores": 1560,
+          "projected_cm_pct": -0.52,
+          "projected_orders_mn": 121.67,
+          "projected_throughput_store_day_inr": 647900.25,
+          "projected_cm_profit_cr": -47.96
+        }
+      ],
+      "methodology_disclosure": "Parameters classified under EMPIRICAL_ESTIMATE_OLS. Quick commerce empirical elasticity is never mixed with Food Delivery assumptions. Projections represent conditional financial simulations, not predictive forecasts."
+    },
+    {
+      "status": "SUCCESS",
+      "simulation_id": "SIM-D7394F2C",
+      "company": "Swiggy",
+      "segment": "QuickCommerce",
+      "scenario_type": "BEAR",
+      "baseline_quarter": "Q2FY27",
+      "forecast_horizon_quarters": 4,
+      "parameter_classification": "EMPIRICAL_ESTIMATE_OLS",
+      "calibrated_elasticity_bps": 0.9506,
+      "assumptions_applied": {
+        "nov_growth_rate_pct": 15.0,
+        "aov_change_inr": -20.0,
+        "net_store_additions_per_quarter": 40,
+        "delivery_cost_change_inr": 3.0,
+        "cm_improvement_bps": -40.0
+      },
+      "baseline_metrics": {
+        "gov_cr": 9230.0,
+        "nov_cr": 6594.0,
+        "orders_mn": 130.3,
+        "aov_inr": 708.0,
+        "contribution_margin_pct": -1.0,
+        "adj_ebitda_margin_pct": -9.7,
+        "dark_stores": 1240
+      },
+      "projections": [
+        {
+          "forecast_period": "T+1Q",
+          "projected_nov_cr": 6841.28,
+          "projected_aov_inr": 703.0,
+          "projected_stores": 1280,
+          "projected_cm_pct": -1.05,
+          "projected_orders_mn": 97.32,
+          "projected_throughput_store_day_inr": 585726.03,
+          "projected_cm_profit_cr": -71.83
+        },
+        {
+          "forecast_period": "T+2Q",
+          "projected_nov_cr": 7097.83,
+          "projected_aov_inr": 698.0,
+          "projected_stores": 1320,
+          "projected_cm_pct": -1.1,
+          "projected_orders_mn": 101.69,
+          "projected_throughput_store_day_inr": 589276.05,
+          "projected_cm_profit_cr": -78.08
+        },
+        {
+          "forecast_period": "T+3Q",
+          "projected_nov_cr": 7364.0,
+          "projected_aov_inr": 693.0,
+          "projected_stores": 1360,
+          "projected_cm_pct": -1.14,
+          "projected_orders_mn": 106.26,
+          "projected_throughput_store_day_inr": 593392.43,
+          "projected_cm_profit_cr": -83.95
+        },
+        {
+          "forecast_period": "T+4Q",
+          "projected_nov_cr": 7640.15,
+          "projected_aov_inr": 688.0,
+          "projected_stores": 1400,
+          "projected_cm_pct": -1.19,
+          "projected_orders_mn": 111.05,
+          "projected_throughput_store_day_inr": 598054.79,
+          "projected_cm_profit_cr": -90.92
+        }
+      ],
+      "methodology_disclosure": "Parameters classified under EMPIRICAL_ESTIMATE_OLS. Quick commerce empirical elasticity is never mixed with Food Delivery assumptions. Projections represent conditional financial simulations, not predictive forecasts."
+    },
+    {
+      "status": "SUCCESS",
+      "simulation_id": "SIM-0C33A54E",
+      "company": "Eternal",
+      "segment": "QuickCommerce",
+      "scenario_type": "BASE",
+      "baseline_quarter": "Q2FY27",
+      "forecast_horizon_quarters": 4,
+      "parameter_classification": "ANALYST_ASSUMPTION_CLUSTER_DENSITY",
+      "calibrated_elasticity_bps": 0.85,
+      "assumptions_applied": {
+        "nov_growth_rate_pct": 25.0,
+        "aov_change_inr": 20.0,
+        "net_store_additions_per_quarter": 120,
+        "delivery_cost_change_inr": -1.0,
+        "cm_improvement_bps": 30.0
+      },
+      "baseline_metrics": {
+        "gov_cr": 0.0,
+        "nov_cr": 20940.0,
+        "orders_mn": 0.0,
+        "aov_inr": 0.0,
+        "contribution_margin_pct": 0.0,
+        "adj_ebitda_margin_pct": 0.06,
+        "dark_stores": 2700
+      },
+      "projections": [
+        {
+          "forecast_period": "T+1Q",
+          "projected_nov_cr": 22248.75,
+          "projected_aov_inr": 405.0,
+          "projected_stores": 2820,
+          "projected_cm_pct": 0.07,
+          "projected_orders_mn": 549.35,
+          "projected_throughput_store_day_inr": 864616.73,
+          "projected_cm_profit_cr": 15.57
+        },
+        {
+          "forecast_period": "T+2Q",
+          "projected_nov_cr": 23639.3,
+          "projected_aov_inr": 410.0,
+          "projected_stores": 2940,
+          "projected_cm_pct": 0.15,
+          "projected_orders_mn": 576.57,
+          "projected_throughput_store_day_inr": 881159.26,
+          "projected_cm_profit_cr": 35.46
+        },
+        {
+          "forecast_period": "T+3Q",
+          "projected_nov_cr": 25116.76,
+          "projected_aov_inr": 415.0,
+          "projected_stores": 3060,
+          "projected_cm_pct": 0.22,
+          "projected_orders_mn": 605.22,
+          "projected_throughput_store_day_inr": 899516.88,
+          "projected_cm_profit_cr": 55.26
+        },
+        {
+          "forecast_period": "T+4Q",
+          "projected_nov_cr": 26686.56,
+          "projected_aov_inr": 420.0,
+          "projected_stores": 3180,
+          "projected_cm_pct": 0.29,
+          "projected_orders_mn": 635.39,
+          "projected_throughput_store_day_inr": 919671.23,
+          "projected_cm_profit_cr": 77.39
+        }
+      ],
+      "methodology_disclosure": "Parameters classified under ANALYST_ASSUMPTION_CLUSTER_DENSITY. Quick commerce empirical elasticity is never mixed with Food Delivery assumptions. Projections represent conditional financial simulations, not predictive forecasts."
+    },
+    {
+      "status": "SUCCESS",
+      "simulation_id": "SIM-C65EE31E",
+      "company": "Eternal",
+      "segment": "QuickCommerce",
+      "scenario_type": "BULL",
+      "baseline_quarter": "Q2FY27",
+      "forecast_horizon_quarters": 4,
+      "parameter_classification": "ANALYST_ASSUMPTION_CLUSTER_DENSITY",
+      "calibrated_elasticity_bps": 0.85,
+      "assumptions_applied": {
+        "nov_growth_rate_pct": 35.0,
+        "aov_change_inr": 50.0,
+        "net_store_additions_per_quarter": 150,
+        "delivery_cost_change_inr": -2.5,
+        "cm_improvement_bps": 80.0
+      },
+      "baseline_metrics": {
+        "gov_cr": 0.0,
+        "nov_cr": 20940.0,
+        "orders_mn": 0.0,
+        "aov_inr": 0.0,
+        "contribution_margin_pct": 0.0,
+        "adj_ebitda_margin_pct": 0.06,
+        "dark_stores": 2700
+      },
+      "projections": [
+        {
+          "forecast_period": "T+1Q",
+          "projected_nov_cr": 22772.25,
+          "projected_aov_inr": 412.5,
+          "projected_stores": 2850,
+          "projected_cm_pct": 0.2,
+          "projected_orders_mn": 552.05,
+          "projected_throughput_store_day_inr": 875645.28,
+          "projected_cm_profit_cr": 45.54
+        },
+        {
+          "forecast_period": "T+2Q",
+          "projected_nov_cr": 24764.82,
+          "projected_aov_inr": 425.0,
+          "projected_stores": 3000,
+          "projected_cm_pct": 0.4,
+          "projected_orders_mn": 582.7,
+          "projected_throughput_store_day_inr": 904650.96,
+          "projected_cm_profit_cr": 99.06
+        },
+        {
+          "forecast_period": "T+3Q",
+          "projected_nov_cr": 26931.74,
+          "projected_aov_inr": 437.5,
+          "projected_stores": 3150,
+          "projected_cm_pct": 0.6,
+          "projected_orders_mn": 615.58,
+          "projected_throughput_store_day_inr": 936959.86,
+          "projected_cm_profit_cr": 161.59
+        },
+        {
+          "forecast_period": "T+4Q",
+          "projected_nov_cr": 29288.27,
+          "projected_aov_inr": 450.0,
+          "projected_stores": 3300,
+          "projected_cm_pct": 0.8,
+          "projected_orders_mn": 650.85,
+          "projected_throughput_store_day_inr": 972628.31,
+          "projected_cm_profit_cr": 234.31
+        }
+      ],
+      "methodology_disclosure": "Parameters classified under ANALYST_ASSUMPTION_CLUSTER_DENSITY. Quick commerce empirical elasticity is never mixed with Food Delivery assumptions. Projections represent conditional financial simulations, not predictive forecasts."
+    },
+    {
+      "status": "SUCCESS",
+      "simulation_id": "SIM-9E8B24BB",
+      "company": "Eternal",
+      "segment": "QuickCommerce",
+      "scenario_type": "BEAR",
+      "baseline_quarter": "Q2FY27",
+      "forecast_horizon_quarters": 4,
+      "parameter_classification": "ANALYST_ASSUMPTION_CLUSTER_DENSITY",
+      "calibrated_elasticity_bps": 0.85,
+      "assumptions_applied": {
+        "nov_growth_rate_pct": 15.0,
+        "aov_change_inr": -20.0,
+        "net_store_additions_per_quarter": 80,
+        "delivery_cost_change_inr": 3.0,
+        "cm_improvement_bps": -40.0
+      },
+      "baseline_metrics": {
+        "gov_cr": 0.0,
+        "nov_cr": 20940.0,
+        "orders_mn": 0.0,
+        "aov_inr": 0.0,
+        "contribution_margin_pct": 0.0,
+        "adj_ebitda_margin_pct": 0.06,
+        "dark_stores": 2700
+      },
+      "projections": [
+        {
+          "forecast_period": "T+1Q",
+          "projected_nov_cr": 21725.25,
+          "projected_aov_inr": 395.0,
+          "projected_stores": 2780,
+          "projected_cm_pct": -0.1,
+          "projected_orders_mn": 550.01,
+          "projected_throughput_store_day_inr": 856420.62,
+          "projected_cm_profit_cr": -21.73
+        },
+        {
+          "forecast_period": "T+2Q",
+          "projected_nov_cr": 22539.95,
+          "projected_aov_inr": 390.0,
+          "projected_stores": 2860,
+          "projected_cm_pct": -0.2,
+          "projected_orders_mn": 577.95,
+          "projected_throughput_store_day_inr": 863682.35,
+          "projected_cm_profit_cr": -45.08
+        },
+        {
+          "forecast_period": "T+3Q",
+          "projected_nov_cr": 23385.2,
+          "projected_aov_inr": 385.0,
+          "projected_stores": 2940,
+          "projected_cm_pct": -0.3,
+          "projected_orders_mn": 607.41,
+          "projected_throughput_store_day_inr": 871687.63,
+          "projected_cm_profit_cr": -70.16
+        },
+        {
+          "forecast_period": "T+4Q",
+          "projected_nov_cr": 24262.15,
+          "projected_aov_inr": 380.0,
+          "projected_stores": 3020,
+          "projected_cm_pct": -0.4,
+          "projected_orders_mn": 638.48,
+          "projected_throughput_store_day_inr": 880419.12,
+          "projected_cm_profit_cr": -97.05
+        }
+      ],
+      "methodology_disclosure": "Parameters classified under ANALYST_ASSUMPTION_CLUSTER_DENSITY. Quick commerce empirical elasticity is never mixed with Food Delivery assumptions. Projections represent conditional financial simulations, not predictive forecasts."
+    },
+    {
+      "status": "SUCCESS",
+      "simulation_id": "SIM-6BAA566B",
+      "company": "Swiggy",
+      "segment": "Food",
+      "scenario_type": "BASE",
+      "baseline_quarter": "Q2FY27",
+      "forecast_horizon_quarters": 4,
+      "parameter_classification": "ANALYST_ASSUMPTION_NOT_EMPIRICAL_QC",
+      "calibrated_elasticity_bps": null,
+      "assumptions_applied": {
+        "gov_growth_rate_pct": 20.0,
+        "aov_change_inr": 10.0,
+        "take_rate_expansion_bps": 25.0,
+        "ebitda_margin_expansion_bps": 20.0
+      },
+      "baseline_metrics": {
+        "gov_cr": 10054.0,
+        "nov_cr": 0.0,
+        "orders_mn": 0.0,
+        "aov_inr": 0.0,
+        "contribution_margin_pct": 7.7,
+        "adj_ebitda_margin_pct": 3.4,
+        "dark_stores": 0
+      },
+      "projections": [
+        {
+          "forecast_period": "T+1Q",
+          "projected_gov_cr": 10556.7,
+          "projected_aov_inr": 402.5,
+          "projected_ebitda_margin_pct": 3.45,
+          "projected_ebitda_cr": 364.21
+        },
+        {
+          "forecast_period": "T+2Q",
+          "projected_gov_cr": 11084.54,
+          "projected_aov_inr": 405.0,
+          "projected_ebitda_margin_pct": 3.5,
+          "projected_ebitda_cr": 387.96
+        },
+        {
+          "forecast_period": "T+3Q",
+          "projected_gov_cr": 11638.77,
+          "projected_aov_inr": 407.5,
+          "projected_ebitda_margin_pct": 3.55,
+          "projected_ebitda_cr": 413.18
+        },
+        {
+          "forecast_period": "T+4Q",
+          "projected_gov_cr": 12220.71,
+          "projected_aov_inr": 410.0,
+          "projected_ebitda_margin_pct": 3.6,
+          "projected_ebitda_cr": 439.95
+        }
+      ],
+      "methodology_disclosure": "Parameters classified under ANALYST_ASSUMPTION_NOT_EMPIRICAL_QC. Quick commerce empirical elasticity is never mixed with Food Delivery assumptions. Projections represent conditional financial simulations, not predictive forecasts."
+    },
+    {
+      "status": "SUCCESS",
+      "simulation_id": "SIM-CF43C464",
+      "company": "Swiggy",
+      "segment": "Food",
+      "scenario_type": "BULL",
+      "baseline_quarter": "Q2FY27",
+      "forecast_horizon_quarters": 4,
+      "parameter_classification": "ANALYST_ASSUMPTION_NOT_EMPIRICAL_QC",
+      "calibrated_elasticity_bps": null,
+      "assumptions_applied": {
+        "gov_growth_rate_pct": 24.0,
+        "aov_change_inr": 25.0,
+        "take_rate_expansion_bps": 60.0,
+        "ebitda_margin_expansion_bps": 50.0
+      },
+      "baseline_metrics": {
+        "gov_cr": 10054.0,
+        "nov_cr": 0.0,
+        "orders_mn": 0.0,
+        "aov_inr": 0.0,
+        "contribution_margin_pct": 7.7,
+        "adj_ebitda_margin_pct": 3.4,
+        "dark_stores": 0
+      },
+      "projections": [
+        {
+          "forecast_period": "T+1Q",
+          "projected_gov_cr": 10657.24,
+          "projected_aov_inr": 406.25,
+          "projected_ebitda_margin_pct": 3.52,
+          "projected_ebitda_cr": 375.13
+        },
+        {
+          "forecast_period": "T+2Q",
+          "projected_gov_cr": 11296.67,
+          "projected_aov_inr": 412.5,
+          "projected_ebitda_margin_pct": 3.65,
+          "projected_ebitda_cr": 412.33
+        },
+        {
+          "forecast_period": "T+3Q",
+          "projected_gov_cr": 11974.47,
+          "projected_aov_inr": 418.75,
+          "projected_ebitda_margin_pct": 3.77,
+          "projected_ebitda_cr": 451.44
+        },
+        {
+          "forecast_period": "T+4Q",
+          "projected_gov_cr": 12692.94,
+          "projected_aov_inr": 425.0,
+          "projected_ebitda_margin_pct": 3.9,
+          "projected_ebitda_cr": 495.02
+        }
+      ],
+      "methodology_disclosure": "Parameters classified under ANALYST_ASSUMPTION_NOT_EMPIRICAL_QC. Quick commerce empirical elasticity is never mixed with Food Delivery assumptions. Projections represent conditional financial simulations, not predictive forecasts."
+    }
+  ],
+  "two_variable_sensitivity": {
+    "status": "SUCCESS",
+    "company": "Swiggy",
+    "segment": "QuickCommerce",
+    "var_x": "aov_change_pct",
+    "var_y": "growth_rate_pct",
+    "x_steps": [
+      -10.0,
+      -5.0,
+      0.0,
+      5.0,
+      10.0
+    ],
+    "y_steps": [
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0
+    ],
+    "matrix": [
+      {
+        "growth_y_val": 10.0,
+        "cells": [
+          {
+            "x_val": -10.0,
+            "resulting_metric_cr": -100.03
+          },
+          {
+            "x_val": -5.0,
+            "resulting_metric_cr": -83.81
+          },
+          {
+            "x_val": 0.0,
+            "resulting_metric_cr": -67.59
+          },
+          {
+            "x_val": 5.0,
+            "resulting_metric_cr": -51.37
+          },
+          {
+            "x_val": 10.0,
+            "resulting_metric_cr": -35.15
+          }
+        ]
+      },
+      {
+        "growth_y_val": 15.0,
+        "cells": [
+          {
+            "x_val": -10.0,
+            "resulting_metric_cr": -101.25
+          },
+          {
+            "x_val": -5.0,
+            "resulting_metric_cr": -84.83
+          },
+          {
+            "x_val": 0.0,
+            "resulting_metric_cr": -68.41
+          },
+          {
+            "x_val": 5.0,
+            "resulting_metric_cr": -51.99
+          },
+          {
+            "x_val": 10.0,
+            "resulting_metric_cr": -35.57
+          }
+        ]
+      },
+      {
+        "growth_y_val": 20.0,
+        "cells": [
+          {
+            "x_val": -10.0,
+            "resulting_metric_cr": -102.47
+          },
+          {
+            "x_val": -5.0,
+            "resulting_metric_cr": -85.85
+          },
+          {
+            "x_val": 0.0,
+            "resulting_metric_cr": -69.24
+          },
+          {
+            "x_val": 5.0,
+            "resulting_metric_cr": -52.62
+          },
+          {
+            "x_val": 10.0,
+            "resulting_metric_cr": -36.0
+          }
+        ]
+      },
+      {
+        "growth_y_val": 25.0,
+        "cells": [
+          {
+            "x_val": -10.0,
+            "resulting_metric_cr": -103.69
+          },
+          {
+            "x_val": -5.0,
+            "resulting_metric_cr": -86.88
+          },
+          {
+            "x_val": 0.0,
+            "resulting_metric_cr": -70.06
+          },
+          {
+            "x_val": 5.0,
+            "resulting_metric_cr": -53.25
+          },
+          {
+            "x_val": 10.0,
+            "resulting_metric_cr": -36.43
+          }
+        ]
+      },
+      {
+        "growth_y_val": 30.0,
+        "cells": [
+          {
+            "x_val": -10.0,
+            "resulting_metric_cr": -104.91
+          },
+          {
+            "x_val": -5.0,
+            "resulting_metric_cr": -87.9
+          },
+          {
+            "x_val": 0.0,
+            "resulting_metric_cr": -70.89
+          },
+          {
+            "x_val": 5.0,
+            "resulting_metric_cr": -53.87
+          },
+          {
+            "x_val": 10.0,
+            "resulting_metric_cr": -36.86
+          }
+        ]
+      }
+    ]
+  },
+  "breakeven_thresholds": {
+    "status": "SUCCESS",
+    "company": "Swiggy",
+    "segment": "QuickCommerce",
+    "current_aov_inr": 708.0,
+    "current_cm_pct": -1.0,
+    "breakeven_target": "0.0% Contribution Margin",
+    "calibrated_elasticity_bps": 0.9506,
+    "breakeven_aov_inr": 813.2,
+    "additional_aov_required_inr": 105.2,
+    "percentage_aov_expansion_required": 14.86,
+    "analytical_interpretation": "At an empirical elasticity of 0.9506 bps/\u20b91, Swiggy Instamart requires an additional +\u20b9105.20 in AOV (reaching \u20b9813.2) to achieve contribution break-even purely through basket expansion."
+  },
+  "monte_carlo_risk_simulation": {
+    "status": "SUCCESS",
+    "company": "Swiggy",
+    "segment": "QuickCommerce",
+    "iterations_run": 1000,
+    "distribution_assumptions": {
+      "aov_change_distribution": "Normal(mu=20, sigma=15), clipped [-30, +70]",
+      "growth_rate_distribution": "Normal(mu=22, sigma=6), clipped [+5, +40]"
+    },
+    "percentiles_target_profit_cr": {
+      "p10_bear_boundary": -68.74,
+      "p50_median_expectation": -56.0,
+      "p90_bull_boundary": -43.3
+    },
+    "percentiles_contribution_margin_pct": {
+      "p10": -0.99,
+      "p50": -0.81,
+      "p90": -0.62
+    },
+    "probability_of_profitability_pct": 0.0,
+    "methodological_disclosure": "Monte Carlo distributions are analyst-specified bounding assumptions. Percentiles must not be interpreted as definitive actuarial likelihoods."
+  }
+}

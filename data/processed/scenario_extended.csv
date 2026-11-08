@@ -1,0 +1,7 @@
+company,aov_improvement_inr,projected_aov,projected_gov_cr,projected_cm_pct,break_even_target_cm_pct,remaining_gap_bps,implied_additional_gov_cr,quarters_to_achieve
+Swiggy,0,708.0,9225.2,-1.0,0.0,-100.0,0.0,0.0
+Swiggy,20,728.0,9485.8,-0.8,0.0,-80.0,260.6,1.0
+Swiggy,40,748.0,9746.4,-0.6,0.0,-60.0,521.2,2.0
+Swiggy,60,768.0,10007.0,-0.4,0.0,-40.0,781.8,3.0
+Swiggy,80,788.0,10267.6,-0.2,0.0,-20.0,1042.4,4.0
+Swiggy,100,808.0,10528.2,0.0,0.0,0.0,1303.0,5.0

@@ -1,8 +1,11 @@
 """
 FoodIQ Competitive Intelligence Engine - FastAPI Application
 """
+import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from backend.app.config import settings
 from backend.app.api.v1 import (
     health,
@@ -13,7 +16,12 @@ from backend.app.api.v1 import (
     observations,
     data_quality,
     comparability,
-    guidance
+    guidance,
+    analytics,
+    competitive,
+    credibility,
+    quantitative,
+    scenarios
 )
 
 app = FastAPI(
@@ -43,11 +51,32 @@ app.include_router(observations.router, prefix=settings.API_V1_PREFIX, tags=["Me
 app.include_router(data_quality.router, prefix=settings.API_V1_PREFIX, tags=["Data Quality & Integrity"])
 app.include_router(comparability.router, prefix=settings.API_V1_PREFIX, tags=["Financial Governance & Comparability"])
 app.include_router(guidance.router, prefix=settings.API_V1_PREFIX, tags=["Management Guidance & Commitments"])
+app.include_router(analytics.router, prefix=settings.API_V1_PREFIX, tags=["Financial Analytics & Decomposition Core"])
+app.include_router(competitive.router, prefix=settings.API_V1_PREFIX, tags=["Competitive Intelligence & Structural Break Engine"])
+app.include_router(credibility.router, prefix=settings.API_V1_PREFIX, tags=["Management Credibility & Narrative Verification"])
+app.include_router(quantitative.router, prefix=settings.API_V1_PREFIX, tags=["Quantitative Research & Statistical Analysis"])
+app.include_router(scenarios.router, prefix=settings.API_V1_PREFIX, tags=["Scenario Lab & Simulation"])
+
+# Mount static frontend files if frontend directory exists
+frontend_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "frontend"))
+if os.path.exists(frontend_dir):
+    app.mount("/static", StaticFiles(directory=frontend_dir), name="static")
 
 @app.get("/")
 def root():
+    index_path = os.path.join(frontend_dir, "index.html")
+    if os.path.exists(index_path):
+        return FileResponse(index_path)
     return {
         "message": "Welcome to FoodIQ Competitive Intelligence Engine API",
+        "docs": "/docs",
+        "version": "1.0.0"
+    }
+
+@app.get("/api")
+def api_info():
+    return {
+        "message": "FoodIQ Competitive Intelligence Engine API v1",
         "docs": "/docs",
         "version": "1.0.0"
     }

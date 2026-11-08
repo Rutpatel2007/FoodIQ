@@ -1,5 +1,5 @@
 """
-FoodIQ Swiggy Ingestion Pipeline
+FoodIQ Swiggy Ingestion Pipeline (Audited & Enhanced)
 
 Ingests:
 - Company metadata (Swiggy Ltd)
@@ -9,12 +9,12 @@ Ingests:
 - Metric definitions
 - Canonical metric observations (400 rows)
 - Reconciliations
-- Management guidance & outcomes
-- Management commentary & evidence (90 items)
+- Management guidance & outcomes (with assessment status & notes)
+- Management commentary & evidence (with full evidence_text & segment mapping)
 - Operational claims (51 items)
-- Strategic initiatives (27 items)
+- Strategic initiatives (with segment mappings & source citations)
 - Data quality issues (20 flags)
-- Source conflicts (9 records)
+- Source conflicts (with detailed difference & recommended handling)
 """
 import os
 import csv
@@ -47,6 +47,16 @@ def clean_row(row: Dict[str, str]) -> Dict[str, str]:
         clean_k = k.lstrip("\ufeff").strip() if k else k
         res[clean_k] = v.strip() if isinstance(v, str) else v
     return res
+
+SEGMENT_MAP = {
+    "Food": "SWIGGY_FOOD",
+    "QuickCommerce": "SWIGGY_QUICK_COMMERCE",
+    "OutOfHome": "SWIGGY_OUT_OF_HOME",
+    "SupplyChain": "SWIGGY_SUPPLY_CHAIN",
+    "PlatformInnovations": "SWIGGY_PLATFORM_INNOVATIONS",
+    "Platform": "SWIGGY_PLATFORM",
+    "Consolidated": "SWIGGY_CONSOLIDATED"
+}
 
 class SwiggyIngestionPipeline:
     def __init__(self, db: Session):
@@ -140,12 +150,10 @@ class SwiggyIngestionPipeline:
                         except ValueError:
                             pass
 
-                    # Parse quarter/year
-                    q_str = row['letter_quarter'] # 'Q1FY26'
+                    q_str = row['letter_quarter']
                     quarter = q_str[:2]
                     fy = q_str[2:]
 
-                    # Period end date estimate based on quarter
                     period_ends = {
                         ("Q1", "FY26"): date(2025, 6, 30),
                         ("Q2", "FY26"): date(2025, 9, 30),
@@ -176,7 +184,6 @@ class SwiggyIngestionPipeline:
                     doc_map[row['source_pdf']] = doc_id
             self.db.flush()
 
-        # Ingest Pages
         if page_idx_fp.exists():
             with open(page_idx_fp, "r", encoding="utf-8") as f:
                 reader = csv.DictReader(f)
@@ -194,7 +201,7 @@ class SwiggyIngestionPipeline:
                             pdf_page_number=pdf_page,
                             printed_page_number=row.get('printed_page'),
                             section_hint=row.get('section_hint'),
-                            extracted_text=None, # loaded if needed from all_pages.jsonl
+                            extracted_text=None,
                             has_raster_tables=False
                         )
                         self.db.add(sp)
@@ -209,7 +216,6 @@ class SwiggyIngestionPipeline:
                 for r in reader:
                     row = clean_row(r)
                     m_name = row['metric_name']
-                    # Prefix swiggy metric IDs to avoid cross-company collision
                     metric_id = f"swiggy_{m_name}"
                     
                     source_doc_q = row.get('source_document_quarter', '')
@@ -242,16 +248,6 @@ class SwiggyIngestionPipeline:
 
     def ingest_metric_observations(self):
         obs_fp = self.pack_dir / "data" / "raw" / "swiggy_metrics_long.csv"
-        seg_id_map = {
-            "Food": "SWIGGY_FOOD",
-            "QuickCommerce": "SWIGGY_QUICK_COMMERCE",
-            "OutOfHome": "SWIGGY_OUT_OF_HOME",
-            "SupplyChain": "SWIGGY_SUPPLY_CHAIN",
-            "PlatformInnovations": "SWIGGY_PLATFORM_INNOVATIONS",
-            "Platform": "SWIGGY_PLATFORM",
-            "Consolidated": "SWIGGY_CONSOLIDATED"
-        }
-
         if obs_fp.exists():
             with open(obs_fp, "r", encoding="utf-8") as f:
                 reader = csv.DictReader(f)
@@ -260,10 +256,9 @@ class SwiggyIngestionPipeline:
                     quarter_str = row['quarter']
                     segment_raw = row['segment']
                     metric_raw = row['metric_name']
-                    seg_id = seg_id_map.get(segment_raw, "SWIGGY_PLATFORM")
+                    seg_id = SEGMENT_MAP.get(segment_raw, "SWIGGY_PLATFORM")
                     metric_id = f"swiggy_{metric_raw}"
 
-                    # Ensure metric definition exists
                     if not self.db.query(MetricDefinition).filter_by(metric_id=metric_id).first():
                         mdef = MetricDefinition(
                             metric_id=metric_id,
@@ -276,7 +271,6 @@ class SwiggyIngestionPipeline:
                         self.db.add(mdef)
                         self.db.flush()
 
-                    # Source document and page
                     source_pdf = row.get('source_pdf', '')
                     source_doc_id = None
                     if "Q1-FY2026" in source_pdf: source_doc_id = "SWIGGY-Q1FY26"
@@ -295,7 +289,6 @@ class SwiggyIngestionPipeline:
                         except ValueError:
                             pass
 
-                    # Parse value (preserve null if empty or 'null'!)
                     raw_val = row.get('value', '').strip()
                     val = None
                     if raw_val and raw_val.lower() not in ('null', 'none', 'n/a', ''):
@@ -349,18 +342,19 @@ class SwiggyIngestionPipeline:
                         except ValueError:
                             pass
 
-                    # Parse target values if numeric
                     target_val = None
                     target_low = None
                     target_high = None
-                    g_type = "QUALITATIVE"
+                    g_type = row.get('guidance_class', 'QUALITATIVE').upper()
                     stmt = row.get('management_statement_or_faithful_summary', '')
                     if "break-even" in stmt.lower():
                         g_type = "BREAK_EVEN"
-                    elif any(c.isdigit() for c in stmt):
-                        g_type = "EXACT_VALUE"
 
-                    if not self.db.query(ManagementGuidance).filter_by(guidance_id=gid).first():
+                    status_val = row.get('assessment_status', 'PENDING')
+                    notes_val = row.get('assessment_notes', '')
+
+                    existing_g = self.db.query(ManagementGuidance).filter_by(guidance_id=gid).first()
+                    if not existing_g:
                         mg = ManagementGuidance(
                             guidance_id=gid,
                             company_id="SWIGGY",
@@ -374,23 +368,28 @@ class SwiggyIngestionPipeline:
                             target_range_low=target_low,
                             target_range_high=target_high,
                             target_deadline_quarter=row.get('target_period', 'Medium Term'),
-                            contingent_conditions=row.get('conditions_or_contingencies')
+                            contingent_conditions=row.get('baseline_or_context')
                         )
                         self.db.add(mg)
                         self.stats["guidance"] += 1
                         
-                        # Add initial outcome evaluation
                         outcome = GuidanceOutcome(
                             outcome_id=f"OUTCOME-{gid}",
                             guidance_id=gid,
                             evaluation_quarter=row.get('target_period', 'Medium Term'),
                             actual_value_numeric=None,
-                            status=row.get('status_as_of_Q2FY27', 'PENDING').upper().replace(" ", "_"),
+                            status=status_val.upper().replace(" ", "_")[:32],
                             variance_absolute=None,
                             variance_percentage=None,
-                            analyst_commentary=row.get('evaluation_methodology_and_evidence')
+                            analyst_commentary=notes_val
                         )
                         self.db.add(outcome)
+                    else:
+                        # Update outcome if missing notes
+                        outcome = self.db.query(GuidanceOutcome).filter_by(outcome_id=f"OUTCOME-{gid}").first()
+                        if outcome:
+                            outcome.status = status_val.upper().replace(" ", "_")[:32]
+                            outcome.analyst_commentary = notes_val
             self.db.flush()
 
     def ingest_evidence_and_commentary(self):
@@ -410,15 +409,18 @@ class SwiggyIngestionPipeline:
                         except ValueError:
                             pass
 
-                    quote = row.get('exact_or_faithful_excerpt', '')
-                    if not quote: quote = row.get('content', '')
+                    # Column is evidence_text in management_evidence.csv!
+                    quote = row.get('evidence_text', '') or row.get('exact_or_faithful_excerpt', '') or row.get('content', '')
+                    seg_raw = row.get('segment', '')
+                    seg_id = SEGMENT_MAP.get(seg_raw)
 
-                    if not self.db.query(ManagementCommentary).filter_by(commentary_id=eid).first():
+                    existing_mc = self.db.query(ManagementCommentary).filter_by(commentary_id=eid).first()
+                    if not existing_mc:
                         mc = ManagementCommentary(
                             commentary_id=eid,
                             company_id="SWIGGY",
                             quarter=row['letter_quarter'],
-                            segment_id=None,
+                            segment_id=seg_id,
                             speaker=row.get('speaker', 'Management Q&A / Letter'),
                             quotation=quote,
                             topic=row.get('theme', 'Corporate Strategy'),
@@ -427,6 +429,11 @@ class SwiggyIngestionPipeline:
                         )
                         self.db.add(mc)
                         self.stats["commentary"] += 1
+                    else:
+                        if not existing_mc.quotation:
+                            existing_mc.quotation = quote
+                        if not existing_mc.segment_id:
+                            existing_mc.segment_id = seg_id
             self.db.flush()
 
     def ingest_strategic_initiatives(self):
@@ -438,21 +445,39 @@ class SwiggyIngestionPipeline:
                     row = clean_row(r)
                     iid = f"SWIGGY-INIT-{i:03d}"
                     name = row.get('initiative', f"Initiative {i}")
-                    if not self.db.query(StrategicInitiative).filter_by(initiative_id=iid).first():
+                    seg_raw = row.get('segment', '')
+                    seg_id = SEGMENT_MAP.get(seg_raw)
+
+                    # Parse source page citation
+                    src_ref = row.get('source_references', '')
+                    page_id = None
+                    if src_ref:
+                        # e.g. "Q1FY26 pp3,10-11"
+                        q_match = src_ref.split()[0] if src_ref else ""
+                        page_id = f"SWIGGY-{q_match}-P03" if "pp3" in src_ref else None
+
+                    existing_si = self.db.query(StrategicInitiative).filter_by(initiative_id=iid).first()
+                    if not existing_si:
                         si = StrategicInitiative(
                             initiative_id=iid,
                             company_id="SWIGGY",
-                            segment_id=None,
+                            segment_id=seg_id,
                             initiative_name=name,
                             launch_period=row.get('first_or_reference_quarter', 'FY26'),
                             initiative_type="STRATEGIC_OPERATIONAL",
                             stated_objective=row.get('source_description', name),
                             economic_mechanism=row.get('management_stated_economic_or_strategic_mechanism'),
                             status_as_of_latest=row.get('status_as_of_Q2FY27', 'ACTIVE'),
-                            analytical_risks=row.get('analytical_questions_or_risks')
+                            analytical_risks=row.get('analytical_questions_or_risks'),
+                            source_page_id=page_id
                         )
                         self.db.add(si)
                         self.stats["initiatives"] += 1
+                    else:
+                        if not existing_si.segment_id:
+                            existing_si.segment_id = seg_id
+                        if not existing_si.source_page_id:
+                            existing_si.source_page_id = page_id
             self.db.flush()
 
     def ingest_data_quality_issues(self):
@@ -487,7 +512,12 @@ class SwiggyIngestionPipeline:
                     row = clean_row(r)
                     cid = row.get('conflict_id', '')
                     if not cid: continue
-                    if not self.db.query(SourceConflict).filter_by(conflict_id=cid).first():
+
+                    diff_text = row.get('difference', '')
+                    rec_text = row.get('recommended_handling', '')
+
+                    existing_sc = self.db.query(SourceConflict).filter_by(conflict_id=cid).first()
+                    if not existing_sc:
                         sc = SourceConflict(
                             conflict_id=cid,
                             company_id="SWIGGY",
@@ -499,11 +529,16 @@ class SwiggyIngestionPipeline:
                             value_b=str(row.get('value_b', '')),
                             source_b=str(row.get('source_b', '')),
                             page_b=str(row.get('page_b', '')),
-                            resolution_strategy="PRESERVE_BOTH_RECORDS",
-                            reconciliation_notes=row.get('resolution')
+                            resolution_strategy=rec_text[:64] if rec_text else "PRESERVE_BOTH_RECORDS",
+                            reconciliation_notes=diff_text
                         )
                         self.db.add(sc)
                         self.stats["conflicts"] += 1
+                    else:
+                        if not existing_sc.reconciliation_notes:
+                            existing_sc.reconciliation_notes = diff_text
+                        if not existing_sc.resolution_strategy or existing_sc.resolution_strategy == "PRESERVE_BOTH_RECORDS":
+                            existing_sc.resolution_strategy = rec_text[:64] if rec_text else "PRESERVE_BOTH_RECORDS"
             self.db.flush()
 
     def ingest_corporate_events(self):

@@ -1,0 +1,7 @@
+aov_improvement_inr,projected_aov_inr,conservative_cm_pct,conservative_gap_breakeven_bps,baseline_cm_pct,baseline_gap_breakeven_bps,upper_cm_pct,upper_gap_breakeven_bps
+0,708.0,-1.0,-100.0,-1.0,-100.0,-1.0,-100.0
+20,728.0,-0.9,-90.0,-0.81,-81.0,-0.4,-40.0
+40,748.0,-0.8,-80.0,-0.62,-62.0,0.2,20.0
+60,768.0,-0.7,-70.0,-0.43,-43.0,0.8,80.0
+80,788.0,-0.6,-60.0,-0.24,-24.0,1.4,140.0
+100,808.0,-0.5,-50.0,-0.05,-5.0,2.0,200.0

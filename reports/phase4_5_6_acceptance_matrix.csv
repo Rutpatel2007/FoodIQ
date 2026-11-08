@@ -1,0 +1,25 @@
+Requirement ID,Phase,Module,Specification,Delivered Artifact,Test Status,Acceptance Verdict
+REQ-P4-01,Phase 4,Credibility Engine,16-category statement repository,backend/app/analytics/credibility_engine.py,PASSED,ACCEPTED
+REQ-P4-02,Phase 4,Credibility Engine,26 tracked commitments across Eternal & Swiggy,reports/phase4_management_commitments.csv,PASSED,ACCEPTED
+REQ-P4-03,Phase 4,Credibility Engine,7-tier evaluation taxonomy,docs/phase4_management_credibility_methodology.md,PASSED,ACCEPTED
+REQ-P4-04,Phase 4,Credibility Engine,Strict & broad guidance delivery scorecards,reports/phase4_guidance_scorecard.csv,PASSED,ACCEPTED
+REQ-P4-05,Phase 4,Credibility Engine,5 deep narrative verification case studies,reports/phase4_narrative_verification.json,PASSED,ACCEPTED
+REQ-P4-06,Phase 4,Credibility Engine,7 strategic initiative tracking matrix,backend/app/api/v1/credibility.py,PASSED,ACCEPTED
+REQ-P5-01,Phase 5,Quantitative Engine,Growth acceleration and volatility diagnostics,backend/app/analytics/statistical_research.py,PASSED,ACCEPTED
+REQ-P5-02,Phase 5,Quantitative Engine,12 econometric studies with Pearson and Spearman,reports/phase5_statistical_research.json,PASSED,ACCEPTED
+REQ-P5-03,Phase 5,Quantitative Engine,First-difference detrending correlation analysis,docs/phase5_statistical_testing_framework.md,PASSED,ACCEPTED
+REQ-P5-04,Phase 5,Quantitative Engine,Benjamini-Hochberg FDR multiple testing correction,docs/phase5_statistical_testing_framework.md,PASSED,ACCEPTED
+REQ-P5-05,Phase 5,Scenario Lab,Multi-segment parameter isolation (Food vs QC),backend/app/analytics/scenario_lab.py,PASSED,ACCEPTED
+REQ-P5-06,Phase 5,Scenario Lab,Parameter pedigree tagging (OLS vs Guidance vs Assumption),docs/phase5_scenario_model_methodology.md,PASSED,ACCEPTED
+REQ-P5-07,Phase 5,Scenario Lab,Instamart break-even AOV calculation (₹813.20),reports/phase5_scenario_validation.json,PASSED,ACCEPTED
+REQ-P5-08,Phase 5,Scenario Lab,1000-draw Monte Carlo simulation engine,backend/app/api/v1/scenarios.py,PASSED,ACCEPTED
+REQ-P5-09,Phase 5,Scenario Lab,Persistent SQLite scenario storage,data/foodiq.db (saved_scenarios),PASSED,ACCEPTED
+REQ-P6-01,Phase 6,Workstation Shell,FastAPI static mount serving index.html at root,backend/app/main.py,PASSED,ACCEPTED
+REQ-P6-02,Phase 6,Workstation UI,10 dedicated analytical workspace tabs,frontend/index.html,PASSED,ACCEPTED
+REQ-P6-03,Phase 6,Workstation UI,Institutional dark-slate terminal styling,frontend/style.css,PASSED,ACCEPTED
+REQ-P6-04,Phase 6,Workstation Engine,Native HTML5 Canvas vector charting engine,frontend/app.js,PASSED,ACCEPTED
+REQ-P6-05,Phase 6,Workstation E2E,Workflow A: Competitive research & gap attribution,backend/tests/test_phase6_workstation_integration.py,PASSED,ACCEPTED
+REQ-P6-06,Phase 6,Workstation E2E,Workflow B: Management execution & credibility audit,backend/tests/test_phase6_workstation_integration.py,PASSED,ACCEPTED
+REQ-P6-07,Phase 6,Workstation E2E,Workflow C: Quantitative research & econometric testing,backend/tests/test_phase6_workstation_integration.py,PASSED,ACCEPTED
+REQ-P6-08,Phase 6,Workstation E2E,Workflow D: Scenario simulation & break-even modelling,backend/tests/test_phase6_workstation_integration.py,PASSED,ACCEPTED
+REQ-P6-09,Phase 6,Workstation E2E,Workflow E: Source verification & physical page lineage,backend/tests/test_phase6_workstation_integration.py,PASSED,ACCEPTED

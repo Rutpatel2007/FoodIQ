@@ -1,0 +1,33 @@
+metric_key,segment,display_name,unit,availability_status,eternal_available_quarters_count,swiggy_available_quarters_count,eternal_null_quarters_count,swiggy_null_quarters_count,paired_disclosed_count,provenance_traceable,null_handling_compliant,zero_imputation_detected,audit_status
+gov_cr,Food,Gross Order Value (GOV),INR Cr,PARTIALLY_PAIRED,5,10,5,0,5,True,True,False,VERIFIED
+nov_cr,Food,Net Order Value (NOV),INR Cr,ASYMMETRIC_SINGLE_DISCLOSURE,10,0,0,10,0,True,True,False,VERIFIED
+adj_revenue_cr,Food,Adjusted Revenue,INR Cr,FULLY_PAIRED,10,10,0,0,10,True,True,False,VERIFIED
+total_orders_mn,Food,Total Orders,Millions,UNAVAILABLE_BOTH,0,0,10,10,0,True,True,False,VERIFIED
+aov_inr,Food,Average Order Value (AOV),INR,UNAVAILABLE_BOTH,0,0,10,10,0,True,True,False,VERIFIED
+take_rate_pct,Food,Take Rate,%,FULLY_PAIRED,10,10,0,0,10,True,True,False,VERIFIED
+contribution_margin_pct,Food,Contribution Margin,%,ASYMMETRIC_SINGLE_DISCLOSURE,0,10,10,0,0,True,True,False,VERIFIED
+adj_ebitda_cr,Food,Adjusted EBITDA,INR Cr,FULLY_PAIRED,10,10,0,0,10,True,True,False,VERIFIED
+adj_ebitda_margin_pct,Food,Adjusted EBITDA Margin,%,FULLY_PAIRED,10,10,0,0,10,True,True,False,VERIFIED
+mtu_mn,Food,Monthly Transacting Users/Customers,Millions,ASYMMETRIC_SINGLE_DISCLOSURE,0,10,10,0,0,True,True,False,VERIFIED
+active_restaurant_partners,Food,Active Restaurant Partners,Count,UNAVAILABLE_BOTH,0,0,10,10,0,True,True,False,VERIFIED
+gov_cr,QuickCommerce,Gross Order Value (GOV),INR Cr,PARTIALLY_PAIRED,5,10,5,0,5,True,True,False,VERIFIED
+nov_cr,QuickCommerce,Net Order Value (NOV),INR Cr,FULLY_PAIRED,10,10,0,0,10,True,True,False,VERIFIED
+adj_revenue_cr,QuickCommerce,Adjusted Revenue,INR Cr,FULLY_PAIRED,10,10,0,0,10,True,True,False,VERIFIED
+total_orders_mn,QuickCommerce,Total Orders,Millions,ASYMMETRIC_SINGLE_DISCLOSURE,0,10,10,0,0,True,True,False,VERIFIED
+aov_inr,QuickCommerce,Average Order Value (AOV),INR,ASYMMETRIC_SINGLE_DISCLOSURE,0,10,10,0,0,True,True,False,VERIFIED
+contribution_margin_pct,QuickCommerce,Contribution Margin,%,ASYMMETRIC_SINGLE_DISCLOSURE,0,10,10,0,0,True,True,False,VERIFIED
+adj_ebitda_cr,QuickCommerce,Adjusted EBITDA,INR Cr,FULLY_PAIRED,10,10,0,0,10,True,True,False,VERIFIED
+dark_stores,QuickCommerce,Dark Store Count,Count,FULLY_PAIRED,10,10,0,0,10,True,True,False,VERIFIED
+avg_store_size_sqft,QuickCommerce,Average Store Area,Sq Ft,UNAVAILABLE_BOTH,0,0,10,10,0,True,True,False,VERIFIED
+orders_per_store_per_day,QuickCommerce,Orders per Store per Day,Count,UNAVAILABLE_BOTH,0,0,10,10,0,True,True,False,VERIFIED
+nov_per_store_day_inr,QuickCommerce,NOV per Store per Day,INR,UNAVAILABLE_BOTH,0,0,10,10,0,True,True,False,VERIFIED
+gov_cr,OutOfHome,Gross Order Value (GOV),INR Cr,PARTIALLY_PAIRED,5,10,5,0,5,True,True,False,VERIFIED
+nov_cr,OutOfHome,Net Order Value (NOV),INR Cr,ASYMMETRIC_SINGLE_DISCLOSURE,10,0,0,10,0,True,True,False,VERIFIED
+adj_revenue_cr,OutOfHome,Adjusted Revenue,INR Cr,FULLY_PAIRED,10,10,0,0,10,True,True,False,VERIFIED
+total_orders_mn,OutOfHome,Order / Ticket Volume,Millions,UNAVAILABLE_BOTH,0,0,10,10,0,True,True,False,VERIFIED
+adj_ebitda_cr,OutOfHome,Adjusted EBITDA,INR Cr,FULLY_PAIRED,10,10,0,0,10,True,True,False,VERIFIED
+adj_ebitda_margin_pct,OutOfHome,Adjusted EBITDA Margin,%,FULLY_PAIRED,10,10,0,0,10,True,True,False,VERIFIED
+adj_revenue_cr,SupplyChain,Revenue / Wholesale Supplies,INR Cr,FULLY_PAIRED,10,10,0,0,10,True,True,False,VERIFIED
+adj_ebitda_cr,SupplyChain,Adjusted EBITDA,INR Cr,FULLY_PAIRED,10,10,0,0,10,True,True,False,VERIFIED
+adj_ebitda_margin_pct,SupplyChain,Adjusted EBITDA Margin,%,ASYMMETRIC_SINGLE_DISCLOSURE,0,10,10,0,0,True,True,False,VERIFIED
+operating_warehouses,SupplyChain,Operating Warehouses / Fulfillment Hubs,Count,UNAVAILABLE_BOTH,0,0,10,10,0,True,True,False,VERIFIED

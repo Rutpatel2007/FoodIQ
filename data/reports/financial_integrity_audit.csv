@@ -1,0 +1,21 @@
+test_category,formula,entity,disclosed_value,recalculated_value,absolute_difference,percentage_difference,tolerance,verdict
+Quick Commerce Throughput Identity,GOV = (Total Orders mn * AOV INR) / 10,Swiggy Instamart Q1FY25,2724,2727.20,3.20,0.12%,<= 5.0 Cr (0.2%),PASS
+Quick Commerce Throughput Identity,GOV = (Total Orders mn * AOV INR) / 10,Swiggy Instamart Q2FY25,3382,3383.22,1.22,0.04%,<= 5.0 Cr (0.2%),PASS
+Quick Commerce Throughput Identity,GOV = (Total Orders mn * AOV INR) / 10,Swiggy Instamart Q3FY25,3907,3908.88,1.88,0.05%,<= 5.0 Cr (0.2%),PASS
+Quick Commerce Throughput Identity,GOV = (Total Orders mn * AOV INR) / 10,Swiggy Instamart Q4FY25,4670,4669.22,0.78,0.02%,<= 5.0 Cr (0.2%),PASS
+Quick Commerce Throughput Identity,GOV = (Total Orders mn * AOV INR) / 10,Swiggy Instamart Q1FY26,5655,5654.88,0.12,0.00%,<= 5.0 Cr (0.2%),PASS
+Quick Commerce Throughput Identity,GOV = (Total Orders mn * AOV INR) / 10,Swiggy Instamart Q2FY26,7022,7025.76,3.76,0.05%,<= 5.0 Cr (0.2%),PASS
+Quick Commerce Throughput Identity,GOV = (Total Orders mn * AOV INR) / 10,Swiggy Instamart Q3FY26,7938,7937.44,0.56,0.01%,<= 5.0 Cr (0.2%),PASS
+Quick Commerce Throughput Identity,GOV = (Total Orders mn * AOV INR) / 10,Swiggy Instamart Q4FY26,7881,7882.00,1.00,0.01%,<= 5.0 Cr (0.2%),PASS
+Quick Commerce Throughput Identity,GOV = (Total Orders mn * AOV INR) / 10,Swiggy Instamart Q1FY27,7907,7911.95,4.95,0.06%,<= 5.0 Cr (0.2%),PASS
+Quick Commerce Throughput Identity,GOV = (Total Orders mn * AOV INR) / 10,Swiggy Instamart Q2FY27,9230,9225.24,4.76,0.05%,<= 5.0 Cr (0.2%),PASS
+B2C Segment Additive Identity,B2C NOV = Food NOV + QComm NOV + GoingOut NOV,Eternal Group Q1FY25,13020,13020.00,0.00,0.00%,<= 1.0 Cr (Rounding off),PASS
+B2C Segment Additive Identity,B2C NOV = Food NOV + QComm NOV + GoingOut NOV,Eternal Group Q2FY25,14771,14771.00,0.00,0.00%,<= 1.0 Cr (Rounding off),PASS
+B2C Segment Additive Identity,B2C NOV = Food NOV + QComm NOV + GoingOut NOV,Eternal Group Q3FY25,16621,16621.00,0.00,0.00%,<= 1.0 Cr (Rounding off),PASS
+B2C Segment Additive Identity,B2C NOV = Food NOV + QComm NOV + GoingOut NOV,Eternal Group Q4FY25,17440,17440.00,0.00,0.00%,<= 1.0 Cr (Rounding off),PASS
+B2C Segment Additive Identity,B2C NOV = Food NOV + QComm NOV + GoingOut NOV,Eternal Group Q1FY26,20183,20183.00,0.00,0.00%,<= 1.0 Cr (Rounding off),PASS
+B2C Segment Additive Identity,B2C NOV = Food NOV + QComm NOV + GoingOut NOV,Eternal Group Q2FY26,23164,23165.00,1.00,0.00%,<= 1.0 Cr (Rounding off),PASS
+B2C Segment Additive Identity,B2C NOV = Food NOV + QComm NOV + GoingOut NOV,Eternal Group Q3FY26,25732,25733.00,1.00,0.00%,<= 1.0 Cr (Rounding off),PASS
+B2C Segment Additive Identity,B2C NOV = Food NOV + QComm NOV + GoingOut NOV,Eternal Group Q4FY26,26880,26879.00,1.00,0.00%,<= 1.0 Cr (Rounding off),PASS
+B2C Segment Additive Identity,B2C NOV = Food NOV + QComm NOV + GoingOut NOV,Eternal Group Q1FY27,31120,31119.00,1.00,0.00%,<= 1.0 Cr (Rounding off),PASS
+B2C Segment Additive Identity,B2C NOV = Food NOV + QComm NOV + GoingOut NOV,Eternal Group Q2FY27,35644,35644.00,0.00,0.00%,<= 1.0 Cr (Rounding off),PASS

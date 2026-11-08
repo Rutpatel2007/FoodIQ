@@ -1,0 +1,4 @@
+company,total_commitments,evaluable_completed,delivered_count,partially_delivered_count,missed_count,pending_count,not_objectively_measurable_count,strict_delivery_rate_pct,broad_delivery_rate_pct,partial_delivery_rate_pct,miss_rate_pct,credibility_tier,methodology_note
+ALL,26,10,8,2,0,13,3,80.0,90.0,20.0,0.0,HIGH_CREDIBILITY_PROVEN,Evaluable denominator (10) excludes 13 pending unmatured milestones and 3 qualitative/vision statements. Never penalizes companies for active targets.
+Eternal,8,6,5,1,0,2,0,83.33,91.67,16.67,0.0,HIGH_CREDIBILITY_PROVEN,Evaluable denominator (6) excludes 2 pending unmatured milestones and 0 qualitative/vision statements. Never penalizes companies for active targets.
+Swiggy,18,4,3,1,0,11,3,75.0,87.5,25.0,0.0,MODERATE_HIGH_CREDIBILITY,Evaluable denominator (4) excludes 11 pending unmatured milestones and 3 qualitative/vision statements. Never penalizes companies for active targets.

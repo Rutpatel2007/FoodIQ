@@ -1,0 +1,18 @@
+table_name,row_count,column_count,primary_key,duplicate_records,null_columns_and_counts,fk_status
+alembic_version,1,1,version_num,0,None,VALID_ENFORCED
+business_segments,14,6,segment_id,0,None,VALID_ENFORCED
+companies,2,5,company_id,0,None,VALID_ENFORCED
+comparability_rules,6,7,rule_id,0,adjustment_formula:1; prohibited_operations:2,VALID_ENFORCED
+corporate_events,4,10,event_id,0,source_page_id:1,VALID_ENFORCED
+data_quality_flags,22,8,flag_id,0,observation_id:20,VALID_ENFORCED
+derived_metrics,0,13,derived_metric_id,0,None,VALID_ENFORCED
+guidance_outcomes,18,9,outcome_id,0,actual_value_numeric:18; variance_absolute:18; variance_percentage:18; evidence_observation_id:18,VALID_ENFORCED
+ingestion_runs,5,10,run_id,0,None,VALID_ENFORCED
+management_commentary,90,9,commentary_id,0,segment_id:12,VALID_ENFORCED
+management_guidance,18,13,guidance_id,0,segment_id:18; target_value_numeric:18; target_range_low:18; target_range_high:18; contingent_conditions:18,VALID_ENFORCED
+metric_definitions,85,11,metric_id,0,numerator_formula:85; segment_scope:24; source_reference_page_id:24; implementation_notes:43,VALID_ENFORCED
+metric_observations,570,19,observation_id,0,None,VALID_ENFORCED
+source_conflicts,9,12,conflict_id,0,None,VALID_ENFORCED
+source_documents,14,12,document_id,0,publication_date:8,VALID_ENFORCED
+source_pages,509,8,page_id,0,extracted_text:224; ocr_confidence_score:509,VALID_ENFORCED
+strategic_initiatives,30,11,initiative_id,0,segment_id:8; source_page_id:24,VALID_ENFORCED

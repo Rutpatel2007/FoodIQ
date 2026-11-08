@@ -1,0 +1,57 @@
+{
+  "phase": "Phase 3: Competitive Intelligence & Structural Break Engine",
+  "timestamp": "2026-11-08T00:37:00Z",
+  "verdict": "PASS",
+  "comparability_engine": {
+    "total_rules": 10,
+    "level_1_directly_comparable": 3,
+    "level_2_comparable_with_adjustment": 4,
+    "level_3_directionally_comparable": 1,
+    "level_4_incomparable_blocked": 2
+  },
+  "metric_reconciliation": {
+    "total_metrics_mapped": 32,
+    "segments_covered": [
+      "Food",
+      "QuickCommerce",
+      "OutOfHome",
+      "SupplyChain"
+    ],
+    "quarters_evaluated": 10,
+    "null_values_preserved": true
+  },
+  "structural_break_register": {
+    "events_cataloged": 4,
+    "key_events": [
+      "Blinkit 1P Inventory Ownership Transition (Q2 FY26)",
+      "Eternal District / Ticketing Acquisition (Q2 FY25)",
+      "Swiggy Lynks Divestment & Deconsolidation (Q2 FY27)",
+      "Swiggy Dineout Segment Carve-Out (Q1 FY26)"
+    ],
+    "blinkit_1p_lfl_status": "Blocked from unverified COGS fabrication; 4 distinct series provided"
+  },
+  "competitive_gaps": {
+    "total_gap_observations": 125,
+    "dimensions_evaluated": [
+      "scale",
+      "growth",
+      "monetisation",
+      "unit_economics",
+      "profitability",
+      "network_productivity",
+      "customer_engagement"
+    ],
+    "incomparable_subtractions_blocked": true
+  },
+  "research_findings": {
+    "total_questions_answered": 8,
+    "epistemic_evidence_labels_used": [
+      "REPORTED FACT",
+      "DERIVED FACT",
+      "MANAGEMENT EXPLANATION",
+      "ANALYST INTERPRETATION",
+      "HYPOTHESIS",
+      "UNVERIFIED / INSUFFICIENT EVIDENCE"
+    ]
+  }
+}

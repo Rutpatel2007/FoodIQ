@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-11-08T07:17:55.686647+00:00",
+  "phase": "PHASE_6_INSTITUTIONAL_WORKSTATION",
+  "total_tests": 8,
+  "passed": 8,
+  "failed": 0,
+  "duration_seconds": 2.5459,
+  "exit_code": 0,
+  "verdict": "PASS",
+  "tests": [
+    {
+      "nodeid": "backend/tests/test_phase6_workstation_integration.py::test_workstation_root_serves_html",
+      "name": "test_workstation_root_serves_html",
+      "outcome": "passed",
+      "duration": 0.0407
+    },
+    {
+      "nodeid": "backend/tests/test_phase6_workstation_integration.py::test_workstation_static_assets",
+      "name": "test_workstation_static_assets",
+      "outcome": "passed",
+      "duration": 0.0069
+    },
+    {
+      "nodeid": "backend/tests/test_phase6_workstation_integration.py::test_all_10_workspace_panes_present",
+      "name": "test_all_10_workspace_panes_present",
+      "outcome": "passed",
+      "duration": 0.003
+    },
+    {
+      "nodeid": "backend/tests/test_phase6_workstation_integration.py::test_e2e_workflow_a_competitive_research",
+      "name": "test_e2e_workflow_a_competitive_research",
+      "outcome": "passed",
+      "duration": 0.0301
+    },
+    {
+      "nodeid": "backend/tests/test_phase6_workstation_integration.py::test_e2e_workflow_b_management_execution",
+      "name": "test_e2e_workflow_b_management_execution",
+      "outcome": "passed",
+      "duration": 0.0049
+    },
+    {
+      "nodeid": "backend/tests/test_phase6_workstation_integration.py::test_e2e_workflow_c_quantitative_research",
+      "name": "test_e2e_workflow_c_quantitative_research",
+      "outcome": "passed",
+      "duration": 0.0109
+    },
+    {
+      "nodeid": "backend/tests/test_phase6_workstation_integration.py::test_e2e_workflow_d_scenario_analysis",
+      "name": "test_e2e_workflow_d_scenario_analysis",
+      "outcome": "passed",
+      "duration": 0.032
+    },
+    {
+      "nodeid": "backend/tests/test_phase6_workstation_integration.py::test_e2e_workflow_e_source_verification",
+      "name": "test_e2e_workflow_e_source_verification",
+      "outcome": "passed",
+      "duration": 0.0337
+    }
+  ]
+}

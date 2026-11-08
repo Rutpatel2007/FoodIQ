@@ -1,0 +1,4 @@
+lag,description,sample_size_n,pearson_r,r_squared,p_value,is_significant_p10,is_significant_p05
+0,Lag-0 (Same quarter: Q_t AOV vs Q_t CM),10,0.5531,0.3059,0.0973,True,False
+1,Lag-1 (1-quarter lead: Q_t AOV vs Q_{t+1} CM),9,0.6821,0.4652,0.043,True,True
+2,Lag-2 (2-quarter lead: Q_t AOV vs Q_{t+2} CM),8,0.9149,0.837,0.0014,True,True
