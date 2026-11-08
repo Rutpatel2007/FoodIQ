@@ -71,7 +71,8 @@ def run_segment_scenario_simulation(
     data = df if df is not None else get_analytical_df()
     
     # Extract baseline
-    sub = data[(data['company'].str.lower() == company.lower()) & (data['segment'].str.lower() == segment.lower())].copy()
+    clean_seg = segment.replace('_', '').lower()
+    sub = data[(data['company'].str.lower() == company.lower()) & (data['segment'].str.replace('_', '').str.lower() == clean_seg)].copy()
     sub['fy_int'] = sub['fiscal_year'].str.replace('FY', '').astype(int)
     sub = sub.sort_values(['fy_int', 'quarter_num']).reset_index(drop=True)
     
@@ -93,7 +94,7 @@ def run_segment_scenario_simulation(
     assumptions = {}
     stype = scenario_type.upper()
     
-    if segment.lower() == 'quickcommerce':
+    if clean_seg == 'quickcommerce':
         # Default presets
         if stype == "BULL":
             assumptions = {
@@ -128,7 +129,7 @@ def run_segment_scenario_simulation(
             param_pedigree = "ANALYST_ASSUMPTION_CLUSTER_DENSITY"
             calibrated_elasticity = 0.8500
             
-    elif segment.lower() == 'food':
+    elif clean_seg == 'food':
         # Food Delivery Presets
         if stype == "BULL":
             assumptions = {
@@ -184,7 +185,7 @@ def run_segment_scenario_simulation(
         curr_stores = curr_stores + int(assumptions.get('net_store_additions_per_quarter', 0))
         
         # Calculate Margin changes
-        if segment.lower() == 'quickcommerce':
+        if clean_seg == 'quickcommerce':
             if company.lower() == 'swiggy':
                 # Apply empirical OLS elasticity
                 aov_diff = curr_aov - base_aov
@@ -207,7 +208,7 @@ def run_segment_scenario_simulation(
                 'projected_throughput_store_day_inr': projected_throughput_day,
                 'projected_cm_profit_cr': est_cm_profit_cr
             })
-        elif segment.lower() == 'food':
+        elif clean_seg == 'food':
             curr_ebitda_pct = round(curr_ebitda_pct + (assumptions.get('ebitda_margin_expansion_bps', 20.0) / 100.0 / forecast_quarters), 2)
             est_ebitda_cr = round(curr_nov * (curr_ebitda_pct / 100.0), 2)
             quarterly_projections.append({
@@ -310,7 +311,8 @@ def compute_breakeven_analysis(company: str, segment: str, df: Optional[pd.DataF
     Calculates break-even thresholds: AOV or store throughput required to reach 0.0% CM or EBITDA.
     """
     data = df if df is not None else get_analytical_df()
-    sub = data[(data['company'].str.lower() == company.lower()) & (data['segment'].str.lower() == segment.lower())].copy()
+    clean_seg = segment.replace('_', '').lower()
+    sub = data[(data['company'].str.lower() == company.lower()) & (data['segment'].str.replace('_', '').str.lower() == clean_seg)].copy()
     if sub.empty:
         return {'status': 'ERROR', 'message': 'No data'}
         
@@ -319,7 +321,7 @@ def compute_breakeven_analysis(company: str, segment: str, df: Optional[pd.DataF
     curr_cm_pct = float(latest['contribution_margin_pct']) if pd.notna(latest.get('contribution_margin_pct')) else -1.0
     
     # Breakeven calculation for Quick Commerce
-    if segment.lower() == 'quickcommerce':
+    if clean_seg == 'quickcommerce':
         # CM% = base_cm + beta * (target_aov - base_aov) / 100 = 0
         # target_aov = base_aov + (-base_cm * 100 / beta)
         beta = SWIGGY_QC_EMPIRICAL_ELASTICITY_BPS if company.lower() == 'swiggy' else 0.85
