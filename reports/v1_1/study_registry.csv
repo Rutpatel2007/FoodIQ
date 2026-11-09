@@ -1,0 +1,11 @@
+study_id,title,company,segment,metric_x,metric_y,sample_size_n,pearson_r_level,p_value_level,bh_critical_value,is_significant_after_fdr,first_difference_detrending_r,first_difference_p_value,statistical_finding
+REL-012,Blinkit Store Count vs. Disclosed NOV Scale,Eternal,QuickCommerce,dark_stores,nov_cr,10,0.989,0.0,0.005,True,0.5315,0.1408,LEVEL_TREND_ONLY_NOT_CAUSAL
+REL-011,Instamart Dark Store Count vs. NOV Scale,Swiggy,QuickCommerce,dark_stores,nov_cr,10,0.9208,0.0002,0.01,True,0.0355,0.9278,LEVEL_TREND_ONLY_NOT_CAUSAL
+REL-005,Food Delivery Scale vs. EBITDA Margin (Swiggy),Swiggy,Food,gov_cr,adj_ebitda_margin_pct,10,0.809,0.0046,0.015,True,-0.5169,0.1541,LEVEL_TREND_ONLY_NOT_CAUSAL
+REL-007,Blinkit Store Count vs. Throughput per Store-Day,Eternal,QuickCommerce,dark_stores,throughput_store_day_lakh,10,0.7905,0.0065,0.02,True,0.1184,0.7616,LEVEL_TREND_ONLY_NOT_CAUSAL
+REL-001,AOV vs. Contribution Margin (Instamart),Swiggy,QuickCommerce,aov_inr,contribution_margin_pct,10,0.5531,0.0973,0.025,False,0.1399,0.7196,LEVEL_TREND_ONLY_NOT_CAUSAL
+REL-008,Food Take Rate vs. Food EBITDA Margin (Swiggy),Swiggy,Food,take_rate_pct,adj_ebitda_margin_pct,10,0.5125,0.1298,0.03,False,-0.5611,0.116,LEVEL_TREND_ONLY_NOT_CAUSAL
+REL-009,Quick Commerce Scale (NOV) vs. Loss per Order (Instamart),Swiggy,QuickCommerce,nov_cr,cm_per_order_inr,10,0.4663,0.1744,0.035,False,-0.016,0.9673,WEAK_OR_DIFFUSE_RELATIONSHIP
+REL-004,Food Delivery Scale vs. EBITDA Margin (Eternal),Eternal,Food,gov_cr,adj_ebitda_margin_pct,5,0.6339,0.2508,0.04,False,-0.4816,0.5184,LEVEL_TREND_ONLY_NOT_CAUSAL
+REL-003,Dark Store Scale vs. Operating Margin (Instamart),Swiggy,QuickCommerce,dark_stores,contribution_margin_pct,10,0.3264,0.3574,0.045,False,-0.4932,0.1773,WEAK_OR_DIFFUSE_RELATIONSHIP
+REL-002,Dark Store Scale vs. Operating Margin (Blinkit),Eternal,QuickCommerce,dark_stores,adj_ebitda_cr,10,0.1183,0.7448,0.05,False,-0.2682,0.4853,WEAK_OR_DIFFUSE_RELATIONSHIP

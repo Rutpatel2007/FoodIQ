@@ -1,0 +1,750 @@
+{
+  "timestamp_iso": "2026-11-09T10:29:39Z",
+  "version": "1.1.0-pre-audit-baseline",
+  "git": {
+    "branch": "main",
+    "commit": "0bea3b48c5bf50697ae75961701cb6b5251be485",
+    "modified_count": 2,
+    "modified_files": [
+      "?? data/backups/v1_1_pre_audit/",
+      "?? scripts/generate_forensic_baseline.py"
+    ]
+  },
+  "runtime": {
+    "python_version": "3.12.11 (main, Jun  7 2025, 12:31:34)  [GCC UCRT 15.1.0 64 bit (AMD64)]",
+    "fastapi_version": "0.116.1",
+    "uvicorn_version": "0.52.4",
+    "pydantic_version": "2.11.7",
+    "sqlalchemy_version": "2.1.4",
+    "sqlite3_version": "2.6.0",
+    "sqlite_lib_version": "3.50.4",
+    "pytest_version": "9.1.1"
+  },
+  "database": {
+    "database_file": "data/foodiq.db",
+    "database_size_bytes": 2490368,
+    "tables_count": 24,
+    "tables": {
+      "alembic_version": 1,
+      "business_segments": 14,
+      "companies": 2,
+      "comparability_rules": 6,
+      "competitive_gaps": 130,
+      "corporate_events": 4,
+      "data_quality_flags": 22,
+      "derived_metrics": 0,
+      "disclosure_register": 43,
+      "generated_reports": 62,
+      "guidance_log": 18,
+      "guidance_outcomes": 18,
+      "ingestion_action_log": 65,
+      "ingestion_runs": 22,
+      "management_commentary": 90,
+      "management_guidance": 18,
+      "metric_definitions": 85,
+      "metric_observations": 570,
+      "metrics": 120,
+      "saved_scenarios": 31,
+      "source_conflicts": 9,
+      "source_documents": 14,
+      "source_pages": 509,
+      "strategic_initiatives": 30
+    },
+    "views_count": 0,
+    "views": [],
+    "indexes_count": 22,
+    "indexes": [
+      "ix_business_segments_company_id",
+      "ix_corporate_events_company_id",
+      "ix_data_quality_flags_issue_code",
+      "ix_data_quality_flags_observation_id",
+      "ix_data_quality_flags_severity",
+      "ix_guidance_outcomes_guidance_id",
+      "ix_management_commentary_company_id",
+      "ix_management_guidance_company_id",
+      "ix_metric_definitions_company_id",
+      "ix_metric_observations_company_id",
+      "ix_metric_observations_fiscal_quarter",
+      "ix_metric_observations_fiscal_year",
+      "ix_metric_observations_metric_id",
+      "ix_metric_observations_segment_id",
+      "ix_metric_observations_source_document_id",
+      "ix_metric_observations_source_page_id",
+      "ix_obs_lookup",
+      "ix_source_documents_company_id",
+      "ix_source_documents_fiscal_quarter",
+      "ix_source_documents_fiscal_year",
+      "ix_source_pages_document_id",
+      "ix_strategic_initiatives_company_id"
+    ],
+    "total_rows": 1883
+  },
+  "source_archive": {
+    "eternal_pdfs_count": 8,
+    "eternal_pdfs": [
+      "April2025_Eternal_Ltd_Company_overview_April_2025.pdf",
+      "Q1FY26_8f0d6136-6ea6-4a11-83c3-6af52d8e8b25.pdf",
+      "Q1FY27_Eternal_Limited_Shareholders_Letter_Q1FY27_Results.pdf",
+      "Q2FY26_60824ca7-d07d-40a8-9e5d-5298e8eb5c4c.pdf",
+      "Q2FY27_Eternal_Limited_Shareholders_Letter_Q2FY27_Results.pdf",
+      "Q3FY25_681c57ac651e6e8f54c263ffbfc1e0b9_1737369246.pdf",
+      "Q3FY26_bf94ed1c-0352-41a3-a9af-ae5c9d568ff6.pdf",
+      "Q4FY26_Eternal_Shareholders_Letter_Q4FY26_Results.pdf"
+    ],
+    "swiggy_pdfs_count": 6,
+    "swiggy_pdfs": [
+      "Q1-FY2026-Shareholder-letter.pdf",
+      "Q1-FY2027-Shareholder-letter.pdf",
+      "Q2-FY2026-Shareholder-letter.pdf",
+      "Q2-FY2027-Shareholder-letter.pdf",
+      "Q3-FY2026-Shareholder-letter.pdf",
+      "Q4-FY2026-Shareholder-letter.pdf"
+    ],
+    "total_primary_pdfs": 14,
+    "eternal_page_files_count": 285,
+    "swiggy_page_files_count": 0
+  },
+  "api": {
+    "total_routes_count": 81,
+    "business_routes_count": 77,
+    "routes": [
+      {
+        "path": "/",
+        "methods": [
+          "GET"
+        ],
+        "name": "root"
+      },
+      {
+        "path": "/api",
+        "methods": [
+          "GET"
+        ],
+        "name": "api_info"
+      },
+      {
+        "path": "/api/v1/analytics/chart-data",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_chart_data"
+      },
+      {
+        "path": "/api/v1/analytics/company-overview",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_company_overview"
+      },
+      {
+        "path": "/api/v1/analytics/competitive-gaps",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_competitive_gaps"
+      },
+      {
+        "path": "/api/v1/analytics/decomposition",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_decomposition"
+      },
+      {
+        "path": "/api/v1/analytics/executive-kpis",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_kpis_endpoint"
+      },
+      {
+        "path": "/api/v1/analytics/guidance-scorecard",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_guidance_scorecard"
+      },
+      {
+        "path": "/api/v1/analytics/leading-indicator",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_leading_indicator"
+      },
+      {
+        "path": "/api/v1/analytics/margin-bridge",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_margin_bridge"
+      },
+      {
+        "path": "/api/v1/analytics/network-comparison",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_network_comparison"
+      },
+      {
+        "path": "/api/v1/analytics/network-productivity",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_network_productivity"
+      },
+      {
+        "path": "/api/v1/analytics/scenario-model",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_scenario_model"
+      },
+      {
+        "path": "/api/v1/analytics/unit-economics",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_unit_economics"
+      },
+      {
+        "path": "/api/v1/companies",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_companies"
+      },
+      {
+        "path": "/api/v1/comparability/evaluate",
+        "methods": [
+          "POST"
+        ],
+        "name": "evaluate_comparison"
+      },
+      {
+        "path": "/api/v1/comparability/rules",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_comparability_rules"
+      },
+      {
+        "path": "/api/v1/competitive/comparability",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_comparability_rules"
+      },
+      {
+        "path": "/api/v1/competitive/events",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_corporate_events"
+      },
+      {
+        "path": "/api/v1/competitive/findings",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_competitive_findings"
+      },
+      {
+        "path": "/api/v1/competitive/findings/{finding_id}",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_competitive_finding_by_id"
+      },
+      {
+        "path": "/api/v1/competitive/gaps",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_competitive_gaps"
+      },
+      {
+        "path": "/api/v1/competitive/metric-matrix",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_metric_availability_matrix"
+      },
+      {
+        "path": "/api/v1/competitive/structural-breaks",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_structural_breaks_analysis"
+      },
+      {
+        "path": "/api/v1/credibility/commitments",
+        "methods": [
+          "GET"
+        ],
+        "name": "list_commitments"
+      },
+      {
+        "path": "/api/v1/credibility/commitments/{commitment_id}",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_commitment"
+      },
+      {
+        "path": "/api/v1/credibility/comparison",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_credibility_comparison"
+      },
+      {
+        "path": "/api/v1/credibility/initiatives",
+        "methods": [
+          "GET"
+        ],
+        "name": "list_strategic_initiatives"
+      },
+      {
+        "path": "/api/v1/credibility/narratives",
+        "methods": [
+          "GET"
+        ],
+        "name": "list_narrative_verifications"
+      },
+      {
+        "path": "/api/v1/credibility/scorecard",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_credibility_scorecard"
+      },
+      {
+        "path": "/api/v1/credibility/statements",
+        "methods": [
+          "GET"
+        ],
+        "name": "list_management_statements"
+      },
+      {
+        "path": "/api/v1/data-quality/issues",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_data_quality_issues"
+      },
+      {
+        "path": "/api/v1/data-quality/summary",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_data_quality_summary"
+      },
+      {
+        "path": "/api/v1/disclosures/anomalies",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_data_anomalies"
+      },
+      {
+        "path": "/api/v1/disclosures/impact/{company_id}/{reporting_period}",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_research_impact"
+      },
+      {
+        "path": "/api/v1/disclosures/monitor",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_monitoring_overview"
+      },
+      {
+        "path": "/api/v1/disclosures/register",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_disclosure_register"
+      },
+      {
+        "path": "/api/v1/disclosures/upload",
+        "methods": [
+          "POST"
+        ],
+        "name": "upload_disclosure"
+      },
+      {
+        "path": "/api/v1/disclosures/{disclosure_id}/approve",
+        "methods": [
+          "POST"
+        ],
+        "name": "approve_disclosure"
+      },
+      {
+        "path": "/api/v1/disclosures/{disclosure_id}/rollback",
+        "methods": [
+          "POST"
+        ],
+        "name": "rollback_disclosure"
+      },
+      {
+        "path": "/api/v1/documents",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_documents"
+      },
+      {
+        "path": "/api/v1/extensions/companies",
+        "methods": [
+          "GET"
+        ],
+        "name": "list_registered_companies"
+      },
+      {
+        "path": "/api/v1/extensions/companies",
+        "methods": [
+          "POST"
+        ],
+        "name": "register_new_company"
+      },
+      {
+        "path": "/api/v1/extensions/companies/{company_id}",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_company_plugin"
+      },
+      {
+        "path": "/api/v1/extensions/info",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_extension_registry_info"
+      },
+      {
+        "path": "/api/v1/extensions/metrics",
+        "methods": [
+          "GET"
+        ],
+        "name": "list_registered_metrics"
+      },
+      {
+        "path": "/api/v1/extensions/metrics",
+        "methods": [
+          "POST"
+        ],
+        "name": "register_new_metric"
+      },
+      {
+        "path": "/api/v1/extensions/modules",
+        "methods": [
+          "GET"
+        ],
+        "name": "list_registered_analytics_modules"
+      },
+      {
+        "path": "/api/v1/extensions/modules/{module_id}/execute",
+        "methods": [
+          "POST"
+        ],
+        "name": "execute_analytics_module"
+      },
+      {
+        "path": "/api/v1/guidance",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_guidance"
+      },
+      {
+        "path": "/api/v1/health",
+        "methods": [
+          "GET"
+        ],
+        "name": "health_check"
+      },
+      {
+        "path": "/api/v1/health/ready",
+        "methods": [
+          "GET"
+        ],
+        "name": "readiness_check"
+      },
+      {
+        "path": "/api/v1/metrics",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_metrics"
+      },
+      {
+        "path": "/api/v1/observations",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_observations"
+      },
+      {
+        "path": "/api/v1/observations/{observation_id}",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_observation_by_id"
+      },
+      {
+        "path": "/api/v1/observations/{observation_id}/lineage",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_observation_lineage"
+      },
+      {
+        "path": "/api/v1/quantitative/growth-trends",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_metric_growth_trends"
+      },
+      {
+        "path": "/api/v1/quantitative/relationships",
+        "methods": [
+          "GET"
+        ],
+        "name": "list_relationship_studies"
+      },
+      {
+        "path": "/api/v1/quantitative/relationships/{study_id}",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_relationship_study"
+      },
+      {
+        "path": "/api/v1/quantitative/workbench",
+        "methods": [
+          "GET"
+        ],
+        "name": "list_workbench_questions"
+      },
+      {
+        "path": "/api/v1/quantitative/workbench/{question_id}",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_workbench_question"
+      },
+      {
+        "path": "/api/v1/reports/generate",
+        "methods": [
+          "POST"
+        ],
+        "name": "generate_report"
+      },
+      {
+        "path": "/api/v1/reports/list",
+        "methods": [
+          "GET"
+        ],
+        "name": "list_reports"
+      },
+      {
+        "path": "/api/v1/reports/types",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_report_types"
+      },
+      {
+        "path": "/api/v1/reports/{report_id}",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_report"
+      },
+      {
+        "path": "/api/v1/reports/{report_id}/citations",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_report_citations"
+      },
+      {
+        "path": "/api/v1/reports/{report_id}/export/{export_format}",
+        "methods": [
+          "GET"
+        ],
+        "name": "export_report"
+      },
+      {
+        "path": "/api/v1/reports/{report_id}/verify",
+        "methods": [
+          "POST"
+        ],
+        "name": "verify_report"
+      },
+      {
+        "path": "/api/v1/scenarios/breakeven",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_breakeven_analysis"
+      },
+      {
+        "path": "/api/v1/scenarios/monte-carlo",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_monte_carlo"
+      },
+      {
+        "path": "/api/v1/scenarios/run",
+        "methods": [
+          "POST"
+        ],
+        "name": "run_scenario"
+      },
+      {
+        "path": "/api/v1/scenarios/save",
+        "methods": [
+          "POST"
+        ],
+        "name": "save_scenario"
+      },
+      {
+        "path": "/api/v1/scenarios/saved",
+        "methods": [
+          "GET"
+        ],
+        "name": "list_scenarios"
+      },
+      {
+        "path": "/api/v1/scenarios/saved/{scenario_id}",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_scenario"
+      },
+      {
+        "path": "/api/v1/scenarios/sensitivity",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_sensitivity_matrix"
+      },
+      {
+        "path": "/api/v1/segments",
+        "methods": [
+          "GET"
+        ],
+        "name": "get_segments"
+      },
+      {
+        "path": "/docs",
+        "methods": [
+          "HEAD",
+          "GET"
+        ],
+        "name": "swagger_ui_html"
+      },
+      {
+        "path": "/docs/oauth2-redirect",
+        "methods": [
+          "HEAD",
+          "GET"
+        ],
+        "name": "swagger_ui_redirect"
+      },
+      {
+        "path": "/openapi.json",
+        "methods": [
+          "HEAD",
+          "GET"
+        ],
+        "name": "openapi"
+      },
+      {
+        "path": "/redoc",
+        "methods": [
+          "HEAD",
+          "GET"
+        ],
+        "name": "redoc_html"
+      },
+      {
+        "path": "/static",
+        "methods": [],
+        "name": "static"
+      }
+    ]
+  },
+  "analytics": {
+    "modules_count": 21,
+    "modules": [
+      "comparability_engine.py",
+      "competitive_attribution.py",
+      "competitive_findings.py",
+      "competitive_gaps.py",
+      "credibility_engine.py",
+      "decomposition.py",
+      "disclosure_intelligence.py",
+      "exporter.py",
+      "extension_framework.py",
+      "guidance_scorer.py",
+      "leading_indicator.py",
+      "margin_bridge.py",
+      "metric_reconciliation.py",
+      "network_productivity.py",
+      "report_engine.py",
+      "repository.py",
+      "scenario_lab.py",
+      "scenario_model.py",
+      "statistical_research.py",
+      "structural_breaks.py",
+      "unit_economics.py"
+    ]
+  },
+  "tests": {
+    "test_files_count": 19,
+    "test_files": {
+      "test_analytics_engines.py": 28,
+      "test_api_endpoints.py": 10,
+      "test_comparability_governance.py": 3,
+      "test_database_models.py": 3,
+      "test_extension_framework.py": 6,
+      "test_financial_identities.py": 2,
+      "test_ingestion_and_idempotency.py": 2,
+      "test_lineage_and_provenance.py": 3,
+      "test_null_and_financial_integrity.py": 3,
+      "test_ocr_validator.py": 3,
+      "test_phase10_final_certification.py": 8,
+      "test_phase3_1_audit.py": 11,
+      "test_phase3_competitive_engine.py": 17,
+      "test_phase4_credibility_engine.py": 9,
+      "test_phase5_quantitative_engine.py": 11,
+      "test_phase6_workstation_integration.py": 8,
+      "test_phase7_reporting_engine.py": 7,
+      "test_phase8_disclosure_intelligence.py": 6,
+      "test_phase9_production_engineering.py": 5
+    },
+    "total_test_functions": 145
+  },
+  "frontend": {
+    "html_size_bytes": 22059,
+    "js_size_bytes": 96755,
+    "css_size_bytes": 20148,
+    "workspaces_count": 9,
+    "workspaces": [
+      "tab-company",
+      "tab-financials",
+      "tab-competitive",
+      "tab-credibility",
+      "tab-quantitative",
+      "tab-scenarios",
+      "tab-library",
+      "tab-sources",
+      "tab-governance"
+    ]
+  }
+}

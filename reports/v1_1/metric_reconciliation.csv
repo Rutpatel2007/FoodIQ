@@ -1,0 +1,13 @@
+reconciliation_id,metric_name,company,segment,metric_id,period,reconciled_value,unit,nature,source_document,source_page,audit_notes
+RECON-001,Swiggy Instamart AOV Q2FY27,SWIGGY,instamart,swiggy_aov_inr,Q2FY27,708.0,INR,REPORTED,SWIGGY-Q2FY27,7,Reported explicitly on p.7. Previously conflated with early FY25 baseline 498 or GOV typo 467.
+RECON-002,Swiggy Instamart CM% Q2FY27,SWIGGY,instamart,swiggy_contribution_margin_pct,Q2FY27,-1.0,PCT_GOV,REPORTED,SWIGGY-Q2FY27,7,"Reported as -1.0% of GOV. Multiplied by 9,230 Cr GOV yields -92.3 Cr variable contribution loss."
+RECON-003,Swiggy Instamart CM Loss Q2FY27,SWIGGY,instamart,swiggy_contribution_profit_cr,Q2FY27,-92.3,INR_CR,DERIVED_EXACT,SWIGGY-Q2FY27,7,"Exact arithmetic: -0.010 * 9,230 Cr = -92.3 Cr. Reconciled against -895 Cr EBITDA loss."
+RECON-004,Swiggy Instamart Adj. EBITDA Q2FY27,SWIGGY,instamart,swiggy_adj_ebitda_cr,Q2FY27,-895.0,INR_CR,REPORTED,SWIGGY-Q2FY27,24,"Reported as -9.7% of GOV (-895 Cr). Includes dark store leases, utilities, and marketing."
+RECON-005,Swiggy Instamart Exit Stores Q2FY27,SWIGGY,instamart,swiggy_dark_stores,Q2FY27,1240,STORES,REPORTED,SWIGGY-Q2FY27,7,"Reported exit store count is 1,240. 1,150 was the FY26Q4/FY27Q1 period average and guidance milestone."
+RECON-006,Blinkit Disclosed NOV Q2FY27,ETERNAL,blinkit,blinkit_nov_cr,Q2FY27,20940.0,INR_CR,REPORTED,ETERNAL-Q2FY27,14,"Reported NOV is 20,940 Cr. Represents Net Order Value under Ind AS 115."
+RECON-007,Blinkit Store Count Q2FY27,ETERNAL,blinkit,blinkit_dark_stores,Q2FY27,2700,STORES,REPORTED,ETERNAL-Q2FY27,18,"Reported 2,700 period-end dark stores in Q2 FY27."
+RECON-008,Blinkit Network Throughput Q2FY27,ETERNAL,blinkit,blinkit_throughput_daily,Q2FY27,849924.0,INR_PER_STORE_DAY,DERIVED_EXACT,ETERNAL-Q2FY27,14,"Exact: 20,940 Cr / (2,700 stores * 91.25 days) = 849,924 INR/day (~8.50 lakh/day). Eradicated 365-day error (212k)."
+RECON-009,Eternal Food Delivery GOV Q2FY27,ETERNAL,food_delivery,eternal_food_gov_cr,Q2FY27,10769.0,INR_CR,REPORTED,ETERNAL-Q2FY27,8,"Reported Food Delivery GOV: 10,769 Cr (+21.4% YoY)."
+RECON-010,Swiggy Food Delivery GOV Q2FY27,SWIGGY,food_delivery,swiggy_food_gov_cr,Q2FY27,10054.0,INR_CR,REPORTED,SWIGGY-Q2FY27,6,"Reported Food Delivery GOV: 10,054 Cr (+21.4% YoY). Spread is 715 Cr in favor of Eternal."
+RECON-011,Swiggy Food EBITDA Margin Q2FY27,SWIGGY,food_delivery,swiggy_food_ebitda_pct,Q2FY27,3.4,PCT_GOV,REPORTED,SWIGGY-Q2FY27,6,"Expanded by +260 bps from 0.8% in Q1FY25 to 3.40% in Q2FY27, narrowing spread vs Eternal to 242 bps."
+RECON-012,Swiggy Food Delivery NOV,SWIGGY,food_delivery,swiggy_food_nov_cr,ALL,,INR_CR,UNPUBLISHED,N/A,,Explicitly unmeasured/undisclosed in primary filings. Preserved strictly as NULL to prevent fabrication.
