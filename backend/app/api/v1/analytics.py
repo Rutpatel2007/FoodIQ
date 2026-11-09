@@ -8,6 +8,7 @@ from fastapi import APIRouter, Query, HTTPException
 from typing import Dict, List, Optional, Any
 
 from backend.app.analytics.repository import sanitize_for_json
+from backend.app.analytics.overview_service import get_overview_dashboard_data
 from backend.app.analytics.decomposition import (
     compute_waterfall_decomposition,
     get_all_segment_decompositions,
@@ -231,3 +232,18 @@ def get_chart_data() -> Dict[str, Any]:
     """
     results = get_chart_time_series()
     return sanitize_for_json(results)
+
+
+@router.get("/overview-summary", summary="Complete Reconciled Overview Terminal Dashboard Data")
+def get_overview_summary(
+    quarter: Optional[str] = Query("Q2FY27", description="Fiscal quarter (e.g. 'Q2FY27')"),
+    currency: Optional[str] = Query("INR", description="Currency: 'INR' or 'USD'")
+) -> Dict[str, Any]:
+    """
+    Returns full institutional overview workstation payload:
+    Executive 4-KPI cards, 9-quarter Revenue Trend dual-axis data, Key Empirical Takeaways,
+    Management Commitment progress, Quantitative Study significance, and Segment Performance table.
+    """
+    results = get_overview_dashboard_data(quarter=quarter or "Q2FY27", currency=currency or "INR")
+    return sanitize_for_json(results)
+

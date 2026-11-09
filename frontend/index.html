@@ -7,400 +7,911 @@
   <link rel="stylesheet" href="/static/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Local Offline-Ready Chart.js 4.4.7 -->
+  <script src="/static/vendor/chart.min.js"></script>
 </head>
-<body class="theme-dark">
+<body class="theme-light">
   <!-- Application Shell -->
   <div id="app-container">
-    <!-- Header / Global Top Bar -->
+    
+    <!-- Top Global Navigation Bar -->
     <header id="top-bar">
-      <div class="brand-section">
-        <div class="brand-logo">
-          <span class="logo-text">Food<span class="highlight">IQ</span></span>
-          <span class="terminal-badge">TERMINAL v3.1</span>
+      <div class="top-bar-left">
+        <div class="brand-badge" onclick="app.switchTab('pane-overview')">
+          <div class="brand-icon">IQ</div>
+          <span class="brand-name">Food<span style="color:#10B981;">IQ</span></span>
+          <span class="brand-version">v1.1</span>
+          <span class="terminal-badge" style="margin-left:0.4rem;">TERMINAL v3.1</span>
         </div>
-        <div class="brand-subtitle">India Food Delivery & Quick Commerce Intelligence Engine · Eternal vs. Swiggy</div>
+
+        <!-- Global Search -->
+        <div class="global-search-container">
+          <span class="search-icon-left">🔍</span>
+          <input type="text" id="global-search-input" class="global-search-input" placeholder="Search companies, metrics, disclosures..." autocomplete="off">
+          <span class="search-shortcut-right">Ctrl + K</span>
+          <div id="global-search-dropdown" class="search-dropdown-menu"></div>
+        </div>
       </div>
 
-      <!-- Global Filter Controls -->
-      <div class="global-controls">
-        <div class="filter-group">
-          <label>Company</label>
-          <select id="global-company-filter">
-            <option value="ALL">All Companies (Eternal + Swiggy)</option>
-            <option value="Eternal">Eternal Limited (Zomato / Blinkit)</option>
-            <option value="Swiggy">Swiggy Limited (Instamart / Food)</option>
-          </select>
+      <div class="top-bar-right">
+        <!-- Sector Selector Pill -->
+        <div class="top-pill">
+          <span>India • Food & Q-Commerce</span>
+          <span style="font-size:0.65rem;">▼</span>
         </div>
 
-        <div class="filter-group">
-          <label>Segment</label>
-          <select id="global-segment-filter">
-            <option value="ALL">All Business Segments</option>
-            <option value="Food">Food Delivery</option>
-            <option value="QuickCommerce">Quick Commerce (Blinkit / Instamart)</option>
-            <option value="OutOfHome">Out-of-Home / Going-Out</option>
-            <option value="SupplyChain">Supply Chain / Hyperpure</option>
-          </select>
-        </div>
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle-btn" class="top-icon-btn" title="Toggle Theme (Light / Dark)" onclick="app.toggleTheme()">
+          🌓
+        </button>
 
-        <div class="filter-group">
-          <label>Period</label>
-          <select id="global-period-filter">
-            <option value="Q2FY27">Q2 FY27 (Latest Audited)</option>
-            <option value="Q1FY27">Q1 FY27</option>
-            <option value="Q4FY26">Q4 FY26</option>
-            <option value="Q3FY26">Q3 FY26</option>
-            <option value="Q2FY26">Q2 FY26 (Blinkit 1P Shift)</option>
-            <option value="Q1FY26">Q1 FY26</option>
-            <option value="Q4FY25">Q4 FY25</option>
-            <option value="Q3FY25">Q3 FY25</option>
-            <option value="Q2FY25">Q2 FY25 (District Acq)</option>
-            <option value="Q1FY25">Q1 FY25 (Baseline)</option>
-          </select>
-        </div>
+        <!-- Notifications Indicator -->
+        <button class="top-icon-btn" title="Audit Notifications" onclick="app.switchTab('pane-sources')">
+          🔔
+          <span class="notification-badge"></span>
+        </button>
 
-        <div class="search-box">
-          <input type="text" id="global-search-input" placeholder="Search metrics, findings, commitments..." autocomplete="off">
-          <div id="global-search-dropdown" class="search-dropdown"></div>
-        </div>
+        <!-- Methodology Help Button -->
+        <button id="btn-methodology" class="top-icon-btn" title="Epistemic Standards & Methodology" onclick="app.openModal('modal-methodology')">
+          ❓
+        </button>
 
-        <div class="action-badges">
-          <button id="btn-methodology-modal" class="pill-btn"><span class="icon">📖</span> Methodology</button>
-          <span class="status-indicator live"><span class="dot"></span> DB CONNECTED</span>
+        <!-- User Profile Avatar -->
+        <div class="user-avatar-badge" title="Institutional Analyst Session">
+          KA
         </div>
       </div>
     </header>
 
-    <!-- Workstation Navigation Tabs -->
-    <div class="nav-wrapper">
-      <nav id="workspace-nav">
-        <button class="nav-tab active" data-tab="tab-overview">Overview</button>
-        <button class="nav-tab" data-tab="tab-company">Company Analysis</button>
-        <button class="nav-tab" data-tab="tab-financials">Financial Performance</button>
-        <button class="nav-tab" data-tab="tab-competitive">Competitive Intelligence</button>
-        <button class="nav-tab" data-tab="tab-credibility">Management Credibility</button>
-        <button class="nav-tab" data-tab="tab-quantitative">Quantitative Research</button>
-        <button class="nav-tab" data-tab="tab-scenarios">Scenario Lab</button>
-        <button class="nav-tab" data-tab="tab-library">Research Library</button>
-        <button class="nav-tab" data-tab="tab-sources">Data & Sources</button>
-        <button class="nav-tab" data-tab="tab-governance">Governance & API</button>
-      </nav>
-    </div>
+    <!-- App Body: Sidebar + Main Content -->
+    <div id="app-body">
+      
+      <!-- Left Persistent Sidebar -->
+      <aside id="sidebar">
+        <div class="sidebar-nav-container">
+          <!-- Overview Button -->
+          <button class="sidebar-overview-btn active" data-pane="pane-overview" onclick="app.switchTab('pane-overview')">
+            <span>🏠</span>
+            <span>Overview</span>
+          </button>
 
-    <!-- Mobile Navigation Switcher -->
-    <div class="mobile-nav-wrapper">
-      <label for="mobile-workspace-select">Workspace</label>
-      <select id="mobile-workspace-select" onchange="app.switchTab(this.value)">
-        <option value="tab-overview">1. Executive Overview</option>
-        <option value="tab-company">2. Company Analysis</option>
-        <option value="tab-financials">3. Financial Performance</option>
-        <option value="tab-competitive">4. Competitive Intelligence</option>
-        <option value="tab-credibility">5. Management Credibility</option>
-        <option value="tab-quantitative">6. Quantitative Research</option>
-        <option value="tab-scenarios">7. Scenario Lab</option>
-        <option value="tab-library">8. Research Library</option>
-        <option value="tab-sources">9. Data & Sources</option>
-        <option value="tab-governance">10. Governance & API</option>
-      </select>
-    </div>
+          <div class="sidebar-section-title">Analysis</div>
 
-    <!-- Active Filter Notification Strip -->
-    <div id="active-filter-banner" class="active-filter-banner">
-      <span class="active-filter-label">Active Filter:</span>
-      <span class="filter-pill company" id="banner-company-pill">Company: All (Eternal + Swiggy)</span>
-      <span class="filter-pill period" id="banner-period-pill">Period: Q2 FY27 (Latest Audited)</span>
-      <span class="filter-pill segment" id="banner-segment-pill">Segment: All Business Segments</span>
-      <button class="filter-reset-btn" onclick="app.resetGlobalFilters()" title="Reset to default filters">↺ Reset</button>
-    </div>
-
-    <!-- Main Content Workspace Area -->
-    <main id="workspace-content">
-      <!-- 1. OVERVIEW WORKSPACE -->
-      <section id="tab-overview" class="workspace-pane active">
-        <div class="pane-header">
-          <h2>Executive Research Overview · Head-to-Head Benchmark</h2>
-          <div class="timestamp" id="overview-timestamp">Latest Disclosed Quarter: Q2 FY27</div>
-        </div>
-
-        <!-- Metric KPI Cards Grid -->
-        <div class="kpi-grid" id="overview-kpis">
-          <!-- Populated dynamically by app.js -->
-        </div>
-
-        <!-- Two Column Deep Insights -->
-        <div class="two-col-layout">
-          <div class="card">
-            <div class="card-header">
-              <h3>Core Segment Trajectories (Food Delivery vs. Quick Commerce)</h3>
-              <span class="badge badge-l1">LEVEL 1 & 3 COMPARABLE</span>
-            </div>
-            <div class="card-body">
-              <div class="chart-container" id="overview-trend-chart-container">
-                <canvas id="overviewTrendCanvas"></canvas>
-                <div id="overview-chart-tooltip" class="chart-tooltip"></div>
+          <!-- 1. Company Intelligence Group -->
+          <div class="nav-group open" id="group-company">
+            <div class="nav-group-header" onclick="app.toggleNavGroup('group-company')">
+              <div class="nav-group-label">
+                <span>🏢</span>
+                <span>Company Intelligence</span>
               </div>
-              <div class="chart-legend" id="overview-chart-legend"></div>
+              <span class="nav-chevron">▶</span>
+            </div>
+            <div class="nav-sub-items">
+              <a class="nav-sub-link" onclick="app.selectCompany('Eternal')">Eternal (Zomato + Blinkit)</a>
+              <a class="nav-sub-link" onclick="app.selectCompany('Swiggy')">Swiggy</a>
             </div>
           </div>
 
-          <div class="card">
-            <div class="card-header">
-              <h3>Institutional Research Findings (Phase 3 Audited)</h3>
-              <span class="badge badge-verified">8 AUDITED FINDINGS</span>
+          <!-- 2. Financial Analysis Group -->
+          <div class="nav-group" id="group-financials">
+            <div class="nav-group-header" onclick="app.toggleNavGroup('group-financials')">
+              <div class="nav-group-label">
+                <span>📊</span>
+                <span>Financial Analysis</span>
+              </div>
+              <span class="nav-chevron">▶</span>
             </div>
-            <div class="card-body">
-              <div class="findings-list" id="overview-findings-summary">
-                <!-- Populated dynamically -->
+            <div class="nav-sub-items">
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-financials', 'decomp')">Revenue & Decomposition</a>
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-financials', 'margin-bridge')">Margin Bridge (Take Rate)</a>
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-financials', 'leverage')">Operating Leverage</a>
+            </div>
+          </div>
+
+          <!-- 3. Unit Economics Group -->
+          <div class="nav-group" id="group-unit-econ">
+            <div class="nav-group-header" onclick="app.toggleNavGroup('group-unit-econ')">
+              <div class="nav-group-label">
+                <span>📦</span>
+                <span>Unit Economics</span>
+              </div>
+              <span class="nav-chevron">▶</span>
+            </div>
+            <div class="nav-sub-items">
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-unit-economics', 'per-order')">Food Delivery Economics</a>
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-unit-economics', 'dark-stores')">Quick Commerce (Dark Stores)</a>
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-unit-economics', 'throughput')">Throughput / Store-Day</a>
+            </div>
+          </div>
+
+          <!-- 4. Competitive Benchmarking -->
+          <div class="nav-group" id="group-competitive">
+            <div class="nav-group-header" onclick="app.toggleNavGroup('group-competitive')">
+              <div class="nav-group-label">
+                <span>🏆</span>
+                <span>Competitive Benchmarking</span>
+              </div>
+              <span class="nav-chevron">▶</span>
+            </div>
+            <div class="nav-sub-items">
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-competitive', 'gaps')">Peer Comparison Matrix</a>
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-competitive', 'structural-breaks')">Structural Breaks (Blinkit 1P)</a>
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-competitive', 'governance')">Comparability Governance</a>
+            </div>
+          </div>
+
+          <!-- 5. Quantitative Research -->
+          <div class="nav-group" id="group-quantitative">
+            <div class="nav-group-header" onclick="app.toggleNavGroup('group-quantitative')">
+              <div class="nav-group-label">
+                <span>Σ</span>
+                <span>Quantitative Research</span>
+              </div>
+              <span class="nav-chevron">▶</span>
+            </div>
+            <div class="nav-sub-items">
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-quantitative', 'studies')">10 Econometric Studies</a>
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-quantitative', 'workbench')">Research Question Workbench</a>
+            </div>
+          </div>
+
+          <!-- 6. Scenario Lab -->
+          <div class="nav-group" id="group-scenarios">
+            <div class="nav-group-header" onclick="app.toggleNavGroup('group-scenarios')">
+              <div class="nav-group-label">
+                <span>🎛️</span>
+                <span>Scenario Lab</span>
+              </div>
+              <span class="nav-chevron">▶</span>
+            </div>
+            <div class="nav-sub-items">
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-scenarios', 'simulation')">Interactive Simulation</a>
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-scenarios', 'sensitivity')">Sensitivity Heatmap</a>
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-scenarios', 'breakeven')">Breakeven Modelling</a>
+            </div>
+          </div>
+
+          <!-- 7. Management Tracker -->
+          <div class="nav-group" id="group-credibility">
+            <div class="nav-group-header" onclick="app.toggleNavGroup('group-credibility')">
+              <div class="nav-group-label">
+                <span>🎯</span>
+                <span>Management Tracker</span>
+              </div>
+              <span class="nav-chevron">▶</span>
+            </div>
+            <div class="nav-sub-items">
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-credibility', 'scorecard')">Guidance Scorecard</a>
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-credibility', 'commitments')">Commitment Register</a>
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-credibility', 'statements')">Statement Transcripts</a>
+            </div>
+          </div>
+
+          <!-- 8. Evidence Explorer -->
+          <div class="nav-group" id="group-sources">
+            <div class="nav-group-header" onclick="app.toggleNavGroup('group-sources')">
+              <div class="nav-group-label">
+                <span>📑</span>
+                <span>Evidence Explorer</span>
+              </div>
+              <span class="nav-chevron">▶</span>
+            </div>
+            <div class="nav-sub-items">
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-sources', 'documents')">Source Documents (14)</a>
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-sources', 'definitions')">Metric Lineage & Definitions</a>
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-sources', 'flags')">Data Quality Flags</a>
+            </div>
+          </div>
+
+          <!-- 9. Report Studio -->
+          <div class="nav-group" id="group-reports">
+            <div class="nav-group-header" onclick="app.toggleNavGroup('group-reports')">
+              <div class="nav-group-label">
+                <span>📄</span>
+                <span>Report Studio</span>
+              </div>
+              <span class="nav-chevron">▶</span>
+            </div>
+            <div class="nav-sub-items">
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-reports', 'generate')">Generate Research Report</a>
+              <a class="nav-sub-link" onclick="app.switchSubTab('pane-reports', 'export')">Export to PDF / HTML</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Data Status Card -->
+        <div class="sidebar-status-card">
+          <div class="status-card-header">
+            <span class="status-card-title">Data Status</span>
+            <div class="status-indicator-live">
+              <div class="pulsing-dot"></div>
+              <span>Live</span>
+            </div>
+          </div>
+          <div class="status-row">
+            <span>Source Documents</span>
+            <span class="status-row-val" id="stat-docs">14</span>
+          </div>
+          <div class="status-row">
+            <span>Total PDF Pages</span>
+            <span class="status-row-val" id="stat-pages">513</span>
+          </div>
+          <div class="status-row">
+            <span>Metric Observations</span>
+            <span class="status-row-val" id="stat-obs">570</span>
+          </div>
+          <div class="status-card-footer">
+            <span>Last Updated</span>
+            <span style="font-weight:600; color:#CBD5E1;">09 Nov 2026</span>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Main Workspace Viewport -->
+      <main id="main-content">
+        
+        <!-- =========================================================================
+             1. EXECUTIVE OVERVIEW WORKSPACE (Pixel-Matched to Terminal Design)
+             ========================================================================= -->
+        <section id="tab-overview" class="workspace-pane active">
+          
+          <!-- Workspace Title & Action Toolbar -->
+          <div class="workspace-header">
+            <div class="workspace-title-section">
+              <h1 class="workspace-title">Overview</h1>
+              <div class="workspace-subtitle">Eternal Limited vs Swiggy Limited | Food Delivery & Quick Commerce</div>
+            </div>
+
+            <div class="workspace-toolbar">
+              <!-- Period Mode Pill Buttons -->
+              <div class="period-mode-toggle">
+                <button class="period-mode-btn active" onclick="app.setPeriodMode('Quarterly')">Quarterly</button>
+                <button class="period-mode-btn" onclick="app.setPeriodMode('TTM')">TTM</button>
+                <button class="period-mode-btn" onclick="app.setPeriodMode('FY')">FY</button>
+                <button class="period-mode-btn" onclick="app.setPeriodMode('YoY')">YoY</button>
+                <button class="period-mode-btn" onclick="app.setPeriodMode('QoQ')">QoQ</button>
+              </div>
+
+              <!-- Period Selector Dropdown -->
+              <div class="toolbar-dropdown">
+                <label>Period</label>
+                <select id="overview-period-select" onchange="app.changePeriod(this.value)">
+                  <option value="Q2FY27" selected>Q2 FY27</option>
+                  <option value="Q1FY27">Q1 FY27</option>
+                  <option value="Q4FY26">Q4 FY26</option>
+                  <option value="Q3FY26">Q3 FY26</option>
+                  <option value="Q2FY26">Q2 FY26 (Blinkit 1P Shift)</option>
+                  <option value="Q1FY26">Q1 FY26</option>
+                  <option value="Q4FY25">Q4 FY25</option>
+                  <option value="Q3FY25">Q3 FY25</option>
+                  <option value="Q2FY25">Q2 FY25 (District Acq)</option>
+                  <option value="Q1FY25">Q1 FY25 (Baseline)</option>
+                </select>
+              </div>
+
+              <!-- Currency Dropdown -->
+              <div class="toolbar-dropdown">
+                <label>Currency</label>
+                <select id="overview-currency-select" onchange="app.changeCurrency(this.value)">
+                  <option value="INR" selected>INR (₹)</option>
+                  <option value="USD">USD ($)</option>
+                </select>
               </div>
             </div>
           </div>
-        </div>
 
-        <!-- Workstation Quick Workflows Strip -->
-        <div class="workflows-bar card">
-          <div class="card-header">
-            <h3>Automated Research Workflows (End-to-End Acceptance)</h3>
-          </div>
-          <div class="workflow-buttons">
-            <button class="workflow-btn" onclick="app.executeWorkflow('A')">⚡ Workflow A: Competitive Research</button>
-            <button class="workflow-btn" onclick="app.executeWorkflow('B')">⚡ Workflow B: Management Execution</button>
-            <button class="workflow-btn" onclick="app.executeWorkflow('C')">⚡ Workflow C: Quantitative Research</button>
-            <button class="workflow-btn" onclick="app.executeWorkflow('D')">⚡ Workflow D: Scenario Analysis</button>
-            <button class="workflow-btn" onclick="app.executeWorkflow('E')">⚡ Workflow E: Source Verification</button>
-          </div>
-        </div>
-      </section>
-
-      <!-- 2. COMPANY ANALYSIS WORKSPACE -->
-      <section id="tab-company" class="workspace-pane">
-        <div class="pane-header">
-          <h2>Company Operational Analysis & Segment Decomposition</h2>
-          <div class="selector-pills" id="company-subnav">
-            <button class="subnav-pill active" onclick="app.setCompanyView('Eternal')">Eternal Limited (Zomato / Blinkit / District)</button>
-            <button class="subnav-pill" onclick="app.setCompanyView('Swiggy')">Swiggy Limited (Instamart / Food / Dineout)</button>
-          </div>
-        </div>
-        <div id="company-view-container">
-          <!-- Populated by app.js -->
-        </div>
-      </section>
-
-      <!-- 3. FINANCIAL PERFORMANCE WORKSPACE -->
-      <section id="tab-financials" class="workspace-pane">
-        <div class="pane-header">
-          <h2>Financial Analytics Core · Decompositions, Bridges & Unit Economics</h2>
-          <div class="selector-pills">
-            <button class="subnav-pill active" onclick="app.setFinancialTab('decomp')">Waterfall Decompositions</button>
-            <button class="subnav-pill" onclick="app.setFinancialTab('bridge')">Margin Bridges</button>
-            <button class="subnav-pill" onclick="app.setFinancialTab('ue')">Unit Economics</button>
-            <button class="subnav-pill" onclick="app.setFinancialTab('prod')">Dark Store Productivity</button>
-          </div>
-        </div>
-        <div id="financial-view-container">
-          <!-- Populated by app.js -->
-        </div>
-      </section>
-
-      <!-- 4. COMPETITIVE INTELLIGENCE WORKSPACE -->
-      <section id="tab-competitive" class="workspace-pane">
-        <div class="pane-header">
-          <h2>Competitive Intelligence, Comparability Matrix & Structural Breaks</h2>
-          <div class="selector-pills">
-            <button class="subnav-pill active" onclick="app.setCompetitiveTab('gaps')">Competitive Gaps & Spread</button>
-            <button class="subnav-pill" onclick="app.setCompetitiveTab('comparability')">Comparability Governance (10 Rules)</button>
-            <button class="subnav-pill" onclick="app.setCompetitiveTab('breaks')">Structural Break Register</button>
-            <button class="subnav-pill" onclick="app.setCompetitiveTab('findings')">8 Evidence-Backed Findings</button>
-          </div>
-        </div>
-        <div id="competitive-view-container">
-          <!-- Populated by app.js -->
-        </div>
-      </section>
-
-      <!-- 5. MANAGEMENT CREDIBILITY WORKSPACE -->
-      <section id="tab-credibility" class="workspace-pane">
-        <div class="pane-header">
-          <h2>Management Credibility, Guidance Scorecards & Narrative Verification</h2>
-          <div class="selector-pills">
-            <button class="subnav-pill active" onclick="app.setCredibilityTab('commitments')">Commitment Tracker (26 Tracked)</button>
-            <button class="subnav-pill" onclick="app.setCredibilityTab('scorecard')">Execution Scorecards</button>
-            <button class="subnav-pill" onclick="app.setCredibilityTab('narratives')">Narrative Verification</button>
-            <button class="subnav-pill" onclick="app.setCredibilityTab('initiatives')">Strategic Initiatives</button>
-          </div>
-        </div>
-        <div id="credibility-view-container">
-          <!-- Populated by app.js -->
-        </div>
-      </section>
-
-      <!-- 6. QUANTITATIVE RESEARCH WORKSPACE -->
-      <section id="tab-quantitative" class="workspace-pane">
-        <div class="pane-header">
-          <h2>Quantitative Research, Econometric Studies & Research Workbench</h2>
-          <div class="selector-pills">
-            <button class="subnav-pill active" onclick="app.setQuantitativeTab('workbench')">Research Question Workbench (8 Questions)</button>
-            <button class="subnav-pill" onclick="app.setQuantitativeTab('studies')">12 Econometric Studies (with FDR)</button>
-            <button class="subnav-pill" onclick="app.setQuantitativeTab('growth')">Growth & Volatility Explorer</button>
-          </div>
-        </div>
-        <div id="quantitative-view-container">
-          <!-- Populated by app.js -->
-        </div>
-      </section>
-
-      <!-- 7. SCENARIO LAB WORKSPACE -->
-      <section id="tab-scenarios" class="workspace-pane">
-        <div class="pane-header">
-          <h2>Scenario Lab · Multi-Segment Financial Simulation & Risk Modeling</h2>
-        </div>
-        <div class="scenario-layout">
-          <!-- Left: Simulation Controls -->
-          <div class="scenario-controls card">
-            <h3>Scenario Parameters</h3>
-            <div class="form-group">
-              <label>Target Company</label>
-              <select id="scen-company">
-                <option value="Swiggy">Swiggy Limited</option>
-                <option value="Eternal">Eternal Limited</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label>Business Segment</label>
-              <select id="scen-segment">
-                <option value="QuickCommerce">Quick Commerce (Instamart / Blinkit)</option>
-                <option value="Food">Food Delivery</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label>Preset Case</label>
-              <select id="scen-preset" onchange="app.onScenarioPresetChange()">
-                <option value="BASE">Base Case (Market Consensus)</option>
-                <option value="BULL">Bull Case (Accelerated Expansion)</option>
-                <option value="BEAR">Bear Case (Demand Deceleration)</option>
-                <option value="CUSTOM">Custom Parameters</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label>Forecast Horizon</label>
-              <select id="scen-quarters">
-                <option value="4">4 Quarters (1 Year Forward)</option>
-                <option value="8">8 Quarters (2 Years Forward)</option>
-              </select>
-            </div>
-
-            <div class="param-divider">Operating Assumptions</div>
-
-            <div class="form-group">
-              <label id="lbl-growth">Annual Volume Growth Rate (%)</label>
-              <input type="number" id="scen-input-growth" value="25.0" step="1.0">
-            </div>
-            <div class="form-group">
-              <label id="lbl-aov">AOV Change over Horizon (₹)</label>
-              <input type="number" id="scen-input-aov" value="20.0" step="5.0">
-            </div>
-            <div class="form-group" id="grp-stores">
-              <label>Net Dark Store Additions / Quarter</label>
-              <input type="number" id="scen-input-stores" value="60" step="10">
-            </div>
-
-            <div class="scenario-actions">
-              <button class="primary-btn" onclick="app.runScenarioSimulation()">▶ Run Simulation</button>
-              <button class="secondary-btn" onclick="app.openSaveScenarioModal()">💾 Save Scenario</button>
-            </div>
+          <!-- Section A: 4 Executive KPI Cards -->
+          <div class="kpi-row-grid" id="overview-kpi-container">
+            <!-- Dynamic KPI Cards populated by app.js -->
           </div>
 
-          <!-- Right: Projection Outputs & Sensitivity -->
-          <div class="scenario-outputs">
+          <!-- Section B: Middle Row (Revenue Trend + Key Takeaways + Right Stack) -->
+          <div class="middle-row-grid">
+            
+            <!-- Left Chart Card: Revenue Trend -->
             <div class="card">
               <div class="card-header">
-                <h3>Simulation Results & Financial Trajectory</h3>
-                <span class="badge badge-info" id="scen-pedigree-badge">EMPIRICAL_ESTIMATE_OLS</span>
+                <div class="card-title">Revenue Trend</div>
+                <div class="card-controls">
+                  <button class="card-pill-btn active" id="btn-chart-rev" onclick="app.setChartMetric('revenue')">Revenue</button>
+                  <button class="card-pill-btn" id="btn-chart-gov" onclick="app.setChartMetric('gov_nov')">GOV / NOV</button>
+                  <button class="card-pill-btn" id="btn-chart-cm" onclick="app.setChartMetric('cm_pct')">CM%</button>
+                </div>
+              </div>
+              <div class="card-body" style="position:relative; height:320px;">
+                <canvas id="revenueTrendChart"></canvas>
+              </div>
+            </div>
+
+            <!-- Middle Card: Key Takeaways -->
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title" style="display:flex; align-items:center; gap:0.4rem;">
+                  <span>📋</span>
+                  <span>Key Takeaways</span>
+                </div>
               </div>
               <div class="card-body">
-                <div id="scen-results-table">
-                  <!-- Dynamic table -->
+                <div class="takeaways-list" id="overview-takeaways-container">
+                  <!-- Populated dynamically from API -->
                 </div>
               </div>
             </div>
 
-            <div class="two-col-layout" style="margin-top: 1rem;">
+            <!-- Right Column Stack -->
+            <div class="right-stack-col">
+              
+              <!-- Stack 1: Management Commitments -->
               <div class="card">
-                <div class="card-header">
-                  <h3>Break-Even Threshold Analysis</h3>
+                <div class="card-header" style="padding:0.65rem 1rem;">
+                  <div class="card-title" style="font-size:0.85rem; display:flex; align-items:center; gap:0.35rem;">
+                    <span>🎯</span>
+                    <span>Management Commitments</span>
+                  </div>
                 </div>
-                <div class="card-body" id="scen-breakeven-box">
-                  <!-- Breakeven analysis -->
+                <div class="card-body" style="padding:0.75rem 1rem;">
+                  <div class="commitments-widget-rows" id="overview-commitments-container">
+                    <!-- Populated dynamically -->
+                  </div>
                 </div>
               </div>
 
+              <!-- Stack 2: Quantitative Research -->
               <div class="card">
-                <div class="card-header">
-                  <h3>Monte Carlo 1,000-Iteration Risk Boundary</h3>
+                <div class="card-header" style="padding:0.65rem 1rem;">
+                  <div class="card-title" style="font-size:0.85rem; display:flex; align-items:center; gap:0.35rem;">
+                    <span>🔬</span>
+                    <span>Quantitative Research</span>
+                  </div>
                 </div>
-                <div class="card-body" id="scen-montecarlo-box">
-                  <!-- Monte Carlo analysis -->
+                <div class="card-body" style="padding:0.75rem 1rem;">
+                  <div class="quant-quick-list" id="overview-quant-container">
+                    <!-- Populated dynamically -->
+                  </div>
+                  <a class="quant-view-all" onclick="app.switchTab('pane-quantitative')">View all 10 studies →</a>
                 </div>
+              </div>
+
+              <!-- Stack 3: Scenario Lab -->
+              <div class="card">
+                <div class="card-header" style="padding:0.65rem 1rem;">
+                  <div class="card-title" style="font-size:0.85rem; display:flex; align-items:center; gap:0.35rem;">
+                    <span>🎛️</span>
+                    <span>Scenario Lab</span>
+                  </div>
+                </div>
+                <div class="card-body" style="padding:0.75rem 1rem;">
+                  <div class="scenario-quick-desc">Model business outcomes under different assumptions (AOV, take rate, store additions, growth).</div>
+                  <button class="btn-primary-action" onclick="app.switchTab('pane-scenarios')">
+                    <span>Open Scenario Lab</span>
+                    <span>→</span>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Section C: Bottom Row (Segment Performance Table + AOV vs CM Scatter Plot) -->
+          <div class="bottom-row-grid">
+            
+            <!-- Left Table: Segment Performance -->
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title" id="segment-table-title">Segment Performance – Q2 FY27</div>
+                <div class="card-controls">
+                  <button class="card-pill-btn active" id="btn-seg-eternal" onclick="app.setSegmentCompany('Eternal')">Eternal</button>
+                  <button class="card-pill-btn" id="btn-seg-swiggy" onclick="app.setSegmentCompany('Swiggy')">Swiggy</button>
+                </div>
+              </div>
+              <div class="card-body" style="padding:0;">
+                <div class="table-container" style="border:none; border-radius:0;">
+                  <table class="financial-table" id="overview-segment-table">
+                    <thead>
+                      <tr>
+                        <th>Segment</th>
+                        <th class="numeric">GOV / NOV (₹ Cr)</th>
+                        <th class="numeric">Revenue (₹ Cr)</th>
+                        <th class="numeric">CM%</th>
+                        <th class="numeric">Adj. EBITDA (₹ Cr)</th>
+                        <th class="numeric">YoY Growth</th>
+                      </tr>
+                    </thead>
+                    <tbody id="overview-segment-tbody">
+                      <!-- Populated dynamically from API -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Chart: AOV vs Contribution Margin (QC) Scatter -->
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title">AOV vs Contribution Margin (QC)</div>
+                <div class="card-controls">
+                  <span class="badge badge-level-2" style="font-size:0.7rem;">OLS REGRESSION</span>
+                </div>
+              </div>
+              <div class="card-body" style="position:relative; height:280px;">
+                <canvas id="aovScatterChart"></canvas>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+        <!-- =========================================================================
+             2. COMPANY INTELLIGENCE WORKSPACE
+             ========================================================================= -->
+        <section id="tab-company" class="workspace-pane">
+          <div class="workspace-header">
+            <div class="workspace-title-section">
+              <h1 class="workspace-title" id="company-pane-title">Company Intelligence</h1>
+              <div class="workspace-subtitle" id="company-pane-subtitle">Audited financial performance, segment disclosures, and unit economics</div>
+            </div>
+            <div class="workspace-toolbar">
+              <div class="period-mode-toggle">
+                <button class="period-mode-btn active" id="co-tab-eternal" onclick="app.selectCompany('Eternal')">Eternal Limited</button>
+                <button class="period-mode-btn" id="co-tab-swiggy" onclick="app.selectCompany('Swiggy')">Swiggy Limited</button>
+              </div>
+              <button class="card-pill-btn" onclick="app.exportTableCSV('company-financials-table', 'company_financials.csv')">📥 Export CSV</button>
+            </div>
+          </div>
+
+          <div id="company-profile-summary">
+            <!-- Dynamic Company Profile Content -->
+          </div>
+
+          <div class="card" style="margin-top:1rem;">
+            <div class="card-header">
+              <div class="card-title">10-Quarter Historical Financial Performance (Audited Disclosures)</div>
+            </div>
+            <div class="card-body" style="padding:0;">
+              <div class="table-container" style="border:none;">
+                <table class="financial-table" id="company-financials-table">
+                  <thead id="company-table-thead">
+                    <!-- Populated dynamically -->
+                  </thead>
+                  <tbody id="company-table-tbody">
+                    <!-- Populated dynamically -->
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- 8. RESEARCH LIBRARY WORKSPACE -->
-      <section id="tab-library" class="workspace-pane">
-        <div class="pane-header">
-          <h2>Research Library · Saved Scenarios, Evidence Dossiers & Custom Work</h2>
-        </div>
-        <div id="library-view-container">
-          <!-- Populated by app.js -->
-        </div>
-      </section>
+        <!-- =========================================================================
+             3. FINANCIAL ANALYSIS WORKSPACE
+             ========================================================================= -->
+        <section id="tab-financials" class="workspace-pane">
+          <div class="workspace-header">
+            <div class="workspace-title-section">
+              <h1 class="workspace-title">Financial Analysis & Decomposition</h1>
+              <div class="workspace-subtitle">Mathematical price x volume waterfalls, contribution margin bridges, and operating leverage</div>
+            </div>
+            <div class="workspace-toolbar">
+              <div class="period-mode-toggle">
+                <button class="period-mode-btn active" onclick="app.switchFinancialView('decomp')">Waterfall Decomposition</button>
+                <button class="period-mode-btn" onclick="app.switchFinancialView('margin-bridge')">Margin Bridge (bps)</button>
+              </div>
+              <button class="card-pill-btn" onclick="app.exportTableCSV('financials-table', 'financial_decomposition.csv')">📥 Export CSV</button>
+            </div>
+          </div>
 
-      <!-- 9. DATA & SOURCES WORKSPACE -->
-      <section id="tab-sources" class="workspace-pane">
-        <div class="pane-header">
-          <h2>Source Document Explorer, Page Citations & Data Lineage</h2>
-        </div>
-        <div id="sources-view-container">
-          <!-- Populated by app.js -->
-        </div>
-      </section>
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title" id="financials-card-title">Price × Volume Waterfall Decomposition</div>
+            </div>
+            <div class="card-body" style="padding:0;">
+              <div class="table-container" style="border:none;">
+                <table class="financial-table" id="financials-table">
+                  <thead id="financials-thead"></thead>
+                  <tbody id="financials-tbody"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
 
-      <!-- 10. GOVERNANCE & API WORKSPACE -->
-      <section id="tab-governance" class="workspace-pane">
-        <div class="pane-header">
-          <h2>Comparability Governance Rulebook & REST API Reference</h2>
-        </div>
-        <div id="governance-view-container">
-          <!-- Populated by app.js -->
-        </div>
-      </section>
-    </main>
+        <!-- =========================================================================
+             4. UNIT ECONOMICS WORKSPACE
+             ========================================================================= -->
+        <section id="tab-unit-economics" class="workspace-pane">
+          <div class="workspace-header">
+            <div class="workspace-title-section">
+              <h1 class="workspace-title">Unit Economics & Store Productivity</h1>
+              <div class="workspace-subtitle">Segment-matched per-order economics, dark store square footage, and daily store throughput</div>
+            </div>
+            <div class="workspace-toolbar">
+              <button class="card-pill-btn" onclick="app.exportTableCSV('unit-econ-table', 'unit_economics.csv')">📥 Export CSV</button>
+            </div>
+          </div>
 
-    <!-- Modal: Segment & Metric Drill-Down Modal -->
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">Quick Commerce Unit Economics (Per-Order Breakdown)</div>
+            </div>
+            <div class="card-body" style="padding:0;">
+              <div class="table-container" style="border:none;">
+                <table class="financial-table" id="unit-econ-table">
+                  <thead>
+                    <tr>
+                      <th>Company</th>
+                      <th>Quarter</th>
+                      <th class="numeric">AOV (₹)</th>
+                      <th class="numeric">Revenue / Order (₹)</th>
+                      <th class="numeric">CM / Order (₹)</th>
+                      <th class="numeric">EBITDA / Order (₹)</th>
+                      <th class="numeric">Subsidy / Order (₹)</th>
+                      <th class="numeric">Dark Stores</th>
+                    </tr>
+                  </thead>
+                  <tbody id="unit-econ-tbody"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="margin-top:1rem;">
+            <div class="card-header">
+              <div class="card-title">Dark Store Network Comparison (Blinkit vs Instamart)</div>
+            </div>
+            <div class="card-body" style="padding:0;">
+              <div class="table-container" style="border:none;">
+                <table class="financial-table" id="store-network-table">
+                  <thead>
+                    <tr>
+                      <th>Quarter</th>
+                      <th class="numeric">Blinkit Stores</th>
+                      <th class="numeric">Instamart Stores</th>
+                      <th class="numeric">Blinkit Throughput (₹/day)</th>
+                      <th class="numeric">Instamart Throughput (₹/day)</th>
+                    </tr>
+                  </thead>
+                  <tbody id="store-network-tbody"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =========================================================================
+             5. COMPETITIVE BENCHMARKING WORKSPACE
+             ========================================================================= -->
+        <section id="tab-competitive" class="workspace-pane">
+          <div class="workspace-header">
+            <div class="workspace-title-section">
+              <h1 class="workspace-title">Competitive Benchmarking & Structural Breaks</h1>
+              <div class="workspace-subtitle">Governed peer comparisons, like-for-like spreads, and corporate restructuring timelines</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">Like-for-Like Quarterly Peer Gaps & Comparability Governance</div>
+            </div>
+            <div class="card-body" style="padding:0;">
+              <div class="table-container" style="border:none;">
+                <table class="financial-table" id="competitive-gaps-table">
+                  <thead>
+                    <tr>
+                      <th>Quarter</th>
+                      <th>Segment</th>
+                      <th>Comparison Type</th>
+                      <th class="numeric">Spread (bps / %)</th>
+                      <th>Comparability Level</th>
+                      <th>Governance Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="competitive-gaps-tbody"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =========================================================================
+             6. QUANTITATIVE RESEARCH WORKSPACE
+             ========================================================================= -->
+        <section id="tab-quantitative" class="workspace-pane">
+          <div class="workspace-header">
+            <div class="workspace-title-section">
+              <h1 class="workspace-title">Quantitative Research & Econometrics</h1>
+              <div class="workspace-subtitle">10 statistical relationship models with Benjamini-Hochberg FDR correction and hypothesis workbench</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">10 Core Econometric Relationship Studies</div>
+            </div>
+            <div class="card-body" style="padding:0;">
+              <div class="table-container" style="border:none;">
+                <table class="financial-table" id="quant-studies-table">
+                  <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>Study Title</th>
+                      <th>Metric X</th>
+                      <th>Metric Y</th>
+                      <th class="numeric">Pearson r</th>
+                      <th class="numeric">R²</th>
+                      <th class="numeric">p-value</th>
+                      <th>FDR q-value</th>
+                      <th>Verdict</th>
+                    </tr>
+                  </thead>
+                  <tbody id="quant-studies-tbody"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =========================================================================
+             7. SCENARIO LAB WORKSPACE
+             ========================================================================= -->
+        <section id="tab-scenarios" class="workspace-pane">
+          <div class="workspace-header">
+            <div class="workspace-title-section">
+              <h1 class="workspace-title">Scenario Lab & Simulation Engine</h1>
+              <div class="workspace-subtitle">Interactive sensitivity testing, margin gap-closing models, and Monte Carlo probability distributions</div>
+            </div>
+            <div class="workspace-toolbar">
+              <button class="btn-primary-action" style="width:auto;" onclick="app.openModal('modal-save-scenario')">💾 Save Scenario</button>
+            </div>
+          </div>
+
+          <div class="middle-row-grid" style="grid-template-columns: 4.5fr 7.5fr;">
+            
+            <!-- Controls Card -->
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title">Scenario Simulation Parameters</div>
+              </div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label>Company Under Test</label>
+                  <select id="scen-company" onchange="app.runScenarioSimulation()">
+                    <option value="Swiggy" selected>Swiggy Limited (Instamart)</option>
+                    <option value="Eternal">Eternal Limited (Blinkit)</option>
+                  </select>
+                </div>
+
+                <div class="slider-group">
+                  <div class="slider-header">
+                    <label>AOV Improvement (₹)</label>
+                    <span class="slider-val" id="scen-aov-val">+₹40</span>
+                  </div>
+                  <input type="range" id="scen-aov-slider" min="0" max="120" step="10" value="40" oninput="app.updateSliderVal('scen-aov-val', '+₹' + this.value); app.runScenarioSimulation();">
+                </div>
+
+                <div class="slider-group">
+                  <div class="slider-header">
+                    <label>Dark Store Expansion Velocity</label>
+                    <span class="slider-val" id="scen-stores-val">+250 Stores</span>
+                  </div>
+                  <input type="range" id="scen-stores-slider" min="0" max="800" step="50" value="250" oninput="app.updateSliderVal('scen-stores-val', '+' + this.value + ' Stores'); app.runScenarioSimulation();">
+                </div>
+
+                <div class="slider-group">
+                  <div class="slider-header">
+                    <label>Take Rate Delta (bps)</label>
+                    <span class="slider-val" id="scen-take-val">+50 bps</span>
+                  </div>
+                  <input type="range" id="scen-take-slider" min="-100" max="150" step="10" value="50" oninput="app.updateSliderVal('scen-take-val', '+' + this.value + ' bps'); app.runScenarioSimulation();">
+                </div>
+
+                <button class="btn-primary-action" onclick="app.runScenarioSimulation()">Calculate Scenario Impact</button>
+              </div>
+            </div>
+
+            <!-- Output Projections Card -->
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title">Modelled Projections & Parity Timeline</div>
+              </div>
+              <div class="card-body" id="scen-output-body">
+                <!-- Dynamically updated by app.js -->
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- =========================================================================
+             8. MANAGEMENT TRACKER WORKSPACE
+             ========================================================================= -->
+        <section id="tab-credibility" class="workspace-pane">
+          <div class="workspace-header">
+            <div class="workspace-title-section">
+              <h1 class="workspace-title">Management Credibility & Guidance Tracker</h1>
+              <div class="workspace-subtitle">Evaluation of executive forward guidance against retrospective audited outcomes</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">Forward Guidance Commitment Register (26 Commitments)</div>
+            </div>
+            <div class="card-body" style="padding:0;">
+              <div class="table-container" style="border:none;">
+                <table class="financial-table" id="credibility-table">
+                  <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>Company</th>
+                      <th>Guidance Statement</th>
+                      <th>Target Horizon</th>
+                      <th>Status</th>
+                      <th>Audit Rationale</th>
+                    </tr>
+                  </thead>
+                  <tbody id="credibility-tbody"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =========================================================================
+             9. EVIDENCE EXPLORER WORKSPACE
+             ========================================================================= -->
+        <section id="tab-sources" class="workspace-pane">
+          <div class="workspace-header">
+            <div class="workspace-title-section">
+              <h1 class="workspace-title">Evidence Explorer & Primary Disclosures</h1>
+              <div class="workspace-subtitle">Complete provenance catalog linking every number to physical PDF page numbers and statutory filings</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">14 Primary Corporate Disclosures & Shareholder Letters</div>
+            </div>
+            <div class="card-body" style="padding:0;">
+              <div class="table-container" style="border:none;">
+                <table class="financial-table" id="sources-documents-table">
+                  <thead>
+                    <tr>
+                      <th>Document ID</th>
+                      <th>Company</th>
+                      <th>Document Title</th>
+                      <th>Quarter</th>
+                      <th>Type</th>
+                      <th>Page Count</th>
+                    </tr>
+                  </thead>
+                  <tbody id="sources-documents-tbody"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =========================================================================
+             10. REPORT STUDIO WORKSPACE
+             ========================================================================= -->
+        <section id="tab-reports" class="workspace-pane">
+          <div class="workspace-header">
+            <div class="workspace-title-section">
+              <h1 class="workspace-title">Institutional Report Studio</h1>
+              <div class="workspace-subtitle">Generate comprehensive, audit-verified equity research reports with verified primary citations</div>
+            </div>
+          </div>
+
+          <div class="middle-row-grid" style="grid-template-columns: 4fr 8fr;">
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title">Report Configuration</div>
+              </div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label>Report Template</label>
+                  <select id="report-type-select">
+                    <option value="executive_overview" selected>Executive Competitive Briefing</option>
+                    <option value="quick_commerce_deep_dive">Quick Commerce Unit Economics Audit</option>
+                    <option value="management_credibility_audit">Management Guidance Credibility Report</option>
+                    <option value="statistical_evidence_pack">Econometric & Quantitative Research Pack</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Target Company</label>
+                  <select id="report-company-select">
+                    <option value="ALL" selected>Consolidated (Eternal + Swiggy)</option>
+                    <option value="Eternal">Eternal Limited (Zomato / Blinkit)</option>
+                    <option value="Swiggy">Swiggy Limited (Food / Instamart)</option>
+                  </select>
+                </div>
+                <button class="btn-primary-action" onclick="app.generateReport()">Generate Verified Report</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title" id="report-preview-title">Report Preview</div>
+                <div class="card-controls" id="report-export-controls" style="display:none;">
+                  <button class="card-pill-btn" onclick="app.exportReport('html')">Export HTML</button>
+                  <button class="card-pill-btn" onclick="app.exportReport('json')">Export JSON</button>
+                </div>
+              </div>
+              <div class="card-body" id="report-preview-body" style="font-size:0.85rem; line-height:1.6; max-height:480px; overflow-y:auto;">
+                <p style="color:var(--text-muted);">Select report options and click "Generate Verified Report" to create an institutional equity research document.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =========================================================================
+             11. RESEARCH LIBRARY WORKSPACE (tab-library)
+             ========================================================================= -->
+        <section id="tab-library" class="workspace-pane">
+          <div class="workspace-header">
+            <div class="workspace-title-section">
+              <h1 class="workspace-title">Research Library — Saved Scenarios, Evidence Dossiers & Custom Work</h1>
+              <div class="workspace-subtitle">Persistent repository of generated institutional research reports, saved simulations, and citations</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">Saved Analytical Dossiers</div>
+            </div>
+            <div class="card-body" id="library-view-container">
+              <p style="color:var(--text-secondary);">Research scenarios, econometric models, and customized valuation simulations are persisted directly to the FoodIQ database.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- =========================================================================
+             12. GOVERNANCE & API WORKSPACE (tab-governance)
+             ========================================================================= -->
+        <section id="tab-governance" class="workspace-pane">
+          <div class="workspace-header">
+            <div class="workspace-title-section">
+              <h1 class="workspace-title">Comparability Governance Rulebook & REST API Reference</h1>
+              <div class="workspace-subtitle">Financial comparability levels, strict cross-subtraction blocks, and live OpenAPI endpoints</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">Accounting & Comparability Governance Standards</div>
+            </div>
+            <div class="card-body" id="governance-view-container">
+              <p style="color:var(--text-secondary);">Strict Level 1 to Level 4 financial governance rules prevent invalid metric subtractions across differing corporate disclosures.</p>
+            </div>
+          </div>
+        </section>
+
+      </main>
+    </div>
+
+    <!-- =========================================================================
+         MODALS & DIALOGS
+         ========================================================================= -->
+
+    <!-- Modal: Metric Drill-Down & Lineage -->
     <div id="modal-drilldown" class="modal-overlay hidden">
       <div class="modal-content large">
         <div class="modal-header">
-          <h3 id="drilldown-title">Segment Performance & Historical Lineage</h3>
+          <h3 id="drilldown-title">Metric Lineage & Verification</h3>
           <button class="close-btn" onclick="app.closeModal('modal-drilldown')">&times;</button>
         </div>
-        <div class="modal-body" id="drilldown-body">
-          <!-- Dynamic drilldown content -->
-        </div>
+        <div class="modal-body" id="drilldown-body"></div>
       </div>
     </div>
 
-    <!-- Modal: Source Evidence & Citation Viewer -->
+    <!-- Modal: Source Evidence Viewer -->
     <div id="modal-evidence" class="modal-overlay hidden">
       <div class="modal-content">
         <div class="modal-header">
           <h3 id="modal-evidence-title">Primary Disclosure Citation</h3>
           <button class="close-btn" onclick="app.closeModal('modal-evidence')">&times;</button>
         </div>
-        <div class="modal-body" id="modal-evidence-body">
-          <!-- Dynamic evidence content -->
-        </div>
+        <div class="modal-body" id="modal-evidence-body"></div>
       </div>
     </div>
 
@@ -414,22 +925,22 @@
         <div class="modal-body">
           <div class="form-group">
             <label>Scenario Title</label>
-            <input type="text" id="save-scen-title" placeholder="e.g. Swiggy Instamart Bullish AOV Expansion FY28">
+            <input type="text" id="save-scen-title" placeholder="e.g. Swiggy Instamart AOV Expansion +₹40">
           </div>
           <div class="form-group">
             <label>Author / Analyst</label>
-            <input type="text" id="save-scen-author" value="Institutional Research Analyst">
+            <input type="text" id="save-scen-author" value="Equity Research Analyst">
           </div>
           <div class="form-group">
             <label>Analytical Notes</label>
-            <textarea id="save-scen-notes" placeholder="Assumptions rationale, catalyst milestones, risks..."></textarea>
+            <textarea id="save-scen-notes" placeholder="Catalyst milestones, margin expansion assumptions, risks..."></textarea>
           </div>
-          <button class="primary-btn" onclick="app.confirmSaveScenario()">Save to FoodIQ Database</button>
+          <button class="btn-primary-action" onclick="app.confirmSaveScenario()">Save to Database</button>
         </div>
       </div>
     </div>
 
-    <!-- Modal: Methodology & Epistemic Standards -->
+    <!-- Modal: Epistemic Standards & Methodology -->
     <div id="modal-methodology" class="modal-overlay hidden">
       <div class="modal-content large">
         <div class="modal-header">
@@ -437,21 +948,22 @@
           <button class="close-btn" onclick="app.closeModal('modal-methodology')">&times;</button>
         </div>
         <div class="modal-body">
-          <h4>The 6 Epistemic Evidence Tiers</h4>
-          <ul>
-            <li><code>REPORTED FACT</code>: Direct number extracted from audited company tables without modification.</li>
-            <li><code>DERIVED FACT</code>: Mathematically derived from reported facts via public accounting identities.</li>
-            <li><code>MANAGEMENT EXPLANATION</code>: Qualitative justifications provided by management in letters or calls.</li>
-            <li><code>ANALYST INTERPRETATION</code>: Analytical deductions produced by research analysts.</li>
-            <li><code>HYPOTHESIS</code>: Plausible conjectures requiring data not currently disclosed in public filings.</li>
-            <li><code>UNVERIFIED / INSUFFICIENT EVIDENCE</code>: Claims where disclosures are incomplete or asymmetric.</li>
+          <h4 style="margin-bottom:0.4rem; color:var(--text-primary);">The 6 Epistemic Evidence Tiers</h4>
+          <ul style="margin-left:1.2rem; margin-bottom:1rem; color:var(--text-secondary); line-height:1.6;">
+            <li><strong>REPORTED FACT:</strong> Directly extracted from audited corporate disclosure tables without modification.</li>
+            <li><strong>DERIVED FACT:</strong> Mathematically derived via rigorous public accounting identities (e.g. Price x Volume).</li>
+            <li><strong>MANAGEMENT EXPLANATION:</strong> Qualitative assertions and justifications made by executives in calls.</li>
+            <li><strong>ANALYST INTERPRETATION:</strong> Deductions produced by research analysts with explicit assumptions.</li>
+            <li><strong>HYPOTHESIS:</strong> Conjectures requiring empirical validation against newly released disclosures.</li>
+            <li><strong>UNVERIFIED / ASYMMETRIC:</strong> Claims where disclosures are incomplete or company metrics diverge.</li>
           </ul>
-          <h4>The 4 Comparability Governance Levels</h4>
-          <ul>
+
+          <h4 style="margin-bottom:0.4rem; color:var(--text-primary);">The 4 Comparability Governance Levels</h4>
+          <ul style="margin-left:1.2rem; color:var(--text-secondary); line-height:1.6;">
             <li><strong>LEVEL 1 (Directly Comparable):</strong> Identical accounting standards and units. Direct subtraction allowed.</li>
             <li><strong>LEVEL 2 (Comparable with Adjustment):</strong> Valid only after documented normalization (e.g. LFL District).</li>
             <li><strong>LEVEL 3 (Directionally Comparable):</strong> Trends benchmarked; absolute levels differ due to overhead allocation.</li>
-            <li><strong>LEVEL 4 (Incomparable):</strong> Incompatible treatments (e.g. Blinkit 1P gross vs Swiggy 3P net). <strong>Direct subtraction strictly blocked.</strong></li>
+            <li><strong>LEVEL 4 (Incomparable):</strong> Incompatible treatments (e.g. Blinkit 1P gross vs Swiggy 3P net). <strong>Direct cross-subtraction strictly blocked.</strong></li>
           </ul>
         </div>
       </div>
