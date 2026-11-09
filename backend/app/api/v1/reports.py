@@ -33,8 +33,10 @@ router = APIRouter(prefix="/reports", tags=["Institutional Research Report Gener
 class GenerateReportRequest(BaseModel):
     report_type: str = Field("COMPREHENSIVE", description="Report type code")
     company: Optional[str] = Field(None, description="Optional company filter ('Eternal' or 'Swiggy')")
+    company_id: Optional[str] = Field(None, description="Alias for company filter")
     segment: Optional[str] = Field(None, description="Optional segment filter ('Food', 'QuickCommerce')")
     period_cutoff: str = Field("Q2FY27", description="Reporting period cutoff")
+    reporting_period: Optional[str] = Field(None, description="Alias for period cutoff")
     included_sections: Optional[List[str]] = Field(None, description="Optional list of specific section IDs to include")
     author: str = Field("Institutional Research Analyst", description="Author attribution")
 
@@ -53,11 +55,13 @@ def get_report_types() -> Dict[str, Any]:
 @router.post("/generate", summary="Generate Institutional Research Report")
 def generate_report(req: GenerateReportRequest) -> Dict[str, Any]:
     """Generates a complete, verified research report from live database records."""
+    comp = req.company or req.company_id
+    cutoff = req.reporting_period or req.period_cutoff or "Q2FY27"
     report = generate_institutional_report(
         report_type=req.report_type,
-        company=req.company,
+        company=comp,
         segment=req.segment,
-        period_cutoff=req.period_cutoff,
+        period_cutoff=cutoff,
         included_sections=req.included_sections,
         author=req.author
     )
