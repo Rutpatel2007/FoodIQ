@@ -1,6 +1,0 @@
-finding_id,vulnerability_type,severity,status,remediation_evidence
-SEC-001,Path Traversal Protection,LOW,RESOLVED,PDF and static asset endpoints validate file paths using os.path.abspath and assert commonprefix against allowed upload directory.
-SEC-002,SQL Injection Guarding,INFO,RESOLVED,All SQL queries in database.py and repository.py use parameterized bound variables; zero raw string concatenation in WHERE clauses.
-SEC-003,Cross-Site Scripting (XSS),LOW,RESOLVED,Vanilla JS frontend dynamically populates DOM using textContent or sanitized HTML properties; zero unescaped innerHTML from user query inputs.
-SEC-004,Authentication & Multi-Tenant RBAC,MEDIUM,OPEN_ARCHITECTURAL_LIMITATION,Local research workstation currently operates without OAuth2/JWT auth. Suitable for single-analyst workstation; multi-tenant cloud deployment requires Auth middleware.
-SEC-005,CORS Configuration,LOW,RESOLVED,CORS middleware is restricted to local development origins in production settings; credentials flagged appropriately.

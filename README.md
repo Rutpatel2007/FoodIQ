@@ -1,237 +1,185 @@
-# FoodIQ — India's Food Delivery & Quick Commerce Competitive Intelligence Engine
+# FoodIQ
 
-**Release Version:** `v1.0.0-PRODUCTION-MATURITY`  
-**Certification Verdict:** **COMPLETE — ORIGINAL VISION ACHIEVED (145 / 145 Tests Passing, 91.2% Coverage)**  
-**Target Universe:** **Eternal Limited** (NSE: ETERNAL / BSE: 543320) & **Swiggy Limited** (NSE: SWIGGY / BSE: 544280)
+An evidence-driven financial and competitive intelligence platform analysing the operating performance, unit economics and competitive positioning of Eternal Limited and Swiggy Limited.
 
 ---
 
-## 1. What FoodIQ Does
+## Overview
 
-FoodIQ is an institutional-grade financial intelligence, quantitative econometric, and competitive benchmarking platform purpose-built for the Indian consumer-internet and quick-commerce duopoly.
+FoodIQ is an institutional-quality financial intelligence platform engineered for equity research analysts, quantitative researchers, and corporate strategy teams covering the Indian listed internet ecosystem. The platform systematically normalises, analyses, and models statutory corporate disclosures filed with the National Stock Exchange of India (NSE) and BSE Limited for **Eternal Limited (Zomato / Blinkit / Hyperpure)** and **Swiggy Limited**.
 
-Unlike consumer stock dashboards or simple financial ratio aggregators, FoodIQ systematically extracts, validates, normalizes, analyzes, and interprets statutory corporate disclosures (quarterly shareholder letters, earnings results, and IPO prospectuses) directly from primary filings. Every factual number, chart point, and finding is anchored to an immutable, page-level coordinate citation audit trail.
-
----
-
-## 2. Core Platform Capabilities
-
-1. **Deterministic Ingestion & Provenance:**
-   - 14 primary corporate filings (509 pages) ingested with page-level bounding box coordinates.
-   - 570 verified metric observations across consolidated and segmental operations.
-   - Zero synthetic zeroes or fabricated values (strict `NULL` vs. `0.0` semantic integrity).
-
-2. **Financial Normalization & Decomposition:**
-   - Strict governance of Gross Order Value (GOV) vs. Reported Revenue.
-   - Take-rate bridge calculations, contribution margin decompositions, and Adjusted EBITDA reconciliations.
-   - Explicit harmonization for the Blinkit Q3 FY23 1P-inventory to 3P-marketplace accounting transition.
-
-3. **Duopoly Competitive Intelligence:**
-   - Real-time gap analysis across GOV, AOV, active dark store density, and unit contribution margins.
-   - Structural break detection using Chow tests ($F=8.42, p<0.01$) across major corporate events.
-   - Quick commerce dark-store throughput benchmarking (Blinkit mature cluster run-rate: ₹849,924 / store-day).
-
-4. **Management Credibility & Guidance Tracker:**
-   - Systematic tracking of forward-looking guidance commitments against realized quarterly outturns.
-   - Strict isolation of pending multi-year commitments from the evaluation denominator (Swiggy's 11 unexpired IPO commitments isolated; strict delivery rate: 75.00%).
-   - Eternal delivery rate: 83.33% (Credibility Tier: HIGH).
-
-5. **Quantitative Research & Scenario Simulation Lab:**
-   - 10 empirical econometric relationship studies with Benjamini-Hochberg False Discovery Rate (FDR) control.
-   - First-difference detrending verification (Instamart level correlation $r=0.5531$ collapses to $r_\Delta=0.1399, p=0.72$ upon differencing, proving basket size jumps do not cause same-quarter margin expansion).
-   - Instamart break-even AOV solver: **₹813.20** required for 0.0% Contribution Margin neutrality under empirical OLS elasticity ($\beta = 0.9506$ bps/₹1).
-   - 1,000-draw Monte Carlo risk simulation across bounded parameter distributions.
-
-6. **Institutional Research Workstation:**
-   - High-density, professional terminal interface with 10 analytical workspaces.
-   - Zero-dependency HTML5 / modern ES6 architecture with native responsive vector canvas rendering.
-   - Multi-viewport responsive layouts (Desktop, Laptop, Tablet, Mobile) with mobile workspace dropdown navigation.
-   - Active filter status banner with one-click filter reset and dismissible pill chips.
-   - Dynamic, period-parameterized data fetching (`/company-overview`, `/executive-kpis`, `/chart-data`).
-   - Reconciled financial displays strictly distinguishing Contribution Margin from Segment Adjusted EBITDA.
-   - Interactive metric inspector, drilldown modals, dynamic scenario sliders, and page-level document evidence viewer.
-
-7. **Institutional Research Report Studio:**
-   - 9 automated institutional report archetypes (Comprehensive Dossier, Duopoly Benchmark, Quick Commerce Deep Dive, etc.).
-   - Multi-format compilation: JSON, HTML, Headless Chrome PDF, OpenXML DOCX, and CSV tabular packs.
-   - 100% automated citation verification gating prior to report export.
-
-8. **Disclosure Monitoring & Ingestion Governance:**
-   - Persistent `disclosure_register` with SHA-256 deduplication.
-   - 10-stage ingestion lifecycle with analyst review, approval gating, and non-destructive rollback.
-   - Automated financial anomaly and identity scanner.
-
-9. **Extensible Architecture & Research Plugins:**
-   - Pluggable framework for onboarding new companies (e.g. Zepto), custom metric formulas, and external analytics engines.
-   - Lifecycle event hooks for ingestion, validation, and reporting pipelines.
+FoodIQ addresses a fundamental problem in on-demand platform research: corporate disclosures in food delivery and quick commerce frequently utilise divergent metric definitions, non-standardized denominators, and shifting accounting scopes. FoodIQ resolves this by enforcing strict financial normalization waterfalls, a four-tier comparability governance engine, econometric validation with False Discovery Rate (FDR) control, and coordinate-grounded source traceability linking every data point back to primary filings.
 
 ---
 
-## 3. System Architecture
+## Key Capabilities
 
-```
-                      ┌─────────────────────────────────────────┐
-                      │        Primary Corporate Disclosures    │
-                      │  (Shareholder Letters, IPO Prospectus)  │
-                      └────────────────────┬────────────────────┘
-                                           │
-                                           ▼
-                      ┌─────────────────────────────────────────┐
-                      │        Ingestion & OCR Pipeline         │
-                      │   - PDF Text & Table Extractor          │
-                      │   - Page-Level Bounding Box Coordinates │
-                      │   - SHA-256 Deduplication & Anomaly Scan│
-                      └────────────────────┬────────────────────┘
-                                           │
-                                           ▼
-                      ┌─────────────────────────────────────────┐
-                      │        Relational Data Warehouse        │
-                      │   - 21 SQLite Relational Tables         │
-                      │   - Immutable Source Lineage & Provenance│
-                      │   - Strict NULL vs. 0.0 Semantic Guard   │
-                      └────────────────────┬────────────────────┘
-                                           │
-                                           ▼
-                      ┌─────────────────────────────────────────┐
-                      │        Analytics & Econometric Core     │
-                      │   - Financial Normalization (GOV/Take)  │
-                      │   - Duopoly Gap & Structural Breaks     │
-                      │   - Management Credibility Tracker      │
-                      │   - Statistical Workbench & FDR Control │
-                      │   - Scenario Lab & Monte Carlo Risk     │
-                      └────────────┬───────────────┬────────────┘
-                                   │               │
-                 ┌─────────────────┴─┐           ┌─┴─────────────────┐
-                 ▼                   ▼           ▼                   ▼
-      ┌────────────────────┐ ┌───────────────┐ ┌───────────────────┐
-      │  FastAPI REST API  │ │ Report Studio │ │ Extension Registry│
-      │  (15 Endpoints)    │ │ (HTML/PDF/DOC)│ │ (Plugins/Metrics) │
-      └──────────┬─────────┘ └───────────────┘ └───────────────────┘
-                 │
-                 ▼
-      ┌─────────────────────────────────────────┐
-      │   Institutional Research Workstation    │
-      │   (Zero-Build HTML5 / Vector Canvas)    │
-      └─────────────────────────────────────────┘
+- **Financial Performance Analysis:** Standardized order value waterfalls separating Gross Merchandise Value (GMV), Net Order Value (NOV), and Gross Order Value (GOV).
+- **Segment-Level Comparisons:** Detailed segmental tracking across Food Delivery, Quick Commerce, B2B Supplies (Hyperpure), and Out-of-Home Dining.
+- **Unit Economics & Margin Bridges:** 5-step additive margin bridges from Take Rate to Variable Costs, Contribution Margin, Dark Store Leases, and Segment Adjusted EBITDA.
+- **Competitive Intelligence:** Real-time gap analysis across GOV market share, average order value (AOV), dark store density, and take rates.
+- **Structural-Break Analysis:** Event-study framework tracking the quantitative impact of corporate actions (Blinkit 1P-to-3P transition, convenience platform fees, IPO listing).
+- **Management Commitment Tracking:** Objective evaluation of 26 forward-looking executive guidance statements using strict and broad delivery scoring algorithms.
+- **Quantitative Research:** Econometric suite comprising 12 empirical relationship studies with Benjamini-Hochberg FDR control and first-difference detrending.
+- **Scenario Modelling:** Deterministic AOV elasticity calculations and 10,000-run Monte Carlo simulations for quick commerce dark store expansion.
+- **Source Traceability:** Primary document store indexing 14 statutory filings with vector bounding box coordinates `(x0, y0, x1, y1)` for one-click audit verification.
+- **Research Report Generation:** Automated compilation of institutional equity research briefs with verified citations across HTML, PDF, DOCX, and CSV formats.
+
+---
+
+## Technology Stack
+
+- **Backend:** Python 3.10+, FastAPI, Uvicorn (ASGI)
+- **Database:** SQLite 3 (Write-Ahead Logging enabled), SQLAlchemy, Alembic
+- **Analytics & Statistics:** Pandas, NumPy, SciPy (OLS regressions, FDR step-down, Monte Carlo)
+- **Document Processing:** PyMuPDF (fitz) for vector coordinate extraction
+- **Frontend:** HTML5, CSS3, JavaScript (ES6+ modular architecture, Tailwind CSS)
+- **Testing:** Pytest, HTTPX, Coverage
+
+---
+
+## Architecture
+
+The platform follows a layered, deterministic data and analytical flow:
+
+```text
+[Primary Regulatory Filings (BSE / NSE PDFs)]
+                     │
+                     ▼
+  [Vector PDF Extraction & Coordinate Indexing]
+                     │
+                     ▼
+      [Relational Database (SQLite / WAL)]
+  - Canonical Metric Definitions & Observations
+  - Governance Rules & Structural Breaks
+                     │
+                     ▼
+          [Financial Analytics Core]
+  - Order Value Waterfalls & Margin Bridges
+  - Econometric Suite & Credibility Engine
+                     │
+                     ▼
+             [FastAPI REST API]
+  - Domain Endpoints (/metrics, /analytics, etc.)
+                     │
+         ┌───────────┴───────────┐
+         ▼                       ▼
+[Institutional Workstation] [Research Reports]
+  (10 Interactive Workspaces) (HTML, PDF, DOCX)
 ```
 
 ---
 
-## 4. Installation & Setup
+## Project Structure
 
-### Prerequisites
-- Python 3.10+ (Verified on Python 3.12.11)
-- Modern web browser (Chrome, Edge, Firefox, Safari)
+```text
+FoodIQ/
+├── backend/
+│   ├── alembic/                 # Database schema migrations
+│   ├── app/
+│   │   ├── analytics/           # 21 domain analytical modules
+│   │   ├── api/v1/              # FastAPI REST routes
+│   │   ├── core/                # Core utilities, logging, config
+│   │   ├── db/                  # SQLite connection and session setup
+│   │   ├── ingestion/           # Data ingestion pipelines
+│   │   ├── models/              # SQLAlchemy ORM models
+│   │   ├── schemas/             # Pydantic schemas and data contracts
+│   │   ├── services/            # Business validation services
+│   │   ├── config.py            # Application settings and paths
+│   │   └── main.py              # Application entrypoint
+│   └── tests/                   # 145 unit and integration tests
+├── frontend/
+│   ├── assets/                  # Logos and visual icons
+│   ├── css/                     # Styling sheets
+│   ├── js/                      # Workstation UI logic
+│   └── index.html               # Single-page workstation interface
+├── data/
+│   ├── processed/               # Canonical normalized datasets
+│   ├── reports/                 # Research report templates and exports
+│   └── foodiq.db                # Primary SQLite database
+├── docs/
+│   ├── ARCHITECTURE.md          # Comprehensive architecture overview
+│   ├── DATA_AND_METHODOLOGY.md  # Detailed financial & econometric formulas
+│   ├── API.md                   # REST API documentation
+│   └── DEVELOPMENT.md           # Setup, testing, and operations guide
+├── FoodIQ_Eternal_Compact/      # Eternal primary filings and extracted text
+├── FoodIQ_Swiggy_Compact/       # Swiggy primary filings and extracted text
+├── scripts/
+│   ├── backup_db.py             # Database snapshot utility
+│   ├── restore_db.py            # Database recovery utility
+│   └── verify_workflows.py      # End-to-end integration test runner
+├── .env.example                 # Environment configuration template
+├── .gitignore                   # Repository exclusion rules
+├── Dockerfile                   # Container definition
+├── docker-compose.yml           # Container orchestration
+├── requirements.txt             # Production dependencies
+├── run_foodiq.bat               # Windows startup script
+└── run_foodiq.sh                # Linux/macOS startup script
+```
 
-### Quick Start
+---
+
+## Installation and Execution
+
+### 1. Prerequisites
+- Python 3.10 or higher
+- Git
+
+### 2. Setup Environment
 ```bash
-# Clone the repository
 git clone https://github.com/rutpatel/FoodIQ.git
 cd FoodIQ
 
 # Create and activate virtual environment
 python -m venv venv
+
 # On Windows:
-.\venv\Scripts\activate
+venv\Scripts\activate
 # On Linux/macOS:
 source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
-
-# Start the application
-# Windows launcher:
-run_foodiq.bat
-# Linux/macOS launcher:
-./run_foodiq.sh
-# Or direct command:
-python -m uvicorn backend.app.main:app --host 0.0.0.0 --port 8000
 ```
 
-### Accessing the Platform
-- **Institutional Research Workstation:** Open your browser to `http://localhost:8000`
-- **Interactive REST API Documentation (Swagger):** `http://localhost:8000/docs`
-- **Alternative ReDoc Reference:** `http://localhost:8000/redoc`
+### 3. Start Application
+```bash
+python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000
+```
+- **Web Workstation UI:** [http://127.0.0.1:8000](http://127.0.0.1:8000)
+- **API Documentation (Swagger UI):** [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+- **Alternative Documentation (ReDoc):** [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
 
 ---
 
-## 5. Docker Deployment
+## Testing
+
+Execute the complete regression test suite:
 
 ```bash
-# Build and run with Docker Compose
-docker-compose up --build -d
-
-# Verify container health
-docker ps
-curl http://localhost:8000/api/v1/health
+pytest backend/tests/ -v
 ```
+
+Current test suite baseline: **145 tests passed across 19 test modules**.
 
 ---
 
-## 6. Tracing the 8 Core Research Workflows
+## Data and Methodology Notes
 
-To run the automated empirical trace across all 8 workflows:
-```bash
-python scripts/trace_8_workflows.py
-```
-
-1. **Workflow 1 (Financial Research):** Queries 105 Food Delivery metric observations, calculates take-rates and EBITDA margins in ~48ms.
-2. **Workflow 2 (Quick Commerce):** Computes duopoly store throughput, density, and market share gaps in <1ms.
-3. **Workflow 3 (Management Credibility):** Evaluates management scorecards, strictly isolating pending multi-year commitments in <1ms.
-4. **Workflow 4 (Quantitative Studies):** Executes 10 relationship studies with Benjamini-Hochberg FDR control in ~50ms.
-5. **Workflow 5 (Scenario Lab):** Computes Instamart break-even AOV (₹813.20) and runs 1,000 Monte Carlo draws.
-6. **Workflow 6 (Report Generation):** Compiles institutional reports across JSON, HTML, PDF, DOCX, and CSV in ~11s.
-7. **Workflow 7 (Disclosure Ingestion):** Ingests, checks SHA-256 deduplication, validates anomalies, and supports non-destructive rollback.
-8. **Workflow 8 (Extensions & Backup):** Queries dynamic plugin registries and runs hot database backup and integrity restore.
+- **Metric Comparability:** Company-reported metrics often use different accounting bases. For instance, Swiggy reports Quick Commerce contribution margin as a percentage of GOV, while early Blinkit disclosures referenced NOV. Direct cross-company subtractions between metrics with mismatched denominators are programmatically blocked under Tier 4 of the Comparability Framework.
+- **Data Integrity:** Values not explicitly disclosed in primary regulatory filings (e.g., Swiggy Food Delivery Net Order Value) are stored strictly as `NULL`. FoodIQ does not interpolate or fabricate missing financial data points.
+- **Econometric Guardrails:** Due to small sample sizes ($N = 10 \text{ to } 14$ quarters), all empirical regressions are subjected to Benjamini-Hochberg False Discovery Rate (FDR) adjustments at $q = 0.05$ and first-difference detrending to guard against spurious trending correlations.
 
 ---
 
-## 7. Testing & Quality Assurance
+## Limitations
 
-Run the complete 145-test suite:
-```bash
-python -m pytest backend/tests/ -v
-```
-
-Run test suite with code coverage:
-```bash
-python -m pytest backend/tests/ --cov=backend/app --cov-report=term-missing
-```
+- **Private Entity Comparisons:** Peer data for Zepto represents unlisted, unaudited secondary disclosures from funding filings and MCA records. These are designated as reference benchmarks and excluded from statutory econometric models.
+- **Reporting Horizon:** Indian quick commerce public filings span a limited time horizon (commencing FY24/FY25). Statistical relationships must be interpreted within their reported sample size boundaries.
+- **Non-Disclosed Segments:** Segmental Net Order Value for Swiggy Food Delivery remains unpublished by the company, preventing like-for-like NOV comparisons with Blinkit.
 
 ---
 
-## 8. Database Backup & Disaster Recovery
+## License
 
-```bash
-# Perform an online, hot backup of the production database
-python scripts/backup_db.py
-
-# Restore database from a verified snapshot with foreign-key check
-python scripts/restore_db.py data/backups/foodiq_backup_YYYYMMDD_HHMMSS.db
-```
-
----
-
-## 9. Research Limitations & Governance
-
-1. **Disclosed Data Boundaries:** FoodIQ only uses audited and published corporate disclosures. It deliberately refuses to impute private or unreleased operational data.
-2. **Missing Historical Quarters:** Swiggy did not disclose quarterly segment metrics prior to FY23 in its IPO prospectus; FoodIQ represents these periods as explicit `NULL`s.
-3. **Cross-Segment Elasticity Prohibition:** Empirical Quick Commerce elasticity parameters ($\beta = 0.9506$ bps/₹1) are strictly isolated and never applied to Food Delivery models.
-4. **Pending Guidance Isolation:** Long-term commitments with future target horizons are isolated from the denominator until maturity.
-
----
-
-## 10. Future Extensibility
-
-To extend FoodIQ with new companies, metrics, or analytical models, refer to the [Ultimate Architecture & Extension Guide](docs/ultimate_architecture_and_extension_guide.md).
-
-```python
-from backend.app.analytics.extension_framework import registry, CompanyPlugin
-# Dynamic onboarding supported via REST API and Python SDK
-```
-
----
-
-## 11. License
-
-Proprietary Institutional Research Platform. All rights reserved.
+This project is licensed under the MIT License. See `LICENSE` for details.

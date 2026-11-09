@@ -1,4 +1,0 @@
-lag,label,sample_size_n,degrees_of_freedom,pearson_r,r_squared,pearson_p_value,spearman_rho,spearman_p_value,t_statistic,ci_95_low,ci_95_high,is_significant_p05_nominal,is_significant_bonferroni,statistical_status
-0,Lag-0 (Coincident Levels: Q_t AOV vs Q_t CM),10,8,0.5531,0.3059,0.0973,0.4985,0.1425,1.8775,-0.1175,0.8772,False,False,INCONCLUSIVE_NOT_SIGNIFICANT
-1,Lag-1 (1-Quarter Lead Levels: Q_t AOV vs Q_{t+1} CM),9,7,0.6821,0.4652,0.043,0.5941,0.0916,2.4677,0.0328,0.9265,True,False,NOMINALLY_SIGNIFICANT_FAILS_BONFERRONI
-2,Lag-2 (2-Quarter Lead Levels: Q_t AOV vs Q_{t+2} CM),8,6,0.9149,0.837,0.0014,0.9222,0.0011,5.5514,0.5917,0.9847,True,True,STATISTICALLY_SIGNIFICANT_BONFERRONI_ROBUST
