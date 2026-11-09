@@ -102,8 +102,7 @@ FoodIQ/
 │   ├── DATA_AND_METHODOLOGY.md  # Detailed financial & econometric formulas
 │   ├── API.md                   # REST API documentation
 │   └── DEVELOPMENT.md           # Setup, testing, and operations guide
-├── FoodIQ_Eternal_Compact/      # Eternal primary filings and extracted text
-├── FoodIQ_Swiggy_Compact/       # Swiggy primary filings and extracted text
+├── archive/                     # Archived raw filings and research packages (local)
 ├── scripts/
 │   ├── backup_db.py             # Database snapshot utility
 │   ├── restore_db.py            # Database recovery utility

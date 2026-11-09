@@ -74,8 +74,7 @@ FoodIQ/
 │   ├── DATA_AND_METHODOLOGY.md  # Financial & econometric methodology
 │   ├── API.md                   # REST API documentation
 │   └── DEVELOPMENT.md           # Development, testing, and operations
-├── FoodIQ_Eternal_Compact/      # Eternal primary filings and extracted text
-├── FoodIQ_Swiggy_Compact/       # Swiggy primary filings and extracted text
+├── archive/                     # Archived raw filings and research packages (local)
 ├── scripts/                     # Operational utilities (backup, verify)
 ├── .env.example                 # Environment variables template
 ├── .gitignore                   # Production repository exclusions

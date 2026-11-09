@@ -12,8 +12,16 @@ class Settings(BaseModel):
     BASE_DIR: Path = BASE_DIR
     DATA_DIR: Path = BASE_DIR / "data"
     REPORTS_DIR: Path = BASE_DIR / "data" / "reports"
-    SWIGGY_PACK_DIR: Path = BASE_DIR / "FoodIQ_Swiggy_Compact"
-    ETERNAL_PACK_DIR: Path = BASE_DIR / "FoodIQ_Eternal_Compact"
+    SWIGGY_PACK_DIR: Path = (
+        (BASE_DIR / "archive" / "FoodIQ_Swiggy_Compact")
+        if (BASE_DIR / "archive" / "FoodIQ_Swiggy_Compact").exists()
+        else (BASE_DIR / "FoodIQ_Swiggy_Compact")
+    )
+    ETERNAL_PACK_DIR: Path = (
+        (BASE_DIR / "archive" / "FoodIQ_Eternal_Compact")
+        if (BASE_DIR / "archive" / "FoodIQ_Eternal_Compact").exists()
+        else (BASE_DIR / "FoodIQ_Eternal_Compact")
+    )
 
 settings = Settings()
 
