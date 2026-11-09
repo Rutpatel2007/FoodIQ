@@ -15,238 +15,197 @@
   <!-- Application Shell -->
   <div id="app-container">
     
-    <!-- Top Global Navigation Bar -->
-    <header id="top-bar">
-      <div class="top-bar-left">
-        <div class="brand-badge" onclick="app.switchTab('pane-overview')">
-          <div class="brand-icon">IQ</div>
-          <span class="brand-name">Food<span style="color:#10B981;">IQ</span></span>
-          <span class="brand-version">v1.1</span>
-          <span class="terminal-badge" style="margin-left:0.4rem;">TERMINAL v3.1</span>
+    <!-- 1. Left Persistent Sidebar (Full Height, 245px, Dark Navy #172638) -->
+    <aside id="sidebar">
+      <!-- Sidebar Brand Header matching reference -->
+      <div class="sidebar-brand" onclick="app.switchTab('tab-overview')">
+        <div class="brand-logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="24" height="24" rx="5" fill="#10B981"/>
+            <rect x="5" y="11" width="3.2" height="8" rx="1.2" fill="#FFFFFF"/>
+            <rect x="10.4" y="5" width="3.2" height="14" rx="1.2" fill="#FFFFFF"/>
+            <rect x="15.8" y="8" width="3.2" height="11" rx="1.2" fill="#FFFFFF"/>
+          </svg>
+        </div>
+        <div class="brand-title">Food<span class="brand-title-iq">IQ</span></div>
+        <span class="terminal-badge" style="display:none;">TERMINAL v3.1</span>
+      </div>
+
+      <!-- Sidebar Navigation Items -->
+      <div class="sidebar-nav-container">
+        <!-- Overview Button (active pill) -->
+        <button class="sidebar-nav-item active" data-pane="tab-overview" onclick="app.switchTab('tab-overview')">
+          <span class="nav-item-icon">🏠</span>
+          <span>Overview</span>
+        </button>
+
+        <div class="sidebar-section-title">Analysis</div>
+
+        <!-- 1. Company Intelligence Group -->
+        <div class="nav-group open" id="group-company">
+          <div class="nav-group-header" onclick="app.toggleNavGroup('group-company')">
+            <div class="nav-group-label">
+              <span class="nav-item-icon">🏢</span>
+              <span>Company Intelligence</span>
+            </div>
+            <span class="nav-chevron">⌄</span>
+          </div>
+          <div class="nav-sub-items">
+            <a class="nav-sub-link" onclick="app.selectCompany('Eternal')">Eternal (Zomato + Blinkit)</a>
+            <a class="nav-sub-link" onclick="app.selectCompany('Swiggy')">Swiggy</a>
+          </div>
         </div>
 
-        <!-- Global Search -->
+        <!-- 2. Financial Analysis Group -->
+        <div class="nav-group" id="group-financials">
+          <div class="nav-group-header" onclick="app.toggleNavGroup('group-financials')">
+            <div class="nav-group-label">
+              <span class="nav-item-icon">📊</span>
+              <span>Financial Analysis</span>
+            </div>
+            <span class="nav-chevron">⌄</span>
+          </div>
+          <div class="nav-sub-items">
+            <a class="nav-sub-link" onclick="app.switchSubTab('tab-financials', 'decomp')">Revenue & Decomposition</a>
+            <a class="nav-sub-link" onclick="app.switchSubTab('tab-financials', 'margin-bridge')">Margin Bridge (Take Rate)</a>
+            <a class="nav-sub-link" onclick="app.switchSubTab('tab-financials', 'leverage')">Operating Leverage</a>
+          </div>
+        </div>
+
+        <!-- 3. Unit Economics Group -->
+        <div class="nav-group" id="group-unit-econ">
+          <div class="nav-group-header" onclick="app.toggleNavGroup('group-unit-econ')">
+            <div class="nav-group-label">
+              <span class="nav-item-icon">📦</span>
+              <span>Unit Economics</span>
+            </div>
+            <span class="nav-chevron">⌄</span>
+          </div>
+          <div class="nav-sub-items">
+            <a class="nav-sub-link" onclick="app.switchSubTab('tab-unit-economics', 'per-order')">Food Delivery Economics</a>
+            <a class="nav-sub-link" onclick="app.switchSubTab('tab-unit-economics', 'dark-stores')">Quick Commerce (Dark Stores)</a>
+            <a class="nav-sub-link" onclick="app.switchSubTab('tab-unit-economics', 'throughput')">Throughput / Store-Day</a>
+          </div>
+        </div>
+
+        <!-- 4. Competitive Benchmarking -->
+        <button class="sidebar-nav-item" data-pane="tab-competitive" onclick="app.switchTab('tab-competitive')">
+          <span class="nav-item-icon">🏆</span>
+          <span>Competitive Benchmarking</span>
+        </button>
+
+        <!-- 5. Quantitative Research -->
+        <button class="sidebar-nav-item" data-pane="tab-quantitative" onclick="app.switchTab('tab-quantitative')">
+          <span class="nav-item-icon">Σ</span>
+          <span>Quantitative Research</span>
+        </button>
+
+        <!-- 6. Scenario Lab -->
+        <button class="sidebar-nav-item" data-pane="tab-scenarios" onclick="app.switchTab('tab-scenarios')">
+          <span class="nav-item-icon">🎛️</span>
+          <span>Scenario Lab</span>
+        </button>
+
+        <!-- 7. Management Tracker -->
+        <button class="sidebar-nav-item" data-pane="tab-credibility" onclick="app.switchTab('tab-credibility')">
+          <span class="nav-item-icon">🎯</span>
+          <span>Management Tracker</span>
+        </button>
+
+        <!-- 8. Evidence Explorer -->
+        <button class="sidebar-nav-item" data-pane="tab-sources" onclick="app.switchTab('tab-sources')">
+          <span class="nav-item-icon">📑</span>
+          <span>Evidence Explorer</span>
+        </button>
+
+        <!-- 9. Report Studio -->
+        <div class="nav-group" id="group-reports">
+          <div class="nav-group-header" onclick="app.toggleNavGroup('group-reports')">
+            <div class="nav-group-label">
+              <span class="nav-item-icon">📄</span>
+              <span>Report Studio</span>
+            </div>
+            <span class="nav-chevron">⌄</span>
+          </div>
+          <div class="nav-sub-items">
+            <a class="nav-sub-link" onclick="app.switchSubTab('tab-reports', 'generate')">Generate Research Report</a>
+            <a class="nav-sub-link" onclick="app.switchSubTab('tab-reports', 'export')">Export to PDF / HTML</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Data Status Card in Sidebar -->
+      <div class="sidebar-status-card">
+        <div class="status-card-header">
+          <span class="status-card-title">Data Status</span>
+          <div class="status-indicator-live">
+            <span class="pulsing-dot"></span>
+            <span class="status-live-text">Live</span>
+          </div>
+        </div>
+        <div class="status-row">
+          <span>Source Documents</span>
+          <span class="status-row-val" id="stat-docs">14</span>
+        </div>
+        <div class="status-row">
+          <span>Total PDF Pages</span>
+          <span class="status-row-val" id="stat-pages">513</span>
+        </div>
+        <div class="status-row">
+          <span>Metric Observations</span>
+          <span class="status-row-val" id="stat-obs">570</span>
+        </div>
+        <div class="status-row" style="margin-top:0.35rem; padding-top:0.35rem; border-top:1px solid rgba(255,255,255,0.08);">
+          <span>Last Updated</span>
+          <span class="status-row-val" style="color:#CBD5E1;">09 Nov 2026</span>
+        </div>
+        <div class="sidebar-version-tag">v1.1</div>
+      </div>
+    </aside>
+
+    <!-- 2. Right Main Wrapper (Top Bar + Main Content) -->
+    <div id="main-wrapper">
+      
+      <!-- Top Navigation Bar (White Institutional Style) -->
+      <header id="top-bar">
+        <!-- Global Search Input on Left -->
         <div class="global-search-container">
-          <span class="search-icon-left">🔍</span>
+          <span class="search-icon-left">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8493A6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </span>
           <input type="text" id="global-search-input" class="global-search-input" placeholder="Search companies, metrics, disclosures..." autocomplete="off">
           <span class="search-shortcut-right">Ctrl + K</span>
           <div id="global-search-dropdown" class="search-dropdown-menu"></div>
         </div>
-      </div>
 
-      <div class="top-bar-right">
-        <!-- Sector Selector Pill -->
-        <div class="top-pill">
-          <span>India • Food & Q-Commerce</span>
-          <span style="font-size:0.65rem;">▼</span>
-        </div>
+        <!-- Top Bar Right Controls -->
+        <div class="top-bar-right">
+          <!-- Region / Sector Pill -->
+          <div class="top-pill">
+            <span>India • Food & Q-Commerce</span>
+            <span class="top-pill-chevron">⌄</span>
+          </div>
 
-        <!-- Theme Toggle Button -->
-        <button id="theme-toggle-btn" class="top-icon-btn" title="Toggle Theme (Light / Dark)" onclick="app.toggleTheme()">
-          🌓
-        </button>
-
-        <!-- Notifications Indicator -->
-        <button class="top-icon-btn" title="Audit Notifications" onclick="app.switchTab('pane-sources')">
-          🔔
-          <span class="notification-badge"></span>
-        </button>
-
-        <!-- Methodology Help Button -->
-        <button id="btn-methodology" class="top-icon-btn" title="Epistemic Standards & Methodology" onclick="app.openModal('modal-methodology')">
-          ❓
-        </button>
-
-        <!-- User Profile Avatar -->
-        <div class="user-avatar-badge" title="Institutional Analyst Session">
-          KA
-        </div>
-      </div>
-    </header>
-
-    <!-- App Body: Sidebar + Main Content -->
-    <div id="app-body">
-      
-      <!-- Left Persistent Sidebar -->
-      <aside id="sidebar">
-        <div class="sidebar-nav-container">
-          <!-- Overview Button -->
-          <button class="sidebar-overview-btn active" data-pane="pane-overview" onclick="app.switchTab('pane-overview')">
-            <span>🏠</span>
-            <span>Overview</span>
+          <!-- Notification Bell -->
+          <button class="top-icon-btn" title="Audit Notifications" onclick="app.switchTab('tab-sources')">
+            <span style="font-size:1.05rem;">🔔</span>
+            <span class="notification-badge-dot"></span>
           </button>
 
-          <div class="sidebar-section-title">Analysis</div>
+          <!-- Help / Methodology Button -->
+          <button class="top-icon-btn" title="Epistemic Standards & Methodology" onclick="app.openModal('modal-methodology')">
+            <span class="help-circle">?</span>
+          </button>
 
-          <!-- 1. Company Intelligence Group -->
-          <div class="nav-group open" id="group-company">
-            <div class="nav-group-header" onclick="app.toggleNavGroup('group-company')">
-              <div class="nav-group-label">
-                <span>🏢</span>
-                <span>Company Intelligence</span>
-              </div>
-              <span class="nav-chevron">▶</span>
-            </div>
-            <div class="nav-sub-items">
-              <a class="nav-sub-link" onclick="app.selectCompany('Eternal')">Eternal (Zomato + Blinkit)</a>
-              <a class="nav-sub-link" onclick="app.selectCompany('Swiggy')">Swiggy</a>
-            </div>
-          </div>
-
-          <!-- 2. Financial Analysis Group -->
-          <div class="nav-group" id="group-financials">
-            <div class="nav-group-header" onclick="app.toggleNavGroup('group-financials')">
-              <div class="nav-group-label">
-                <span>📊</span>
-                <span>Financial Analysis</span>
-              </div>
-              <span class="nav-chevron">▶</span>
-            </div>
-            <div class="nav-sub-items">
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-financials', 'decomp')">Revenue & Decomposition</a>
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-financials', 'margin-bridge')">Margin Bridge (Take Rate)</a>
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-financials', 'leverage')">Operating Leverage</a>
-            </div>
-          </div>
-
-          <!-- 3. Unit Economics Group -->
-          <div class="nav-group" id="group-unit-econ">
-            <div class="nav-group-header" onclick="app.toggleNavGroup('group-unit-econ')">
-              <div class="nav-group-label">
-                <span>📦</span>
-                <span>Unit Economics</span>
-              </div>
-              <span class="nav-chevron">▶</span>
-            </div>
-            <div class="nav-sub-items">
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-unit-economics', 'per-order')">Food Delivery Economics</a>
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-unit-economics', 'dark-stores')">Quick Commerce (Dark Stores)</a>
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-unit-economics', 'throughput')">Throughput / Store-Day</a>
-            </div>
-          </div>
-
-          <!-- 4. Competitive Benchmarking -->
-          <div class="nav-group" id="group-competitive">
-            <div class="nav-group-header" onclick="app.toggleNavGroup('group-competitive')">
-              <div class="nav-group-label">
-                <span>🏆</span>
-                <span>Competitive Benchmarking</span>
-              </div>
-              <span class="nav-chevron">▶</span>
-            </div>
-            <div class="nav-sub-items">
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-competitive', 'gaps')">Peer Comparison Matrix</a>
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-competitive', 'structural-breaks')">Structural Breaks (Blinkit 1P)</a>
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-competitive', 'governance')">Comparability Governance</a>
-            </div>
-          </div>
-
-          <!-- 5. Quantitative Research -->
-          <div class="nav-group" id="group-quantitative">
-            <div class="nav-group-header" onclick="app.toggleNavGroup('group-quantitative')">
-              <div class="nav-group-label">
-                <span>Σ</span>
-                <span>Quantitative Research</span>
-              </div>
-              <span class="nav-chevron">▶</span>
-            </div>
-            <div class="nav-sub-items">
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-quantitative', 'studies')">10 Econometric Studies</a>
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-quantitative', 'workbench')">Research Question Workbench</a>
-            </div>
-          </div>
-
-          <!-- 6. Scenario Lab -->
-          <div class="nav-group" id="group-scenarios">
-            <div class="nav-group-header" onclick="app.toggleNavGroup('group-scenarios')">
-              <div class="nav-group-label">
-                <span>🎛️</span>
-                <span>Scenario Lab</span>
-              </div>
-              <span class="nav-chevron">▶</span>
-            </div>
-            <div class="nav-sub-items">
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-scenarios', 'simulation')">Interactive Simulation</a>
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-scenarios', 'sensitivity')">Sensitivity Heatmap</a>
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-scenarios', 'breakeven')">Breakeven Modelling</a>
-            </div>
-          </div>
-
-          <!-- 7. Management Tracker -->
-          <div class="nav-group" id="group-credibility">
-            <div class="nav-group-header" onclick="app.toggleNavGroup('group-credibility')">
-              <div class="nav-group-label">
-                <span>🎯</span>
-                <span>Management Tracker</span>
-              </div>
-              <span class="nav-chevron">▶</span>
-            </div>
-            <div class="nav-sub-items">
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-credibility', 'scorecard')">Guidance Scorecard</a>
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-credibility', 'commitments')">Commitment Register</a>
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-credibility', 'statements')">Statement Transcripts</a>
-            </div>
-          </div>
-
-          <!-- 8. Evidence Explorer -->
-          <div class="nav-group" id="group-sources">
-            <div class="nav-group-header" onclick="app.toggleNavGroup('group-sources')">
-              <div class="nav-group-label">
-                <span>📑</span>
-                <span>Evidence Explorer</span>
-              </div>
-              <span class="nav-chevron">▶</span>
-            </div>
-            <div class="nav-sub-items">
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-sources', 'documents')">Source Documents (14)</a>
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-sources', 'definitions')">Metric Lineage & Definitions</a>
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-sources', 'flags')">Data Quality Flags</a>
-            </div>
-          </div>
-
-          <!-- 9. Report Studio -->
-          <div class="nav-group" id="group-reports">
-            <div class="nav-group-header" onclick="app.toggleNavGroup('group-reports')">
-              <div class="nav-group-label">
-                <span>📄</span>
-                <span>Report Studio</span>
-              </div>
-              <span class="nav-chevron">▶</span>
-            </div>
-            <div class="nav-sub-items">
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-reports', 'generate')">Generate Research Report</a>
-              <a class="nav-sub-link" onclick="app.switchSubTab('pane-reports', 'export')">Export to PDF / HTML</a>
-            </div>
+          <!-- User Profile Avatar -->
+          <div class="user-avatar-badge" title="Institutional Analyst Session">
+            KA
           </div>
         </div>
-
-        <!-- Bottom Data Status Card -->
-        <div class="sidebar-status-card">
-          <div class="status-card-header">
-            <span class="status-card-title">Data Status</span>
-            <div class="status-indicator-live">
-              <div class="pulsing-dot"></div>
-              <span>Live</span>
-            </div>
-          </div>
-          <div class="status-row">
-            <span>Source Documents</span>
-            <span class="status-row-val" id="stat-docs">14</span>
-          </div>
-          <div class="status-row">
-            <span>Total PDF Pages</span>
-            <span class="status-row-val" id="stat-pages">513</span>
-          </div>
-          <div class="status-row">
-            <span>Metric Observations</span>
-            <span class="status-row-val" id="stat-obs">570</span>
-          </div>
-          <div class="status-card-footer">
-            <span>Last Updated</span>
-            <span style="font-weight:600; color:#CBD5E1;">09 Nov 2026</span>
-          </div>
-        </div>
-      </aside>
+      </header>
 
       <!-- Main Workspace Viewport -->
       <main id="main-content">
@@ -369,34 +328,17 @@
                   <div class="quant-quick-list" id="overview-quant-container">
                     <!-- Populated dynamically -->
                   </div>
-                  <a class="quant-view-all" onclick="app.switchTab('pane-quantitative')">View all 10 studies →</a>
-                </div>
-              </div>
-
-              <!-- Stack 3: Scenario Lab -->
-              <div class="card">
-                <div class="card-header" style="padding:0.65rem 1rem;">
-                  <div class="card-title" style="font-size:0.85rem; display:flex; align-items:center; gap:0.35rem;">
-                    <span>🎛️</span>
-                    <span>Scenario Lab</span>
-                  </div>
-                </div>
-                <div class="card-body" style="padding:0.75rem 1rem;">
-                  <div class="scenario-quick-desc">Model business outcomes under different assumptions (AOV, take rate, store additions, growth).</div>
-                  <button class="btn-primary-action" onclick="app.switchTab('pane-scenarios')">
-                    <span>Open Scenario Lab</span>
-                    <span>→</span>
-                  </button>
+                  <a class="quant-view-all" onclick="app.switchTab('tab-quantitative')">View all 12 studies →</a>
                 </div>
               </div>
 
             </div>
           </div>
 
-          <!-- Section C: Bottom Row (Segment Performance Table + AOV vs CM Scatter Plot) -->
+          <!-- Section C: Bottom Row (Segment Performance Table + AOV vs CM Scatter Plot + Scenario Lab) -->
           <div class="bottom-row-grid">
             
-            <!-- Left Table: Segment Performance -->
+            <!-- Column 1: Segment Performance Table -->
             <div class="card">
               <div class="card-header">
                 <div class="card-title" id="segment-table-title">Segment Performance – Q2 FY27</div>
@@ -426,16 +368,34 @@
               </div>
             </div>
 
-            <!-- Right Chart: AOV vs Contribution Margin (QC) Scatter -->
+            <!-- Column 2: AOV vs Contribution Margin (QC) Scatter -->
             <div class="card">
               <div class="card-header">
                 <div class="card-title">AOV vs Contribution Margin (QC)</div>
                 <div class="card-controls">
-                  <span class="badge badge-level-2" style="font-size:0.7rem;">OLS REGRESSION</span>
+                  <span class="badge badge-r2-blinkit">R² = 0.884</span>
+                  <span class="badge badge-r2-instamart">R² = 0.712</span>
                 </div>
               </div>
-              <div class="card-body" style="position:relative; height:280px;">
+              <div class="card-body" style="position:relative; height:240px; padding:0.6rem 0.8rem;">
                 <canvas id="aovScatterChart"></canvas>
+              </div>
+            </div>
+
+            <!-- Column 3: Scenario Lab -->
+            <div class="card">
+              <div class="card-header">
+                <div class="card-title" style="display:flex; align-items:center; gap:0.4rem;">
+                  <span>🎛️</span>
+                  <span>Scenario Lab</span>
+                </div>
+              </div>
+              <div class="card-body" style="display:flex; flex-direction:column; justify-content:space-between; padding:1.1rem;">
+                <div class="scenario-quick-desc">Model business outcomes under different assumptions (AOV, take rate, store additions, growth).</div>
+                <button class="btn-primary-action" onclick="app.switchTab('tab-scenarios')">
+                  <span>Open Scenario Lab</span>
+                  <span>→</span>
+                </button>
               </div>
             </div>
 

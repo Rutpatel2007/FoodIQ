@@ -734,19 +734,25 @@ def export_report_to_pdf(report_data: Dict[str, Any], output_path: str) -> str:
     if not browser_bin:
         raise RuntimeError("No headless browser found for PDF compilation.")
         
+    import tempfile
     abs_pdf = os.path.abspath(output_path)
     abs_html = os.path.abspath(temp_html)
     url = "file:///" + abs_html.replace("\\", "/")
     
-    cmd = [
-        browser_bin,
-        "--headless=new",
-        "--disable-gpu",
-        f"--print-to-pdf={abs_pdf}",
-        url
-    ]
-    
-    subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+    with tempfile.TemporaryDirectory() as user_data_dir:
+        cmd = [
+            browser_bin,
+            "--headless=new",
+            "--disable-gpu",
+            "--no-sandbox",
+            "--no-first-run",
+            "--no-default-browser-check",
+            f"--user-data-dir={user_data_dir}",
+            f"--print-to-pdf={abs_pdf}",
+            url
+        ]
+        
+        subprocess.run(cmd, capture_output=True, text=True, timeout=30)
     
     if os.path.exists(temp_html):
         try:

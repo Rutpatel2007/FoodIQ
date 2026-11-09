@@ -290,13 +290,21 @@ class FoodIQApp {
 
     // 1. Render Section A: 4 Executive KPI Cards
     const kpiContainer = document.getElementById('overview-kpi-container');
+    const kpiIcons = {
+      kpi_gov_nov: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.48 2 2 3.79 2 6s4.48 4 10 4 10-1.79 10-4-4.48-4-10-4z"></path><path d="M2 12c0 2.21 4.48 4 10 4s10-1.79 10-4"></path><path d="M2 6v12c0 2.21 4.48 4 10 4s10-1.79 10-4V6"></path></svg>`,
+      kpi_revenue: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line><path d="M4 14l6-6 4 4 6-6"></path></svg>`,
+      kpi_adj_ebitda: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6366F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>`,
+      kpi_contribution_margin: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="9" y1="15" x2="15" y2="9"></line><circle cx="9.5" cy="9.5" r="1" fill="#F59E0B"></circle><circle cx="14.5" cy="14.5" r="1" fill="#F59E0B"></circle></svg>`
+    };
+
     if (kpiContainer && data.executive_kpis) {
       kpiContainer.innerHTML = data.executive_kpis.map(k => `
         <div class="kpi-card" onclick="app.showKpiModal('${k.id}', '${k.title}')">
           <div class="kpi-card-header">
             <div class="kpi-title-wrapper">
+              <span class="kpi-icon-wrap">${kpiIcons[k.id] || '📊'}</span>
               <span>${k.title}</span>
-              <span class="kpi-info-icon" title="${k.tooltip}">ℹ️</span>
+              <span class="kpi-info-icon" title="${k.tooltip}">ⓘ</span>
             </div>
             <div class="kpi-delta-pill ${k.yoy_trend || 'positive'}">
               <span>▲</span>
@@ -335,18 +343,18 @@ class FoodIQApp {
       const e = data.management_commitments.eternal;
       const s = data.management_commitments.swiggy;
       commitmentsContainer.innerHTML = `
-        <div class="commitment-company-row" onclick="app.switchTab('pane-credibility')">
+        <div class="commitment-company-row" onclick="app.switchTab('tab-credibility')">
           <span class="commitment-company-name">${e.company}</span>
-          <div class="commitment-circle-gauge num">${e.delivery_rate_pct}%</div>
+          <div class="commitment-circle-gauge eternal num">${e.delivery_rate_pct}%</div>
           <div class="commitment-details">
             <strong>${e.delivered_count} / ${e.evaluable_count} Delivered</strong>
             <span>${e.pending_count} Pending</span>
           </div>
           <span class="commitment-chevron">›</span>
         </div>
-        <div class="commitment-company-row" onclick="app.switchTab('pane-credibility')">
+        <div class="commitment-company-row" onclick="app.switchTab('tab-credibility')">
           <span class="commitment-company-name">${s.company}</span>
-          <div class="commitment-circle-gauge num">${s.delivery_rate_pct}%</div>
+          <div class="commitment-circle-gauge swiggy num">${s.delivery_rate_pct}%</div>
           <div class="commitment-details">
             <strong>${s.delivered_count} / ${s.evaluable_count} Delivered</strong>
             <span>${s.pending_count} Pending</span>
@@ -515,7 +523,8 @@ class FoodIQApp {
           legend: {
             position: 'bottom',
             labels: {
-              boxWidth: 12,
+              boxWidth: 10,
+              usePointStyle: true,
               padding: 14,
               color: textColor,
               font: { family: 'Inter', size: 11, weight: '500' }
@@ -651,7 +660,7 @@ class FoodIQApp {
         datasets: [
           {
             type: 'scatter',
-            label: `Blinkit (Eternal) [${scatterData.blinkit.r_squared_formatted}]`,
+            label: 'Blinkit (Eternal)',
             data: bPts,
             backgroundColor: '#2563EB',
             borderColor: '#2563EB',
@@ -669,7 +678,7 @@ class FoodIQApp {
           },
           {
             type: 'scatter',
-            label: `Instamart (Swiggy) [${scatterData.instamart.r_squared_formatted}]`,
+            label: 'Instamart (Swiggy)',
             data: iPts,
             backgroundColor: '#EA8A24',
             borderColor: '#EA8A24',
@@ -694,7 +703,9 @@ class FoodIQApp {
           legend: {
             position: 'bottom',
             labels: {
-              boxWidth: 10,
+              boxWidth: 8,
+              usePointStyle: true,
+              pointStyle: 'circle',
               padding: 12,
               color: textColor,
               filter: item => !item.text.includes('OLS'),
