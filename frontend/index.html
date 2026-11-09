@@ -61,7 +61,8 @@
         </div>
 
         <div class="search-box">
-          <input type="text" id="global-search-input" placeholder="Search metrics, findings, promises, notes...">
+          <input type="text" id="global-search-input" placeholder="Search metrics, findings, commitments..." autocomplete="off">
+          <div id="global-search-dropdown" class="search-dropdown"></div>
         </div>
 
         <div class="action-badges">
@@ -72,18 +73,46 @@
     </header>
 
     <!-- Workstation Navigation Tabs -->
-    <nav id="workspace-nav">
-      <button class="nav-tab active" data-tab="tab-overview">Overview</button>
-      <button class="nav-tab" data-tab="tab-company">Company Analysis</button>
-      <button class="nav-tab" data-tab="tab-financials">Financial Performance</button>
-      <button class="nav-tab" data-tab="tab-competitive">Competitive Intelligence</button>
-      <button class="nav-tab" data-tab="tab-credibility">Management Credibility</button>
-      <button class="nav-tab" data-tab="tab-quantitative">Quantitative Research</button>
-      <button class="nav-tab" data-tab="tab-scenarios">Scenario Lab</button>
-      <button class="nav-tab" data-tab="tab-library">Research Library</button>
-      <button class="nav-tab" data-tab="tab-sources">Data & Sources</button>
-      <button class="nav-tab" data-tab="tab-governance">Governance & API</button>
-    </nav>
+    <div class="nav-wrapper">
+      <nav id="workspace-nav">
+        <button class="nav-tab active" data-tab="tab-overview">Overview</button>
+        <button class="nav-tab" data-tab="tab-company">Company Analysis</button>
+        <button class="nav-tab" data-tab="tab-financials">Financial Performance</button>
+        <button class="nav-tab" data-tab="tab-competitive">Competitive Intelligence</button>
+        <button class="nav-tab" data-tab="tab-credibility">Management Credibility</button>
+        <button class="nav-tab" data-tab="tab-quantitative">Quantitative Research</button>
+        <button class="nav-tab" data-tab="tab-scenarios">Scenario Lab</button>
+        <button class="nav-tab" data-tab="tab-library">Research Library</button>
+        <button class="nav-tab" data-tab="tab-sources">Data & Sources</button>
+        <button class="nav-tab" data-tab="tab-governance">Governance & API</button>
+      </nav>
+    </div>
+
+    <!-- Mobile Navigation Switcher -->
+    <div class="mobile-nav-wrapper">
+      <label for="mobile-workspace-select">Workspace</label>
+      <select id="mobile-workspace-select" onchange="app.switchTab(this.value)">
+        <option value="tab-overview">1. Executive Overview</option>
+        <option value="tab-company">2. Company Analysis</option>
+        <option value="tab-financials">3. Financial Performance</option>
+        <option value="tab-competitive">4. Competitive Intelligence</option>
+        <option value="tab-credibility">5. Management Credibility</option>
+        <option value="tab-quantitative">6. Quantitative Research</option>
+        <option value="tab-scenarios">7. Scenario Lab</option>
+        <option value="tab-library">8. Research Library</option>
+        <option value="tab-sources">9. Data & Sources</option>
+        <option value="tab-governance">10. Governance & API</option>
+      </select>
+    </div>
+
+    <!-- Active Filter Notification Strip -->
+    <div id="active-filter-banner" class="active-filter-banner">
+      <span class="active-filter-label">Active Filter:</span>
+      <span class="filter-pill company" id="banner-company-pill">Company: All (Eternal + Swiggy)</span>
+      <span class="filter-pill period" id="banner-period-pill">Period: Q2 FY27 (Latest Audited)</span>
+      <span class="filter-pill segment" id="banner-segment-pill">Segment: All Business Segments</span>
+      <button class="filter-reset-btn" onclick="app.resetGlobalFilters()" title="Reset to default filters">↺ Reset</button>
+    </div>
 
     <!-- Main Content Workspace Area -->
     <main id="workspace-content">
@@ -108,7 +137,8 @@
             </div>
             <div class="card-body">
               <div class="chart-container" id="overview-trend-chart-container">
-                <canvas id="overviewTrendCanvas" width="560" height="240"></canvas>
+                <canvas id="overviewTrendCanvas"></canvas>
+                <div id="overview-chart-tooltip" class="chart-tooltip"></div>
               </div>
               <div class="chart-legend" id="overview-chart-legend"></div>
             </div>
@@ -347,6 +377,19 @@
         </div>
       </section>
     </main>
+
+    <!-- Modal: Segment & Metric Drill-Down Modal -->
+    <div id="modal-drilldown" class="modal-overlay hidden">
+      <div class="modal-content large">
+        <div class="modal-header">
+          <h3 id="drilldown-title">Segment Performance & Historical Lineage</h3>
+          <button class="close-btn" onclick="app.closeModal('modal-drilldown')">&times;</button>
+        </div>
+        <div class="modal-body" id="drilldown-body">
+          <!-- Dynamic drilldown content -->
+        </div>
+      </div>
+    </div>
 
     <!-- Modal: Source Evidence & Citation Viewer -->
     <div id="modal-evidence" class="modal-overlay hidden">

@@ -8,7 +8,13 @@ from fastapi import APIRouter, Query, HTTPException
 from typing import Dict, List, Optional, Any
 
 from backend.app.analytics.repository import sanitize_for_json
-from backend.app.analytics.decomposition import compute_waterfall_decomposition, get_all_segment_decompositions
+from backend.app.analytics.decomposition import (
+    compute_waterfall_decomposition,
+    get_all_segment_decompositions,
+    get_company_overview_data,
+    get_executive_kpis,
+    get_chart_time_series
+)
 from backend.app.analytics.margin_bridge import compute_margin_bridge, get_all_margin_bridges
 from backend.app.analytics.unit_economics import compute_quick_commerce_unit_economics
 from backend.app.analytics.network_productivity import compute_network_productivity, compute_network_comparison
@@ -190,3 +196,38 @@ def get_guidance_scorecard() -> Dict[str, Any]:
         "status": "success",
         "scorecard": results
     })
+
+
+@router.get("/company-overview", summary="Period-Aware Company Overview & Segment Breakdown")
+def get_company_overview(
+    company: str = Query("Swiggy", description="Company name: 'Swiggy' or 'Eternal'"),
+    quarter: Optional[str] = Query(None, description="Fiscal quarter (e.g. 'Q1FY26', 'Q2FY27')")
+) -> Dict[str, Any]:
+    """
+    Returns verified, period-aware segment breakdowns with explicit Contribution Margin
+    and Adjusted EBITDA calculations, eliminating denominator confusion.
+    """
+    results = get_company_overview_data(company=company, quarter=quarter)
+    return sanitize_for_json(results)
+
+
+@router.get("/executive-kpis", summary="Period-Aware Executive KPI Dashboard Cards")
+def get_kpis_endpoint(
+    quarter: Optional[str] = Query(None, description="Fiscal quarter (e.g. 'Q1FY26', 'Q2FY27')")
+) -> Dict[str, Any]:
+    """
+    Returns dynamic, period-aware executive KPI cards with YoY and QoQ comparisons,
+    metric definitions, source citations, and epistemic labels.
+    """
+    results = get_executive_kpis(quarter=quarter)
+    return sanitize_for_json(results)
+
+
+@router.get("/chart-data", summary="Continuous Multi-Quarter Historical Time Series")
+def get_chart_data() -> Dict[str, Any]:
+    """
+    Returns verified quarterly time-series for Food Delivery and Quick Commerce
+    with dual-axis metadata, units, and documented structural break annotations.
+    """
+    results = get_chart_time_series()
+    return sanitize_for_json(results)

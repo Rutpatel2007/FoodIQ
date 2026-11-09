@@ -44,8 +44,12 @@ Unlike consumer stock dashboards or simple financial ratio aggregators, FoodIQ s
 
 6. **Institutional Research Workstation:**
    - High-density, professional terminal interface with 10 analytical workspaces.
-   - Zero-dependency HTML5 / modern ES6 architecture with native vector canvas rendering.
-   - Interactive metric inspector, dynamic scenario sliders, and page-level document evidence viewer.
+   - Zero-dependency HTML5 / modern ES6 architecture with native responsive vector canvas rendering.
+   - Multi-viewport responsive layouts (Desktop, Laptop, Tablet, Mobile) with mobile workspace dropdown navigation.
+   - Active filter status banner with one-click filter reset and dismissible pill chips.
+   - Dynamic, period-parameterized data fetching (`/company-overview`, `/executive-kpis`, `/chart-data`).
+   - Reconciled financial displays strictly distinguishing Contribution Margin from Segment Adjusted EBITDA.
+   - Interactive metric inspector, drilldown modals, dynamic scenario sliders, and page-level document evidence viewer.
 
 7. **Institutional Research Report Studio:**
    - 9 automated institutional report archetypes (Comprehensive Dossier, Duopoly Benchmark, Quick Commerce Deep Dive, etc.).
