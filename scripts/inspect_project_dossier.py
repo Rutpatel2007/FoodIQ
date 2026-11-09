@@ -4,7 +4,11 @@ Inspects SQLite DB tables, columns, rows, foreign keys, routes, analytics engine
 """
 import sqlite3
 import os
+import sys
 import json
+
+sys.path.insert(0, os.path.abspath('.'))
+
 from fastapi.testclient import TestClient
 from backend.app.main import app
 
