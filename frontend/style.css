@@ -1073,16 +1073,18 @@ html, body {
   background: var(--bg-table-header);
   color: var(--text-secondary);
   font-weight: 700;
-  padding: 0.6rem 0.85rem;
+  padding: 0.45rem 0.65rem;
   border-bottom: 1px solid var(--border-color);
   white-space: nowrap;
+  font-size: 0.78rem;
 }
 
 .financial-table td {
-  padding: 0.6rem 0.85rem;
+  padding: 0.45rem 0.65rem;
   border-bottom: 1px solid var(--border-subtle);
   color: var(--text-primary);
   white-space: nowrap;
+  font-size: 0.8rem;
 }
 
 .financial-table tr:hover td {

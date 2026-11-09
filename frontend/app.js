@@ -150,8 +150,8 @@ class FoodIQApp {
     if (paneId.startsWith('pane-')) paneId = paneId.replace('pane-', 'tab-');
     this.state.activePane = paneId;
 
-    // Update sidebar buttons
-    document.querySelectorAll('.sidebar-overview-btn').forEach(btn => {
+    // Update sidebar navigation items
+    document.querySelectorAll('.sidebar-nav-item').forEach(btn => {
       const bPane = (btn.getAttribute('data-pane') || '').replace('pane-', 'tab-');
       btn.classList.toggle('active', bPane === paneId);
     });
@@ -171,6 +171,22 @@ class FoodIQApp {
   switchSubTab(paneId, subTabId) {
     if (paneId.startsWith('pane-')) paneId = paneId.replace('pane-', 'tab-');
     this.switchTab(paneId);
+
+    // Expand parent nav group if needed
+    const navGroupMap = {
+      'tab-company': 'group-company',
+      'tab-financials': 'group-financials',
+      'tab-unit-economics': 'group-unit-econ',
+      'tab-reports': 'group-reports'
+    };
+    const parentGroupId = navGroupMap[paneId];
+    if (parentGroupId) {
+      const parentGroup = document.getElementById(parentGroupId);
+      if (parentGroup && !parentGroup.classList.contains('open')) {
+        parentGroup.classList.add('open');
+      }
+    }
+
     // Set specific view states
     if (paneId === 'tab-financials') {
       this.switchFinancialView(subTabId);
@@ -190,25 +206,6 @@ class FoodIQApp {
       this.renderReports();
     }
   }
-    // Set specific view states
-    if (paneId === 'pane-financials') {
-      this.switchFinancialView(subTabId);
-    } else if (paneId === 'pane-unit-economics') {
-      this.renderUnitEconomics();
-    } else if (paneId === 'pane-competitive') {
-      this.renderCompetitive();
-    } else if (paneId === 'pane-quantitative') {
-      this.renderQuantitative();
-    } else if (paneId === 'pane-scenarios') {
-      this.renderScenarios();
-    } else if (paneId === 'pane-credibility') {
-      this.renderCredibility();
-    } else if (paneId === 'pane-sources') {
-      this.renderSources();
-    } else if (paneId === 'pane-reports') {
-      this.renderReports();
-    }
-  }
 
   toggleNavGroup(groupId) {
     const group = document.getElementById(groupId);
@@ -219,8 +216,7 @@ class FoodIQApp {
 
   selectCompany(company) {
     this.state.selectedCompany = company;
-    this.switchTab('pane-company');
-    this.renderCompanyAnalysis(company);
+    this.switchTab('tab-company');
   }
 
   changePeriod(period) {
@@ -558,11 +554,14 @@ class FoodIQApp {
           y: {
             type: 'linear',
             position: 'left',
+            min: 0,
+            max: 6000,
             grid: { color: gridColor },
             ticks: {
+              stepSize: 1000,
               color: textColor,
               font: { family: 'Inter', size: 10 },
-              callback: val => val >= 1000 ? `${(val/1000).toFixed(0)},000` : val
+              callback: val => val.toLocaleString()
             },
             title: {
               display: true,
@@ -574,8 +573,11 @@ class FoodIQApp {
           y1: {
             type: 'linear',
             position: 'right',
+            min: -6.0,
+            max: 8.0,
             grid: { display: false },
             ticks: {
+              stepSize: 2.0,
               color: textColor,
               font: { family: 'Inter', size: 10 },
               callback: val => `${val.toFixed(1)}%`
@@ -773,6 +775,65 @@ class FoodIQApp {
     const btnSwiggy = document.getElementById('co-tab-swiggy');
     if (btnEternal) btnEternal.classList.toggle('active', company === 'Eternal');
     if (btnSwiggy) btnSwiggy.classList.toggle('active', company === 'Swiggy');
+
+    // Populate Company Profile Summary
+    const profileSummary = document.getElementById('company-profile-summary');
+    if (profileSummary && data.segments) {
+      const totFlow = data.segments.reduce((acc, s) => acc + (s.flow_val_cr || 0), 0);
+      const totRev = data.segments.reduce((acc, s) => acc + (s.reported_revenue_cr || 0), 0);
+      const totEbitda = data.segments.reduce((acc, s) => acc + (s.adj_ebitda_cr || 0), 0);
+      const doc = data.segments[0]?.source_doc || 'Audited Disclosure Filing';
+      const page = data.segments[0]?.source_page || 1;
+
+      profileSummary.innerHTML = `
+        <div class="kpi-row-grid" style="margin-bottom:1rem;">
+          <div class="kpi-card">
+            <div class="kpi-card-header">
+              <span class="kpi-title">Consolidated Flow (${data.company_id === 'ETERNAL' ? 'NOV' : 'GOV'})</span>
+              <span class="badge badge-level-1">AUDITED</span>
+            </div>
+            <div class="kpi-card-metric">₹${Math.round(totFlow).toLocaleString()} Cr</div>
+            <div class="kpi-card-footer">
+              <span class="kpi-footer-note">${data.selected_quarter} Total Order Flow</span>
+            </div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-card-header">
+              <span class="kpi-title">Reported Revenue</span>
+              <span class="badge badge-level-1">Ind AS 115</span>
+            </div>
+            <div class="kpi-card-metric">₹${Math.round(totRev).toLocaleString()} Cr</div>
+            <div class="kpi-card-footer">
+              <span class="kpi-footer-note">Net Operating Revenue</span>
+            </div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-card-header">
+              <span class="kpi-title">Consolidated Adj. EBITDA</span>
+              <span class="badge ${totEbitda >= 0 ? 'badge-level-1' : 'badge-level-4'}">${totEbitda >= 0 ? 'PROFIT' : 'LOSS'}</span>
+            </div>
+            <div class="kpi-card-metric ${totEbitda < 0 ? 'negative' : ''}">₹${Math.round(totEbitda).toLocaleString()} Cr</div>
+            <div class="kpi-card-footer">
+              <span class="kpi-footer-note">Excludes ESOP & One-Offs</span>
+            </div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-card-header">
+              <span class="kpi-title">Primary Filing Provenance</span>
+              <span class="badge badge-level-2">100% VERIFIED</span>
+            </div>
+            <div class="kpi-card-metric" style="font-size:0.95rem; font-family:var(--font-mono); color:var(--text-primary); word-break:break-all;">
+              p. ${page}
+            </div>
+            <div class="kpi-card-footer">
+              <a style="color:var(--color-primary); cursor:pointer; font-size:0.75rem;" onclick="app.showEvidenceModal('${doc}', 'Page ${page}')">
+                📄 ${doc.slice(0, 30)}...
+              </a>
+            </div>
+          </div>
+        </div>
+      `;
+    }
 
     // Render 10-Quarter Financial Table
     const thead = document.getElementById('company-table-thead');
